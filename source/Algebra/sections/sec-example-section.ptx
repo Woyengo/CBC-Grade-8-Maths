@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-example-section" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Example Section</title>
+ 
+    <p>This is a paragraph</p>
+
+</section>                                                                                                                    
