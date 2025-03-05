@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-data-presentation-and-interpretation">
+    <title>data-presentation-and-interpretation</title>
+
+  <xi:include href="subsections/data-presentation-and-interpretation/subsec-drawing-bar-graphs-of-data-from-real-life-situations.ptx" /> 
+
+  <xi:include href="subsections/data-presentation-and-interpretation/subsec-interpreting-bar-graphs-of-data-from-real-life-situations.ptx" />
+
+  <xi:include href="subsections/data-presentation-and-interpretation/subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations.ptx" />
+
+  <xi:include href="subsections/data-presentation-and-interpretation/subsec-interpreting-line-graphs-of-data-from-real-life-situations.ptx" />
+
+  <xi:include href="subsections/data-presentation-and-interpretation/subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations.ptx" />
+
+  <xi:include href="subsections/data-presentation-and-interpretation/subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations.ptx" />
+
+  <xi:include href="subsections/data-presentation-and-interpretation/subsec-determining-the-median-of-a-set-of-discrete-data-from-real-life-situations.ptx" />
+   
+    
+</section>

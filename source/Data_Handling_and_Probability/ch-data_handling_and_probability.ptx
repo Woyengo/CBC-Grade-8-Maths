@@ -6,5 +6,9 @@
     <p>
         This chapter is about data handling and probability.
     </p>
+
+    <xi:include href="sections/sec-data-presentation-and-interpretation.ptx" />
+
+    <xi:include href="sections/sec-probability.ptx" />
     
 </chapter>
