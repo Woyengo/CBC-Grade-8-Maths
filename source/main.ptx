@@ -26,8 +26,6 @@
         <!-- Include chapters -->
     <xi:include href="Data_Handling_and_Probability/ch-data_handling_and_probability.ptx" />
 
-        <!-- Include chapters -->
-    <xi:include href="data-handling/ch-data_handling_and_probability.ptx" />
 
 
     <!-- Include backmatter -->
