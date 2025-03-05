@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-numbers" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Numbers</title>
+
+    <p>
+        This chapter is about numbers.
+    </p>
+    
+    <xi:include href="sections/sec-Integers.ptx" />
+
+    <xi:include href="sections/sec-Fractions.ptx" />
+
+    <xi:include href="sections/sec-Decimals.ptx" />
+
+    <xi:include href="sections/sec-Squares-and-Square-Roots.ptx" />
+
+    <xi:include href="sections/sec-Rates-Ratio-Proportions-and-Percents.ptx" />
+
+</chapter>

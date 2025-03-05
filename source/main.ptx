@@ -12,7 +12,19 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="algebra/ch-algebra.ptx" />
+    <xi:include href="Numbers/ch-numbers.ptx" />
+
+        <!-- Include chapters -->
+    <xi:include href="Algebra/ch-algebra.ptx" />
+
+        <!-- Include chapters -->
+    <xi:include href="Measurements/ch-measurements.ptx" />
+
+        <!-- Include chapters -->
+    <xi:include href="Geometry/ch-geometry.ptx" />
+
+        <!-- Include chapters -->
+    <xi:include href="Data_Handling_and_Probability/ch-data_handling_and_probability.ptx" />
 
 
     <!-- Include backmatter -->
