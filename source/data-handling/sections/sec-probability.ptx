@@ -1,0 +1,17 @@
+<chapter xml:id="sections/sec-probability.ptx" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>data-handling-and-probability</title>
+
+  <introduction>
+
+  <p>This is the introduction</p>
+   
+  </introduction>
+
+    <!-- include sections -->
+    <xi:include href="sections/sec-b-section.ptx" />
+
+
+
+
+
+</chapter>
