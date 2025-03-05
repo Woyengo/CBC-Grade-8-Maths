@@ -11,6 +11,13 @@
       <department>Your department</department>
       <institution>Your institution</institution>
     </author>
+
+    <author>
+      <personname>You</personname>
+      <department>Your department</department>
+      <institution>Your institution</institution>
+    </author>
+
     <date>
       <today />
     </date>
