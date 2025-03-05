@@ -8,7 +8,7 @@
   </introduction>
 
     <!-- include sections -->
-    <xi:include href="sections/sec-data-presentation-and-interpretations.ptx" />
+    <xi:include href="sections/sec-drawing-bar-graphs-of-data-from-real-life-situations.ptx" />
 
     <!-- include sections -->
     <xi:include href="sections/sec-interpretating-bar-graphs-of-data-from-real-life-situations.ptx" />
