@@ -8,6 +8,9 @@
   </introduction>
 
     <!-- include sections -->
-    <xi:include href="sections/sec-example-section.ptx" />
+    <xi:include href="sections/sec-algebraic-expressions.ptx" />
+
+    <!-- include sections -->
+    <xi:include href="sections/sec-linear-equations.ptx" />
 
 </chapter>
