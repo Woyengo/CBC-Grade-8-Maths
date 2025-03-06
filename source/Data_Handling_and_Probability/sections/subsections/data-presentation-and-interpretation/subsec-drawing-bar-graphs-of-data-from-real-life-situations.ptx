@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="subsec-drawing-bar-graphs-of-data-from-real-life-situations">
+<subsection xml:id="subsec-drawing-bar-graphs-of-data-from-real-life-situations">
     <title>drawing bar graphs of data from real life situations</title>
 
     <p>
@@ -9,4 +9,4 @@
         The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
     </p>
     
-</section>
+</subsection>
