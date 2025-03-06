@@ -1,10 +1,13 @@
-<section xml:id="sec-probability">
-    <title>probability</title>
+<section xml:id="sec-probability" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Probability</title>
 
-    <p>
-        This is probability
-    </p>
-   
-   
-    
+    <xi:include href="subsections/probability/subsec-identifying-events-involving-chance-in-real-life-situations.ptx" />
+
+    <xi:include href="subsections/probability/subsec-performing-chance-experiments-in-different-situations.ptx" />
+
+    <xi:include href="subsections/probability/subsec-writing-experimental-probability-outcomes-in-different-situations.ptx" />
+
+    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-fractions-in-different-situations.ptx" />
+
+    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-decimals-or-percentages-in-different-situations.ptx" />
 </section>
