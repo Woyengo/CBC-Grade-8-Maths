@@ -6,5 +6,7 @@
     <p>
         This section is about rates, ratios, proportions, and percents.
     </p>
+
+    <xi:include href="subsections/rates-ratio-proportions-and-percents/rates.ptx" />
     
 </section>
