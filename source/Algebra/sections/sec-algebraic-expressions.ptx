@@ -1,6 +1,17 @@
 <section xml:id="sec-algebraic-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Example Section</title>
- 
-    <p>This is a paragraph</p>
+  <title>Algebraic Expressions</title>
+  <introduction>
+    <p>
+      
+    </p>
+  </introduction>
+  
+  <xi:include href="subsections/subsec-factorising-algebraic-expressions.ptx" />
 
-</section>                                                                                                                    
+  <xi:include href="subsections/subsec-simplifying-algebraic-fractions-by-factorisation.ptx" />
+
+  <xi:include href="subsections/subsec-simplifying-algebraic-fractions.ptx" />
+
+  <xi:include href="subsections/subsec-evaluating-algebraic-expression.ptx" />
+
+</section>
