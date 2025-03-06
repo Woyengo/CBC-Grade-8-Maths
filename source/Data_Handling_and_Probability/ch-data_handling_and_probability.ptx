@@ -1,4 +1,4 @@
-<chapter xml:id="ch-data_handling_and_probability">
+<chapter xml:id="ch-data_handling_and_probability" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Data Handling and Probability</title>
 
     <p>
@@ -6,7 +6,5 @@
     </p>
 
     <xi:include href="sections/sec-data-presentation-and-interpretation.ptx" />
-
     <xi:include href="sections/sec-probability.ptx" />
-    
 </chapter>
