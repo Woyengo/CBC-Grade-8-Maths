@@ -7,14 +7,14 @@
         This chapter is about numbers.
     </p>
     
-    <xi:include href="sections/sec-Integers.ptx" />
+    <xi:include href="sections/sec-integers.ptx" />
 
-    <xi:include href="sections/sec-Fractions.ptx" />
+    <xi:include href="sections/sec-fractions.ptx" />
 
-    <xi:include href="sections/sec-Decimals.ptx" />
+    <xi:include href="sections/sec-decimals.ptx" />
 
-    <xi:include href="sections/sec-Squares-and-Square-Roots.ptx" />
+    <xi:include href="sections/sec-squares-and-square-roots.ptx" />
 
-    <xi:include href="sections/sec-Rates-Ratio-Proportions-and-Percents.ptx" />
+    <xi:include href="sections/sec-rates-ratio-proportions-and-percents.ptx" />
 
 </chapter>
