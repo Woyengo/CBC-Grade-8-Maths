@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-geometry">
+<chapter xml:id="ch-Geometry" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Geometry</title>
 
     <p>
-        This chapter is about geometry.
+        Geometry is a branch of mathematics that deals with the properties and 
+        relationships of points, lines, angles, surfaces, and solids. 
+        It is a fundamental part of mathematics and has many practical applications 
+        in everyday life. In this chapter, we will explore some of the basic concepts 
+        of geometry and how they can be used to solve problems and answer questions.
     </p>
+
+    <xi:include href="sections/geometrical_constructions.ptx" />
+
+    <xi:include href="sections/coordinates_and_graphs.ptx" />
+
+    <xi:include href="sections/scale_drawing.ptx" />
+
+    <xi:include href="sections/common_solids.ptx" />
     
 </chapter>
