@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-Squares-and-Square-Roots">
+<section xml:id="sec-Squares-and-Square-Roots" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Squares and Square Roots</title>
-    <p>
-        A square is a number that is the product of a number multiplied by itself. 
-        For example, 4 is a square because 2 multiplied by 2 equals 4. 
-        The square of a number is written using the exponent notation. 
-        The square of a number is the number raised to the power of 2. 
-        For example, the square of 4 is written as --- and is equal to 16.
-    </p>
+    <introduction>
+        <p>
+            A square is a number that is the product of a number multiplied by itself. 
+            For example, 4 is a square because 2 multiplied by 2 equals 4. 
+            The square of a number is written using the exponent notation. 
+            The square of a number is the number raised to the power of 2. 
+            For example, the square of 4 is written as --- and is equal to 16. 
+        </p>
+    </introduction>
+   
+    <xi:include href="subsections/squares-and-square-roots/squares-of-whole-numbers-using-tables.ptx" />
+    <xi:include href="subsections/squares-and-square-roots/squares-of-decimal-numbers-using-tables.ptx" />
+    <xi:include href="subsections/squares-and-square-roots/square-roots-of-whole-numbers-using-tables.ptx" />
+    <xi:include href="subsections/squares-and-square-roots/square-roots-of-decimals-numbers-using-tables.ptx" />
+    <xi:include href="subsections/squares-and-square-roots/squares-of-numbers-from-a-calculator.ptx" />
+    <xi:include href="subsections/squares-and-square-roots/square-roots-of-numbers-from-a-calculator.ptx" />
     
 </section>

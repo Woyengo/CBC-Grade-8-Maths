@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-Fractions">
+<section xml:id="sec-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Fractions</title>
+    <introduction>
+        <p>
+            A fraction is a number that represents a part of a whole. Fractions are made up of two numbers: a numerator and a denominator. 
+            The numerator is the number on top and the denominator is the number on the bottom. 
+            The numerator represents the number of parts you have and the denominator represents the total number of parts in the whole.
+        </p>
+    </introduction>
+    <xi:include href="subsections/fractions/combined-operations-involving-addition-and-subtraction.ptx"/>
+    <xi:include href="subsections/fractions/combined-operations-involving-multiplication-and-division.ptx" />
+    <xi:include href="subsections/fractions/combined-operations-involving-three-operations.ptx" />
+    <xi:include href="subsections/fractions/combined-operations-involving-all-operations.ptx" />
+    <xi:include href="subsections/fractions/combined-operations-involving-brackets.ptx" />
+    <xi:include href="subsections/fractions/operations-involving-fractions-in-real-life.ptx" />
 
-    <p>
-        A fraction is a number that represents a part of a whole. Fractions are made up of two numbers: a numerator and a denominator. 
-        The numerator is the number on top and the denominator is the number on the bottom. 
-        The numerator represents the number of parts you have and the denominator represents the total number of parts in the whole.
-    </p>
     
 </section>
