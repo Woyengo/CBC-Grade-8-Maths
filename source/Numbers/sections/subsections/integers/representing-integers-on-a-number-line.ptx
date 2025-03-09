@@ -1,0 +1,78 @@
+<subsection xml:id="subsec-representing-integers-on-a-number-line">
+    <title>Representing Integers on a Number Line</title>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Draw a number line and represent each of the following integers on the number line:
+                        </p>
+                        <p>
+                            <m>-3,+1,+2,+3,-2,-1,+4,0,+5</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                
+            </p>
+            <image>
+                <shortdescription></shortdescription>
+                <latex-image label="number-line-representing-integers">
+                    \begin{tikzpicture}
+                        \draw[&lt; - &gt;](-3.5,0) -- (5.5,0);
+                        \foreach \x in {-3,-2,-1,0,1,2,3,4,5} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {\x}; 
+                        }
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>

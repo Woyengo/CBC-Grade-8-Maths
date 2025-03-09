@@ -1,0 +1,95 @@
+<subsection xml:id="subsec-rounding-off-decimal-numbers-to-the-required-decimal-places">
+    <title>Rounding off decimal numbers </title>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Round off each of the following to one decimal place:
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>45.672</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1.712</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>45.672</m>
+                        </p>
+                        <tabular bottom="medium" left="medium" right="medium" top="medium">
+                            <row header="yes" valign="middle">
+                                <cell>Hundreds</cell>
+                                <cell>Tens</cell>
+                                <cell>Ones</cell>
+                                <cell>Decimal point</cell>
+                                <cell>Tenths</cell>
+                                <cell>Hundredths</cell>
+                                <cell>Thousandths</cell>
+                            </row>
+                            <row>
+                                <cell halign="center"><m>45.672</m></cell>
+                                <cell halign="center"><m>4</m></cell>
+                                <cell halign="center"><m>5</m></cell>
+                                <cell halign="center"><m>.</m></cell>
+                                <cell halign="center"><m>6</m></cell>
+                                <cell halign="center"><m>7</m></cell>
+                                <cell halign="center"><m>2</m></cell>
+                            </row>
+                        </tabular>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1.712</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>
