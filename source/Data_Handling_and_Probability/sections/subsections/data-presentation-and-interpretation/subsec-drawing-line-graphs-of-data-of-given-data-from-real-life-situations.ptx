@@ -1,10 +1,120 @@
 <subsection xml:id="subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations">
     <title>drawing line graphs of data of given data from real life situations</title>
 
-    <p>
-        A decimal is a number that is written in the base-10 place-value system. 
-        The decimal point separates the whole number part from the fractional part of the number. 
-        The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
-    </p>
-    
+   <p>
+        A line graph is a type of chart used to display information that changes over time. It consists of a horizontal (x-axis) and a vertical (y-axis), with data points connected by a line to show trends, patterns, and variations in data.
+   </p>
+   <activity>
+        <p>
+            The table below shows Muthoni's math test scores throughout the year:
+        </p>
+        <tabular  halign="left" top="medium" left="medium" right="medium" bottom="medium">
+            <row>
+                <cell>Month</cell>
+                <cell>January</cell>
+                <cell>March</cell>
+                <cell>May</cell>
+                <cell>July</cell>
+                <cell>September</cell>
+                <cell>November</cell>
+            </row>
+            <row>
+                <cell>Test Score</cell>
+                <cell>75%</cell>
+                <cell>80%</cell>
+                <cell>85%</cell>
+                <cell>90%</cell>
+                <cell>88%</cell>
+                <cell>92%</cell>
+            </row>
+        </tabular>
+        <p> Represent the information on a line graph
+            <ol marker="(i.)">
+                <li>
+                    <p>
+                        Plot the months on the x-axis and the test scores on the y-axis.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Connect the points with a line to show the trend.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss.
+                    </p>
+                </li>
+            </ol>
+        </p>
+   </activity>
+   <p>
+        <m>{\color{green} \textbf{Learning Point}}</m>
+   </p>
+   <p>
+        Straight lines are used to link points in line graphs, which show how values change over time.
+   </p>
+   <example>
+    <statement>
+        <p>
+            The table below shows the average temperature (in °C) in Kathonzweni over six months
+        </p>
+        <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
+            <row>
+                <cell><m>Month</m></cell>
+                <cell>January</cell>
+                <cell>February</cell>
+                <cell>March</cell>
+                <cell>April</cell>
+                <cell>May</cell>
+                <cell>June</cell>
+            </row>
+            <row>
+                <cell><m>Temperature (°C)</m></cell>
+                <cell>5°C</cell>
+                <cell>10°C</cell>
+                <cell>15°C</cell>
+                <cell>20°C</cell>
+                <cell>20°C</cell>
+                <cell>25°C</cell>
+            </row>
+        </tabular>
+        <p>
+            Draw a line graph to represent this data.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Vertical Scale is 1 cm represents 5°C  and 
+            Horizontal Scale is 1 cm represents one month 
+        </p>
+        <image>
+            <latex-image>
+                \begin{tikzpicture}
+                    \begin{axis}[
+                        width=15cm, height=10cm,  % Adjust size
+                        xlabel={Month},
+                        ylabel={Temperature (°C)},
+                        ymin=0, ymax=30,  % Adjust scale
+                        xtick=data,
+                        symbolic x coords={January, February, March, April, May, June},
+                        grid=major,  % Make grids more visible like graph paper
+                        major grid style={line width=1pt, draw=gray!70},
+                        minor tick num=4,  % Add minor grid divisions
+                        minor grid style={line width=0.5pt, draw=gray!40}
+                    ]
+                        \addplot[
+                            mark=o,
+                            color=red,
+                            thick
+                        ] coordinates {
+                            (January, 5) (February, 10) (March, 15) (April, 20) (May, 20) (June, 25)
+                        };
+                    \end{axis}
+                \end{tikzpicture}
+            </latex-image>
+            
+        </image>
+    </solution>
+   </example>
 </subsection>
