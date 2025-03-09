@@ -2,9 +2,155 @@
     <title>the cartesian plane</title>
 
     <p>
-        A decimal is a number that is written in the base-10 place-value system. 
-        The decimal point separates the whole number part from the fractional part of the number. 
-        The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
+        Coordinates refer to an ordered pair of numbers (x, y), that represent the exact location of a point on the Cartesian plane.
     </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The x-coordinate tells you how far left or right the point is from the origin.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The y-coordinate tells you how far up or down the point is from the origin.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Draw Two Perpendicular Lines
+                        <ul>
+                            <li>
+                                <p>
+                                    Use a ruler to draw a horizontal line (x-axis).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Draw a vertical line (y-axis) that intersects the x-axis at a right angle.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Label the intersection point as (0,0), called the origin.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Label the Axes
+                        <ul>
+                            <li>
+                                <p>
+                                    Write “x-axis” below the horizontal line.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Write “y-axis” beside the vertical line.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Mark Equal Intervals
+                        <ul>
+                            <li>
+                                <p>
+                                    Choose a scale (e.g., 1, 2, 5, or 10).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Mark and label positive numbers to the right on the x-axis and above on the y-axis.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Mark and label negative numbers to the left on the x-axis and below on the y-axis.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Check
+                        <ul>
+                            <li>
+                                <p>
+                                    Ensure the numbers are evenly spaced.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Make sure the x-axis and y-axis are clearly labeled.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and compare your diagrams
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{green} \textbf{Learning Point}}</m>
+    </p>
+    <image>
+        <latex-image>
+            \begin{tikzpicture}
+                \draw[very thin,gray!50] (-4,-4) grid (4,4);
     
+                % Draw x and y axes
+                \draw[thick,->] (-4.5,0) -- (4.5,0) node[anchor=north] {\textbf{x}};
+                \draw[thick,->] (0,-4.5) -- (0,4.5) node[anchor=east] {\textbf{y}};
+                
+                % Grid and labels
+                \foreach \x in {-4,-3,-2,-1,1,2,3,4} {
+                    \draw[thick] (\x,-0.1) -- (\x,0.1); % Tick marks on x-axis
+                    \node[anchor=north] at (\x,-0.2) {\textbf{\x}};
+                }
+
+                \foreach \y in {-4,-3,-2,-1,1,2,3,4} {
+                    \draw[thick] (-0.1,\y) -- (0.1,\y); % Tick marks on y-axis
+                    \node[anchor=east] at (-0.2,\y) {\textbf{\y}};
+                }
+
+                % Origin
+                \node[anchor=north east] at (-0.1,-0.1) {\textbf{0}};
+            \end{tikzpicture}
+        </latex-image>
+        
+    </image>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    X-Axis is the horizontal number line in the Cartesian plane.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Y-Axis is the vertical number line in the Cartesian plane.
+                </p>
+            </li>
+        </ol>
+    </p>
 </subsection>
