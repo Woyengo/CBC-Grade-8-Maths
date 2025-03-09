@@ -1,0 +1,171 @@
+<subsection xml:id="subsec-identifying-points-on-the-cartesian-plane">
+    <title>identifying points on the cartesian plane</title>
+
+    <p>
+        In the previous section,you learnt how to draw and label the axes on the Cartesian plane
+    </p>
+    <p>
+        Here, you will identify points on the Cartesian plane
+    </p>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            Discuss as a group, but draw the Cartesian plane individually
+        </p>
+        <p>
+            Draw as shown below
+        </p>
+        <image>
+            <latex-image label="points-on-a-plane">
+                \begin{tikzpicture}
+                     % Draw grid
+                    \draw[very thin,gray!50] (-5,-5) grid (5,5);
+                    
+                    % Draw x and y axes
+                    \draw[thick,->] (-5.5,0) -- (5.5,0) node[anchor=north] {\textbf{x}};
+                    \draw[thick,->] (0,-5.5) -- (0,5.5) node[anchor=east] {\textbf{y}};
+                    
+                    % Tick marks and labels
+                    \foreach \x in {-5,-4,-3,-2,-1,1,2,3,4,5} {
+                        \draw[thick] (\x,-0.1) -- (\x,0.1);
+                        \node[anchor=north] at (\x,-0.2) {\textbf{\x}};
+                    }
+
+                    \foreach \y in {-5,-4,-3,-2,-1,1,2,3,4,5} {
+                        \draw[thick] (-0.1,\y) -- (0.1,\y);
+                        \node[anchor=east] at (-0.2,\y) {\textbf{\y}};
+                    }
+
+                    % Origin
+                    \node[anchor=north east] at (-0.1,-0.1) {\textbf{0}};
+
+                    % Plot points and labels
+                    \fill[red] (4,3) circle (3pt) node[anchor=south west] {\textbf{P}};
+                    \fill[blue] (-3,2) circle (3pt) node[anchor=south east] {\textbf{Q}};
+                    \fill[green] (-4,-2) circle (3pt) node[anchor=north west] {\textbf{R}}; 
+                    \fill[orange] (5,-3) circle (3pt) node[anchor=north west] {\textbf{S}};
+
+                \end{tikzpicture}
+            </latex-image>
+            
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Locate the points P, Q, R and S
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Write the coordninates of the points identified
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss how to identify points on the Cartesian plane.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{green} \textbf{Learning Points}}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                     Coordinates represents a pair of numbers written as <m>(x, y)</m> that represents a point’s location on the Cartesian plane.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Origin is the point where the x-axis and y-axis intersect, denoted as <m>(0,0)</m>.
+                </p>
+            </li>
+        </ul>
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Write the coordinated of A, B, C, D, E and F as shown below.
+            </p>
+            <image>
+                <latex-image>
+                    \begin{tikzpicture}
+                        % Draw grid
+                        \draw[very thin,gray!50] (-5,-4) grid (5,5);
+                        
+                        % Draw x and y axes
+                        \draw[thick,->] (-5.5,0) -- (5.5,0) node[anchor=north] {\textbf{x}};
+                        \draw[thick,->] (0,-4.5) -- (0,5.5) node[anchor=east] {\textbf{y}};
+                        
+                        % Tick marks and labels
+                        \foreach \x in {-5,-4,-3,-2,-1,1,2,3,4,5} {
+                            \draw[thick] (\x,-0.1) -- (\x,0.1);
+                            \node[anchor=north] at (\x,-0.2) {\textbf{\x}};
+                        }
+
+                        \foreach \y in {-4,-3,-2,-1,1,2,3,4,5} {
+                            \draw[thick] (-0.1,\y) -- (0.1,\y);
+                            \node[anchor=east] at (-0.2,\y) {\textbf{\y}};
+                        }
+
+                        % Origin
+                        \node[anchor=north east] at (-0.1,-0.1) {\textbf{0}};
+
+                        % Plot points and labels
+                        \fill[red] (3,4) circle (3pt) node[anchor=south west] {\textbf{A}};
+                        \fill[blue] (-2,5) circle (3pt) node[anchor=south east] {\textbf{B}};
+                        \fill[green] (-4,-3) circle (3pt) node[anchor=north east] {\textbf{C}};
+                        \fill[orange] (5,-2) circle (3pt) node[anchor=north west] {\textbf{D}};
+                        \fill[purple] (-3,-1) circle (3pt) node[anchor=north east] {\textbf{E}};
+                        \fill[cyan] (2,5) circle (3pt) node[anchor=south west] {\textbf{F}};
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            A = <m>(3,4)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            B = <m>(-2,5)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            C = <m>(-4,-3)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            D = <m>(5,-2)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            E = <m>(-3,-1)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            F = <m>(2,5)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>
