@@ -61,7 +61,7 @@
                     <li>
                     
                         <image>
-                            <latex-image>
+                            <latex-image label="c">
                                 \begin{tikzpicture}
                                     % Draw grid
                                     \draw[very thin,gray!50] (0,0) grid (8,8);
