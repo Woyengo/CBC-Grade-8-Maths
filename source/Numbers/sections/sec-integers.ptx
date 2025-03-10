@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<section xml:id="sec-Integers">
+<section xml:id="sec-Integers" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Integers</title>
-
-    <p>
-        Integers are whole numbers that can be positive, negative, or zero. They do not have a fractional or decimal part.
-    </p>
-    
+    <introduction>
+        <p>
+            
+        </p>
+    </introduction>
+    <xi:include href="subsections/integers/identifying-integers.ptx" />
+    <xi:include href="subsections/integers/representing-integers-on-a-number-line.ptx" />
+    <xi:include href="subsections/integers/addition-of-integers.ptx" />
 </section>

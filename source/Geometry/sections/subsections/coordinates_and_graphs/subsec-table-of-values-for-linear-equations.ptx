@@ -1,0 +1,125 @@
+<subsection xml:id="subsec-table-of-values-for-linear-equations">
+    <title>table of values for linear equations</title>
+
+    <p>
+        A table of values helps us organize points that satisfy a linear equation. 
+    </p>
+    <p>
+        By substituting different values of x, we calculate corresponding y-values to create a set of ordered pairs <m>(x,y)</m>
+    </p>
+    <p>
+        These points can then be plotted on a Cartesian plane to form a straight line.
+    </p>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            Consider the linear equation <m>\textbf{y = 2x + 1}</m>
+        </p>
+        <p>
+            Create a table of values by choosing different <m>\textbf{x-values}</m> and calculating <m>y</m>.
+        </p>
+        <p>
+            Discuss and share the results with other groups
+        </p>
+    </activity>
+    <p>
+        <m>{\color{green} \textbf{Learning Points}}</m>
+    </p>
+    <p>
+        A linear equation is usually in the form <m>\textbf{y = mx + b}</m>
+    </p>
+    <p>
+        where <ul>
+            <li>
+                <p>
+                    <m>m</m> is the slope (rate of change).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>b</m> is the y-intercept (where the line crosses the y-axis).
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Complete the table of values for the linear equation:
+            </p>
+            <p>
+                <m>\textbf{y = -x + 4}</m>
+            </p>
+            <p>
+                for example,<m>x</m> = <m>2</m> then
+            </p>
+            <p>
+                 <m>\textbf{y = -2 + 4}</m> 
+            </p>
+            <p>
+                = <m>2</m>
+            </p>
+            
+            <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium" width="auto" >
+                <row>
+                    <cell>x</cell>                    
+                    <cell>-2</cell>                
+                    <cell>-1</cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    
+                </row>
+                <row>
+                    <cell>y</cell>
+                    <cell>?</cell>
+                    <cell>?</cell>
+                    <cell>?</cell>
+                    <cell>?</cell>
+                    <cell><m>2</m></cell>
+                </row>
+            </tabular>
+        </statement>
+        <solution>
+            <p>
+                
+            </p>
+                
+            <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
+                <row>
+                    <cell>x</cell>
+                    <cell>Calculation</cell>
+                    <cell>y Value</cell>
+                </row>
+                <row>
+                    <cell>-2</cell>
+                    <cell><m>\textbf{y = −(−2) + 4 = 2 + 4}</m></cell>
+                    <cell><m>6</m></cell>
+                </row>
+                <row>
+                    <cell>-1</cell>
+                    <cell><m>\textbf{y = −(−1) + 4 = 1 + 4}</m></cell>
+                    <cell><m>5</m></cell>
+                </row>
+                <row>
+                    <cell>0</cell>
+                    <cell><m>\textbf{y = −(0) + 4 = 0 + 4}</m></cell>
+                    <cell><m>4</m></cell>
+                </row>
+                <row>
+                    <cell>1</cell>
+                    <cell><m>\textbf{y = −(1) + 4 = −1 + 4}</m></cell>
+                    <cell><m>3</m></cell>
+                </row>
+                <row>
+                    <cell>2</cell>
+                    <cell><m>\textbf{y = −(2) + 4 = −2 + 4}</m></cell>
+                    <cell><m>2</m></cell>
+                </row>
+            </tabular>
+        </solution>
+    </example>
+    
+</subsection>
