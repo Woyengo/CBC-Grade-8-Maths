@@ -127,7 +127,7 @@
                             out as shown.
                         </p>
                         <image>
-                        <latex-image label="sector extracted">
+                        <latex-image label="sector-extracted">
                             \begin{tikzpicture}
                                 % Draw the first shape (Sector inside the larger circle)
                                 \draw[thick] (0,0) circle (2);
@@ -229,7 +229,7 @@
                 </p>
                 <sidebyside>
                     <image width="40%">
-                    <latex-image label="a">
+                    <latex-image label="sector7">
                         \begin{tikzpicture}
                             % Sector
                             \fill[yellow] (0,0) -- (4,0) arc[start angle=0, end angle=48, radius=4] -- cycle;
@@ -250,7 +250,7 @@
                         
                     </image>
                     <image width="40%">
-                    <latex-image label="b">
+                    <latex-image label="sector8">
                         \begin{tikzpicture}
                             % Full circle outline
                             \draw[thick] (0,0) circle (2);
