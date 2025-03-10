@@ -14,7 +14,8 @@
             Consider the graph below that shows the journey Wakavinye took from home to school
         </p>
         <image>
-            <latex-image label="k">
+
+            <latex-image label="e">
                 \begin{tikzpicture}
                     \begin{axis}[
                         width=12cm, height=10cm,  % Adjust size
@@ -90,7 +91,7 @@
                 They recorded the temperature at different time intervals and plotted their results on a graph.
             </p>
             <image>
-                <latex-image label="l">
+                <latex-image label="f">
                     \begin{tikzpicture}
                         \begin{axis}[
                             width=10cm, height=10cm,  % Adjust size
@@ -222,7 +223,7 @@
                 A bus and a car are traveling along the same route. Their distances from the starting point are recorded at different times in a 24-hour format and plotted on the graph. The graph shows when each vehicle was moving and when they took breaks.
             </p>
             <image>
-                <latex-image label="m">
+                <latex-image label="g">
                     \begin{tikzpicture}
                         \begin{axis}[
                             width=14cm, height=10cm,

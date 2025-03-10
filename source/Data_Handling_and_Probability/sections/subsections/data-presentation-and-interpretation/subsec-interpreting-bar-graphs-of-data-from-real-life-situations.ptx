@@ -13,6 +13,7 @@
        </p>
        <image>
         <latex-image label="f">
+
             \begin{tikzpicture}
                 \begin{axis}[
                     width=15cm, height=8cm,  % Increase size
@@ -84,7 +85,7 @@
                 Use the information from the bar graph to answer the questions.
             </p>
             <image>
-                <latex-image label="g">
+                <latex-image label="c">
                     \begin{tikzpicture}
                         \begin{axis}[
                             width=16cm, height=8cm,  % Increase size

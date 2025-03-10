@@ -85,7 +85,8 @@
                 Choosing a suitable scale for the length of bars, for example 1cm representing 2 learner, the graph is drawn as shown.
             </p>
             <image>
-                <latex-image label="e">
+                <latex-image label="a">
+              
                     \begin{tikzpicture}
                         \begin{axis}[
                             width=15cm, height=8cm,  % Increase size

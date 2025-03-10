@@ -95,7 +95,7 @@
                 Write the coordinated of A, B, C, D, E and F as shown below.
             </p>
             <image>
-                <latex-image label="b">
+                <latex-image label="j">
                     \begin{tikzpicture}
                         % Draw grid
                         \draw[very thin,gray!50] (-5,-4) grid (5,5);
