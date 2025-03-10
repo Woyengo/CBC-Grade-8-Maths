@@ -1,0 +1,156 @@
+<subsection xml:id="subsec-combined-operations">
+    <title>Combined Operations</title>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Work out each of the following:
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>4.85 - 56.45 + 89.75</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2.5 \times 5.1 \div 1.7 - 3.9 + 7.5</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>4.85 - 56.45 + 89.75</m>
+                        </p>
+                        <p>
+                            We first perform addition, then subtraction.
+                        </p>
+                        <p>
+                            We rearrange the operation as <m>4.85 + 89.75 - 56.45 </m>
+                        </p>
+                        <p>
+                            To add decimal numbers, align them vertically.
+                        </p>
+                        <tabular>
+                            <row>
+                                <cell halign="right"><m>4.85</m></cell>
+                            </row>
+                            <row bottom="major">
+                                <cell><m>+\,89.75</m></cell>
+                            </row>
+                            <row bottom="major">
+                                <cell halign="right"><m>94.60</m></cell>
+                            </row>
+                        </tabular>
+                        <p>
+                            Then, we perform the subtraction. <m>94.60 - 56.45</m>
+                        </p>
+                        <tabular>
+                            <row>
+                                <cell halign="right"><m>94.60</m></cell>
+                            </row>
+                            <row bottom="major">
+                                <cell><m>-\,56.45</m></cell>
+                            </row>
+                            <row bottom="major">
+                                <cell halign="right"><m>38.15</m></cell>
+                            </row>
+                        </tabular>
+                        <p>
+                            Thus, <m>4.85 - 56.45 + 89.75 = 38.15</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Given the expression:
+                        </p>
+                        <p>
+                            <me>2.5 \times 5.1 \div 1.7 - 3.9 + 6.5</me>
+                        </p>
+                        <p>
+                            Perform the division first.
+                        </p>
+                        <p>
+                            <me>
+                                5.1 \div 1.7
+                            </me>
+                        </p>
+                        <p>
+                            Express the decimals as fractions and then we multiply the dividend by the reciprocal of the divisor:
+                        </p>
+                        <p>
+                            <m>\frac{51}{10} \div \frac{17}{10}= \frac{51}{10} \times \frac{10}{17} = \frac{51 \times 10}{10 \times 17} = \frac{510}{170} = 3</m>
+                        </p>
+                        <p>
+                            Now, the expression simplifies to:
+                        </p>
+                        <p>
+                            <me>
+                                2.5 \times 3 - 3.9 + 6.5
+                            </me>
+                        </p>
+                        <p>
+                            Perform the multiplication:
+                        </p>
+                        <p>
+                            <me>
+                                2.5 \times 3 = \frac{25}{10} \times 3 = \frac{25 \times 3}{10} = \frac{75}{10} = 7.5
+                            </me>
+                        </p>
+                        <p>
+                            Now, the expression reduces to: 
+                        </p>
+                        <p>
+                            <me>7.5 - 3.9 + 6.5</me>
+                        </p>
+                        <p>
+                            Perform the addition: 
+                        </p>
+                        <p>
+                            <me>7.5 + 6.5 = 14</me>
+                        </p>
+                        <p>
+                            subtract <m>3.9</m> from <m>14.</m>
+                        </p>
+                        <p>
+                            <m>14 - 3.9 = 10.1 </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>
