@@ -12,7 +12,7 @@
             A teacher surveyed a class of students about their favorite colors. The results are shown in the bar graph below.
        </p>
        <image>
-        <latex-image>
+        <latex-image label="b">
             \begin{tikzpicture}
                 \begin{axis}[
                     width=15cm, height=8cm,  % Increase size
@@ -84,7 +84,7 @@
                 Use the information from the bar graph to answer the questions.
             </p>
             <image>
-                <latex-image>
+                <latex-image label="c">
                     \begin{tikzpicture}
                         \begin{axis}[
                             width=16cm, height=8cm,  % Increase size

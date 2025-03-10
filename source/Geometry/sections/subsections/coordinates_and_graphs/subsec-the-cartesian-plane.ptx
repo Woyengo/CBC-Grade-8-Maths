@@ -114,7 +114,7 @@
         <m>{\color{green} \textbf{Learning Point}}</m>
     </p>
     <image>
-        <latex-image>
+        <latex-image label="h">
             \begin{tikzpicture}
                 \draw[very thin,gray!50] (-4,-4) grid (4,4);
     

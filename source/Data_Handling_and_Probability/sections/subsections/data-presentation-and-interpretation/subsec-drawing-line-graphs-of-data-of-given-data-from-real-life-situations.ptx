@@ -89,7 +89,7 @@
             Horizontal Scale is 1 cm represents one month 
         </p>
         <image>
-            <latex-image>
+            <latex-image label="d">
                 \begin{tikzpicture}
                     \begin{axis}[
                         width=15cm, height=10cm,  % Adjust size
