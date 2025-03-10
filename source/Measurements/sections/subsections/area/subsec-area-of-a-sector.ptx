@@ -113,16 +113,351 @@
                 A graph paper and a razorblade or a parir of scissor✂️
             </p>
             <p>
-                <ol>
+                <ol marker="(i)">
                     <li>
                         <p>
-                            Draw a circle.
+                            Draw a circle of radius <m>7 \, cm</m> on a graph paper.
+                        </p>
+                    </li>
+                    <li>Cut out the circle along its boundary.</li>
+                    <li>Mark the centre of the circle.</li>
+                    <li>
+                        <p>
+                            Measure an angle of <m>30^\circ</m> at the centre and cut 
+                            out as shown.
+                        </p>
+                        <image>
+                        <latex-image label="sector extracted">
+                            \begin{tikzpicture}
+                                % Draw the first shape (Sector inside the larger circle)
+                                \draw[thick] (0,0) circle (2);
+                                \fill[blue!20] (0,0) -- (30:2) arc (30:150:2) -- cycle;
+                                \draw[thick] (0,0) -- (30:2);
+                                \draw[thick] (0,0) -- (150:2);
+                                \draw[thick] (30:2) ;
+                                \node at (0,0.5) {$30^\circ$};
+                                
+                                
+                                % Arrow pointing to the second shape
+                                \draw[-&gt;, very thick] (2.5,0) -- (4.5,0);
+                                
+                                % Draw the second shape (sector facing right, matching the larger one)
+                                \begin{scope}[shift={(6,0)}, rotate=360]
+                                    \fill[blue!20] (0,0) -- (30:1.5) arc (30:150:1.5) -- cycle;
+                                    \draw[thick] (0,0) -- (30:1.5);
+                                    \draw[thick] (0,0) -- (150:1.5);
+                                    \draw[thick] (30:1.5) arc (30:150:1.5);
+                                    \node at (0,0.5) {$30^\circ$};
+                                    
+                                \end{scope}
+                            \end{tikzpicture}
+                        </latex-image>
+
+                        </image>
+                    </li>
+                    <li>
+                        <p>
+                            Estimate the area by counting the number of squares enclosed by the arc and the 
+                            two radii of the circle.
+                        </p>
+                    </li>
+                    <li>Express the angle of the sector (<m>30^\circ</m>) 
+                    as a fraction of the angle at the centre of the circle (<m>360^\circ</m>).</li>
+                    <li>
+                        <p>
+                            Multiply the fraction obtained in (6) by the area of the circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share the result with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
+        </activity>
+        
+        <p>
+            <m>{\color{blue}\textbf{Learning Point}}</m>
+        </p>
+        <p>
+            A sector is a region enclosed by an arc and the twoo radii. The area of a sector which substends an angle <m>\Theta^\circ</m> 
+            at the centre of the circle radius <m>(r)</m> is <m>\frac{\Theta}{360} \times \pi r^2</m>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Find the area of a sector of a circle of radius <m>7\, cm</m> 
+                    if the angle substended at the centre is <m>120^\circ</m>. Write the answer 
+                    close to <m>\textbf{2 decimal places}</m>.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Scetch the sector and use the formula below:<me>A=\frac{\Theta}{360} \times \pi r^2</me>
+                </p>
+            </hint>
+            <solution>
+                <p>
+                    <m>A=\frac{\Theta}{360} \times \pi r^2 </m>
+                </p>
+                <p>
+                    <m>r=7 \,cm</m> and <m>\Theta = 120^\circ</m>
+                </p>
+                <p>
+                    Therefore;
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp \frac{120}{360} \times \frac{22}{7} \times 7 \times 7 </mrow>
+                        <mrow> =\amp  \frac{120}{360} \times 22 \times 7 </mrow>
+                        <mrow> =\amp 51.333333333 \,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    In <m>\textbf{2 decimal places}</m> we have <m>A= {\color{blue} 51.33\,cm^2}</m>.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Calculate the area of each of the sectors below. Express the answers to 
+                    <m>\textbf{four signifcant figures}</m>.
+                
+                </p>
+                <sidebyside>
+                    <image width="40%">
+                    <latex-image label="a">
+                        \begin{tikzpicture}
+                            % Sector
+                            \fill[yellow] (0,0) -- (4,0) arc[start angle=0, end angle=48, radius=4] -- cycle;
+                            \draw[thick] (0,0) -- (4,0); % Initial radius line
+                            \draw[thick] (0,0) -- ({4*cos(48)}, {4*sin(48)}); % Final radius line
+                            \draw[thick] (4,0) arc[start angle=0, end angle=48, radius=4]; % Arc of sector
+                            
+                            % Label radius
+                            \node at (1,1.7) {4 cm};
+                            
+                            % Angle arc
+                            \draw[thick] (1,0) arc[start angle=0, end angle=48, radius=1cm];
+                            \node at (1.2,0.3) {48$^\circ$};
+                            \node at (0,3) {\textbf{(a)}};
+
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                    </image>
+                    <image width="40%">
+                    <latex-image label="b">
+                        \begin{tikzpicture}
+                            % Full circle outline
+                            \draw[thick] (0,0) circle (2);
+                            
+                            % Sector
+                            \fill[blue!50] (0,0) -- (2,0) arc[start angle=0, end angle=320, radius=2] -- cycle;
+                            \draw[thick] (0,0) -- (2,0); % Initial radius line
+                            \draw[thick] (0,0) -- ({2*cos(320)}, {2*sin(320)}); % Final radius line
+                            
+                            % Labels
+                            \node at (1.2,0.3) {7 cm};
+                            \node at (-1,0) {320$^\circ$};
+                            
+                            % Reflex angle arc (40° at center)
+                            \draw[thick] (0.5,0) arc[start angle=0, end angle=320, radius=0.5cm]; 
+                            \node at (0,3) {\textbf{(b)}};
+                        \end{tikzpicture}
+                    </latex-image>
+
+                    </image>
+                </sidebyside>
+                
+            </statement>
+            <solution>
+                <p>
+                   <m>\textbf{(a)}</m>  <m>Area=\frac{\Theta^\circ}{360^\circ} \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp \frac{48^\circ}{360^\circ} \times \frac{22}{7} \times (4\,cm^2)</mrow>
+                        <mrow> =\amp \frac{48^\circ}{360^\circ} \times \frac{22}{7} \times 4\,cm \times 4\,cm</mrow>
+                        <mrow>= \amp 6.7047619 \,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    To <m>\textbf{four significant figures}</m> <m>A= {\color{blue}6.705 \,cm^2}</m>
+                </p>
+
+                <p>
+                   <m>\textbf{(b)}</m>  <m>Area=\frac{\Theta^\circ}{360^\circ} \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp \frac{320^\circ}{360^\circ} \times \frac{22}{7} \times (7\,cm^2)</mrow>
+                        <mrow> =\amp \frac{48^\circ}{360^\circ} \times \frac{22}{7} \times 7\,cm \times 7\,cm</mrow>
+                        <mrow>= \amp 136.88888888 \,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    To <m>\textbf{four significant figures}</m> <m>A= {\color{blue}136.9\,cm^2}</m>
+                </p>
+            </solution>
+        </example>
+
+
+        
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-area-of-a-sector-of-a-circle2">
+        <title>Area of a sector of a circle(2)</title>
+        <p>
+           In the previous sections, you learnt about the sector of a circle. 
+        </p>
+        <p>
+            <m>\textbf{(a)}</m> Draw a circle.
+        </p>
+        <p>
+            <m>\textbf{(a)}</m> On the circle, draw a semi-circle and quarter-circle
+        </p>
+        <p>
+            <m>\textbf{In this section, you will learn how to work out the area of a semi-circle and a quater-circle.}</m>
+        </p>
+        <activity>
+            <p>
+                <m>\textbf{What you requre:}</m> A pair of compusses, a ruler, pieces of paper, a cutting tool and a protactor.
+            </p>
+            <p>
+                <ol >
+                    <li>
+                        <p>
+                            <m>\textbf{a}</m> Draw a circle of radius of <m>7\,cm</m> on a piece of paper and cut it out.
+                        </p>
+                        <p>
+                            <m>\textbf{b}</m> Using <m>\pi = \frac{22}{7}</m>, calculate the area of the circular cutout.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Cut The circular cutout into semi-circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\textbf{a}</m> Measure the angle at the centre of one semicircles.
+                        </p>
+                        <p>
+                            <m>\textbf{b}</m> Express the angle as a fraction of <m>360^\circ</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Multiply the fraction you got in step 3<m>\textbf{b}</m> by the area of the circle. What do you notice>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Repeat the same procidure by cutting the circular cutout into quater-circles.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss how to calculate the area of both semi-circle and  the quater-circle.
                         </p>
                     </li>
                 </ol>
             </p>
         </activity>
+        <p>
+            <m>{\color{red}}\textbf{Discover that;}</m>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        The area of a semi-circle is given by <me>\frac{180}{360} \times \pi r^2= \frac{1}{2} \pi r^2</me>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Area of a quater-circle is given by <me>\frac{90}{360} \times \pi r^2= \frac{1}{4} \pi r^2</me>.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    A bathroom mirror is in the shape as shown, Calculate the area of the mirror. (<m>\text{Use} \pi = \frac{22}{7}</m>)
+                </p>
+                <image width="40%">
+                <latex-image label="semi">
+                    \begin{tikzpicture}
+                        % Draw the semicircle
+                        \draw [very thick,fill=pink!20] (4,0) arc [start angle=0, end angle=180, radius=4cm] -- (0,0) -- cycle;
 
+                        % Draw the right angle marker
+                        \draw (0,0) -- (0.5,0) -- (0.5,0.5) -- (0,0.5) -- cycle;
+
+                        % Draw the radius and label it
+                        \draw [very thick,dashed] (0,0) -- (0,4);
+                        \node [right] at (0.2,2) {84 cm};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    Area <m>= \frac{1}{2} \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp  \frac{1}{2} \times \frac{22}{7} \times (84\,cm)^2 </mrow>
+                        <mrow> =\amp \frac{1}{2} \times \frac{22}{7} \times 84 \,cm\times 84\,cm</mrow>
+                        <mrow> \amp 11\,088 \, cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The area of the bathroom mirror <m>= {\color{blue} 11\,088 \, cm^2}</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Calculate the area of the figure below.(Use <m>\pi =3.142</m>)
+                </p>
+                <image width="40%">
+                <latex-image label="quater">
+                    \begin{tikzpicture}
+                        % Draw the quarter-circle sector
+                        \fill[cyan, draw=black ,very thick] (0,0) -- (6,0) arc [start angle=0, end angle=90, radius=6cm] -- cycle;
+                        % Draw the small right-angle square
+                        \draw[white, draw=black] (0,0) rectangle (1,1);
+                        
+                        % Label the radius
+                        \draw (3,-0.3) node[below] {6 cm};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    Area <m>= \frac{1}{4} \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp  \frac{1}{4} \times 3.142 \times (6\,cm)^2 </mrow>
+                        <mrow> =\amp \frac{1}{4} \times 3.142 \times 6\,cm \times 6\,cm </mrow>
+                        <mrow> =\amp  28.278\,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The Area <m>= {\color{blue} 28.278\,cm^2}</m>.
+                </p>
+            </solution>
+        </example>
 
         
     </subsubsection>
