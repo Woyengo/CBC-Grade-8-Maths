@@ -14,6 +14,7 @@
             Consider the graph below that shows the journey Wakavinye took from home to school
         </p>
         <image>
+
             <latex-image label="e">
                 \begin{tikzpicture}
                     \begin{axis}[

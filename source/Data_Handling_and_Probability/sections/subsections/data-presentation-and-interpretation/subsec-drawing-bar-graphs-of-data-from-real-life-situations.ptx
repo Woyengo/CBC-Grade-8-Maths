@@ -86,6 +86,7 @@
             </p>
             <image>
                 <latex-image label="a">
+              
                     \begin{tikzpicture}
                         \begin{axis}[
                             width=15cm, height=8cm,  % Increase size
