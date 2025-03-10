@@ -79,10 +79,13 @@
                     <cell>40</cell>
                 </row>
             </tabular>
+            <p>
+                Choose a suitable scale and represent the data on a bar graph.
+            </p>
         </statement>
         <solution>
             <p>
-                Choosing a suitable scale for the length of bars, for example 1cm representing 2 learner, the graph is drawn as shown.
+                Choosing a suitable scale for the length of bars, for example 1cm representing 10 learner, the graph is drawn as shown.
             </p>
             <image>
                 <latex-image label="a">
