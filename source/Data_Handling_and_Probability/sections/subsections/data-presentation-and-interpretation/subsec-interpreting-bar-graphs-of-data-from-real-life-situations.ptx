@@ -12,7 +12,7 @@
             A teacher surveyed a class of students about their favorite colors. The results are shown in the bar graph below.
        </p>
        <image>
-        <latex-image label="f">
+        <latex-image label="z">
 
             \begin{tikzpicture}
                 \begin{axis}[
