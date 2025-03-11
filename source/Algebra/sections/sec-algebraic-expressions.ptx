@@ -5,7 +5,7 @@
       
     </p>
   </introduction>
-  
+
   <xi:include href="subsections/subsec-factorising-algebraic-expressions.ptx" />
 
   <xi:include href="subsections/subsec-simplifying-algebraic-fractions-by-factorisation.ptx" />
