@@ -2,9 +2,167 @@
     <title>determining the median of a set of discrete data from real life situations</title>
 
     <p>
-        A decimal is a number that is written in the base-10 place-value system. 
-        The decimal point separates the whole number part from the fractional part of the number. 
-        The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
+        The median of a data set is the middle value when the numbers are arranged in ascending (smallest to largest) or descending order.
     </p>
+    <p>
+        How to Find the Median:
+        <ol>
+            <li>
+                <p>
+                    Arrange the data in order.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If the number of values is odd, the median is the middle number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If the number of values is even, the median is the average of the two middle numbers.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            Taita secondary school football team coach recorded the heights (in cm) of <m>25</m> players on the team:
+        </p>
+        <p>
+            <m>175, 178, 180, 182, 185, 187, 190, 192, 195, 197, 200, 202,</m>
+        </p>
+        <p>
+            <m>205, 207, 210, 212, 215, 217, 220, 222, 225, 227, 230, 232, 235</m>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Find the median height of the players.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Explain what the median represents in this scenario
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{green} \textbf{Learning Point}}</m>
+    </p>
+    <p>
+        The item in the middle is the median when the items in a data set are sorted in ascending order.
+    </p>
+    <example>
+        <statement>
+            <p>
+                A bakery recorded the number of loaves of bread sold each day for <m>30</m> days. The numbers are:
+            </p>
+            <p>
+                <m>50, 55, 60, 52, 58, 65, 70, 68, 72, 75, 80, 85, 90, 95, 100,</m>
+            </p>
+            <p>
+                <m>105, 110, 98, 92, 88, 78, 66, 62, 54, 59, 74, 82, 87, 97, 102</m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Find the median number of loaves sold per day.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(i).">
+                    <li>
+                        <p>
+                            Arrange the data in ascending order
+                        </p>
+                        <p>
+                            <m>50, 52, 54, 55, 58, 59, 60, 62, 65, 66, 68, 70, 72, 74, 75, </m>
+                        </p>
+                        <p>
+                            <m>78, 80, 82, 85, 87, 88, 90, 92, 95, 97, 98, 100, 102, 105, 110</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the middle values
+                            <ul>
+                                <li>
+                                    <p>
+                                        Since there are <m>30</m> values (even number), the median is the average of the <m>15th</m> and <m>16th</m> values.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>15th</m> value = <m> 75</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>16th</m> value = <m>78</m>
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> \textbf{Median} = \frac{75 + 78}{2} = 76.5</m>
+                        </p>
+                        <p>
+                            The median number of loaves sold per day is <m>76.5</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <activity>
+        <statement>
+            <p>
+                <m>{\color{red} \textbf{Further Activity}}</m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Collect data on the different ages of students in your class
+                        </p>
+                        <p>
+                            Determine the median age
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Record the number of students arriving late in class each day for 5 school days
+                            <ul>
+                                <li>
+                                    <p>
+                                        Find the median number of students arriving late per day.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Explain what the median represents in this scenario.
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
     
 </subsection>

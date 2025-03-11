@@ -1,0 +1,392 @@
+<subsection xml:id="subsec-surface-area-of-cubes">
+    <title>Surface area of cubes</title>
+
+
+    <introduction>
+        <p>
+            A <m>\textbf{cube }</m>has six congruent square faces. 
+            The total area of the faces is the surface area of the cube.
+       </p>
+        <p>
+        The surface area is measured in square units including <m>cm^2 </m> and <m>m^2</m>.
+        </p>
+        <p>
+            The
+            surface area of a 3D shape
+            is the total area of all the
+            faces
+            of the shape. For example, the surface area of a cube is the total area of all six square faces. This is <m>
+            6 \times side^2</m>. The six faces of a cube is as shown are as shown
+        </p>
+        <sidebyside>
+            <image width="40%">
+            <latex-image label="cube1">
+                \begin{tikzpicture}
+                    % Define colors
+                    \definecolor{orange}{RGB}{255,204,153}
+                    \definecolor{blue}{RGB}{173,216,230}
+                    \definecolor{pink}{RGB}{255,182,193}
+                    
+                    % Define cube vertices
+                    \def\a{2} % Cube side length
+
+                    % Top face
+                    \fill[orange] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a) -- (\a,0+\a/2) -- cycle;
+                    \draw[thick] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a) -- (\a,0+\a/2) -- cycle;
+                    
+                    % Left face
+                    \fill[blue] (0,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (0,0) -- cycle;
+                    \draw[thick] (0,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (0,0) -- cycle;
+                    
+                    % Right face
+                    \fill[blue] (2*\a,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (2*\a,0) -- cycle;
+                    \draw[thick] (2*\a,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (2*\a,0) -- cycle;
+                    
+                    % Outline
+                    \draw[thick] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a);
+                    \draw[thick] (0,\a) -- (0,0);
+                    \draw[thick] (2*\a,\a) -- (2*\a,0);
+                    \draw[thick] (0,0) -- (\a,-\a+\a/2) -- (2*\a,0);
+                \end{tikzpicture}
+            </latex-image>
+            
+            </image>
+
+            <image width="40%"> 
+            <latex-image label="cube2">
+                \begin{tikzpicture}
+                    % Define colors
+                    \definecolor{orange}{RGB}{255,204,153}
+                    \definecolor{blue}{RGB}{173,216,230}
+                    \definecolor{pink}{RGB}{255,182,193}
+
+                    % Draw the squares
+                    \foreach \x/\y/\c in {0/0/blue, 1/0/blue, 2/0/blue, 
+                                        1/1/orange, 1/-1/orange, 
+                                        -1/0/blue} {
+                        \fill[\c] (\x,\y) rectangle ++(1,1);
+                        \draw[thick] (\x,\y) rectangle ++(1,1);
+                    }
+                \end{tikzpicture}
+            </latex-image>
+            
+            </image>
+        </sidebyside>
+        <p>
+            <m>\textbf{To work out the surface area of a cube:}</m>
+        </p>
+        <p>
+            <ol marker="a">
+                <li>
+                    <p>
+                    Square
+                    one edge of the cube. This gives the area of one square face. 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Multiply the area of one square face by six.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </introduction>
+    
+
+    <subsubsection xml:id="subsubsec-surface-area-of-cubes-in-real-life-situations">
+        <title>Surface area of cubes in real life situations.</title>
+        <activity>
+            <introduction>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\textbf{what you need;}</m> Use a model of a cube in this activity.
+                    </p>
+                    <p>
+                        Identify the number of faces in the figure below.
+                    </p>
+
+                    <image width="40%" >
+                    <latex-image label="cube3"> 
+                        \begin{tikzpicture}
+                            
+                            % Define cube vertices
+                            \coordinate (A) at (0,0);
+                            \coordinate (B) at (2,0);
+                            \coordinate (C) at (2,2);
+                            \coordinate (D) at (0,2);
+
+                            \coordinate (E) at (0.8,0.8);
+                            \coordinate (F) at (2.8,0.8);
+                            \coordinate (G) at (2.8,2.8);
+                            \coordinate (H) at (0.8,2.8);
+
+                            % Draw the front face
+                            \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                            % Draw the back face
+                            \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+
+                            % Connect front and back faces
+                            \draw[thick] (A) -- (E);
+                            \draw[thick] (B) -- (F);
+                            \draw[thick] (C) -- (G);
+                            \draw[thick] (D) -- (H);
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                    </image>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                       Measure the length of each edge of the faces 
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Calculate the area of each faces.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find the sum of area of all the faces.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Discus and share the findings with other groups.
+                    </p>
+                </statement>
+            </task>
+        
+                
+            
+        </activity>
+        <p>
+            <m>{\color{blue} \textbf{Learning Points}}</m>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        The surface area of a solid is the sum of area of all 
+                        faces. For a cube of length <m>l</m> units, the area of each face is <m>l \times l</m> 
+                        square units <m>= l^2</m> square units.
+                    </p>
+                    <p>
+                        <md>
+                            <mrow> \text{The sum of areas of six faces}= \amp (6 \times l^2)  \, \text{square units.}</mrow>
+                            <mrow>= \amp  6\, l^2 \, \text{square units}.</mrow>
+                        </md>
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Find the surface area of the figure below:
+                </p>
+                <image width="40%">
+                <latex-image label="question1">
+                    \begin{tikzpicture}
+                        
+                        % Define cube vertices
+                        \coordinate (A) at (0,0);
+                        \coordinate (B) at (2,0);
+                        \coordinate (C) at (2,2);
+                        \coordinate (D) at (0,2);
+
+                        \coordinate (E) at (0.8,0.8);
+                        \coordinate (F) at (2.8,0.8);
+                        \coordinate (G) at (2.8,2.8);
+                        \coordinate (H) at (0.8,2.8);
+
+                        % Draw the front face
+                        \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                        % Draw the back face
+                        \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+
+                        % Connect front and back faces
+                        \draw[thick] (A) -- (E);
+                        \draw[thick] (B) -- (F);
+                        \draw[thick] (C) -- (G);
+                        \draw[thick] (D) -- (H);
+
+                    
+                        % Label Edges
+                        \node[red, font=\bfseries] at (1,-0.3) {\(  12 \) cm};  % Bottom side
+                        \node[blue, font=\bfseries] at (3,0.1) {\(  12 \) cm};   % Right vertical side
+                        \node[green!70!black, font=\bfseries] at (3.5,1.8) {\( 12 \) cm};  % Diagonal perspectiveow right, font=\bfseries, green!70!black] {\( l = 12 \) cm};
+
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                   <md>
+                    <mrow>\text{Area of one face(A)}= \amp (12 \times 12 ) \, cm^2 </mrow>
+                    <mrow> =\amp 144 \,cm^2</mrow>
+                   </md> 
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of six faces}=\amp (144\,cm^2) \times 6 </mrow>
+                        <mrow> =\amp 864 \,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The surface are <m>= {\color{blue} 864 \,cm^2}</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <sidebyside>
+                    <p>
+                        Your school will be holding the student council elections soon. 
+                        The ballot box is a cube with sides measurering <m>40 \,cm </m> long. There is a rectangular opening at the top face of the 
+                        box whose sides measure <m>15\,cm \,\text{by} \,1 \,cm</m> as shown on the right. Calculate the external surface area of the ballot box.
+                    </p>
+                    <image>
+                    <latex-image>
+                        \begin{tikzpicture}
+                             % Define cube vertices
+                            \coordinate (A) at (0,0);
+                            \coordinate (B) at (2,0);
+                            \coordinate (C) at (2,2);
+                            \coordinate (D) at (0,2);
+
+                            \coordinate (E) at (0.8,0.8);
+                            \coordinate (F) at (2.8,0.8);
+                            \coordinate (G) at (2.8,2.8);
+                            \coordinate (H) at (0.8,2.8);
+
+                            % Draw the front face
+                            \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                            % Draw the back face
+                            \draw[thick ] (E) -- (F) -- (G) -- (H) -- cycle;
+
+                            % Connect front and back faces
+                            \draw[thick] (A) -- (E);
+                            \draw[thick] (B) -- (F);
+                            \draw[thick] (C) -- (G);
+                            \draw[thick] (D) -- (H);
+
+                            \draw [rotate=360,very thick, fill=green] (1.4,2) --(1.6,2)--(1.6,1.9)--(1.4,1.9)--(1.4,2);
+                            \node [ rotate=360,fill=blue]at (1.2,1) {\textbf{VOTE}};
+
+                        
+                            
+                        \end{tikzpicture}
+                    </latex-image>
+                       
+                    </image>
+                </sidebyside>
+            </statement>
+            <hint>
+                <p>
+                    Find the area of the rectanguler oppening then subtract from the area of the voting box.
+                </p>
+            </hint>
+            <solution>
+                <p>
+                    The area of the rectangular oppening.
+                </p>
+                <p>
+                    <m>\text{Area}= l \times w</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp  15 \, cm \times 1\, cm</mrow>
+                        <mrow> =\amp 15 \, cm^2</mrow>
+                        
+                    </md>
+                </p>
+                <p>
+                    Area of the voting box.
+                </p>
+                <p>
+                    <m>\text{Area}= 6 l^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp 6 \times (40\, cm)^2  </mrow>
+                        <mrow> =\amp 6 \times 40\, cm \times  40\, cm </mrow>
+                        <mrow> =\amp  9\,600 \,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore the external surface area is;
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{External surface area} =\amp   \text{Area of the voting box}-\text{The area of the rectangular oppening} </mrow>
+                        <mrow> =\amp  9\,600 \,cm^2-15 \, cm^2</mrow>
+                        <mrow>= \amp  9\, 585 \,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The external surface area of the ballot box is <m>{\color{blue} 9\, 585 \,cm^2}</m>.
+                </p>
+                
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    A cube measures <m>6\,mm \,\text{by} \,6\,mm  \,\text{by} \, 6\, mm </m>. The cube is open at the top.
+                    Calculate the surface area of the outer surfaces of the cube.
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Being that the cube is oppened at the top, it implies that the faces for the cube is five.
+                </p>
+                <p>
+                    Therefore, the area <m>= 5 l^2</m>.
+                </p>
+            </hint>
+            <solution>
+                <p>
+                    <m>\textbf{Area}= 5 l^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow>  \textbf{Area} =\amp 5 \times (6 \,mm)^2</mrow>
+                        <mrow> =\amp 5 \times 6\,mm \times 6 \,mm </mrow>
+                        <mrow> =\amp 180 \,mm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The surface area for the cube <m>= {\color{blue} 180 \,mm^2}</m>.
+                </p>
+            </solution>
+            
+        </example>
+        
+    </subsubsection>
+
+
+ 
+
+
+
+    
+</subsection>

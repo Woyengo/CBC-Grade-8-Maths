@@ -1,0 +1,251 @@
+<subsection xml:id="subsec-interest-and-principal">
+    <title>Interest and principal</title>
+
+    <introduction>
+        <p>
+          <m>\textbf{Engage}</m>
+        </p>
+        <p>
+            <ol marker="(a)">
+                <li>
+                    <p>
+                        Where do banks get money to lend to their customers?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Why do people deposit money in banks over a given period?
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <m>\textbf{In this section, you will identify interest and the principal as used in banking.}</m>
+        </p>
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-identifying-interest-and-principal">
+        <title>Identifying interest and principal in real lie situation</title>
+        <activity>
+            <p>
+                <m>\textbf{What you requiire:}</m> A local financial institution to visit or resource persons from the local financial institution.
+            </p>
+            <p>
+                Your teacher will take you to the nearest financial institution or 
+                invite resource persons from the institutions or your Business Studies teacher.
+            </p>
+            <p>
+                Find out the following from the institution or the resource persons.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <m>\textbf{(a)}</m> What do we call the money we deposit in a financial institution?
+                        </p>
+                        <p>
+                            <m>\textbf{(b)}</m> What do we call the extra money earned on the deposits?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\textbf{(a)}</m> How is the extra money calculated.
+                        </p>
+                        <p>
+                            <m>\textbf{(b)}</m> What determines the amount of extra money a deposit earns?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What are the different ways of calculating the extra money earned on the deposits? Which one earns 
+                            more money than the others?
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share and discuss your findings with other learners in class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
+
+        </activity>
+        <p>
+            <m>{\color{blue} \textbf{Learning Points}}</m>
+        </p>
+        <p>
+           <ul>
+            <li>
+                <p>
+                    The extra money earned on deposits over a period is called <m>\textbf{interest(I)}</m>. There are two types of interest: 
+                    <m>{\color{blue} \textbf{Simple interest}}</m> and <m>{\color{blue} \textbf{compound interest}}</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The amount borrowed or deposited in a financial institution is called <m>\textbf{principal(P)}</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The sum of the principal and the interest it earns is called <m>\textbf{amount(A)}</m>.
+                </p>
+            </li>
+           </ul> 
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Mr. B aya needed Ksh, <m>100\,000</m> to expand his business. He 
+                    visited his bank for a loan. The bank manager advised him on terms and conditions for accesing a loan. 
+                    He was given the loan on condition that he repays the whole amount at the end of one year and pay a charge of Ksh. <m>10\,000</m>.
+                </p>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                Identify and write the principal.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Identify and write the interest.
+                            </p>
+                        </li>
+
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Being that Mr. Baya needed Ksh. <m>100\,000</m> from the bank. It implies that he will borrow 
+                    the total amount of Ksh. <m>100\, 000</m>. Therefore;
+                </p>
+                <p>
+                    Principal is Ksh. <m>100\,0000</m>.
+                </p>
+                <p>
+                    After he has been given a loan, he is required to repay the loan with addition of Ksh. <m>10\,000</m>. This means that Mr. Baya is required to pay an interest. 
+                    Therefore;
+                </p>
+                <p>
+                    Interest is Ksh. <m>10\, 000</m>.
+                </p>
+            </solution>
+        </example>
+        
+        <example>
+            <statement>
+                <p>
+                    Onyango deposited sh <m>36\, 000</m> in a bank to pay school fees for her child in future. 
+                    At the end of one year, the deposit in her account had risen to sh <m>38\,880</m>.
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                From the information above, identify
+                            </p>
+                            <p>
+                                <ol marker="(a)">
+                                    <li>
+                                        <p>
+                                            the principal.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            the amount.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            the interest.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            the time.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                <m>\textbf{the principal}</m>.
+                            </p>
+                            <p>
+                                Onyango deposited <m>sh.\, 36\, 000</m> it implies that,
+                            </p>
+                            <p>
+                                Principal is Amount is <m>{\color{blue} sh.\, 36\, 000}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\textbf{the amount}</m>.
+                            </p>
+                            <p>
+                                The amount is the sum of principal and intrest earned. Therefore;
+                            </p>
+                            <p>
+                                Amount is <m>{\color{blue} sh.\, 38\, 880}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\textbf{the interest}</m>.
+                            </p>
+                            <p>
+                                The intrest is given by;
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\text{Intrest}= \amp \text{Amount}- \text{Principal}</mrow>
+                                    <mrow> =\amp  sh.\, 38\, 880 - sh.\, 36\, 000</mrow>
+                                    <mrow> =\amp    sh. \, 2\330</mrow>
+                                </md>
+                            </p>
+                            <p>
+                                Therefore; 
+                            </p>
+                            <p>
+                                The intersest paid is <m>{\color{blue} sh. \, 2\,330}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\textbf{the time}</m>.
+                            </p>
+                            <p>
+                                The money was deposited to accumulate for a time of one year.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+  
+
+
+
+
+
+
+ 
+
+
+
+    
+</subsection>

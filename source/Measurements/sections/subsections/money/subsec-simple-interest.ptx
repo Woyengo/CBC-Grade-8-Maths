@@ -1,0 +1,279 @@
+<subsection xml:id="subsec-simple-intrest">
+    <title>simple intrest(1)</title>
+
+    <introduction>
+        <p>
+          <m>\textbf{Engage}</m>
+        </p>
+        <p>
+            In the previous section, you identified types of interest and terms related to intrest such as the 
+            <m>\textbf{principal,the amount,the rate }</m> and <m>\textbf{the time}</m>.
+        </p>
+
+        <p>
+            In this section, you will learn how to calculate simple intrest.
+        </p>
+        <definition xml:id="def-simple-intrest">
+            <statement>
+                <p>
+                    <m>\textbf{Simple intrest(I)}</m> is the interest  calculated using only the initial principal at a given rate and time.
+                </p>
+                <p>
+                    <m>\textbf{Rate }</m> is the ratio of interest earned in a given period of time to the principle.
+                </p>
+                <p>
+                    The rate is expressed as a percentage of the principal per annum <m>\textbf{(P.A).}</m>
+                </p>
+                
+            </statement>
+        </definition>
+        <p>
+            <m>\textbf{Simple Interest Formulae}</m>
+        </p>
+        <p>
+            <md>
+                <mrow> \text{Simple intrest }(I) =\amp \text{Principal} \times \frac{\text{Rate}}{100} \times \text{Time} </mrow>
+                <mrow>I= \amp  \frac{PRT}{100}</mrow>
+            </md>
+        </p>
+    </introduction>
+  
+
+    <subsubsection xml:id="subsubsec-calculating-simple-interest">
+        <title>Calculating simple interest in real life situations</title>
+        <activity>
+            <p>
+                <m>{\color{green \textbf{ Work in groups}}}</m>
+            </p>
+            <p>
+                <m>\textbf{What you require:} </m> Writing materials.
+            </p>
+            <p>
+                Ekadeli deposited <m>sh \, 20\,000 </m> a bank account for one year. The bank paid interset ate a rate of <m>7\%</m> of the deposit per annum.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Identify the principal, the rate and the time from the information
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\textbf{Note:}</m> Rate of <m>10\% </m> per annum means for evry <m>sh\, 100</m> principal, you earn an interest of sh 
+                            <m>sh \, 10 </m> in one year.
+                        </p>
+                        <p>
+                            <ol marker="(a)">
+                                <li>
+                                    <p>
+                                        How much interest will <m>sh \,100</m> earn in one year at a rate of <m>7\%</m>?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        How many hundreds are in principa of <m>sh\, 20\,000</m>?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        How much interest will <m> sh\, 20 \,000</m> earn in one year?
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Suppose Ekadeli had deposited the same <m>sh\, 20\,000</m> for two years at the same rate of <m>7\%</m> per annum. How much 
+                            interest would the money earn?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <ol marker="(a)">
+                                <li>
+                                    <p>
+                                        Identify a formula that you can use to calculate the interest.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        What do we call this type of interest?
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share your results withother groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+        <p>
+            <m>{\color{blue} \textbf{Learning Points}}</m>
+        </p>
+        <p>
+            <ul >
+                <li>
+                    <p>
+                      The percentage at which the interest is calculated is called the 
+                      <m>\textbf{rate}(R)</m>
+                    </p>
+
+                </li>
+                <li>
+                    <p>
+                        Simple interest is the interest earned on a fixed principal over time.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If Ekadeli had deposited <m> sh\, 15\,000</m> that earned interest at a rateb of <m>5\%</m> 
+                        per yearm the simple interest at the end of two years will be:
+                    </p>
+                    <p>
+                        <m>5\%</m> means for every <m>sh\, 100 </m>, he 
+                        earns  <m>sh\, 5</m> interest. Therefore, in two years :
+                    </p>
+                    <p>
+                        <m>sh\, 100 </m> earns <m>sh\, (5 \times 2)</m>
+                    </p>
+                    <p>
+                        <m>sh\, 1 </m> earns <m>sh \, (\frac{5 \times 2}{100})= sh \, (\frac{5}{100} )</m>
+                    </p>
+                    <p>
+                        <m>sh\, 15\, 000</m> earns <m>sh\, (\frac{5}{100} \times sh\, 15\,000 \times 2) = sh\, 1\,500</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Suppose Ekadeli  deposited <m>sh\, P</m> and interest was paid at a rate <m>R</m> 
+                        for <m>T</m> years.
+                    </p>
+                    <p>
+                        <m>\text{Simple interest}= \text{principal} \times \text{rate as a percentage} \times \text{time in years}</m>
+                    </p>
+                    <p>
+                        <md>
+                            <mrow>= \amp P \times R \times T </mrow>
+                            <mrow>= \amp PRT </mrow>
+                        </md>
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Franny invests Ksh <m>16\,000</m> in a savings account. She earns a simple interest rate of <m>14\%,</m> paid annually on her investment. 
+                    She intends to hold the investment for <m>1\frac{1}{2}</m>years. 
+                    How much simple interest did the invest earn?.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The principal invested(P) <m>= \text{Ksh}. \, 16\,000 </m>
+                </p>
+                <p>
+                    Rate(R) <m>= 14\%</m>
+                </p>
+                <p>
+                    Time(T) <m>=1\frac{1}{2}</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Simple interest}= \amp \frac{P \times R \times T  }{100} </mrow>
+                        <mrow> =\amp  16\,000 \times \frac{14}{100} \times 1\frac{1}{2} </mrow>
+                        <mrow> =\amp 16\,000 \times \frac{14}{100} \times \frac{3}{2}  </mrow>
+                        <mrow> =\amp \text{Ksh.}\, 3\,360</mrow>
+                    </md>
+                </p>
+                <p>
+                    Simple interest earned <m>= {\color{blue} \text{Ksh.}\, 3\,360}</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Isadora is a maize farmer. She harvested several bags of maize and sold some of them for 
+                    <m>sh.\, 850\,000</m>. She deposited the money in her account in a certain bank for nine months. 
+                    The bank paid simple interest at a rate of <m>6\%</m> per annum.
+                </p>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                How much intersest did the money earn in the nine months?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What was the amount in her account at the end of the nine months?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                Principal(P) <m>= \text{Ksh} 850\,000</m>
+                            </p>
+                            <p>
+                                Rate(R) <m>= 6\%</m>
+                            </p>
+                            <p>
+                                Time(T) <m>= 9 \text{months}</m>. Express the months as a fraction of the year because the rate is per annum.
+                            </p>
+                            <p>
+                                So, time <m>=\frac{9}{12}= \frac{3}{4}</m> years.
+                            </p>
+                            <p>
+                               <md>
+                                <mrow>\text{Simple interest}= \amp \frac{P \times R \times T  }{100} \amp </mrow>
+                                <mrow> =\amp 850\,000 \times \frac{6}{100} \times \frac{3}{4}</mrow>
+                                <mrow> =\amp sh. 38\,250</mrow>
+                               </md> 
+                            </p>
+                            <p>
+                                The interest earned is <m>{\color{blue} sh. 38\,250}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Amount is gotten by sum of <m>\text{principal} + \text{interest}</m>.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \text{Amount}=\amp \text{Principal} + \text{Interest} </mrow>
+                                    <mrow> =\amp sh\, 850\,000+ sh\, 38\,250</mrow>
+                                    <mrow>= \amp sh\, 888\,250 </mrow>
+                                </md>
+                            </p>
+                            <p>
+                                The total amount in Isdora's account is <m>{\color{blue} sh\, 888\,250 }</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+    
+
+
+
+
+ 
+
+
+
+    
+</subsection>

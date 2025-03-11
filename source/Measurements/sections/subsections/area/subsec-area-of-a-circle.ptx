@@ -1,0 +1,204 @@
+<subsection xml:id="subsec-area-of-a-circle">
+    <title>Area of a circle</title>
+
+    <introduction>
+        <p>
+        The "area of a circle" refers to the total space enclosed within the boundary of a circle. 
+        </p>
+        <p>
+        It is calculated using the formula <m> \textbf{A} = \pi r^2 </m> 
+        where <m>\pi = \frac{22}{7}</m> or <m>3.142</m> and 
+        <m> r  \,\text{is the radius of the circle} </m>. It is measured in square units.
+        </p>
+
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-calculating-the-area-of-a-circle-in-different-situations">
+        <title>Calculating the area of a circle in different situations.</title>
+        <activity>
+            <p>
+                <m> \textbf{What you requre:}</m>
+            </p>
+            <p>
+                A ruler, pieces of strings and pieces of sticks or chalks.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            On the ground, Mark a point using a piece of stick and lable it O.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Tie a stick with each end of the string and fix one stick on the ground at point O.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\textbf{(a)}</m> Stretch the string and draw a circle as shown on the right.
+                        </p>
+                        <p>
+                            <m>\textbf{(b)}</m> Draw several other circles using different lengths of strings.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                          <m>\textbf{(a)}</m> Measure the radius of each circle that you have drawn.  
+                        </p>
+                        <p>
+                            <m>\textbf{(b)}</m> Using formula, <m>\textbf{area}= \pi r^2</m>, calculate the area of each circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Draw circles in your exersise book and work out the area of each.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your work with other learners in your class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+        <p>
+            <m>\textbf{Learning point}</m>
+        </p>
+        <p>
+            Area of a circle of radius, <m>(r)</m> is <m>\pi r^2</m>.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Find the area of a circle whose area is <m>14 \, \text{cm}</m> use <m>\pi = \frac{22}{7}</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>\textbf{Area of a circle}= \pi r^2</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{Area} =\amp \frac{22}{7} \times 14 \times 14 </mrow>
+                        <mrow>= \amp 616 \, cm^2</mrow>
+                    </md>
+                </p>
+            </solution>
+
+        </example>
+        <example>
+            <statement>
+                <p>
+                   Find the area of each of the following circles with 
+                   O as the centre use <m>\pi = \frac{22}{7}</m>: 
+                </p>
+                <sidebyside>
+                    <image width="40%">
+                    <latex-image label="Circle1">
+                        \begin{tikzpicture}
+                           % Draw the circle with a very thick pink outline
+                            \draw[very thick, black] (0,0) circle (2cm);
+
+                            % Draw the diameter
+                            \draw[thick, magenta] (-2,0) -- (2,0);
+                            
+                            % Mark the center
+                            \fill[magenta] (0,0) circle (2pt);
+
+                            % Label the diameter
+                            \node at (0,0.3) {\textbf{42 cm}};
+                            \node at (0,-0.3) {\textbf{0}};
+                            \node[anchor=north, scale=1.2] at (0,3) {\textbf{(a)}};
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                    </image>
+                    <image width="40%">
+                    <latex-image label="Circle2">
+                        \begin{tikzpicture}
+                            % Draw the circle
+                            \filldraw[fill=white, draw=purple, thick] (0,0) circle (3);
+                            
+                            % Draw the radius
+                            \draw[thick, magenta] (0,0) -- (3,0);
+                            
+                            % Draw the center point
+                            \filldraw[magenta] (0,0) circle (3pt);
+                            
+                            % Label the radius
+                            \node[anchor=south, black] at (1,0) {\large $3.5 \,cm$};
+                            
+                            % Label the area formula
+                            \node[anchor=north, scale=1.2] at (0,-0.3) {\textbf{0}};
+                            \node[anchor=north, scale=1.2] at (0,4) {\textbf{(b)}};
+                        \end{tikzpicture}
+                    </latex-image>
+                       
+                    </image>
+                </sidebyside>
+            </statement>
+            <solution>
+                <p>
+                    <m>\textbf{(a)}</m> <m>\text{Area} = \pi r^2</m>
+                </p>
+                <p>
+                    We are given;
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{Diametter} =\amp 42 \,cm</mrow>
+                        <mrow> \text{Radius(r)}= \amp \frac{42}{2} </mrow>
+                        <mrow>= \amp 21 \,cm</mrow>
+
+                    </md> 
+                </p>
+                <p>
+                    Therefore;
+                </p>
+                <p>
+                    <md>
+                        <mrow>Area= \amp \frac{22}{7} \times 21 \times 21 </mrow>
+                        <mrow>= \amp \frac{22}{7} \times 21^2 </mrow>
+                        <mrow>= \amp 1\,386 \,cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    The area of <m>\textbf{(a)}= {\color{blue}1\,386 \,cm^2}</m>
+                </p>
+
+                <p>
+                    <m>\textbf{(b)}</m> <m>\text{Area} = \pi r^2</m>
+                </p>
+                <p>
+                    We are given;
+                </p>
+                <p>
+                    <m>\text{Radius(r)}= 3.5\,cm</m>
+                </p>
+                <p>
+                    Therefore;
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area}=\amp \frac{22}{7} \times 3.5 \times 3.5 </mrow>
+                        <mrow> =\amp \frac{22}{7} \times 3.5^2</mrow>
+                        <mrow> =\amp 38.5 \, cm^2</mrow>
+                    </md>
+                </p>
+                 <p>
+                    The area of <m>\textbf{(b)}= {\color{blue}38.5 \, cm^2}.</m>
+                </p>
+            </solution>
+        </example>
+        
+
+        
+    </subsubsection>
+
+
+
+
+    
+</subsection>
