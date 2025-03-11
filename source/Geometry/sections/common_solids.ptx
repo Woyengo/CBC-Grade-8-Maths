@@ -9,5 +9,227 @@
         Some of the most common solids include cubes, prisms, pyramids, cylinders, cones, and spheres. 
         In this section, we will explore some of the basic properties of these solids and how they can be used in geometry.
     </p>
-    
+
+    <subsection xml:id="subsec-Identificatio-of-common-solids">
+        <title>Identification of common solids</title>
+        <p>
+            In grade 6, you learnt about the faces, edges and verticies of 3D objects.Discuss the different types of 3D objects.
+        </p>
+
+        <p>
+            In this section, you will identify common solids.
+        </p>
+            <activity>
+                <statement>
+                    <p>
+                        Work in groups.
+                    </p>
+
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Collect solids of different shapes around your school compound. 
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Group them according to their shapes.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    In each case count the number of faces, edges and verticies a solid has.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Discuss and share with other groups.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </activity>
+
+            <tabular halign="left" bottom="medium" top="medium" left="medium" right="medium">
+                <row header="yes">
+                    <cell>Solid</cell>
+                    <cell>Object</cell>
+                </row>
+                <row>
+                    <cell>
+                    <image>
+                    <latex-image>
+                        \begin{tikzpicture}        
+                                % Define the 3D coordinates and color the faces
+                        \fill[yellow!50] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0)-- cycle; % Bottom face        
+                        \fill[yellow!50] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face
+                        \fill[yellow!50] (0,0,0) -- (0,0,3) -- (0,2,3) -- (0,2,0) -- cycle; % Left face
+                        \fill[yellow!50] (3,0,0) -- (3,0,3) -- (3,2,3) -- (3,2,0) -- cycle; % Right face
+                        \fill[orange!50] (0,2,0) -- (3,2,0) -- (3,2,3) -- (0,2,3) -- cycle; % Front face
+                        \fill[orange!50] (0,0,0) -- (3,0,0) -- (3,0,3) -- (0,0,3) -- cycle; % Back face
+                        
+                        % Draw edges
+                        \draw[thick] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0) -- cycle; % Bottom face outline
+                        \draw[thick] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face outline
+                        \draw[thick] (0,0,0) -- (0,0,3);
+                        \draw[thick] (3,0,0) -- (3,0,3);
+                        \draw[thick] (3,2,0) -- (3,2,3);
+                        \draw[thick] (0,2,0) -- (0,2,3);
+                    \end{tikzpicture}
+                    </latex-image>                
+                    </image>
+                    </cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                     <cell></cell>
+                </row>
+            </tabular>
+    </subsection>
+
+    <subsection xml:id="subsec-The-net-of-a-cube">
+        <title>The net of a cube</title>
+        <p>
+            In the previous section, you identified a cube. Discuss what to look for when identifying a cube. 
+        </p>
+
+        <p>
+            In this section, you will sketch nets of a cube.
+        </p>
+
+        <p>
+            Net is a pattern formed when an object is opened up and laid out on a flat surface.
+        </p>
+
+        <p>
+            A cube has 6 faces. Each face is a square. A net of a cube is made up of 6 squares.
+        </p>
+
+        <activity>
+            <title>Exploring Cube Nets Using a Slider</title>
+           <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Click and drag the View 3D to view the cube and its net from a different angle.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Click and drag the Open-Close slider to open and close the cube.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Use the Pattern slider to change to a different net of a cube. How many different nets of a cube are there?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+              <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-cube" geogebra="vjustxpb" width="100%" aspect="9:7" reset-icon="yes"/>
+                </figure>
+           </statement> 
+        </activity>
+        
+          <figure>
+            <caption>Classic net of the cube</caption>
+            <interactive xml:id="geogebra-Classic-net" geogebra="wkvg6qwa" width="100%" aspect="9:7" reset-icon="yes"/>
+         </figure>
+    </subsection>
+
+    <subsection xml:id="subsec-The-net-of-a-cuboid">
+        <title>The net of a cuboid</title>
+        <p>
+            In the previous section, you identified a cuboid. Discuss what to look for when identifying a cuboid.
+        </p>
+
+        <p>
+            In this section, you will sketch nets of a cuboid.
+        </p>
+
+        <p>
+            A cuboid has 6 faces. Each face is a rectangle. A net of a cuboid is made up of 6 rectangles.
+        </p>
+
+        <activity>
+        <title></title>
+      
+            <statement>
+                <p>
+                    To explore the net of a cuboid Using a slider.
+                </p>
+
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-cuboid" geogebra="s55e7j5v" width="100%" aspect="9:7" reset-icon="yes"/>
+                    </figure>
+
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-cuboi" geogebra="zc46agnf" width="100%" aspect="9:7" reset-icon="yes"/>
+                    </figure>
+            </statement>
+        </activity>
+        
+    </subsection>
+
+    <subsection xml:id="subsec-The-net-of-a-cylinder">
+        <title>The net of a cylinder</title>
+        <p>
+            In the previous section, you identified a cylinder. Discuss what to look for when identifying a cylinder.
+        </p>
+
+        <p>
+            In this section, you will sketch nets of a cylinder.
+        </p>
+
+        <p>
+            A cylinder has 3 faces. Two faces are circles and one face is a rectangle. A net of a cylinder is made up of 2 circles and 1 rectangle.
+        </p>
+
+        <activity>
+            <title>Create and Experiment with a Net of a cylinder</title>
+            <statement>
+                <p>
+                   <ul>
+                    <li>
+                        <p>
+                             Use the MOVE tool Toolbar Image to move the Unfold or Fold Net slider. This will show how the cylinder can be turned into a net. A net is created by imagining that you cut and unfold the 3-D shape into one, flat shape. 
+                        </p>
+                    </li>
+                              
+                    <li>
+                        <p>
+                             Using the same slider, the net can be folded back into the original 3-D shape. 
+                        </p>
+                    </li>
+                   </ul>
+                </p>
+
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-cylinder" geogebra="v9tjmspz" width="100%" aspect="9:5" reset-icon="yes" material-width="1100px"/>
+                    </figure>
+            </statement>
+        </activity>
+
+        <m>{\color{blue} \text{To observe the net of a cylinder.}}</m>
+            <figure>
+                <caption></caption>
+                <interactive xml:id="geogebra-cylinde" geogebra="eevymk37" width="100%" aspect="9:5" reset-icon="yes" material-width="1100px"/>
+            </figure>
+        
+    </subsection>
 </section>
