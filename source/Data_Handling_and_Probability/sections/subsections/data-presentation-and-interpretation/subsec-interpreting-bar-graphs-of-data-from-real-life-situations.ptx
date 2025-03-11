@@ -41,7 +41,7 @@
         </latex-image>   
        </image>
        <p>
-          <ol marker="i.">
+          <ol marker="(i).">
             <li>
                 <p>
                     Which color was chosen by the highest number of learners?
@@ -114,7 +114,7 @@
                 
             </image>
             <p>
-                <ol marker="(a)">
+                <ol marker="(a).">
                     <li>
                         <p>
                             Which fruit appears the most in the basket?
@@ -160,7 +160,7 @@
         </statement>
         <solution>
             <p>
-                <ol marker="i.">
+                <ol marker="(i).">
                     <li>
                         <p>
                             Compare all the given numbers in the fruits and see which is highest

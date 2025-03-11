@@ -13,7 +13,7 @@
         </p>
         
         <p>
-            <ol marker="i">
+            <ol marker="(i).">
                <li>Ask and record the number of members of your class, born in the months of January, February, March, April, May, and June.</li>
                <li><p>Fill in the table shown.</p>
                     <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
@@ -79,10 +79,13 @@
                     <cell>40</cell>
                 </row>
             </tabular>
+            <p>
+                Choose a suitable scale and represent the data on a bar graph.
+            </p>
         </statement>
         <solution>
             <p>
-                Choosing a suitable scale for the length of bars, for example 1cm representing 2 learner, the graph is drawn as shown.
+                Choosing a suitable scale for the length of bars, for example 1cm representing 10 learner, the graph is drawn as shown.
             </p>
             <image>
                 <latex-image label="a">
@@ -121,7 +124,7 @@
             <m>{\color{red} \textbf{Further Activity}}</m>
         </p>
         <p>
-            <ol marker="a">
+            <ol marker="(a).">
                 <li>
                     <p>
                         Collect data in your class about the ages of students and represent it using a bar graph
