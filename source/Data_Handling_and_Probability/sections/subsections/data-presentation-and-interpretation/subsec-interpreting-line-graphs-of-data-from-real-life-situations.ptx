@@ -4,9 +4,404 @@
 
 
     <p>
-        A decimal is a number that is written in the base-10 place-value system. 
-        The decimal point separates the whole number part from the fractional part of the number. 
-        The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
+        In the previous section, you represented data using line graphs. In this section, you will interpret data represented using line graphs.
     </p>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            Consider the graph below that shows the journey Wakavinye took from home to school
+        </p>
+        <image>
+
+            <latex-image label="e">
+                \begin{tikzpicture}
+                    \begin{axis}[
+                        width=12cm, height=10cm,  % Adjust size
+                        xlabel={Time (Minutes)},
+                        ylabel={Distance from Home (Kilometers)},
+                        ymin=0, ymax=10,  % Adjust scale
+                        xmin=0, xmax=30,
+                        xtick={0,5,10,15,20,25,30},
+                        ytick={0,1,2,3,4,5,6,7,8,9},
+                        grid=major,  % Make grids more visible like graph paper
+                        major grid style={line width=1pt, draw=gray!70},
+                        minor tick num=4,  % Add minor grid divisions
+                        minor grid style={line width=0.5pt, draw=gray!40}
+                    ]
+                        \addplot[
+                            mark=o,
+                            color=blue,
+                            thick
+                        ] coordinates {
+                            (0, 0) (5, 1) (10, 2) (15, 4) (20, 4) (25, 6) (30, 8)
+                        };
+                    \end{axis}
+                \end{tikzpicture}
+            </latex-image>
+            
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        How far from home was Wakavinye after 10 minutes?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What was the total distance traveled after 30 minutes?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How many kilometers did the Wakavinye travel between 15 and 20 minutes?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What does the flat section of the graph represent?
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{green} \textbf{Learning Point}}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    In line graphs, points are connected with straight lines to represent changes in values overal period of time.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Line graphs can be interpreted to obtain required  relevant information
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                A group of students conducted an experiment to observe how the temperature of water changes over time when heated.
+                They recorded the temperature at different time intervals and plotted their results on a graph.
+            </p>
+            <image>
+                <latex-image label="f">
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            width=10cm, height=10cm,  % Adjust size
+                            xlabel={Time (Minutes)},
+                            ylabel={Temperature (°C)},
+                            ymin=-30, ymax=120,  % Adjust scale
+                            xmin=0, xmax=26,
+                            xtick={2,4,6,8,10,12,14,16,18,20,22,24},
+                            ytick={-25,0,20,40,60,80,100},
+                            grid=major,
+                            axis line style={thick},
+                            axis x line=middle,   % Make axes bold  % Make grids more visible like graph paper
+                            major grid style={line width=1pt, draw=gray!70},
+                            minor tick num=4,  % Add minor grid divisions
+                            minor grid style={line width=0.5pt, draw=gray!40}
+                        ]
+                            \addplot[
+                                mark=o,
+                                color=red,
+                                thick = 10pt
+                            ] coordinates {
+                                (0, -25) (2, 0) (4, 0) (20, 100) (25, 100)
+                            };
+                        \end{axis}
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            What was the temperature at 0 minutes?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How long did it take for the temperature to reach 0°C?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            During which time interval did the temperature stay constant?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            At what time did the temperature first reach 100°C?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How many degrees did the temperature increase between 0 and 20 minutes?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What does the flat section of the graph after 20 minutes indicate?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If the trend continued beyond 25 minutes, what might happen to the temperature?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            From the graph,check the temperature at <m>0</m> minutes which was <m>-25°C.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The temperature started at <m>-25°C</m> and reached <m>0°C</m> at <m>2</m> minutes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            From the graph, the temperature remained at <m>0°C</m> from <m>2</m> minutes to <m>4</m> minutes.
+                        </p>
+                        <p>
+                            The temperature also stayed at <m>100°C</m> from <m>20</m> minutes to <m>25</m> minutes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            From the graph, the water temperature reached <m>100°C</m> at <m>20</m> minutes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            At <m>0</m> minutes, the temperature was <m>-25°C</m>.
+                        </p>
+                        <p>
+                            At <m>20</m> minutes, the temperature was <m>100°C</m>.
+                        </p>
+                        <p>
+                            Increase in temperature = <m> 100°C - (-25°C) = 100°C + 25°C = 125°C </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A flat section on a temperature-time graph means the temperature is not changing.
+                        </p>
+                        <p>
+                            The flat section after <m>20</m> minutes indicates that the water has reached its boiling point and is turning into steam.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If the heat source remains, the water will continue to boil.
+                        </p>
+                        <p>
+                            The temperature will stay at <m>100°C</m> until the water completely evaporates.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A bus and a car are traveling along the same route. Their distances from the starting point are recorded at different times in a 24-hour format and plotted on the graph. The graph shows when each vehicle was moving and when they took breaks.
+            </p>
+            <image>
+                <latex-image label="g">
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            width=14cm, height=10cm,
+                            xlabel={Time in 24hour System},
+                            ylabel={Distance (Kms)},
+                            xmin=11, xmax=19,
+                            xtick={11,12,13,14,15,16,17,18,19},
+                            ymin=0, ymax=500,
+                            ytick={0,100,200,300,400,500},
+                            grid=major,
+                            major grid style={line width=0.7pt, draw=gray!70},
+                            minor grid style={line width=0.5pt, draw=gray!55},
+                            legend pos=north west
+                        ]
+                            % Bus travel line with rest point between 12 to 13
+                            \addplot[
+                                mark=o,
+                                color=blue,
+                                thick
+                            ] coordinates {
+                                (11,0) (12,100) (13,100) (17,400) (19,500)
+                            };
+                            \addlegendentry{Bus}
+
+                            % Car travel line with rest point at 100km from 14 to 15, arriving at 18
+                            \addplot[
+                                mark=square,
+                                color=red,
+                                thick
+                            ] coordinates {
+                                (12,0) (14,100) (15,100) (17,400) (18,500)
+                            };
+                            \addlegendentry{Car}
+
+                        
+                            
+                            \node[anchor=east] at (axis cs:11,400) {400 km};
+                            \node[anchor=north] at (axis cs:17,0) {17 Hours};
+                        \end{axis}
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+            <p>
+                <ol marker="(a).">
+                    <li>
+                        <p>
+                            At what time did the bus start its journey?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            At what time did the car start its journey?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What was the average speed of the car from 12:00 to 14:00?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What was the speed of the bus between 13:00 and 17:00?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How far had the bus traveled by 12:00?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Between which times did the bus remain at the same distance?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            At what time did the car take a break?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            At what time did both the bus and the car reach 400 km?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Which vehicle reached 500 km first?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What was the overall average speed of the bus from 11:00 to 19:00?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(a).">
+                    <li>
+                        <p>
+                            The bus started its journey at <m>11:00</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The car started its journey at <m>12:00</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The car traveled 100 km from <m>12:00</m> to <m>14:00 (2 hours)</m>.
+                        </p>
+                        <p>
+                            <m>speed=\frac{100 km}{2 hours} = 50km/h</m> 
+                        </p>
+                        <p>
+                            The car traveled at an average speed of <m>50 km/h</m> from <m>12:00</m> to <m>14:00</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The bus traveled from <m>100 km</m> to <m>400 km</m> between <m>13:00</m> and <m>17:00</m>.
+                        </p>
+                        <p>
+                            Distance covered = <m>400 km - 100 km = 300 km.</m>
+                        </p>
+                        <p>
+                            Time taken = <m>17:00 - 13:00 = 4 hours.</m>
+                        </p>
+                        <p>
+                            <m>speed=\frac{300 km}{4 hours} = 75km/h</m>
+                        </p>
+                        <p>
+                            The bus traveled at an average speed of <m>75 km/h</m> between <m>13:00</m> and <m>17:00</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            By <m>12:00</m>, the bus had traveled <m>100 km</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The bus remained stationary between <m>12:00</m> and <m>13:00</m>, staying at <m>100 km</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The car took a break between <m>14:00</m> and <m>15:00</m>, staying at <m>100 km</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Both the bus and the car reached <m>400 km</m> at <m>17:00</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The car reached <m>500 km</m> first at <m>18:00</m>, while the bus reached <m>500 km</m> at <m>19:00</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The bus covered <m>500 km</m> in <m>8 hours</m>.
+                        </p>
+                        <p>
+                            <m>Average Speed=\frac{500 km}{8 hours} = 62.5km/h</m>
+                        </p>
+                        <p>
+                            The overall average speed of the bus was <m>62.5 km/h</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
     
 </subsection>
