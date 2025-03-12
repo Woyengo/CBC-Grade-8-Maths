@@ -1,5 +1,10 @@
 <subsection xml:id="subsec-expressing-numbers-to-the-required-significant-figures">
     <title>Expressing Numbers to the Required Significant Figures</title>
+    <p>
+        <alert>Significant figures</alert> (or <alert>significant digits</alert>) are the digits in a number
+        that contribute to its precision. They include all non-zero digits, 
+        any zeros between non-zero digits, and trailing zeros in decimal numbers.
+    </p>
     <activity>
         <introduction>
             <p>
@@ -21,6 +26,40 @@
             </statement>
         </task>
     </activity>
+    <p>
+        <m>\textbf{Learning Point}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    All nonzero digits are significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    All zeros between nonzero digits are significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Leading zeros (to the left of the first nonzero digit) are not significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Trailing zeros to the right of the decimal place are significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Zero appearing after non-zero digit. On the whole numbers
+                    side may be significant or may not be significant figures.
+                    It can be a place holder or a significant.
+                </p>
+            </li>
+        </ul>
+    </p>
     <example>
         <statement>
             <p>
