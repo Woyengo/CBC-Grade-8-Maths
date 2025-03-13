@@ -1,5 +1,11 @@
 <subsection xml:id="subsec-combined-operations">
     <title>Combined Operations</title>
+    <p>
+        Combined operations on decimals involve performing multiple arithmetic 
+        operations such as addition, subtraction, multiplication, and division within a single expression. 
+        We follow the order of brackets, division, multiplication, addition, and 
+        finally Subtraction (BODMAS) when working out multiple operations.
+    </p>
     <activity>
         <introduction>
             <p>

@@ -1,5 +1,12 @@
 <subsection xml:id="subsec-rounding-off-decimal-numbers-to-the-required-decimal-places">
     <title>Rounding off decimal numbers </title>
+    <p>
+        To round a decimal number to a specified number of decimal places, 
+        we examine the digit immediately after the desired decimal place. 
+        If this digit is less than <m>5</m>, simply remove all subsequent digits. 
+        If the digit is <m>5</m> or greater, we add <m>1</m> to the digit in the desired decimal 
+        and eliminate the following digits. 
+    </p>
     <activity>
         <introduction>
             <p>

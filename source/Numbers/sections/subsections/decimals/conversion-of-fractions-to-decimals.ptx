@@ -1,26 +1,5 @@
 <subsection xml:id="subsec-conversion-of-fractions-to-decimals">
     <title>Conversion of fractions to decimals</title>
-    <activity>
-        <introduction>
-            <p>
-                <alert>Work in groups</alert>
-            </p>
-        </introduction>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-    </activity>
     <p> 
         To convert a fraction into a decimal, we divide the numerator by the denominator. 
         For instance, to find the decimal equivalent of a fraction such as <m>\frac{1}{2}</m>,
@@ -50,6 +29,27 @@
             </li>
         </ul>
     </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
     <example>
         <statement>
             <p>
@@ -109,7 +109,7 @@
                             </me>
                         </p>
                         <p>
-                            Write down <m>18</m> with the decimal point <m>1</m> space from the right (because <m>10</m> has <m>1</m> zero)
+                            Write down <m>18</m> with the decimal point <m>1</m> space from the right (because <m>10</m> has one zero)
                         </p>
                         <p>
                             <md>

@@ -1,5 +1,10 @@
 <subsection xml:id="subsec-expressing-numbers-in-standard-form">
     <title>Expressing Numbers in Standard Form</title>
+    <p>
+        <alert>Standard form</alert> is a way of representing numbers in a clear and consistent way. 
+        A number expressed in the form of <m>p \times 10^n</m>,
+        where <m>n</m> is an integer and <m>p</m> is greater than zero but less than <m>10 </m> is said to be in standard form.
+    </p>
     <activity>
         <introduction>
             <p>
@@ -24,12 +29,92 @@
     <example>
         <statement>
             <p>
-                
+                Express each of the following numbers in standard from:
+            </p>
+            <p>
+                <ol marker="a)" cols="3">
+                    <li>
+                        <p>
+                            <m>5679</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.000712</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1236.9721</m>
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
         <solution>
             <p>
-                
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>5679</m>
+                        </p>
+                        <p>
+                            To express <m>5679</m> in standard form, we start by writing the first digit of the number.
+                        </p>
+                        <p>
+                            The first digit of <m>5679</m> is <m>5</m>. 
+                            We then place a decimal point after it and write the remaining digits, giving <m>5.679</m>.
+                        </p>
+                        <p>
+                            Since we moved the decimal point <m>3</m> places to the left, we multiply by <m>10^{3}</m>.
+                        </p>
+                        <p>
+                            Therefore, the standard form of <m>5679</m> is <m>5.679 \times 10^{3}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.000712</m>
+                        </p>
+                        <p>
+                            To express <m>0.000712</m> in standard from, we start by identifying
+                            the first non-zero digit
+                        </p>
+                        <p>
+                            The first non-zero digit in <m>0.000712</m> is <m>7</m>.
+                        </p>
+                        <p>
+                            Next, we place the decimal point immediately after <m>7</m>, giving <m>7.12</m>.
+                        </p>
+                        <p>
+                            Since we shifted the decimal point <m>4</m> places to the right,
+                            we express this as an exponent of <m>-4</m> with base <m>10</m>.
+                        </p>
+                        <p>
+                            Therefore, the standard form of <m>0.000712</m> is <m>7.12 \times 10^{-4}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1236.9721</m>
+                        </p>
+                        <p>
+                            To express <m>1236.9721</m> in standard form, we begin by identifying the first non-zero digit.
+                        </p>
+                        <p>
+                            The first non-zero digit in <m>1236.9721</m> is <m>1</m>.
+                        </p>
+                        <p>
+                            Next, we place the decimal point immediately after <m>1</m>, giving <m>1.2369721</m>.
+                        </p>
+                        <p>
+                            Since we shifted the decimal point <m>3</m> places to the left, we express this as an exponent of <m>3</m> with base <m>10</m>.
+                        </p>
+                        <p>
+                            Therefore, the standard form of <m>1236.9721</m> is <m>1.2369721 \times 10^{3}</m>.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </solution>
     </example>

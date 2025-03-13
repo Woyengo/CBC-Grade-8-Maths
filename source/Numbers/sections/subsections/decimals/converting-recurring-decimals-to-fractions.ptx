@@ -1,5 +1,14 @@
 <subsection xml:id="subsec-converting-recurring-decimals-to-fractions">
     <title>Converting Recurring Decimals to Fractions</title>
+    <p>
+        In the previous lesson, <xref ref="subsec-recurring-decimals"/>, we explored <alert>recurring decimals</alert>. 
+        Now, we will learn how to convert recurring decimals into fractions. 
+    </p>
+    <p>
+        To do this, we start by defining the decimal as an unknown variable, say <m>x</m>, and label this as equation <m>1</m>. 
+        Next, we multiply both sides of equation <m>1</m> by <m>10^n</m>, where <m>n</m> represents the number of repeating digits, and label this as equation <m>2</m>. 
+        Finally, we subtract equation <m>1</m> from equation <m>2</m> to eliminate the recurring part and solve for <m>x</m>. 
+    </p>
     <activity>
         <introduction>
             <p>
@@ -109,6 +118,60 @@
                     <li>
                         <p>
                             <m>0.\dot{6}\dot{3}</m>
+                        </p>
+                        <p>
+                            We equate the recurring decimal to a variable, say <m>x</m>, to create equation <m>(1)</m>
+                        </p>
+                        <p>
+                            <me>x  =  0.6363... \qquad \qquad \qquad \text{equation}(1)</me>
+                        </p>
+                        <p>
+                            Since <m>0.6363...</m> has two repeating digits, we multiply both sides of equation<m>(1)</m> by <m>100</m>
+                            so that the recurring  digit of the decimals align (this creates equation <m>(2)</m>)
+                        </p>
+                        <p>
+                            <me>100x  =  63.63... \qquad \qquad \qquad \text{equation}(2)</me>
+                        </p>
+                        <p>
+                            Subtract equation<m>(1)</m> from equation<m>(2)</m>
+                        </p>
+                        <tabular>
+                            <row>
+                                <cell halign="right"><m>100x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>63.63...</m></cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="right"><m>- x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>0.63...</m></cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell><m>99x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>63</m></cell>
+                            </row>
+                        </tabular>
+                        <p>
+                            Solve for <m>x</m>, by dividing both side of the equation by <m>99.</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>99x \amp= 63 </mrow>
+                                <mrow> \amp </mrow>
+                                <mrow>\frac{99x}{99} \amp= \frac{63}{99} </mrow>
+                                <mrow> \amp </mrow>
+                                <mrow> \amp= \frac{63}{99} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Simplify the fraction
+                        </p>
+                        <p>
+                            <m>\frac{\cancel{63}^7}{\cancel{99}_{11}} = \frac{7}{11}</m>
+                        </p>
+                        <p>
+                            Therefore, <m>0.\dot{6}\dot{3} = \frac{7}{11}</m>
                         </p>
                     </li>
                 </ol>
