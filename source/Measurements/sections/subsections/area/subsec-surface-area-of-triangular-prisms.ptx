@@ -1,0 +1,42 @@
+<subsection xml:id="subsec-surface-area-of-triangular-prisms">
+    <title>Surface area of of triangular prisms</title>
+    <p>
+        <m>\textbf{Engae}</m>
+    </p>
+    <p>
+        In the previous classes, you calculated the area of a squares, rectangels and triangles. How did yo do it?
+    </p>
+    <p>
+        In this section, You will learn how to determine the surface area of a triangular prism.
+    </p>
+    <definition xml:id="def-triangular-prism">
+        <statement>
+            <p>
+                A <m>\textbf{triangular prism}</m> is a three-dimensional 
+                shape with two triangular faces and three rectangular faces.
+            </p>
+            <p>
+                It belongs to the family of prisms and has a 
+                total of <m>5</m> faces,  <m>9</m> edges, and <m>6 </m> vertices.
+            </p>
+            <p>
+                The figure below shows the triangular prism.
+            </p>
+        </statement>
+    </definition>
+
+   
+
+
+
+    
+
+
+
+
+ 
+
+
+
+    
+</subsection>

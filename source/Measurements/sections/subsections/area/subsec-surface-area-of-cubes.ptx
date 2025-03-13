@@ -263,34 +263,35 @@
                         The ballot box is a cube with sides measurering <m>40 \,cm </m> long. There is a rectangular opening at the top face of the 
                         box whose sides measure <m>15\,cm \,\text{by} \,1 \,cm</m> as shown on the right. Calculate the external surface area of the ballot box.
                     </p>
-                    <image>
-                    <latex-image>
+                    <image width="40%">
+                    <latex-image  label="question2">
                         \begin{tikzpicture}
-                             % Define cube vertices
-                            \coordinate (A) at (0,0);
-                            \coordinate (B) at (2,0);
-                            \coordinate (C) at (2,2);
-                            \coordinate (D) at (0,2);
+                            % Define colors
+                            \definecolor{lightblue}{RGB}{173, 216, 230}
 
-                            \coordinate (E) at (0.8,0.8);
-                            \coordinate (F) at (2.8,0.8);
-                            \coordinate (G) at (2.8,2.8);
-                            \coordinate (H) at (0.8,2.8);
+                            % Define cube dimensions
+                            \def\cubex{4}
+                            \def\cubey{4}
+                            \def\cubez{4}
 
-                            % Draw the front face
-                            \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                            % Draw filled cube faces (light blue)
+                            \fill[lightblue] (0,0,0) -- ++(\cubex,0,0) -- ++(0,\cubey,0) -- ++(-\cubex,0,0) -- cycle; % Front face
+                            \fill[lightblue] (0,0,\cubez) -- ++(\cubex,0,0) -- ++(0,\cubey,0) -- ++(-\cubex,0,0) -- cycle; % Top face
+                            \fill[lightblue] (0,0,0) -- ++(0,0,\cubez) -- ++(0,\cubey,0) -- ++(0,0,-\cubez) -- cycle; % Side face
 
-                            % Draw the back face
-                            \draw[thick ] (E) -- (F) -- (G) -- (H) -- cycle;
+                            % Draw cube edges
+                            \draw[thick] (0,0,0) -- ++(\cubex,0,0) -- ++(0,\cubey,0) -- ++(-\cubex,0,0) -- cycle; % Front face
+                            \draw[thick] (0,0,\cubez) -- ++(\cubex,0,0) -- ++(0,\cubey,0) -- ++(-\cubex,0,0) -- cycle; % Top face
+                            \draw[thick] (0,0,0) -- ++(0,0,\cubez); % Connect edges
+                            \draw[thick] (\cubex,0,0) -- ++(0,0,\cubez);
+                            \draw[thick] (\cubex,\cubey,0) -- ++(0,0,\cubez);
+                            \draw[thick] (0,\cubey,0) -- ++(0,0,\cubez);
 
-                            % Connect front and back faces
-                            \draw[thick] (A) -- (E);
-                            \draw[thick] (B) -- (F);
-                            \draw[thick] (C) -- (G);
-                            \draw[thick] (D) -- (H);
+                            % Slot on top (small rectangle)
+                            \fill[black] (\cubex*0.4,\cubey*0.6,\cubez) -- ++(\cubex*0.2,0,0) -- ++(0,-\cubey*0.1,0) -- ++(-\cubex*0.2,0,0) -- cycle;
 
-                            \draw [rotate=360,very thick, fill=green] (1.4,2) --(1.6,2)--(1.6,1.9)--(1.4,1.9)--(1.4,2);
-                            \node [ rotate=360,fill=blue]at (1.2,1) {\textbf{VOTE}};
+                            % Text "VOTE" on the front
+                            \node[red, font=\bfseries, scale=1.5] at (\cubex*0.3,\cubey*0.4,0) {VOTE};
 
                         
                             
