@@ -1,0 +1,310 @@
+<subsection xml:id="subsec-area-of-irregular-shapes">
+    <title>Area of irregular shapes</title>
+    <p>
+        <m>\textbf{Recall:}</m>
+    </p>
+    <p>
+        In the previous grades, you learnt about irregular shapes. What are some of the irregular shapes 
+        did you come across.
+    </p>
+    <p>
+        In this section, you will learn about area of irregular shapes you learn in grade <m>5</m> and 
+        <m>7</m>
+    </p>
+    <definition xml:id="def-irregular-shapes">
+        <statement>
+            <p>
+                <m>\textbf{Irreguar shapes}</m> are shapes that do not have 
+                equal sides and angles.
+            </p>
+            <p>
+                A kite,leaf,flowers and etc are some of the irregular shapes around.
+            </p>
+            <p>
+                Look at the figure below for some irregular shapes around us.
+            </p>
+            <image source="/leaf.png" width="90%">
+                <shortdescription>Irregular shapes</shortdescription>
+            </image>
+        </statement>
+    </definition>
+    <activity>
+        <p>
+        <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <m>\textbf{Materials Needed:}</m>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Graph paper with <m>1\,cm</m> squre grids.
+
+
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A pencil and ruler.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An irregular shape (such as a kite).
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Work out the area of one square grid in the one centimetre squre grid.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                       <ol marker="(a)">
+                        <li>
+                            <p>
+                                 On the square grid provided, draw a kite 
+                                 covering several grid squares.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Count the fully covered squares inside the kite.
+                            </p>
+                        </li>
+                       </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    Identify and estimate the partially 
+                                    filled squares in the drawing.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Divide the number of incomplete squares by two.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    Add the number of complete squares to half the number of incomplete 
+                                    squares.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Multiply the answer you got in step 4(a) by the area of the 
+                                    square.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss, compare and share your result with other groups in your class
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{blue} \textbf{Essential Concept:}}</m>
+    </p>
+    <p>
+        Drawing or tracing an irregular form on a square grid can allow you to estimate its area.  The area is approximated by counting the number of full unit squares and treating 
+        incomplete squares as half squares.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Estimate the area of the figure be low (<m>\textbf{in unit squares}</m>).
+            </p>
+            <image width="40%">
+            <latex-image label="irregular1">
+                \begin{tikzpicture}
+                    % Draw the grid
+                    \draw[black, thick] (-2.5,-2.5) rectangle (2.5,2.5);
+                    \draw[black, dashed] (-2,-2.5) -- (-2,2.5);
+                    \draw[black, dashed] (-1,-2.5) -- (-1,2.5);
+                    \draw[black, dashed] (0,-2.5) -- (0,2.5);
+                    \draw[black, dashed] (1,-2.5) -- (1,2.5);
+                    \draw[black, dashed] (2,-2.5) -- (2,2.5);
+
+                    \draw[black, dashed] (-2.5,-2) -- (2.5,-2);
+                    \draw[black, dashed] (-2.5,-1) -- (2.5,-1);
+                    \draw[black, dashed] (-2.5,0) -- (2.5,0);
+                    \draw[black, dashed] (-2.5,1) -- (2.5,1);
+                    \draw[black, dashed] (-2.5,2) -- (2.5,2);
+
+                    % Draw the irregular shape
+                    \draw[red, thick] plot[smooth cycle, tension=0.7] coordinates 
+                    {(-1.8,-1.2) (-2,0) (-1.5,1.3) (-0.5,2) (0.8,1.8) 
+                    (1.5,0.9) (1.2,-0.1) (0.8,-0.4) (0.4,-0.6) (-0.8,-1.5)};
+                \end{tikzpicture}
+            </latex-image>
+               
+            </image>
+        </statement>
+        <solution>
+            <p>
+                It is clearly showing that in the grid,
+            </p>
+            <p>
+                The complete unit squress <m>= 3 </m>
+            </p>
+            <p>
+                The incomplete unit squares <m>= \frac{10}{2}=5</m>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                <md>
+                    <mrow> A=\amp (3+5)\, \text{unit squares}</mrow>
+                    <mrow> =\amp 7 \,\text{unit squares}</mrow>
+                    
+                </md>
+            </p>
+            <p>
+                Therefore, the surface area of the ubove figure is <m>={\color{blue}  7 \,\textbf{unit squares} }</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Estimate the area of the shape below in square centimetres.
+            </p>
+            <image width="50%">
+            <latex-image label="irregular2">
+                \begin{tikzpicture}
+                    % Draw the grid
+                    \draw[very thick,step=1cm, purple] (-3,-3) grid (3,3);
+                    
+                    % Draw the adjusted leaf shape within the grid
+                    \draw[very thick, blue] (-2,0) .. controls (-2,1) and (-1.5,2) .. (-1,2)
+                    .. controls (-0.5,2.5) and (0.5,2.5) .. (1,2)
+                    .. controls (1.5,2) and (2,1) .. (2,0)
+                    .. controls (2,-1) and (1.5,-2) .. (1,-2)
+                    .. controls (0.5,-2.5) and (-0.5,-2.5) .. (-1,-2)
+                    .. controls (-1.5,-2) and (-2,-1) .. (-2,0);
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                From the scetch below it clearly denot that,
+            </p>
+            <image width="50%">
+            <latex-image label="Irregular3">
+                \begin{tikzpicture}
+                    % Draw the grid
+                    \draw[very thick ,step=1cm, purple] (-3,-3) grid (3,3);
+                    
+
+                    
+                    % Draw the adjusted leaf shape within the grid
+                    \draw[very thick, blue] (-2,0) .. controls (-2,1) and (-1.5,2) .. (-1,2)
+                    .. controls (-0.5,2.5) and (0.5,2.5) .. (1,2)
+                    .. controls (1.5,2) and (2,1) .. (2,0)
+                    .. controls (2,-1) and (1.5,-2) .. (1,-2)
+                    .. controls (0.5,-2.5) and (-0.5,-2.5) .. (-1,-2)
+                    .. controls (-1.5,-2) and (-2,-1) .. (-2,0);
+                    
+                    % Manually place numbers for fully enclosed squares 1 to 8
+                    \node[black] at (-0.5,1.5) {\textbf{1}};
+                    \node[black] at (0.5,1.5) {\textbf{2}};
+                    \node[black] at (-0.5,0.5) {\textbf{3}};
+                    \node[black] at (0.5,0.5) {\textbf{4}};
+                    \node[black] at (-0.5,-0.5) {\textbf{5}};
+                    \node[black] at (0.5,-0.5) {\textbf{6}};
+                    \node[black] at (-0.5,-1.5) {\textbf{7}};
+                    \node[black] at (0.5,-1.5) {\textbf{8}};
+                    
+                    
+                    % The incompleted squres.
+                    \node[blue] at (0.5,2.5) {\textbf{1}};
+                    \node[blue] at (-0.5,2.5) {\textbf{2}};
+                    \node[blue] at (-1.5,1.5) {\textbf{3}};
+                    \node[blue] at (-1.5,0.5) {\textbf{4}};
+                    \node[blue] at (-1.5,-0.5) {\textbf{5}};
+                    \node[blue] at (-1.5,-1.5) {\textbf{6}};
+                    \node[blue] at (-0.5,-2.5) {\textbf{7}};
+                    \node[blue] at (0.5,-2.5) {\textbf{8}};
+                    \node[blue] at (1.5,-1.5) {\textbf{9}};
+                    \node[blue] at (1.5,-0.5) {\textbf{10}};
+                    \node[blue] at (1.5,0.5) {\textbf{11}};
+                    \node[blue] at (1.5,1.5) {\textbf{12}};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+            <p>
+                The complete unit squress <m>= 8 </m>
+            </p>
+            <p>
+                The incomplete unit squares <m>= \frac{12}{2}=6</m>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                <md>
+                    <mrow> A=\amp (8+6)\, \text{ square centimetres}</mrow>
+                    <mrow> =\amp 14 \,\text{square centimetres}</mrow>
+                    
+                </md>
+            </p>
+            <p>
+                Therefore, the Estimated area of the ubove shape  is <m>={\color{blue} 14 \,\text{square centimetres}}</m>.
+            </p>
+        </solution>
+    </example>
+    <p>
+        <m>\textbf{Follow-up activity:}</m>
+    </p>
+    <p>
+        During your free time, trace your fingers on a square grid and calculate the area of 
+        your finger. What is the area?
+    </p>
+    
+    <p>
+        <m>\textbf{Some digital activities for you.}</m>
+    </p>
+
+    
+    
+
+   
+
+
+
+    
+
+
+
+
+ 
+
+
+
+    
+</subsection>
