@@ -1,0 +1,454 @@
+<subsection xml:id="subsec-surface-area-of-a-closed-cylinder">
+    <title>Surface area of a closed cylinder</title>
+    <p>
+        <m>\textbf{Engage}</m>
+    </p>
+    <p>
+        In grade 7, you calculated the area of a circle and rectangles. How did you do it?
+    </p>
+    <p>
+        In this section, you will calculate the surface area of a closed cylinder.
+    </p>
+    <definition xml:id="def-cylinder">
+        <statement>
+            <p>
+                A <m>\textbf{cylinder}</m> is a three-dimensional structure having circular bases which are parallel to each other.
+            </p>
+            <p>
+                It does not have any vertices. Generally, 
+                the area of the three-dimensional shapes refers to the surface area.
+            </p>
+            <p>
+                The surface area is represented in square units. For example, <m>cm^2\,, m^2</m> and so on. 
+            </p>
+            <p>
+                A cylinder contains <m>r \,\text{and}\, h</m> where <m>r</m> represent the radius of the cylinder and <m>h</m> represent the height of the cylinder as shown below;
+            </p>
+            <image width="50%">
+            <latex-image label="cylinder1">
+                \begin{tikzpicture}[scale=1]
+                   % Define cylinder dimensions
+                    \def\radius{1.5} % Radius
+                    \def\height{3}   % Height
+
+                    % Draw the top and bottom ellipses
+                    \draw[thick] (-\radius,0) arc (180:360:\radius cm and 0.5cm); % Bottom ellipse (visible part)
+                    \draw[thick, dashed] (\radius,0) arc (0:180:\radius cm and 0.5cm); % Bottom ellipse (hidden part)
+                    \draw[thick] (-\radius,\height) arc (180:360:\radius cm and 0.5cm); % Top ellipse (visible part)
+                    \draw[thick] (\radius,\height) arc (0:180:\radius cm and 0.5cm); % Top ellipse (hidden part)
+
+                    % Draw the vertical sides
+                    \draw[thick] (-\radius,0) -- (-\radius,\height);
+                    \draw[thick,fill=blue] (\radius,0) -- (\radius,\height);
+
+                    % Draw height indicator
+                    \draw[dashed] (0,0) -- (0,\height);
+                    \node[left,fill=pink] at (0,\height/2) {\textit{\textbf{h}}};
+
+                    % Draw radius indicator
+                    \draw[dashed] (0,0) -- (\radius,0);
+                    \node[below,,fill=pink] at (\radius/2,0) {\textit{\textbf{r}}};
+
+                    % Mark points
+                    \fill (0,0) circle (1.5pt);
+                    \fill (0,\height) circle (1.5pt);
+
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+            <p>
+                <m>\textbf{Area of a Cylinder Formula}</m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The total area of a cylinder is based on:
+                        </p>
+                        <p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Curved Surface Area (CSA)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Base Area
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                <m>\textbf{Curved Surface Area}</m>
+            </p>
+            <p>
+                The curved surface area of a cylinder (CSA) is defined as the area of the 
+                curved surface of any given cylinder having a base radius '<m>r</m>', and height '<m>h</m>'
+            </p>
+            <p>
+                The formula for a curved area is given by:<me>\textbf{CSA} = 2\pi \times r \times h \text{Square units}</me>
+            </p>
+            <p>
+                <m>\textbf{Base Area of Cylinder}</m>
+            </p>
+            <p>
+                The base of the cylinder is a circular shape. Hence, 
+                by the formula of area of the circle, we know,
+            </p>
+            <p>
+                Area of the circular bases of cylinder <m>= 2 (\pi r^2)</m>  [Since the cylinder has two circular bases]
+            </p>
+            <p>
+                <m>\textbf{Total Surface Area of Cylinder}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{TSA} = \amp 2 \pi r h  + 2 \pi r^2</mrow>
+                    <mrow> =\amp {\color{blue} 2 \pi r(h+r)}</mrow>
+                </md>
+            </p>
+        
+            
+        </statement>
+    </definition>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <m>\textbf{What you require:}</m> A pair of scissor and a piece of paper.
+        </p>
+        <p>
+            <ol marker="(i).">
+                <li>
+                    <p>
+                        Make a paper made of a cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure and record the the length of the model. 
+                    </p>
+                    <image width="40%">
+                    <latex-image label="cylinder2">
+                        \begin{tikzpicture}[scale=0.5]
+                            % Draw the main cylinder body
+                            \draw [very thick] (-3,0) -- (3,0);
+                            \draw [very thick](-3,2) -- (3,2);
+                            
+                            % Draw the circular ends
+                            \draw[dashed,very thick] (-3,1) ellipse (0.5 and 1);
+                            \draw[dashed,very thick] (3,1) ellipse (0.5 and 1);
+
+                            % Draw the solid end caps
+                            \draw [very thick](-3,0) arc (270:90:0.5 and 1);
+                            \draw [very thick] (3,0) arc (270:90:-0.5 and 1);
+
+                            % Label the length
+                            \draw[-&gt;,very thick] (0,2.2) -- (3,2.2);
+                            \draw[-&gt;,very thick] (0,2.2) -- (-3,2.2);
+                            \node[above] at (0,2.2) {Length};
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                    </image>
+                </li>
+                <li>
+                    <p>
+                       Open the model as illustrated below. 
+                    </p>
+                    <image width="50%">
+                    <latex-image label="cylinder3">
+                        \begin{tikzpicture}[scale=0.5]
+                            % Define rectangle width and height
+                            \def\rectWidth{6}
+                            \def\rectHeight{2}
+                            \def\circleRadius{1}
+
+                            % Draw the rectangle
+                            \draw [very thick] (-\rectWidth/2,0) rectangle (\rectWidth/2,\rectHeight);
+                            
+                            % Draw the circles at the width of the rectangle
+                            \draw [very thick] (-\rectWidth/2-\circleRadius,\rectHeight/2) circle (\circleRadius);
+                            \draw [very thick] (\rectWidth/2+\circleRadius,\rectHeight/2) circle (\circleRadius);
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                    </image>
+                </li>
+                <li>
+                    <p>
+                        Fold one circular end into two equal parts as shown;
+                    </p>
+                    <image width="40%">
+                    <latex-image label="cylinder4">
+                        \begin{tikzpicture}
+                            % Define radius
+                            \def\radius{0.5}
+
+                            % Draw the semicircle facing upwards
+                            \draw [thick](-\radius,0) arc (180:0:\radius);
+
+                            % Draw the diameter
+                            \draw [thick](-\radius,0) -- (\radius,0);
+
+                            % Draw label for the diameter
+                            \draw[-&gt;] (-0.5,-0.1) -- (0.5,-0.1);
+                            \node[below] at (0,-0.2) {Diameter};
+                        \end{tikzpicture}
+                    </latex-image>
+                        
+                    </image>
+                </li>
+                <li>
+                    <p>
+                        Measure and recod the diameter.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate the circumference of the circular end.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Rotate the width of the rectangular part with the diameter of the circular part.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the area of the rectangular part.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the area of the circular ends.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the surface area of the cylinder.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share your answer with other groups
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{blue} \textbf{Learning Points}}</m>
+    </p>
+    <p>
+        The total surface area of a cylinder of radius <m>r</m> and height <m>h</m>,
+        is given by the sum of the areas of the two circular faces and the 
+        curves face. Thus, 
+        
+    </p>
+    <p>
+        <md>
+            <mrow> \textbf{Total surface area of a cylinder}=\amp 2\pi r^2+2\pi r h </mrow>
+            <mrow>= \amp 2\pi r(r+h) </mrow>
+        </md>
+    </p>
+    <p>
+        <m>\textbf{Note:}</m> A cylinder is always considered closed, unless
+        it is specified that it is open.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Calculate the surface area of the cylinder shown.
+            </p>
+            <image width="40%">
+            <latex-image label="cylinder5">
+                \begin{tikzpicture}[scale=0.2, rotate=90] % Rotated 90 degrees to lie horizontally
+                    % Define dimensions
+                    \def\diameter{24} % Diameter of the cylinder
+                    \def\radius{12}   % Radius of the cylinder (half of diameter)
+                    \def\height{30}   % Length of the cylinder (previously height)
+
+                    % Draw and fill the curved surface with green
+                    \fill[white!50] (-\radius,0) -- (-\radius,-\height)
+                    arc (180:360:\radius cm and 2cm)
+                    -- (\radius,0)
+                    arc (0:180:\radius cm and 2cm);
+
+                    % Fill the front and back cross-sections with white
+                    \fill[white] (-\radius,0) arc (180:360:\radius cm and 2cm)
+                    arc (0:180:\radius cm and 2cm);
+                                
+                    \fill[white] (-\radius,-\height) arc (180:360:\radius cm and 2cm)
+                    arc (0:180:\radius cm and 2cm);
+
+                    % Draw the front ellipse
+                    \draw[thick] (-\radius,0) arc (180:360:\radius cm and 2cm);
+                    \draw[ thick] (\radius,0) arc (0:180:\radius cm and 2cm);
+
+                    % Draw the back ellipse
+                    \draw[thick] (-\radius,-\height) arc (180:360:\radius cm and 2cm);
+                    \draw[ thick] (\radius,-\height) arc (0:180:\radius cm and 2cm);
+
+                    % Draw the sides
+                    \draw[thick] (-\radius,0) -- (-\radius,-\height);
+                    \draw[thick] (\radius,0) -- (\radius,-\height);
+
+                    % Label Diameter (Vertical since cylinder is lying down)
+                    \draw[&lt;-&gt;, red, thick] (-\radius, 4) -- (\radius, 4)
+                    node[midway, above, font=\bfseries, red, rotate=-90] {24 cm};
+
+                    % Label Length (formerly height, now horizontal)
+                    \draw[&lt;-&gt;, blue, thick] (\radius + 2, 0) -- (\radius + 2, -\height)
+                    node[midway, left, font=\bfseries, blue, rotate=-90] {30 cm};
+                \end{tikzpicture}
+            </latex-image>
+            
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+               Given that, <m>h=30\,cm \quad \text{and} \quad d=24\,cm</m> 
+            </p>
+            <p>
+                We first get the radius of the cylinder which is given by,
+            </p>
+            <p>
+                <md>
+                    <mrow> r=\amp\frac{d}{2} </mrow>
+                    <mrow> =\amp \frac{24}{2} </mrow>
+                    <mrow> =\amp 12\,cm </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{Surface area}=\amp 2\pi r^2+2\pi r h</mrow>
+                    <mrow> =\amp  2\pi r(r+h)</mrow>
+                    <mrow> =\amp 2 \times \pi \times 12\,cm\,(12\,cm+30\,cm ) </mrow>
+                    <mrow> =\amp 2 \times \pi \times 12\,cm\,\times 42\,cm </mrow>
+                    <mrow> =\amp  2 \times 22 \times 12 \times 6</mrow>
+                    <mrow> =\amp 3\,168 \,cm^2 </mrow>
+                </md>
+            </p>
+            <p>
+                The surface area of the above cylinder is <m>{\color{blue} 3\,168 \,cm^2}</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The figure below shows a cylinder. Calculate the surface area of the cylinder to two decimal places.(<m>\textbf{Use}\, \pi=\frac{22}{7}</m>)
+            </p>
+            <image width="40%">
+            <latex-image label="cylinder6">
+                \begin{tikzpicture}
+                    % Draw the top ellipse
+                    \draw[thick,fill=blue] (0,0) ellipse (2.1cm and 0.7cm);
+
+                    % Draw the diameter inside the top ellipse
+                    \draw[thick] (-2.1,0) -- (2.1,0);
+
+                    % Draw the side edges
+                    \draw[very thick,fill=blue] (-2.1,0) -- (-2.1,-9.1);
+                    \draw[very thick,fill=blue] (2.1,0) -- (2.1,-9.1);
+
+                
+
+                    % Draw the front part of the bottom ellipse
+                    \draw[very thick] (-2.1,-9.1) arc (180:360:2.1cm and 0.7cm);
+
+                    % Labeling the height
+                    \node[right] at (2.3,-4.55) {\large $ 91$ cm};
+
+                    % Labeling the diameter
+                    \node[above] at (0,0) {\large $ 21$ cm};
+
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+               Given that, <m>h=91\,cm \quad \text{and} \quad d=21\,cm</m> 
+            </p>
+            <p>
+                We first get the radius of the cylinder which is given by,
+            </p>
+            <p>
+                <md>
+                    <mrow> r=\amp\frac{d}{2} </mrow>
+                    <mrow> =\amp \frac{21}{2} </mrow>
+                    <mrow> =\amp 10.5\,cm </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{Surface area}=\amp 2\pi r(r+h)</mrow>
+                    <mrow> =\amp 2 \times \pi \times 10.5 \,cm(10.5\,cm+91\,cm)</mrow>
+                    <mrow>= \amp  2 \times \pi \times 10.5 \,cm \times 101.5 \,cm</mrow>
+                    <mrow> =\amp 6\,699.00\,cm^2 </mrow>
+                </md>
+            </p>
+            <p>
+                The surface area of the cylinder<m>={\color{blue} 6\,699.00\,cm^2}</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Calculate the surface area of unsharpened circular pencil 
+                in the shape of a cylinder whose radius is <m>0.2\,m</m> 
+                and height is height is <m>1.4\,m</m>. (<m>\textbf{Use}\, \pi=3.142</m>)
+            </p>
+        </statement>
+        <solution>
+            <p>
+               Given that, <m>h=01.4\,m \quad \text{and} \quad r=0.2\,m</m> 
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                <md>
+                    <mrow> \text{Surface area}=\amp 2\pi r(r+h)</mrow>
+                    <mrow> =\amp 2 \times 3.142  \times 0.2 \,m(0.2\,m+1.4\,m)</mrow>
+                    <mrow>= \amp  2 \times 3.142 \times 0.2 \,m \times 1.6 \,m</mrow>
+                    <mrow> =\amp 2.01088\,m^2 </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, surface area <m>={\color{ blue} 2.01088\,m^2 }</m>
+            </p>
+            
+        </solution>
+    </example>
+
+
+
+    
+
+
+
+
+ 
+
+
+
+    
+</subsection>
