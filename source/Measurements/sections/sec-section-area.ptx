@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-area" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Area</title>
+  <title>Area</title>
 
-    <introduction>
+  <introduction>
 
-        
-       <p>
-         Area is the region bounded by the shape of an object.
-       </p>
-        <p>
-          We  calculate areas of different objects eg. triangle, rectangle, squre,circle, and many more.
-        </p>
+      
+      <p>
+        Area is the region bounded by the shape of an object.
+      </p>
+      <p>
+        We  calculate areas of different objects eg. triangle, rectangle, squre,circle, and many more.
+      </p>
 
-    </introduction>
-
-
+  </introduction>
 
 
-    <xi:include href="subsections/area/subsec-area-of-a-circle.ptx" />
 
-    <xi:include href="subsections/area/subsec-area-of-a-sector.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-circle.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-sector.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-cubes.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-cuboids.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-a-closed-cylinder.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-open-cylinders.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-triangular-prisms.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-irregular-shapes.ptx" />
+
  
 
 

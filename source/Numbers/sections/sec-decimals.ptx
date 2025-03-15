@@ -8,5 +8,11 @@
         </p>
     </introduction>
     <xi:include href="subsections/decimals/conversion-of-fractions-to-decimals.ptx" />
-    
+    <xi:include href="subsections/decimals/recurring-decimals.ptx" />
+    <xi:include href="subsections/decimals/converting-recurring-decimals-to-fractions.ptx" />
+    <xi:include href="subsections/decimals/rounding-off-decimal-numbers-to-the-required-decimal-places.ptx" />
+    <xi:include href="subsections/decimals/expressing-numbers-to-the-required-significant-figures.ptx" />
+    <xi:include href="subsections/decimals/expressing-numbers-in-standard-form.ptx" />
+    <xi:include href="subsections/decimals/combined-operations.ptx" />
+
 </section>

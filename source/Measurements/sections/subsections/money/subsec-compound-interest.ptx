@@ -1,0 +1,226 @@
+<subsection xml:id="subsec-compound-interest">
+    <title>Compound interest</title>
+    <introduction>
+        <p>
+          <m>\textbf{Recall:}</m>
+        </p>
+        <p>
+            In the previous sections, you learnt how to calculate simple interest.
+        </p>
+        <p>
+            In this section, you will learn how to calculate another type of interest called <m>\textbf{compound interest.}</m>
+        </p>
+        <definition xml:id="def-compound-interest">
+            <statement>
+                <p>
+                    <m>\textbf{Compound interest}</m> is the interest where the principal keeps changing each year.
+                </p>
+                <p>
+                    The principal of any year is the sum of the principal and the interest of the previous year.
+                </p>
+                <p>
+                    <m>\textbf{Compound interest}</m> is the total interest earned in all the year.
+                </p>
+            </statement>
+        </definition>
+    </introduction>
+    
+
+    <subsubsection xml:id="subsubsec-compound-interest">
+        <title>Calculating compound interest step by step per annum in real life situation</title>
+        <activity>
+            <p>
+                <m>\textbf{work in groups}</m>
+            </p>
+            <p>
+                Consider a trader who deposited <m>Ksh. \, 50 \,000</m> in a bank in a certain year.
+            </p>
+            <p>
+                <ol marker="(i).">
+                    <li>
+                        <p>
+                            If interest of <m>5\%</m> was earned that year, calculate the interest.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the total amount of money in the account the end of that year.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            In the second year, the trader earned <m>5\%</m> interest on the total 
+                            amount i the first year.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            In the third year, the trader earned <m>5\%</m> interest on the total amount in the second 
+                            year.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the total amount of money in the account at the end 
+                            of the third year.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Subtract the initial deposit from the total amount of money 
+                            in the account at the end of the third year.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and compare result with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+        <p>
+            <m>{\color{blue} \textbf{Essential Concept:}}</m>
+        </p>
+        <p>
+            The difference between the amount derived from accumulated interest 
+            and the initial amount is the compound interest.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    A trader took a loan of <m>Ksh. \, 400\,000</m> at the rate of <m>12\%</m> 
+                    compound interest for three year. Find the total amount of interest repaid after three years.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>\text{Interest at the end of the first year}=\amp \frac{P_1 RT}{100} </mrow>
+                        <mrow> =\amp 400\,000 \times \frac{12}{100} \times 1 </mrow>
+                        <mrow> =\amp Ksh\, 48\,000 </mrow>
+                        
+                    </md>
+                </p>
+                <p>
+                   <md>
+                    <mrow> \textbf{Principle}(P_2)=\amp \textbf{Initial principal}(p_1)+ \textbf{interest} </mrow>
+                    <mrow>= \amp Ksh. \, 400\,000 + Ksh\, 48 \, 000 </mrow>
+                    <mrow> =\amp Ksh. \, 448\,000 </mrow>
+                   </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{Interest at the end of the second year}=\amp \frac{P_2 RT}{100} </mrow>
+                        <mrow> =\amp Ksh. \, 448\,000 \times \frac{12}{100}  \times 1</mrow>
+                        <mrow> =\amp Ksh.\, 53\,760</mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \textbf{Principle}(P_3)=\amp \textbf{Initial principal}(p_2)+ \textbf{interest} </mrow>
+                        <mrow> =\amp Ksh. \, 448\,000 + Ksh. \, 53\,760  </mrow>
+                        <mrow> =\amp Ksh. \, 501\,760</mrow>
+                    </md>
+                </p>
+                <p>
+                   <md>
+                     <mrow>\text{Interest at the end of the second year}(p_3)=\amp \frac{P_3 RT}{100} </mrow>
+                     <mrow> =\amp Ksh. 501\,760 \times \frac{12}{100} \times 1 </mrow>
+                     <mrow> =\amp Ksh. 60\,211.20 </mrow>
+                   </md> 
+                </p>
+                <p>
+                    Therefore, 
+                </p>
+                <p>
+                    <md>
+                        <mrow> \textbf{Compound interest}= \amp Ksh.(48\,000+53\, 760+60\,211.20)</mrow>
+                        <mrow>= \amp {\color{blue} Ksh. 161\,971.20 } </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Akinyi deposited <m>sh \,60 \,000</m> in a bank. The bank paid interest at the rate of <m>10\%</m> per annum. He withdrew all the 
+                    money at the end of three years.
+                </p>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                Calculate the compound interest after the three years.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How much money was in his account by the end of the three years?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                <m>\text{Simple interest} = \text{principal} \times \text{rate} \times \text{time}</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \text{First year's interest} =\amp sh\, 60\,000 \times \frac{10}{100} \times 1 </mrow>
+                                    <mrow> =\amp sh\, 6\,000</mrow>
+                                    
+                                </md>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \text{Second year's interest} =\amp (sh\, 60\,000  + sh\, 6\,000 )\times \frac{10}{100} \times 1 </mrow>
+                                    <mrow>= \amp sh\, 66\,000 \times \frac{10}{100} \times 1</mrow>
+                                    <mrow>= \amp sh\,6\,600 </mrow>
+                                </md>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \text{Third year's interest} =\amp (sh\, 66\,000  + sh\, 6\,600 )\times \frac{10}{100} \times 1 </mrow>
+                                    <mrow>= \amp sh\,72\,600 \times \frac{10}{100} \times 1 </mrow>
+                                    <mrow>= \amp sh\, 7\,260 </mrow>
+                                </md>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\text{Compound interest}=  \amp \text{total interest earned in the three years.} </mrow>
+                                    <mrow> =\amp sh\,6\,000+sh\,6\,600+sh\,7\,260 </mrow>
+                                    <mrow> =\amp {\color{blue} sh\, 19\,860 }</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <md>
+                                    <mrow> \textbf{Amount after three years}=\amp \textbf{initial principal} + \textbf{total interest} </mrow>
+                                    <mrow>= \amp sh\,60\,0000+sh\, 19\,860 </mrow>
+                                    <mrow>= \amp {\color{blue} sh\,79\,860} </mrow>
+                                </md> 
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+
+
+
+
+ 
+
+
+
+    
+</subsection>
