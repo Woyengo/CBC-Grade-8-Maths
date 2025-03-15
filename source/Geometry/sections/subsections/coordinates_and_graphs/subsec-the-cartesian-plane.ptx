@@ -1,22 +1,23 @@
 <subsection xml:id="subsec-the-cartesian-plane">
-    <title>the cartesian plane</title>
+    <title> cartesian plane</title>
 
     <p>
-        Coordinates refer to an ordered pair of numbers (x, y), that represent the exact location of a point on the Cartesian plane.
-    </p>
-    <p>
+        The Cartesian plane is a two-dimensional coordinate system defined by two perpendicular number lines
         <ul>
             <li>
                 <p>
-                    The x-coordinate tells you how far left or right the point is from the origin.
+                    The <m>\textbf{x-axis}</m>, (horizontal line).
                 </p>
             </li>
             <li>
                 <p>
-                    The y-coordinate tells you how far up or down the point is from the origin.
+                    The <m>\textbf{y-axis}</m>, (vertical line).
                 </p>
             </li>
         </ul>
+    </p>
+    <p>
+        These axes intersect at a point called the <m>\textbf{origin (0,0)}</m> , dividing the plane into four.
     </p>
     <activity>
         <p>
