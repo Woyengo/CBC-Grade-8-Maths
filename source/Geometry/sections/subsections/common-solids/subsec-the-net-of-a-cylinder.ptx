@@ -1,0 +1,47 @@
+ <subsection xml:id="subsec-The-net-of-a-cylinder">
+        <title>The net of a cylinder</title>
+        <p>
+            In the previous section, you identified a cylinder. Discuss what to look for when identifying a cylinder.
+        </p>
+
+        <p>
+            In this section, you will sketch nets of a cylinder.
+        </p>
+
+        <p>
+            A cylinder has 3 faces. Two faces are circles and one face is a rectangle. A net of a cylinder is made up of 2 circles and 1 rectangle.
+        </p>
+
+        <activity>
+            <title>Create and Experiment with a Net of a cylinder</title>
+            <statement>
+                <p>
+                   <ul>
+                    <li>
+                        <p>
+                             Use the MOVE tool Toolbar Image to move the Unfold or Fold Net slider. This will show how the cylinder can be turned into a net. A net is created by imagining that you cut and unfold the 3-D shape into one, flat shape. 
+                        </p>
+                    </li>
+                              
+                    <li>
+                        <p>
+                             Using the same slider, the net can be folded back into the original 3-D shape. 
+                        </p>
+                    </li>
+                   </ul>
+                </p>
+
+                    <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-cylinder" geogebra="v9tjmspz" width="100%" aspect="9:5" reset-icon="yes" material-width="1100px"/>
+                    </figure>
+            </statement>
+        </activity>
+
+        <m>{\color{blue} \text{To observe the net of a cylinder.}}</m>
+            <figure>
+                <caption></caption>
+                <interactive xml:id="geogebra-cylinde" geogebra="eevymk37" width="100%" aspect="9:5" reset-icon="yes" material-width="1100px"/>
+            </figure>
+        
+    </subsection>
