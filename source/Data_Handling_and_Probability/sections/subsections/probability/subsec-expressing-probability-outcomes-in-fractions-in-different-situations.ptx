@@ -134,7 +134,7 @@
     <example>
         <statement>
             <p>
-                Akinyi tossed a fair coin <m>30</m> times and noted the result of each flip. She recorded whether the coin landed on heads or tails for every trial.
+                Akinyi tossed a fair coin <m>20</m> times and noted the result of each flip. She recorded whether the coin landed on heads or tails for every trial.
             </p>
             <p>
                 The results of her experiments are shown in the table below.
@@ -149,8 +149,8 @@
                     </row>
                     <row halign="left" header="yes">
                         <cell>Number of times</cell>
-                        <cell><m>22</m></cell>
                         <cell><m>8</m></cell>
+                        <cell><m>12</m></cell>
                     </row>
                 </tabular>
             </table>
@@ -177,7 +177,92 @@
                 <ol marker="a)">
                     <li>
                         <p>
-                           P(Head) = 
+                            Total trials = <m>8+12 = 20</m>
+                        </p>
+                        <p>
+                           P(Head) = Number of heads/Total trials.
+                        </p>
+                        <p>
+                            P(H) = <m>\frac{8}{20}</m> = <m>\frac{2}{5}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            P(Tail) = Number of tails/Total trials.
+                        </p>
+                        <p>
+                            P(T) = <m>\frac{12}{20}</m> = <m>\frac{3}{5}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Mr. Indimuli puts <m>30</m> letters in a bag. The letters include <m>8</m>F's, <m>7</m>D's, <m>6</m>C's, <m>5</m>B's and <m>4</m>A's. He will randomly select a letter out of the bag to determine your semester grade. Find the following probabilities. Give an answer as a fraction.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Find the probability of getting an F.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the probability of passing.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculate the probability of getting an A or B.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Total numbers of letters: <m>8+7+6+5+4 = 30</m>
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Calculate P(F): Number of F's/Total number of letters.
+                        </p>
+                        <p>
+                            Number of <m>\textbf{F's} = 8</m>
+                        </p>
+                        <p>
+                            P(F) = <m>\frac{8}{30}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Probability of passing: P(A,B,C,D).
+                        </p>
+                        <p>
+                            Number of A's = <m>4</m>, B's = <m>5</m> , C's = <m>6</m>, D's = <m>7</m>
+                        </p>
+                        <p>
+                            Total for A,B,C,D = <m>4+5+6+7 = 22</m>
+                        </p>
+                        <p>
+                            P(A,B,C,D) = <m>\frac{22}{30}</m> = <m>\frac{11}{15}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            To calculate P(A,B):
+                        </p>
+                        <p>
+                            Total for A and B ; <m>4+5 = 9</m>
+                        </p>
+                        <p>
+                            P(A,B) = <m>\frac{9}{30}</m> = <m>\frac{3}{10}</m>
                         </p>
                     </li>
                 </ol>

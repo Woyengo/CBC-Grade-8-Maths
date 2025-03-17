@@ -16,6 +16,7 @@
     <xi:include href="subsections/probability/subsec-performing-chance-experiments-in-different-situations.ptx"/>
     <xi:include href="subsections/probability/subsec-writing-experimental-probability-outcomes-in-different-situations.ptx"/>
     <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-fractions-in-different-situations.ptx"/>
-    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-decimals-or-percentages-in-different-situations.ptx"/>
+    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-decimals-in-different-situations.ptx"/>
+    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-percentages-in-different-situations.ptx" />
 </section>
 
