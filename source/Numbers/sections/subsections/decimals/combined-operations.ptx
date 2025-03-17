@@ -1,22 +1,69 @@
 <subsection xml:id="subsec-combined-operations">
     <title>Combined Operations</title>
+    <p>
+        Combined operations on decimals involve performing multiple arithmetic 
+        operations such as addition, subtraction, multiplication, and division within a single expression. 
+        We follow the order of brackets, division, multiplication, addition, and 
+        finally Subtraction (BODMAS) when working out multiple operations.
+    </p>
     <activity>
         <introduction>
             <p>
-                <alert>Work in groups</alert>
+                <alert>Work in groups of 5 learners</alert>
+            </p>
+            <p>
+                <alert>Materials Needed:</alert>  A <m>30</m> cm ruler.
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    Measure the length of an A<m>4</m> exercise book in centimeters.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    
+                    Measure the width of the A<m>4</m> exercise book in centimeters.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Measure the length of a pen in centimeters.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Measure the length of the teacher's board in centimeters.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Convert all the measurements from centimeters to meters by dividing each by <m>100</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Divide the board’s length in meters by the length of the A<m>4</m> exercise book.
+                    Multiply the result by the width of the A<m>4</m> exercise book.
+                    Finally, add the length of the pen to the result.
+                    <!-- and multiply by width of the A<m>4</m> exercise book then add the of the pen. -->
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share and discuss your findings with the rest of learners in class.
                 </p>
             </statement>
         </task>

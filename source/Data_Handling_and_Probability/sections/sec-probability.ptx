@@ -1,13 +1,21 @@
-<section xml:id="sec-probability" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Probability" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Probability</title>
-
-    <xi:include href="subsections/probability/subsec-identifying-events-involving-chance-in-real-life-situations.ptx" />
-
-    <xi:include href="subsections/probability/subsec-performing-chance-experiments-in-different-situations.ptx" />
-
-    <xi:include href="subsections/probability/subsec-writing-experimental-probability-outcomes-in-different-situations.ptx" />
-
-    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-fractions-in-different-situations.ptx" />
-
-    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-decimals-or-percentages-in-different-situations.ptx" />
+    <introduction>
+        <p>
+            Probability refers to the likelihood of a specific event happening. 
+            It is calculated by dividing the number of desired outcomes by the total number of possible outcomes, essentially expressing how likely something is to occur in a given situation, often using simple experiments like flipping coins or rolling dice to illustrate the concept. 
+        </p>
+        <p>
+            For example, we use probability to predict outcomes in a match, elections, and treatment.
+        </p>
+    </introduction>
+    
+    <xi:include href="subsections/probability/subsec-identifying-events-involving-chance-in-real-life-situations.ptx"/>
+    <xi:include href="subsections/probability/subsec-performing-chance-experiments-in-different-situations.ptx"/>
+    <xi:include href="subsections/probability/subsec-writing-experimental-probability-outcomes-in-different-situations.ptx"/>
+    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-fractions-in-different-situations.ptx"/>
+    <xi:include href="subsections/probability/subsec-expressing-probability-outcomes-in-decimals-or-percentages-in-different-situations.ptx"/>
 </section>
+

@@ -1,11 +1,13 @@
 <subsection xml:id="subsec-drawing-bar-graphs-of-data-from-real-life-situations">
-    <title>drawing bar graphs of data from real life situations</title>
+    <title>drawing bar graphs of data </title>
 
     <p>
-        Data representation is the process of arranging and presenting data in a way that makes it simple to comprehend and analyze.  Diagrams, tables, charts, graphs and other visual formats can be used for this.  Patterns, trends, and relationships in the data are easier to spot when they are properly represented.
+        A bar graph is a graphical representation of data using rectangular bars,
+        where the length or height of each bar is proportional to the value it represents.
     </p>
     <p>
-        Data Interpretation is the method for evaluating the represented data in order to derive significant findings.  It involves understanding what the data indicates, spotting patterns and drawing well-informed conclusions from the results.
+        Bars can be displayed either vertically or horizontally and
+        are used to compare different categories or groups.
     </p>
     <activity>
         <p>
@@ -124,7 +126,7 @@
             <m>{\color{red} \textbf{Further Activity}}</m>
         </p>
         <p>
-            <ol marker="(a).">
+            <ol marker="a.">
                 <li>
                     <p>
                         Collect data in your class about the ages of students and represent it using a bar graph
