@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-length-of-an-arc-of-a-circle-1">
+  <title>Length of an arc of a circle 1</title>
+  <p>
+    In the previous section we have explored about getting perimeter that is the circumference of a circle. Can you remember how you did it?
+  </p>
+  <p>
+    In this section we will calculate the arc length of two sectors namely,semi-circle and quarter circle.
+  </p>
+    <p>
+    An arc is a part of the circumference of a circle. The <m> \textbf {circumference} </m> is the total distance around the circle, and an arc is just a section of that curved edge. 
+  </p>
+  <sidebyside>
+
+    <image>
+    <latex-image label = "circle-5">
+      \begin{tikzpicture}
+        \fill[blue] (-2,0) arc[start angle=180, end angle=360, radius=2cm] -- (0,0) -- cycle;
+        % Draw the radius and label it 'r'
+        \draw[thick, -&gt;] (0,0) -- (2,0) node[midway, above] {\large $Radius$};
+        % Draw the center point
+        \fill (0,0) circle (2pt);
+        \node at (-1,-2.5){Semi-circle};
+      \end{tikzpicture}
+    </latex-image>
+    </image>
+    <image>
+    <latex-image label = "threequarter-1">
+      \begin{tikzpicture}
+        % Draw a 3/4 (270-degree) filled green circle
+        \fill[green] (0,0) -- (2,0) arc[start angle=0, end angle=270, radius=2cm] -- cycle;
+        
+        % Draw the outline of the 3/4 circle
+        \draw[thick] (2,0) arc[start angle=0, end angle=270, radius=2cm] -- (0,0) -- cycle;
+        
+        % Indicate the radius with a label 'r'
+        \draw[thick, -&gt;] (0,0) -- (2,0) node[midway, above] {\large $ Radius $};
+        \node at (0.5,-1){Three-Quarter circle};
+        % Draw the center point
+        \fill (0,0) circle (2pt);
+      \end{tikzpicture}
+    </latex-image>
+    </image>
+    <p>
+      example quarter
+    </p>
+    <image>
+    <latex-image label = "quarter-3">
+      \begin{tikzpicture}
+        \fill[pink] (-2,0) arc[start angle=180, end angle=270, radius=2cm] -- (0,0) -- cycle;
+        % Draw the radius and label it 'r'
+        \draw[thick, -&gt;] (0,0) -- (-2,0) node[midway, above] {\large $Radius$};
+        % Draw the center point
+        \fill (0,0) circle (2pt);
+        \node at(0.5,1){Quarter circle};
+      \end{tikzpicture}
+    </latex-image>
+    </image>
+  </sidebyside>
+   <activity>
+     <ul>
+      <li>
+        <p>
+         What you require: Circular cut out of a known diameter , a pair of scissors or razor blade, a ruler and a piece of string.
+       </p>
+      </li>
+    </ul> 
+    <li>
+        <p>
+          Calculate the circumference of the cut out by measuring the crcular edge using a string.
+       </p>
+      </li>
+      <li>
+        <p>
+          Use a ruler to measure the length of the string.
+       </p>
+      </li>
+      <li>
+        <p>
+          Cut the cutout into two equal parts along the diameter. This enables you obtain two equal objects called a <m>\textbf { Semi-circle.}</m>
+       </p>
+      </li>
+      <li>
+        <p>
+          Measure the curved length of one semi-circle using a string. Use a ruler to measure the length of the string.
+       </p>
+      </li>
+      <li>
+        <p>
+         Measure the angle of the at the centre O  of the semicircle. Express the angle as a fraction of <m>360 ^\circ</m>.
+       </p>
+      </li>
+      <li>
+        <p>
+         Compare the answer you got in step 3 and the answer you got in step 4. What do you notice?
+       </p>
+      </li>
+      <li>
+        <p>
+         Discuss how to calculate the length of the arc of the semi-circle. 
+       </p>
+      </li>
+      <p>A semi-circle is a sector of a circle. Where the term sector is derived from the word section.</p>
+      <hint><p>Arc length of a semi-circle is given by  <m> \frac {180^ \circ} {360^ \circ} \times \pi \text { d or}  \frac {180^ \circ} {360^ \circ} \times 2 \pi r = \frac {1}{2} \pi \text{ d or } \frac {1}{2}(2 \pi r)</m></p></hint>
+    
+    <p> Do an extended activity to explore on how to calculate the length of the arc of a quarter circle by simply cutting the semi-circle and repeat the steps of measuring circumference length </p>
+     <p> A quarter a circle is called a quadrant. So how many Quadrants do we have? <m>\textbf{ 4 }.</m> </p>
+    <p>A quarter-circle is also a sector of a circle.</p>
+    <hint>
+    <p>Arc length of a quarter-circle is <m>\frac {90^ \circ} {360^ \circ} \times \pi \text{ d or } \frac {90^ \circ} {360^ \circ} \times 2 \pi r =  \frac {1}{4} \pi \text{ d  or } \frac {1}{4}(2 \pi r)</m></p>
+    </hint>
+    <p>
+      Can you compute one for a three quarter-circle?
+    </p>
+    </activity>
+    <example>
+     <statement>
+       <p>Work out the perimeter of the following sectors of a circle.</p>
+       <sidebyside>
+          <image>
+           <latex-image label = "three-quarter-circle-1">
+            \begin{tikzpicture}
+              % Draw a 3/4 (270-degree) filled green circle
+              \fill[white] (0,0) -- (2,0) arc[start angle=0, end angle=270, radius=2cm] -- cycle;
+              
+              % Draw the outline of the 3/4 circle
+              \draw[thick] (2,0) arc[start angle=0, end angle=270, radius=2cm] -- (0,0) -- cycle;
+              
+              % Indicate the radius with a label 'r'
+              \draw[thick, -&gt;] (0,0) -- (2,0) node[midway, above] {\large $ r = 7 cm$};
+              % Draw the center point
+              \fill (0,0) circle (2pt);
+              \node at (0,1.5){\textbf{(a)}};
+            \end{tikzpicture}
+           </latex-image>
+          </image>
+          <image>
+           <latex-image label = "quarter-circle-1">
+            \begin{tikzpicture}
+              \fill[white] (-2,0) arc[start angle=180, end angle=270, radius=2cm] -- (0,0) -- cycle;
+        % Draw the radius and label it 'r'
+        \draw[thick, -&gt;] (0,0) -- (-2,0) node[midway, above] {\large $Radius$};
+        % Draw the center point
+        \fill (0,0) circle (2pt);
+              \node at (1.5,0.5){\textbf{(b)}};
+            \end{tikzpicture}
+           </latex-image>
+          </image>
+       </sidebyside>
+    </statement>
+     <solution>
+      <statement>
+       <p>
+        <ol marker="(a)">
+                <li>
+                <p>
+                  <md>
+                    <mrow> \text{ Circumference } = \amp \frac {3}{4} \times 2\pi r + 2 \text {r}</mrow>
+                    <mrow>  2 \text{ r }  =\amp 2 \times 7 \text { cm } = 14 \text { cm } </mrow>
+                    <mrow>  = \amp \frac {3}{4} \times \frac {22}{7} \times 14 \text { cm } + 14 \text{ cm }   </mrow>
+                    <mrow>  = \amp \frac {924}{28} \text { cm } + 14 \text{ cm }   </mrow>
+                    <mrow>  = \amp ( 33 + 14 )\text { cm }  </mrow>
+                    <mrow>  = \amp 47 \text{ cm }  </mrow>
+                 </md>
+               </p> 
+          </li>
+          <li> 
+            <p >
+              <md>
+                <mrow> \text{ Circumference } = \amp \frac {1}{4} \times 2\pi r + 2 \text {r}</mrow>
+                <mrow>  2 \text{ r }  =\amp 2 \times 35 \text { cm } = 70 \text { cm } </mrow>
+                <mrow>  = \amp \frac {1}{4} \times \frac {22}{7} \times 70 \text { cm } + 70 \text{ cm }   </mrow>
+                <mrow>  = \amp \frac {308}{28} \text { cm } + 14 \text{ cm }   </mrow>
+                <mrow>  = \amp ( 110 + 70 )\text { cm }  </mrow>
+                <mrow>  = \amp 180 \text{ cm }  </mrow>
+              </md>
+           </p>  
+         </li>   
+         </ol>
+        </p>
+     </statement>
+     </solution>
+    </example>
+  
+</subsection>
+  
