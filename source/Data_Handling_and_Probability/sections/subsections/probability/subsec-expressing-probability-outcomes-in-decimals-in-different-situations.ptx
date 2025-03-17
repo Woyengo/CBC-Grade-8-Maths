@@ -1,0 +1,266 @@
+<subsection xml:id="subsec-expressing-probability-outcomes-in-decimals-in-different-situations">
+    <title>Expressing probability outcomes in decimals  in different situations</title>
+    <p>
+        Expressing probability outcomes in decimals means representing the likelihood of events using numbers between 0 and 1 (eg 0.25), where:
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    0 represents an impossible event (0% chance).
+                </p>
+            </li>
+            <li>
+                <p>
+                    1 represents a certain event (100% chance).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Values between 0 and 1 represent varying degrees of likelihood.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Probabilities always add up to 1.0.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            Given a colour spinner below.
+        </p>
+        <image width="40%">
+            <latex-image>
+                \begin{tikzpicture}
+                    % Define colors
+                    \definecolor{spinnerRed}{RGB}{255, 100, 100}
+                    \definecolor{spinnerBlue}{RGB}{100, 150, 255}
+                    \definecolor{spinnerGreen}{RGB}{100, 200, 100}
+                    \definecolor{spinnerYellow}{RGB}{255, 230, 100}
+    
+                    % Draw the four equal sections
+                    \fill[spinnerRed] (0,0) -- (0:2) arc (0:90:2) -- cycle;
+                    \fill[spinnerBlue] (0,0) -- (90:2) arc (90:180:2) -- cycle;
+                    \fill[spinnerGreen] (0,0) -- (180:2) arc (180:270:2) -- cycle;
+                    \fill[spinnerYellow] (0,0) -- (270:2) arc (270:360:2) -- cycle;
+    
+                   % Draw the circle outline
+                   \draw[thick] (0,0) circle (2);
+    
+                   % Draw the dividing lines
+                   \foreach \i in {0,1,2,3} {
+                       \draw[thick] (0,0) -- (90*\i:2);
+                    }
+    
+                   % Add color labels with smaller font size
+                   \node at (45:1.3) {\normalsize \textbf{RED}};
+                   \node at (135:1.3) {\normalsize \textbf{BLUE}};
+                   \node at (225:1.3) {\normalsize \textbf{GREEN}};
+                   \node at (315:1.3) {\normalsize \textbf{YELLOW}};
+    
+                   % Draw the spinner arrow
+                   \fill[black] (-0.15,1.5) -- (0.15,1.5) -- (0,1.8) -- cycle;
+                   \draw[thick,black] (0,0) -- (0,1.5);
+                   \fill[black] (0,0) circle (0.2);
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Spin the spinner <m>15</m> times.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record how many times the spinner lands on each color.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the probability of each color appearing by dividing the number of times it appears by the total spins.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Express the probability as a decimal.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record the result in the table below.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes"> 
+                                <cell>Colour</cell>
+                                <cell>Number of times appeared</cell>
+                                <cell>Probability(decimal)</cell>
+                            </row>
+                            <row>
+                                <cell>Red</cell>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Blue</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Green</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Yellow</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Discuss the following questions in groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Which color had the highest probability?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Did each color appear as expected? Why or why not?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If we spin the spinner more times, will the probabilities change?
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </activity>
+    <p>
+        Learning point
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Probability expressed as a decimal has one key learning point: proportion.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A decimal probability represents the proportion of times an event is expected to occur when an experiment is repeated many times. For example, a probability of 0.25 means the event is expected to occur in 25% of trials or 1 out of 4 times.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                A bag contains six apples, three guavas and one orange. What is the probability that a fruit selected at random is:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            A guava? 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            An apple?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            An orange?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Express the answer as a decimal.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Apples = <m>6</m>
+            </p>
+            <p>
+                Guavas = <m>3</m>
+            </p>
+            <p>
+                Orange = <m>1</m>
+            </p>
+            <p>
+                Total number of fruits  <m>6+3+1 = 10</m>
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Calculating the probability of selecting a guava
+                        </p>
+                        <p>
+                            <m>\textbf{Probability(guava) = Number of guava/Total number of fruits.}</m>
+                        </p>
+                        <p>
+                            = <m>\frac{3}{10}</m>
+                        </p>
+                        <p>
+                            Therefore, <m>3\div 10=0\cdot 3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculating the probability of selecting an Apple.
+                        </p>
+                        <p>
+                            <m>\textbf{Probability(Apple) = Number of Apples/Total number of fruits.}</m>
+                        </p>
+                        <p>
+                            = <m>\frac{6}{10}</m>
+                        </p>
+                        <p>
+                            Therefore, <m>6\div 10=0\cdot 6</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculating the probability of selecting an Orange.
+                        </p>
+                        <p>
+                            <m>\textbf{Probability(Orange) = Number of Orange/Total number of fruits.}</m>
+                        </p>
+                        <p>
+                            = <m>\frac{1}{10}</m>
+                        </p>
+                        <p>
+                            Therefore, <m>1\div 10=0\cdot 1</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+
+    
+</subsection>
