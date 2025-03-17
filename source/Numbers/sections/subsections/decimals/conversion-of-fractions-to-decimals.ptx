@@ -32,20 +32,68 @@
     <activity>
         <introduction>
             <p>
-                <alert>Work in groups</alert>
+                <alert>Work in groups of 5 learners</alert>
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    Complete the following table below by following the steps below:
                 </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Convert the fractions into equivalent fractions with a 
+                                denominator that is a power of <m>10</m> <m>(\text{ e.g. }, 10, 100, 1000).</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Simplify the new fraction to decimal form.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <tabular top="medium" bottom="medium" right="medium" left="medium">
+                    <row header="yes">
+                        <cell>Fraction</cell>
+                        <cell>Equivalence fraction</cell>
+                        <cell>Decimal</cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{3}{20}</m></cell>
+                        <cell><m>\frac{3 \times 5}{20 \times 5} = \frac{15}{100}</m></cell>
+                        <cell><m>0.15</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{7}{4}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{51}{250}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{9}{25}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{3}{50}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    
+                    Share your completed table with the rest of the class. 
+                    Discuss how you converted the fractions and determined their decimal equivalents.
                 </p>
             </statement>
         </task>

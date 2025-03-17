@@ -1,12 +1,12 @@
 <subsection xml:id="subsec-identifying-integers">
     <title>Identifying integers</title>
-    <p>
+    <!-- <p>
         <term>Integers</term> are a fundamental concept in mathematics with wide applications
         in real-life situations. In sports and games, points, scores, and 
         rankings are often represented using integers. In Grade <m>7</m>, 
         you learned about whole numbers. In this section, we will take 
         a step further to explore <term>integers</term>. 
-    </p>
+    </p> -->
     <activity>
         <introduction>
             <p>
@@ -49,10 +49,18 @@
             </statement>
         </task>
     </activity>
-    <p>
+    <definition xml:id="def-integer-term">
+        <statement>
+            <p>
+                <term>Integers</term> are set of positive numbers, 
+                negatives numbers and zero.
+            </p>
+        </statement>
+    </definition>
+    <!-- <p>
         <term>Integers</term> are set of positive numbers, 
         negatives numbers and zero.
-    </p>
+    </p> -->
     <p>
         <ul>
             <li>

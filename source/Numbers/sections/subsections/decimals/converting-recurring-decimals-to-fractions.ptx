@@ -12,20 +12,34 @@
     <activity>
         <introduction>
             <p>
-                <alert>Work in groups</alert>
+                <alert>Work in groups of 5 learners</alert>
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    Convert <m>0.\dot{1}</m> into a fraction.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    
+                    Describe the method or strategy you used to convert <m>0.\dot{1}</m> into a fraction.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Discuss any challenges you faced and how you overcame them.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share and discuss with other learners about your findings.
                 </p>
             </statement>
         </task>
@@ -58,7 +72,7 @@
                             <m>0.\dot{2}</m>
                         </p>
                         <p>
-                            Step <m>1:</m> To convert the <m>o.\dot{2}</m> into a fraction, we let <m>o.\dot{2}</m> in the expanded form be equal to unkown variable, say, <m>x</m>.
+                            Step <m>1:</m> To convert the <m>0.\dot{2}</m> into a fraction, we let <m>0.\dot{2}</m> in the expanded form be equal to unkown variable, say, <m>x</m>.
                         </p>
                         <p>
                             Now, <m> x = 0.2222...</m>

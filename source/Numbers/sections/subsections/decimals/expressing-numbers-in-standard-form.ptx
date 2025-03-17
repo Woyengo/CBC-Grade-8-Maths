@@ -8,20 +8,37 @@
     <activity>
         <introduction>
             <p>
-                <alert>Work in groups</alert>
+                <alert>Work in groups of 5 learners.</alert>
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    Using digits <m>1,2,3,4,5,6,7,8,9,</m>
+                    create a <m>4</m> digit number and write it down on a piece of paper.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    
+                    Starting from the digit in the ones place, 
+                    move <m>3</m> steps to the left and insert a decimal point to form a decimal number.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Multiply the decimal number obtained in the previous step by <m>10</m> 
+                    raised to the power of the number of steps moved.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share your final number in standard form with the rest of learners in your class.
                 </p>
             </statement>
         </task>
