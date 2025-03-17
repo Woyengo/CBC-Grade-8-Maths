@@ -1,10 +1,13 @@
-<subsection xml:id="subsec-rates">
+<subsection xml:id="subsec-rates" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Rates</title>
 
-    <p>
-        A rate is a ratio that compares two quantities measured in different units. 
-        For example, if a car travels 100 miles in 2 hours, the rate is 100 miles/2 hours = 50 miles per hour.
-    </p>
+   <introduction>
+        <p>
+            A rate is a ratio that compares two quantities measured in different units. 
+            For example, if a car travels 100 miles in 2 hours, the rate is 100 miles/2 hours = 50 miles per hour.
+        </p>
+   </introduction>
+    
 
     <subsubsection xml:id="subsubsec-Identifying-Rates-in-Different-Situations">
         <title>Identifying Rates in Different Situations</title>
@@ -36,8 +39,8 @@
 
             <table>
                 <title>Calculating Rates</title>
-                <tabular>
-                    <row>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
                         <cell>Mobile Service Provider</cell> <cell>Data Rates Per Minute</cell>
                     </row>
 
@@ -61,7 +64,7 @@
         </activity>
         
     </subsubsection>
-    
+
     <subsubsection xml:id="subsubsec-Working-out-Rates-in-Real-Life-Situations">
         <title>Working out Rates in Real Life Situations</title>
 
@@ -88,16 +91,19 @@
                 </li>
             </ol>
         </activity>
-        
-    </subsubsection>
 
-    <p>
-        <em><me>Learning Point</me></em>
-    </p>
+        <p>
+            <md>
+                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+            </md>
+        </p>
 
-    <p>
-        A rate is a ratio that compares two quantities measured in different units.
-    </p>
+        <p>
+            <me>
+                {\color{green} \text{A rate is a ratio that compares two quantities measured in different units.}}
+            </me>
+            
+        </p>
 
     <example>
         <statement>
@@ -128,11 +134,11 @@
             </p>
 
             <p>
-                <me>\text{Rate} = \frac{100}{2}</me>
+                <me>\text{Rate} = \frac{100 \, miles}{2 \, hours}</me>
             </p>
 
             <p>
-                <me>\text{Rate} = 50\, \text{miles per hour} </me> 
+                <me>\text{Rate of speed} = 50\, \text{miles per hour} </me> 
             </p>
         </solution>
     </example>
@@ -170,7 +176,7 @@
             </p>
 
             <p>
-                <me>\text{Rate} = 2 \text{holes per hour}</me> 
+                <me>\text{Rate} = 2 \, \text{holes per hour}</me> 
             </p>
         </solution>
     </example>
@@ -208,8 +214,10 @@
             </p>
 
             <p>
-                <me>\text{Rate} = 4 \text{litres per day}</me>
+                <me>\text{Rate} = 4 \, \text{litres per day}</me>
             </p>
         </solution>
     </example>
+        
+    </subsubsection>
 </subsection>
