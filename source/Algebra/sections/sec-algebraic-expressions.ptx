@@ -5,14 +5,17 @@
 
     <introduction>
         <p>
-            
+            In Grade 7, we learned how to form and simplify algebraic expressions. In this section, we will explore factorization, simplifying algebraic fractions, and evaluating expressions by substitution. These concepts help us manipulate expressions efficiently, making it easier to solve equations and apply algebra in real-life situations.
+        </p>
+        <p>
+            Understanding algebraic expressions is crucial in fields like engineering, business, and technology. For example, when calculating costs, distances, or quantities, algebra simplifies complex relationships into manageable expressions.
         </p>
     </introduction>
 
-  <xi:include href="subsections/subsec-factorising-algebraic-expressions.ptx" />
+  <xi:include href="subsections/subsec-factorisation-of-algebraic-expressions.ptx" />
 
   <xi:include href="subsections/subsec-simplifying-algebraic-fractions-by-factorisation.ptx" />
 
   <xi:include href="subsections/subsec-simplifying-algebraic-fractions.ptx" />
 
-  <xi:include href="subsections/subsec-evaluating-algebraic-expression.ptx" />
+  <xi:include href="subsections/subsec-evaluating-algebraic-expressions-by-substitution.ptx" />
