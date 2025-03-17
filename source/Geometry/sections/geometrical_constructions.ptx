@@ -3,10 +3,14 @@
 <section xml:id="sec-geometrical_constructions">
     <title>Geometrical Constructions</title>
 
-    <p>
-        Geometrical constructions are a way of creating geometric figures using only a compass and a straightedge. 
-        These constructions are based on a set of rules that allow you to create figures such as lines, angles, 
-        and polygons with a high degree of accuracy.
-    </p>
-    
+    <xi:include href="subsections/geometrical_constructions/subsec-definition.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-parallel-lines.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-perpendicular-lines.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-dividing-lines-proportionally.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-angle-properties-of-polgons.ptx" /> 
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-regular-polygons.ptx" /> 
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-irregular-polygons.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-a-circle-touching-the-sides-of-a-triangle.ptx" />  
+         
 </section>
