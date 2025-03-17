@@ -1,7 +1,188 @@
 <subsection xml:id="subsec-expressing-probability-outcomes-in-fractions-in-different-situations">
     <title>Expressing probability outcomes in fractions in different situations</title>
     <p>
-        
+        Expressing probability outcomes in fractions means representing the likelihood of an event happening as a fraction, where the numerator represents the number of desired outcomes and the denominator represents the total number of possible outcomes.
     </p>
+    <p>
+        <m>\textbf{Key points about expressing probability as fractions:}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Structure: A probability fraction is written as "favorable outcomes / total possible outcomes". 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Interpretation: The larger the numerator, the higher the probability of the desired event happening. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Range: Probabilities expressed as fractions always fall between 0 (impossible event) and 1 (certain event). 
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            In a bag, there are <m>10</m> marbles of different colors:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>4</m> red marbles
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>3</m> blue marbles
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>2</m> green marbles
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>1</m> yellow marble
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            A student picks one marble at random from the bag.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Identify the total number of possible outcomes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find number of times you pick a marble, probability of picking each color, express it as a fraction and fill in your results in the table below
+                    </p>
+                    <table>
+                        <title>Identifying the Total Number of Possible Outcomes</title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Colour</cell>
+                                <cell>Number of Marbles</cell>
+                                <cell>Number of Times Picked</cell>
+                                <cell>Probability (Fraction Form)</cell>
+                            </row>
+                            <row halign="left" header="yes">
+                                <cell>Red</cell>
+                                <cell><m>4</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row halign="left" header="yes">
+                                <cell>Blue</cell>
+                                <cell><m>3</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row halign="left" header="yes"> 
+                                <cell>Green</cell>
+                                <cell><m>2</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row halign="left" header="yes">
+                                <cell>Yellow</cell>
+                                <cell><m>1</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Discuss your results with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        Learning points
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Probability of an event is the likelihood of an event occurring.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Probability as a measure can be expressed as a fraction.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Akinyi tossed a fair coin <m>30</m> times and noted the result of each flip. She recorded whether the coin landed on heads or tails for every trial.
+            </p>
+            <p>
+                The results of her experiments are shown in the table below.
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Face</cell>
+                        <cell>Head(H)</cell>
+                        <cell>Tail(T)</cell>
+                    </row>
+                    <row halign="left" header="yes">
+                        <cell>Number of times</cell>
+                        <cell><m>22</m></cell>
+                        <cell><m>8</m></cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Find the probability of getting a;
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Head
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Tail
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                           P(Head) = 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
     
 </subsection>
