@@ -1,0 +1,129 @@
+<subsection xml:id="subsec-surface-area-of-a-cylinder">
+    <title>Surface area of a cylinder</title>
+    <p>
+        The surface area of a cylinder is the total area of the curved surface and the two circular bases of the cylinder. 
+       </p>
+
+       <activity>
+        <statement>
+            <p>
+                Surface Area Formula for Cylinders
+
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Open up a cylinder and make observations about its surface area using its net.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-cylinder1" geogebra="qfw3vbyy" width="100%" aspect="9:7" reset-icon="yes"/>
+                </figure>
+        </statement>
+       </activity>
+
+       <activity>
+        <statement>
+            <p>
+                Work in groups
+            </p>
+
+            <p>
+                Use the applet to review the formula for total surface area of a cylinder.
+            </p>
+
+            <p>
+                
+              Use the slider  Close = Net =open or click on the play  button to see an animation of the net of the cylinder!
+            </p>
+
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-cylinder2" geogebra="uxwtsjbw" width="100%" aspect="9:7" reset-icon="yes"/>
+                </figure>
+        </statement>
+       </activity>
+
+       <example>
+        <statement>
+            <p>
+                The figure below shows a cylinder whose radius and height are <m>14</m><m>cm</m>.and <m>15</m><m>cm</m> respectively.
+            </p>
+
+            <image>
+            <latex-image>
+                \begin{tikzpicture}
+              % Define colors
+    \definecolor{myblue}{rgb}{0.3, 0.6, 1.0}
+    \definecolor{mygreen}{rgb}{0.0, 0.8, 0.0}
+    \definecolor{mypurple}{rgb}{0.6, 0.2, 1.0}
+    
+    % Draw the cylinder
+    \shade[bottom color=mygreen, top color=myblue, opacity=0.5] (0,0) ellipse (2 and 0.5);
+    \draw[thick, black] (0,0) ellipse (2 and 0.5);
+    \draw[thick, black] (-2,0) -- (-2,4);
+    \draw[thick, black] (2,0) -- (2,4);
+    \shade[bottom color=mygreen, top color=white, opacity=0.5] (0,4) ellipse (2 and 0.5);
+    \draw[thick, mypurple] (0,4) ellipse (2 and 0.5);
+    
+    % Radius annotation
+    \draw[dashed] (0,4) -- (1.5,4);
+    \draw[thick] (1.5,4) -- (1.5,3.8) -- (0,3.8);
+    \node[right] at (1.5,4) {\small $r$};
+
+    % Height annotation
+    \draw[dashed] (0,0) -- (0,4);
+    \node[right] at (0,2) {\small $h$};
+                \end{tikzpicture}
+            </latex-image>
+                <shortdescription></shortdescription>
+                
+            </image>
+
+            <p>
+                (a). Sketch the net of the cylinder.
+            </p>
+
+            <p>
+                (b). Work out the surface area of the cylinder from its net.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                (a).The net of the cylinder is shown below
+            </p>
+
+            <p>
+                <md>
+                    <mrow>\text{(b). Length of the rectangle=} \amp 2 \times \pi \times radius </mrow>
+                    <mrow>= \amp 2\times\frac{22}{7}\times14</mrow>
+                    <mrow>= \amp 88 cm</mrow>
+                </md>
+            </p>
+            <p>
+                The width of the rectangle is equal to the height of the cylinder =<m>15</m><m>cm</m>
+            </p>
+
+            <p>
+                <md>
+                    <mrow>\text{Area of the rectangle}= \amp length \times width </mrow>
+                    <mrow>= \amp88 cm \times 15 cm </mrow>
+                    <mrow>= \amp1320 cm^2 </mrow>
+                    <mrow>\text{Area of two circles}= \amp2\times \pi\times r^2 </mrow>
+                    <mrow>= \amp 2\times \frac{22}{7}\times14 \times14</mrow>
+                    <mrow>= \amp1232 cm^2 </mrow>
+                    <mrow>\text{Surface area}= \amp1329 cm^2 +1232 cm^2 </mrow>
+                    <mrow>= \amp2552 cm^2 </mrow>
+                </md>
+            </p>
+        </solution>
+       </example>
+    
+</subsection>
