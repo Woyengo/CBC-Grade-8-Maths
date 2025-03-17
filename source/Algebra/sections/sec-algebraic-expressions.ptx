@@ -13,4 +13,5 @@
 
   <xi:include href="subsections/subsec-factorisation-of-algebraic-expressions.ptx" />
 
+  <xi:include href="subsections/subsec-simplifying-algebraic-fractions.ptx" />
 </section>
