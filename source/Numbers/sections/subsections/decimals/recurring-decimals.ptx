@@ -12,20 +12,48 @@
     <activity>
         <introduction>
             <p>
-                <alert>Work in groups</alert>
+                <alert>Work in groups of 5 learners</alert>
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    Using the long division method, convert the fraction <m>\frac{6}{7}</m> to a decimal number upto <m>12</m> decimal places.
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    
+                    What do you notice about the division process, does the division end or it continues infinitely?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Identify the sequence of digits that repeat themselves after the decimal point.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    What do we call a decimal number where some digits repeat infinitely without ending?
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Provide another example of a recurring decimal.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share your findings with the rest of learners in the class.
                 </p>
             </statement>
         </task>
