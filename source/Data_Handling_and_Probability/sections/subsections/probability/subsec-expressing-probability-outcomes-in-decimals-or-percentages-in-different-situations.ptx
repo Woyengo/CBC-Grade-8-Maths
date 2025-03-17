@@ -1,7 +1,16 @@
 <subsection xml:id="subsec-expressing-probability-outcomes-in-decimals-or-percentages-in-different-situations">
     <title>Expressing probability outcomes in decimals or percentages in different situations</title>
     <p>
-        
+        Probabilities can be expressed as fractions, decimals (between 0 and 1), or percentages (0% to 100%), each offering a different perspective on the likelihood of an event, with decimals and percentages being useful for easy comparison and understanding
+    </p>
+    <p>
+        <m>\textbf{Key points about expressing probability outcomes in decimals or percentages}</m>
+    </p>
+    <p>
+        Percentages: Represent the probability as a percentage between 0% and 100% (e.g., 25% for a 25% chance).
+    </p>
+    <p>
+        Decimals: Represent the probability as a decimal value between 0 and 1 (e.g., 0.25 for a 25% chance). A decimal can be converted into a percentage by multiplying by 100.
     </p>
     
 </subsection>
