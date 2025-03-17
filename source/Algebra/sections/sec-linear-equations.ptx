@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-linear-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Linear Equations</title>
-
-    <introduction>
-        <p>
-            
-        </p>
-    </introduction>
-
-  
-  <xi:include href="subsections/subsec-forming-linear-equations-in-one-unknown(1).ptx" />
-
-  <xi:include href="subsections/subsec-forming-linear-equations-in-two-unknowns(2).ptx" />
-
-  <xi:include href="subsections/subsec-solving-linear-equations-by-elimination-method.ptx" />
-
-  <xi:include href="subsections/subsec-solving-linear-equations-by-substitution-method.ptx" />
-
-  <xi:include href="subsections/subsec-application-of-linear-equations.ptx" />
-
-
+<section xml:id="sec-linear-equations">
+  <title>Linear equations</title>
+  <p>
+    
+  </p>
 </section>
