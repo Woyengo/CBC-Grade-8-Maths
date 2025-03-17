@@ -8,20 +8,34 @@
     <activity>
         <introduction>
             <p>
-                <alert>Work in groups</alert>
+                <alert>Work in groups of 5 learners</alert>
             </p>
         </introduction>
         <task>
             <statement>
                 <p>
-                    
+                    Consider the following numbers: <m>0.00123,\,78.0089,\,12.3100,</m>
                 </p>
             </statement>
         </task>
         <task>
             <statement>
                 <p>
-                    
+                    Find and identify the <alert>significant digits</alert> in each of the numbers above.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Express each number in <alert>step (a)</alert> to <m>4</m> significant figures.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share and discuss your findings with the rest of learners in the class.
                 </p>
             </statement>
         </task>

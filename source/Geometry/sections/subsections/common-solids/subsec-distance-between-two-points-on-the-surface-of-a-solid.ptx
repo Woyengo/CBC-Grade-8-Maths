@@ -1,0 +1,8 @@
+<subsection xml:id="subsec-distance-between-two-points-on-the-surface-of-a-solid">
+    <title>Distance between two points on the surface of a solid</title>
+    <p>
+        The distance between two points on the surface of a solid is the shortest distance between the two points along the surface of the solid. 
+        This distance can be calculated using the Pythagorean theorem, which states that the square of the hypotenuse of a right-angled triangle is equal to the sum of the squares of the other two sides.
+    </p>
+    
+</subsection>
