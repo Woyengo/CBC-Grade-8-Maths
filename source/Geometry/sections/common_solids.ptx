@@ -22,9 +22,7 @@
     <xi:include href="subsections/common-solids/subsec-surface-area-of-a-cone.ptx" />
     <xi:include href="subsections/common-solids/subsec-distance-between-two-points-on-the-surface-of-a-solid.ptx" />
     <xi:include href="subsections/common-solids/subsec-models-of-hollow-solids-1.ptx" />
-    <xi:include href="subsections/common-solids/subsec-models-of-hollow-solids-2.ptx" />
     <xi:include href="subsections/common-solids/subsec-models-of-compact-solids-1.ptx" />
-    <xi:include href="subsections/common-solids/subsec-models-of-compact-solids-2.ptx" />
        
    
 </section>
