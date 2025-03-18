@@ -25,6 +25,14 @@
 
     <xi:include href="subsections/money/subsec-compound-interest.ptx" />
 
+    <xi:include href="subsections/money/subsec-appreciation.ptx" />
+    
+    <xi:include href="subsections/money/subsec-depreciation.ptx" />
+
+    <xi:include href="subsections/money/subsec-hire-purchase.ptx" />
+    
+
+
     
  
 

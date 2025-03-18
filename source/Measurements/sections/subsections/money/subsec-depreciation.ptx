@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-depreciation-2">
+  <title>Depreciation</title>
+
+  <p>
+    Depreciation 📉
+
+     Depreciation is the decrease in value of something over time. For example, if you buy a car for Ksh. 10,000 and after a few years it is worth only Ksh. 6,000, it has depreciated in value.
+  </p>
+  <p>
+    Depreciation = Value goes down 📉
+  </p>
+  <example>
+    <statement>
+      <p>
+        A car is purchased for Ksh.720,000.
+        It is assumed to depreciate by 25% in the 1st and 2nd  year, 20% in the third and fourth year
+        and 15% in each of the 5th and above years.
+        Calculate the value of the car after 6 years
+      </p>
+    </statement>
+  </example>
+  <activity>
+    <statement>
+      <p>
+        What are some of the items that you whose value depreciates after sometime? 
+      </p>
+      <ol>
+        <li>
+          <p>
+            Diera bought a phone at Ksh. 14,500.Two years later, the Company released an updated model of the phone and she sold the phone at a lower price and added some cash to buy the latest model of the phone.
+             The phone was depreciating at the rate of 25% annually.
+          </p>
+        </li>
+        <li>
+          <p>
+            Why do you think Diera sold her phone at a lower price than she boight it?
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate the value of the phone at the end of the first year.
+          </p>
+        </li> 
+        <li>
+          <p>
+            Calculate the value of the phone at the end of the second year.
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate the value of the phone at the end of the third year if Diera could have sold it.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </activity>
+  <example>
+    <statement>
+      <p>
+        A factory is valued at Sh.120,000 for the building and Sh.60,000 for the machinery.
+        If the building appreciates by 5% p.a. and the machinery depreciates by 8% p.a.,
+        calculate the total value of the buildings and machinery after 5 years.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <md>
+          <mrow> \amp </mrow>
+        </md>
+      </p>
+    </solution>
+  </example>
+</subsection>
