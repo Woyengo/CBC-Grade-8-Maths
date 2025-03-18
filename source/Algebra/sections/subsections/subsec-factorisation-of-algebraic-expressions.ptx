@@ -31,7 +31,7 @@
         </p>
         <p>
             <me>
-                = 4(2 x + 3)
+                4(2 x + 3)
             </me>
         </p>
     </solution>
@@ -235,6 +235,58 @@
                         <p>
                             Factorize each of the following expressions:
                         </p>
+                        <sidebyside>
+                            <p>
+                                <ol marker= "a)">
+                                    <li>
+                                        <p>
+                                            <m>3x + 6</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>4y - 12</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>10a + 5</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>9m - 15n</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </sidebyside>
+                        <sidebyside>
+                            <p>
+                                <ol marker= "a)">
+                                    <li>
+                                        <p>
+                                            <m>2p² + 8p</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>6x² - 9x</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>14y + 21</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>100k - 25k²</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </sidebyside>
                         <p>
                         <ol marker= "a)">
                             <li>
@@ -287,12 +339,22 @@
                     </li>
                     <li>
                         <p>
-                            Salama School purchased some books for different classes. If  there were <m> (7x² + 14x) </m> books all together, what is the factorized expression representing the number of books the school bought.
+                            Salamaa School purchased some books for different classes. If  there were <m> (7x² + 14x) </m> books all together, what is the factorized expression representing the number of books the school bought.
                         </p>
                     </li>
                     <li>
                         <p>
                             An electrician has <m>(15a - 20b)</m> meters of wire. Factorize the expression to find how the wire can be divided.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
                         </p>
                     </li>
                 </ol>
