@@ -1,0 +1,89 @@
+<subsection xml:id="subsec-expressing-probability-outcomes-in-percentages-in-different-situations">
+    <title>Expressing probability outcomes in percentages in different situations</title>
+    <p>
+        Probability can be expressed as a percentage to show how likely an event is to occur. A probability percentage tells us the chance of an event happening out of 100.
+    </p>
+    <p>
+        <m>\textbf{Key points}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    A probability of <m>0</m>% means the event cannot happen.
+                </p>
+            </li>
+            <li>
+                <p>
+                    An event with a probability of <m>50</m>% has an equal chance of occurring or not occurring.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A probability of <m>100</m>% means the event will definitely happen.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The total probability of all possible outcomes always adds up to <m>100</m>%
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        In a class of <m>30</m> students, each learner should mention their favorite pet from the following options: Dog, Cat, Rabbit and Parrot.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Copy and fill in the table below with the class results.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium"> 
+                            <row halign="left" header="yes">
+                                <cell>Pet</cell>
+                                <cell>Tally marks</cell>
+                                <cell>Number of learners(percentage)</cell>
+                            </row>
+                            <row>
+                                <cell>Dog</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Cat</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Rabbit</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Parrot</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Convert each probability to a percentage.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+       
+    </activity>
+</subsection>

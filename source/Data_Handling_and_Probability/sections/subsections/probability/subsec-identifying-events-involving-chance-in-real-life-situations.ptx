@@ -82,11 +82,6 @@
                 </li>
                 <li>
                     <p>
-                        A fish living outside water.
-                    </p>
-                </li>
-                <li>
-                    <p>
                         A cat giving birth to puppies.
                     </p>
                 </li>
@@ -107,7 +102,7 @@
         <ul>
             <li>
                 <p>
-                    Events are such that they are likely, unlikely, must happen and cannot happen.
+                    Events can be classified as likely, unlikely, certain (must happen), or impossible (cannot happen).
                 </p>
             </li>
         </ul>

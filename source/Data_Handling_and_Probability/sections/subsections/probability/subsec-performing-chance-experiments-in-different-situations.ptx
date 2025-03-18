@@ -205,7 +205,17 @@
                                 <cell>Number of times you draw an object</cell>
                             </row>
                             <row>
+                                <cell>Blue</cell>
                                 <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Red</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Black</cell>
                                 <cell></cell>
                                 <cell></cell>
                             </row>
