@@ -91,7 +91,7 @@
             Work in groups of 3-4 learners.
         </p>
         <p>
-            Make number cards from papers (Manilla or foolscap) e.g [** A photo of paper number cards(different colours) with an expression like <m> xy </m> <m> mn^2 </m> **]
+            Make number cards from papers (Manilla or foolscap) e.g [** A photo of paper number cards(different colours) with an expression like <m> xy </m> , <m> mn^2 </m> **]
         </p>
         <p>
              Use the number and variable cards to create algebraic expressions.
@@ -235,58 +235,6 @@
                         <p>
                             Factorize each of the following expressions:
                         </p>
-                        <sidebyside>
-                            <p>
-                                <ol marker= "a)">
-                                    <li>
-                                        <p>
-                                            <m>3x + 6</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>4y - 12</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>10a + 5</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>9m - 15n</m>
-                                        </p>
-                                    </li>
-                                </ol>
-                            </p>
-                        </sidebyside>
-                        <sidebyside>
-                            <p>
-                                <ol marker= "a)">
-                                    <li>
-                                        <p>
-                                            <m>2p² + 8p</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>6x² - 9x</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>14y + 21</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>100k - 25k²</m>
-                                        </p>
-                                    </li>
-                                </ol>
-                            </p>
-                        </sidebyside>
                         <p>
                         <ol marker= "a)">
                             <li>
@@ -345,16 +293,6 @@
                     <li>
                         <p>
                             An electrician has <m>(15a - 20b)</m> meters of wire. Factorize the expression to find how the wire can be divided.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            
                         </p>
                     </li>
                 </ol>

@@ -1,0 +1,200 @@
+<subsection xml:id="subsec-evaluating-algebraic-expressions-by-substitution">
+    <title>Evaluating algebraic expressions by substitution</title>
+    <p>
+        We often deal with formulas and expressions on our day-to-day calculations. For example, calculating the total cost of items, determining the speed of a moving object, or finding the area of a piece of land. These formulas use letters (variables) to represent unknown values. In this section, we will learn how to evaluate algebraic expressions by replacing variables with given numbers.
+    </p>
+    <example>
+        <statement>
+            <p>
+                <m>Naree</m> Bus company charges <m>60 m + 150</m> shillings for a trip to town, where <m>m</m> is the number of kilometres travelled. Find the total cost for a <m>7 km</m> trip.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Here we are given <m>m</m> = <m>7</m>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                <me>
+                    
+                60 m + 150 = 60 (7) + 150
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 420 + 150
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 570 shillings
+                </me>
+            </p>
+        </solution>
+    </example>
+
+    <activity>
+        <statement>
+            <p>
+                On a market day at Malava market, the cost of a bunch of <m>Sukuma</m> <m>wiki</m> is <m>t</m> shillings, a <m>gorogoro</m> of maize is <m>y</m> shillings and a tomato is <m>z</m> shillings.
+            </p>
+            <p>
+                [**Aphoto of a marker with sukuma wiki and maize bag with the price tags**]
+            </p>
+            <p>
+                Write Expressions when:
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Write an algebraic expression for the total cost, when a customer buys <m>2</m> bunches of <m>Sukuma</m> <m>wiki</m>, <m>3</m> <m>gorogoros</m> of maize, and <m>1</m> tomato from the market.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Given that a bunch of <m>Sukuma</m> <m>wiki</m> goes for <m>10</m> shillings, a <m>gorogoro</m> of maize for <m>50</m> shillings and a tomamto for <m>5</m> shillings, find the total amount paid by the customer for all the goods.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+        <statement>
+            <p>
+                Evaluate   <m>3a + 2b - c</m>
+            </p>
+            <p>
+                where <m>a</m> = 5, <m>b</m> = 3 and <m>c</m> = 7
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To solve the question, we need to substitute the values of <m>a</m>, <m>b</m> and <m>c</m> into the expression;
+            </p>
+            <p>
+                <m>a</m> = 5, <m>b</m> = 3 and <m>c</m> = 7;
+            </p>
+            <p>
+                So
+                <me>
+                    3a + 2b - c 
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 3(5) + 2(3) - (7)
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 15 + 6 - 7
+                </me>
+            </p>
+            <p>
+                <me>
+                    = 14
+                </me>
+            </p>
+        </solution>
+    </example>
+
+    <exercise>
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Evaluate the following expressions using the given values:
+                        </p>
+                        <p>
+                            <ol marker = "a)">
+                                <li>
+                                    <p>
+                                        <m>2a + 3b</m> where, <m>a</m> = <m>5</m> and <m>b</m> = 4
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\frac {x^2 + 2y}{y + 3}</m> where, <m>x</m> = <m>3</m> and <m>y</m> = <m>2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\frac {p + q}{2 r}</m> where, <m>p</m> = <m>10</m>, <m>q</m> = <m>6</m> and <m>r</m> = <m>2</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\frac {2f + 3d}{\frac {2}{3}n}</m> where, <m>f</m> = <m>\frac {1}{2}</m>, <m>d</m> = <m>\frac {2}{5}</m> and <m>n</m> = <m>9</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The area of a triangle is given by <m>A = \frac {1}{2} b h</m>. Find <m>A</m> when <m>b</m> = <m>8</m>cm and <m>h</m> = <m>5</m>cm
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The speed, <m>(V)</m> of an object is given by <m>V = 3t^2 + 5t</m>. Find <m>V</m> when <m>t</m> = <m>4</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A mobile data plan costs <m>25 p + 100</m> shillings per month. Calculate the cost of the plan when <m>p</m> = <m>100</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>Njoki</m> harvests maize based on the area of land used and the number of workers. The total bags of maize harvested last year is given by <m>L = 2A + 2W</m>, where <m>A</m> is the land area in acres, and <m>W</m> is the number of workers who did the farm work.
+                        </p>
+                        <p>
+                            <ol marker = "(a)">
+                                <li>
+                                    <p>
+                                        Find the total harvest when <m>Njeri</m> uses <m>3</m> acres of land and employs <m>6</m> workers.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        If <m>Njoki</m> needs <m>50</m> bags of maize, how many more acres should she cultivate, assuming she maintain the same number of workers?
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+    <p>
+        <term>Discussion and Reflect:</term>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Variables help represent unknown values and changing quantities. How can these tools help in real-life algebra problems?
+                </p>
+            </li>
+            <li>
+                <p>
+                    Substituting values makes it easier to evaluate expressions. Such as using formulas in recipes, calculating transport expenses e.t.c.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Application of algebraic expressions is important in budgeting, farming measurements, business profit calculations and savings planning.
+                </p>
+            </li>
+        </ul>
+    </p>
+</subsection>

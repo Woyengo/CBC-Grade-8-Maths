@@ -1,7 +1,7 @@
 <subsection xml:id="subsec-simplifying-algebraic-fractions">
     <title>Simplifying algebraic fractions</title>
     <p>
-        Algebraic fractions are fractions that have algebraic expressions in their numerators,in denominators or with them.
+        Algebraic fractions are fractions that have algebraic expressions in their numerator, denominator or with them.
     </p>
     <p>
         <term>Factorization method of simplification</term>
@@ -78,10 +78,10 @@
         </statement>
         <solution>
             <p>
-                Find the LCM of <m>3</m> and <m>4</m> <m>-&gt;</m>  <m>12</m>
+                First, we find the LCM of <m>3</m> and <m>4</m>, which is  <m>12</m>
             </p>
             <p>
-                Rewrite each fraction
+                Then,we rewrite each fraction,
             </p>
             <p>
                 <me>
@@ -89,12 +89,12 @@
                 </me>
             </p>
             <p>
+                Then we add the numerators,
+            </p>
+            <p>
                 <me>
                     = \frac {4x + 6x}{12}
                 </me>
-            </p>
-            <p>
-                Add the numerators
             </p>
             <p>
                 <me>
@@ -102,7 +102,7 @@
                 </me>
             </p>
             <p>
-                Now, simplify;
+                Now, we simplify;
             </p>
             <p>
                 <me>
@@ -113,7 +113,7 @@
     </example>
 
     <p>
-        Sometimes we simplify fractions with <m>like terms</m> and sometimes <m>unlike terms.</m>
+        Sometimes we simplify fractions with <m>like</m> <m>terms</m> and sometimes <m>unlike</m> <m>terms.</m>
     </p>
 
     <example>
@@ -138,7 +138,7 @@
                 </me>
             </p>
             <p>
-                Since the terms are unlike (one has <m>'a'</m> and the other has <m>'b'</m>), we cannot combine them, therefore;
+                Since the terms are unlike (one has <m>'a'</m> and the other has <m>'b'</m>), we cannot combine them, therefore having;
             </p>
             <p>
                 <me>
@@ -161,10 +161,10 @@
         </statement>
         <solution>
             <p>
-                First we need to factor out the common factors in the numerator and denominator
+                Here we need to factor out the common factors in the numerator and denominator
             </p>
             <p>
-                The numerator <m> 3x + 9 </m> has a common factor of <m> 3 </m>:
+                The numerator <m> 3x + 9 </m> has a common factor of <m> 3 </m>, So:
             </p>
             <p>
                 <me>
@@ -180,7 +180,7 @@
                 </me>
             </p>
             <p>
-                Rewriting the fraction with factored forms:
+                Rewriting the fraction in factored forms:
             </p>
             <p>
                 <me>
@@ -188,12 +188,15 @@
                 </me>
             </p>
             <p>
-                The common factor <m>( x + 3)</m> cancels out having:
+                Now the common factor <m>( x + 3)</m> cancels out;
             </p>
             <p>
                 <me>
-                    \frac {3 ( x + 3)}{6 ( x + 3)} = \frac {3}{6}
+                    \frac {3 ( x + 3)}{6 ( x + 3)}
                 </me>
+            </p>
+            <p>
+                getting,
             </p>
             <p>
                 <me>
@@ -278,7 +281,7 @@
                     </li>
                     <li>
                         <p>
-                            Ministry of education receives <m>\frac {5k + 10}</m> shillings from the budgetary board. It spends <m>\frac {5k + 10}{10}</m> on digital learning for the classrooms resources. What fraction of its budget is it allocated for digital learning? Simplify your answer.
+                            Ministry of education receives <m>{5k + 10}</m> shillings from the budgetary board. It spends <m>\frac {5k + 10}{10}</m> shillings on digital learning for the classrooms resources. What fraction of its budget is it allocated for digital learning? Simplify your answer.
                         </p>
                     </li>
                 </ol>
