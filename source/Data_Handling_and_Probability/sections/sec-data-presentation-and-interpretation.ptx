@@ -1,5 +1,11 @@
 <section xml:id="sec-data-presentation-and-interpretation" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>data-presentation-and-interpretation</title>
+    <title>Data Presentation and Interpretation</title>
+    <p>
+        <m>\textbf{Data representation}</m> - is the process of arranging and presenting data in a way that makes it simple to comprehend and analyze.  Diagrams, tables, charts, graphs and other visual formats can be used for this.  Patterns, trends, and relationships in the data are easier to spot when they are properly represented.
+    </p>
+    <p>
+        <m>\textbf{Data Interpretation}</m> - is the method for evaluating the represented data in order to derive significant findings.  It involves understanding what the data indicates, spotting patterns and drawing well-informed conclusions from the results.
+    </p>
 
     <xi:include href="subsections/data-presentation-and-interpretation/subsec-drawing-bar-graphs-of-data-from-real-life-situations.ptx" /> 
     <xi:include href="subsections/data-presentation-and-interpretation/subsec-interpreting-bar-graphs-of-data-from-real-life-situations.ptx" />

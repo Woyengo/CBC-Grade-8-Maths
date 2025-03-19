@@ -1,0 +1,202 @@
+<subsection xml:id="subsec-converting-recurring-decimals-to-fractions">
+    <title>Converting Recurring Decimals to Fractions</title>
+    <p>
+        In the previous lesson, <xref ref="subsec-recurring-decimals"/>, we explored <alert>recurring decimals</alert>. 
+        Now, we will learn how to convert recurring decimals into fractions. 
+    </p>
+    <p>
+        To do this, we start by defining the decimal as an unknown variable, say <m>x</m>, and label this as equation <m>1</m>. 
+        Next, we multiply both sides of equation <m>1</m> by <m>10^n</m>, where <m>n</m> represents the number of repeating digits, and label this as equation <m>2</m>. 
+        Finally, we subtract equation <m>1</m> from equation <m>2</m> to eliminate the recurring part and solve for <m>x</m>. 
+    </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups of 5 learners</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Convert <m>0.\dot{1}</m> into a fraction.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Describe the method or strategy you used to convert <m>0.\dot{1}</m> into a fraction.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Discuss any challenges you faced and how you overcame them.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share and discuss with other learners about your findings.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Express each of the following as a fraction.
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>0.\dot{2}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.\dot{6}\dot{3}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>0.\dot{2}</m>
+                        </p>
+                        <p>
+                            Step <m>1:</m> To convert the <m>0.\dot{2}</m> into a fraction, we let <m>0.\dot{2}</m> in the expanded form be equal to unkown variable, say, <m>x</m>.
+                        </p>
+                        <p>
+                            Now, <m> x = 0.2222...</m>
+                        </p>
+                        <p>
+                            Step <m>2</m>: Identify the repeating digits.
+                        </p>
+                        <p>
+                            In this case we have only one repeating digit which is <m>2.</m>
+                            We therefore multiply both sides of the equation in step <m>1</m> by <m>10^1 = 10.</m>
+                        </p>
+                        <p>
+                            <me>
+                                10 x = 2.222...
+                            </me>
+                        </p>
+                        <p>
+                           Step <m>3:</m> Subtract the result of step <m>1</m> from the result of step <m>2</m> to eliminate the recurring part.
+                        </p>
+                        <tabular>
+                            <row>
+                                <cell halign="right"><m>10x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>2.2222...</m></cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="right"><m>- x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>0.2222...</m></cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell><m>9x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>2</m></cell>
+                            </row>
+                        </tabular>
+                        <!-- <p>
+                            <md>
+                                <mrow> x \amp = 0.2222...</mrow>
+                                <mrow> 10 x \amp = 2.2222...</mrow>
+                            </md>
+                        </p> -->
+                        <p>
+                            Solve for <m>x</m>, by dividing both side of the equation by <m>9.</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\frac{\cancel{9}x}{\cancel{9}} \amp = \frac{2}{9} </mrow>
+                                <mrow> \amp </mrow>
+                                <mrow>x \amp = \frac{2}{9}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, <m>0.\dot{2} = \frac{2}{9}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.\dot{6}\dot{3}</m>
+                        </p>
+                        <p>
+                            We equate the recurring decimal to a variable, say <m>x</m>, to create equation <m>(1)</m>
+                        </p>
+                        <p>
+                            <me>x  =  0.6363... \qquad \qquad \qquad \text{equation}(1)</me>
+                        </p>
+                        <p>
+                            Since <m>0.6363...</m> has two repeating digits, we multiply both sides of equation<m>(1)</m> by <m>100</m>
+                            so that the recurring  digit of the decimals align (this creates equation <m>(2)</m>)
+                        </p>
+                        <p>
+                            <me>100x  =  63.63... \qquad \qquad \qquad \text{equation}(2)</me>
+                        </p>
+                        <p>
+                            Subtract equation<m>(1)</m> from equation<m>(2)</m>
+                        </p>
+                        <tabular>
+                            <row>
+                                <cell halign="right"><m>100x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>63.63...</m></cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell halign="right"><m>- x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>0.63...</m></cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell><m>99x</m></cell>
+                                <cell><m>=</m></cell>
+                                <cell><m>63</m></cell>
+                            </row>
+                        </tabular>
+                        <p>
+                            Solve for <m>x</m>, by dividing both side of the equation by <m>99.</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>99x \amp= 63 </mrow>
+                                <mrow> \amp </mrow>
+                                <mrow>\frac{99x}{99} \amp= \frac{63}{99} </mrow>
+                                <mrow> \amp </mrow>
+                                <mrow> \amp= \frac{63}{99} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Simplify the fraction
+                        </p>
+                        <p>
+                            <m>\frac{\cancel{63}^7}{\cancel{99}_{11}} = \frac{7}{11}</m>
+                        </p>
+                        <p>
+                            Therefore, <m>0.\dot{6}\dot{3} = \frac{7}{11}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>

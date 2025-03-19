@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <section xml:id="sec-Integers" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Integers</title>
-
-    <p>
-        Integers are whole numbers that can be positive, negative, or zero. They do not have a fractional or decimal part.
-    </p>
-    
+    <introduction>
+         <p>
+            <term>Integers</term> are a fundamental concept in mathematics with wide applications
+            in real-life situations. In sports and games, points, scores, and 
+            rankings are often represented using integers. In Grade <m>7</m>, 
+            you learned about whole numbers. In this section, we will take 
+            a step further to explore <term>integers</term>. 
+         </p>
+    </introduction>
+    <xi:include href="subsections/integers/identifying-integers.ptx" />
+    <xi:include href="subsections/integers/representing-integers-on-a-number-line.ptx" />
+    <xi:include href="subsections/integers/addition-of-integers.ptx" />
 </section>

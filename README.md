@@ -1,19 +1,54 @@
-# PreTeXt Codespace
+# CBC Grade 8 Maths
 
-Use this template repository to quickly start a new [PreTeXt](https://pretextbook.org) project entirely in the cloud, using GitHub Codespaces.  
+Welcome to the CBC Grade 8 Maths project! This repository contains materials and resources for teaching and learning Grade 8 Mathematics based on the Competency-Based Curriculum (CBC).
 
-## Instructions
+## Table of Contents
 
-Look for the green button at the top right of this page.  If the button says `Use this template`, then you are ready to create a new repository for your project.  Click on the button and select "Create a new repository".  On the next page, give your project a name, select public or private (this can be changed later), and click the "Create repository from template" button.
+- [Front Matter](frontmatter.ptx)
+- [Curriculum Overview](#curriculum-overview)
+- [Numbers](source/Numbers/ch-numbers.ptx)
+- [Algebra](source/Algebra/ch-algebra.ptx)
+- [Geometry](source/Geometry/ch-geometry.ptx)
+- [Measurement](source/Measurements/ch-measurements.ptx)
+- [Data handling & probability](source/Data_Handling_and_Probability/ch-data_handling_and_probability.ptx)
+- [Back Matter](backmatter.ptx)
 
-You now have a GitHub repository saved in your account.  You can come back to that page any time you want to work on your project (note the URL or else find it in the list of your repositories when you log in to GitHub).
+## Introduction
 
-To start work on your project, go to the green button at the top of *your* repository's page, which will say `<> Code`.  
+This project aims to provide comprehensive resources for educators and students following the CBC Grade 8 Mathematics curriculum. 
 
-1. Click on this button.
-2. Click on the tab that says "Codespaces."
-3. Click "Create codespace on main."
+## Curriculum Overview
 
-This take a minute or two (just the first time; later this will be much faster) and then open a browser version of VS Code with everything set up to start working.  It will generate a new pretext book (and replace this README with one you can edit for your project). 
+The CBC Grade 8 Mathematics curriculum covers the following topics:
+- Number Systems
+- Algebra
+- Geometry
+- Measurement
+- Data handling & Probability
 
-Next time you want to work on your book, return to your newly created repository, go to the green `<> Code` button, and select the codespace you previously created.  If you don't see that codespace (perhaps you deleted it to save space), you can always create a new codespace.
+## Resources
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+
+
+## Contributing
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Thank you for using and contributing to the CBC Grade 8 Maths project!

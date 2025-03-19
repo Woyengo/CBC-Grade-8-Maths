@@ -1,0 +1,159 @@
+<subsection xml:id="subsec-surface-area-of-a-cylinder">
+    <title>Surface area of a cylinder</title>
+    <p>
+        The surface area of a cylinder is the total area of the curved surface and the two circular bases of the cylinder. 
+       </p>
+
+       <activity>
+        <statement>
+            <p>
+                Surface Area Formula for Cylinders
+
+            </p>
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Open up a cylinder and make observations about its surface area using its net.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-cylinder1" geogebra="qfw3vbyy" width="100%" aspect="9:7" reset-icon="yes"/>
+                </figure>
+        </statement>
+       </activity>
+
+       <activity>
+        <statement>
+            <p>
+                Work in groups
+            </p>
+
+            <p>
+                Use the applet to review the formula for total surface area of a cylinder.
+            </p>
+
+            <p>
+                
+              Use the slider  Close = Net =open or click on the play  button to see an animation of the net of the cylinder!
+            </p>
+
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-cylinder2" geogebra="uxwtsjbw" width="100%" aspect="9:5" reset-icon="yes" material-width="1200px"/>
+                </figure>
+        </statement>
+       </activity>
+
+       <example>
+        <statement>
+            <p>
+                The figure below shows a cylinder whose radius and height are <m>14</m><m>cm</m>.and <m>15</m><m>cm</m> respectively.
+            </p>
+
+            <image width="50%">
+            <latex-image>
+                \begin{tikzpicture}
+                   % Define colors
+                    \definecolor{myorange}{rgb}{1.0, 0.6, 0.2}  % Orange color for top and bottom
+                    \definecolor{myred}{rgb}{1.0, 0.2, 0.2}     % Red color for curved surface
+
+                    % Draw the bottom ellipse
+                    \shade[bottom color=myorange, top color=white, opacity=0.5] (0,0) ellipse (2 and 0.5);
+                    \draw[thick, black] (0,0) ellipse (2 and 0.5);
+
+                    % Draw the curved surface in red
+                    \filldraw[bottom color=myred, top color=white, opacity=0.5] (-2,0) -- (-2,4) arc (180:360:2 and 0.5) -- (2,0) -- cycle;
+                    \draw[thick, black] (-2,0) -- (-2,4);
+                    \draw[thick, black] (2,0) -- (2,4);
+
+                    % Draw the top ellipse
+                    \shade[bottom color=myorange, top color=white, opacity=0.5] (0,4) ellipse (2 and 0.5);
+                    \draw[thick, black] (0,4) ellipse (2 and 0.5);
+
+                    % Radius annotation
+                    \draw[dashed] (0,4) -- (2,4);
+                    \node[right] at (0.8,4.1) {\small $14 cm$};
+
+                    % Height annotation
+                    \draw[dashed] (0,0) -- (0,4);
+                    \node[right] at (0,2) {\small $15 cm$};
+                \end{tikzpicture}
+            </latex-image>
+                <shortdescription></shortdescription>
+                
+            </image>
+
+            <p>
+                (a). Sketch the net of the cylinder.
+            </p>
+
+            <p>
+                (b). Work out the surface area of the cylinder from its net.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                (a).The net of the cylinder is shown below
+            </p>
+
+            <image width="50%">
+              <shortdescription></shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                     % Define colors
+                    \definecolor{myorange}{rgb}{1.0, 0.6, 0.2}  % Orange for circular bases
+                    \definecolor{myred}{rgb}{0.8, 0.2, 0.4}     % Red for the rectangle
+
+                    % Draw the rectangular surface of the cylinder
+                    \filldraw[fill=myred, draw=black, thick] (-3,-2) rectangle (3,2);
+
+                    % Draw the two circular bases
+                    \filldraw[fill=myorange, draw=black, thick] (0,3.5) circle (1.5);
+                    \filldraw[fill=myorange, draw=black, thick] (0,-3.5) circle (1.5);
+
+                    % Draw dashed lines to indicate radius and height
+                
+                    \node[right] at (3,0) {\small $15 cm$};
+                    
+                    \draw[dashed] (0,3.6) -- (1.5,3.6);
+                    \draw[dashed] (0,-3.6) -- (1.5,-3.6);
+                    \node[right] at (0.4,3.8) {\small $14 cm$};
+                    \node[right] at (0.4,-3.8) {\small $14 cm$};
+                \end{tikzpicture}
+            </latex-image>         
+            </image>
+
+            <p>
+                <md>
+                    <mrow>\text{(b). Length of the rectangle=} \amp 2 \times \pi \times radius </mrow>
+                    <mrow>= \amp 2\times\frac{22}{7}\times14</mrow>
+                    <mrow>= \amp 88 cm</mrow>
+                </md>
+            </p>
+            <p>
+                The width of the rectangle is equal to the height of the cylinder =<m>15</m><m>cm</m>
+            </p>
+
+            <p>
+                <md>
+                    <mrow>\text{Area of the rectangle}= \amp length \times width </mrow>
+                    <mrow>= \amp88 cm \times 15 cm </mrow>
+                    <mrow>= \amp1320 cm^2 </mrow>
+                    <mrow>\text{Area of two circles}= \amp2\times \pi\times r^2 </mrow>
+                    <mrow>= \amp 2\times \frac{22}{7}\times14 \times14</mrow>
+                    <mrow>= \amp1232 cm^2 </mrow>
+                    <mrow>\text{Surface area}= \amp1329 cm^2 +1232 cm^2 </mrow>
+                    <mrow>= \amp2552 cm^2 </mrow>
+                </md>
+            </p>
+        </solution>
+       </example>
+    
+</subsection>

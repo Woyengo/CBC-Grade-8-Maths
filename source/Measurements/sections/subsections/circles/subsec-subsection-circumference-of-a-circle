@@ -1,9 +1,249 @@
-  <subsection xml:id="subsec-circumference-of-a-circle">
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ <subsection xml:id="subsec-circumference-of-a-circle">
     <title>circumference of a circle</title>
-    <p>
-      A.
-    </p>
-    
-    
+      <p>
+      <m>{\color{aquamarine}\text{Circumference}}</m> is the total distance distance around ta circle. 
+      </p>
+      <p>It is like the perimeter of a circle.</p>
+   <activity>
+    <statement>
+      <p>
+        Think of a hula hoop. The circumference is the length of the edge of a hula hoop if you could cut it and stretch it into a straight line. 
+      </p>
+    </statement>
+   
+   </activity>
+    <exploration>
+    <statement>
+        <p> Circumference = <m>\pi d \text{ where,} \pi =\frac{22}{7} or 3.14</m>  or <m>2 \pi r</m>. <m>d</m>  is the diameter and <m>r</m> is the radius.</p>
+       <sidebyside>
+         <p>
+          Find the circumference of the following circle given the radius <m>r = 56 \text{ cm }</m>. Use <m>\pi = \frac {22}{7}.</m>
+         </p>
+          <image>
+          <latex-image label = "circle">
+            \begin{tikzpicture}
+              \fill[pink] (0,0) circle (3cm);
+            
+             % Draw the radius line
+             \draw[thick, -&gt;] (0,0) -- (3,0) node[midway, above] {\large $r = 56 cm$};
+            
+             % Draw the center point
+             \fill (0,0) circle (2pt);
+            \end{tikzpicture}
+          </latex-image>
+          </image>
+            <p>
+              <md>
+                <mrow> \text {Circumference } = \amp \pi d + d</mrow>
+                <mrow>  = \amp \frac {22}{7} \times 112 \text{ cm }  </mrow>
+                <mrow>  = \amp \frac {2464}{7} \text{ cm }  </mrow>
+                <mrow>  = \amp 352 \text{ cm } </mrow>
+              </md>
+                            <p>OR</p>
+              <md>
+               <mrow> \text {Circumference } = \amp 2 \pi \text { r } </mrow>
+               <mrow> \amp </mrow>
+               <mrow>  = \amp \frac {22}{7} \times 56 \text{ cm } </mrow>
+               <mrow>  = \amp \frac {44 \times 56}{7} \text{ cm }  </mrow>
+               <mrow>  = \amp  \frac {2464}{7} \text{ cm } + 112 \text { cm }</mrow>
+               <mrow> = \amp 352 \text{ cm }</mrow>
+              </md>              
+            </p>
+        </sidebyside>    
+        <p>
+          Find the circumference of the following circles. Use <m>\pi = \frac {22}{7}.</m>
+        </p>
+      <sidebyside>
+          <image>
+          <latex-image label = "circle-1">
+            \begin{tikzpicture}
+              \fill[pink] (0,0) circle (2cm);
+            
+             % Draw the radius line
+             \draw[thick, -&gt;] (0,0) -- (2,0) node[midway, above] {\large $r = 28 cm$};
+            
+             % Draw the center point
+             \fill (0,0) circle (2pt);
+            \end{tikzpicture}
+          </latex-image>
+          </image> 
+          
+          <image>
+          <latex-image label ="radi">
+            \begin{tikzpicture}
+              \fill[pink] (0,0) circle (2cm);
+            
+             % Draw the radius line
+             \draw[thick, &lt;-&gt;] (-2,0) -- (2,0) node[midway, below] {\large $d= 35 cm$ };
+            
+             % Draw the center point
+             \fill (0,0) circle (2pt);
+            \end{tikzpicture}  
+          </latex-image>
+          </image>
+        </sidebyside>   
+    </statement>
+        
+    </exploration>
+      <example>
+        <statement>
+          <p>
+            The radius of a flower garden is <m>6</m>m. What length of barbed wire can fence the garden using five strands of the barbed wire? <m>(\text{use} \pi = 3.142)</m>
+          </p>
+        </statement>
+        <solution>
+           <p>
+              <md> 
+               <mrow>\text{ Circumference is } 2 \pi r= \amp 2 \times \frac {22}{7} \times 3.142 \times 6 \text {m}</mrow> 
+               <mrow> = \amp 37.704 \text{m} </mrow> 
+               <mrow> \text { Total length of barbed wire } = \amp 37.704 \text{ m} \times 5</mrow> 
+               <mrow> = \amp 188.52 \text{m} </mrow>
+              </md>
+              md
+           </p>
+        </solution>
+      </example>
+    <extendedactivity>
+    <p>Note the difference between the formulas for calculating the circumfrence of a circle and a semicircle.</p>
+    <p>Share with your friends and classmates.</p>
+    </extendedactivity>
+    <example>
+     <statement>
+       <p>
+            Find the perimeter of the figure below.
+          </p>
+        <image>
+          <latex-image label = "circle-2">
+            \begin{tikzpicture}
+              \fill[pink] (-2,0) arc[start angle=180, end angle=360, radius=2cm] -- (0,0) -- cycle;
+              % Draw the radius and label it 'r'
+              \draw[thick, -&gt;] (0,0) -- (2,0) node[midway, above] {\large $r = 21 cm$};
+              % Draw the center point
+              \fill (0,0) circle (2pt);
+            \end{tikzpicture}
+          </latex-image>
+          </image>
+     </statement>
+      <solution>
+       <p>
+        <md>
+          <mrow> \text{ Circumference } = \amp \frac {1}{2} \pi d + d</mrow>
+          <mrow>  d =\amp 2 \text{ r } </mrow>
+          <mrow>  d =\amp 42 \text{ cm } </mrow>
+          <mrow>  = \amp \frac {1}{2} \times \frac {22}{7} \times 42 \text{ cm } + 42 \text{ cm }   </mrow>
+          <mrow>  = \amp \frac {924}{14} \text{ cm } + 42 \text{ cm }   </mrow>
+          <mrow>  = \amp ( 66 +42 )\text{ cm }  </mrow>
+          <mrow>  = \amp 108 \text{ cm }  </mrow>
+        </md>
+       </p>
+                         <p>OR</p>
+        <p>
+          <md>
+            <mrow> \text { Circumference } = \amp \pi r + 2r</mrow>
+            <mrow>  2 \text{r} =\amp 42 \text{ cm } </mrow>
+            <mrow>  = \amp \times \frac {22}{7} \times 21 \text{ cm } + 2(21) \text{ cm }   </mrow>
+            <mrow>  = \amp \frac {462}{7} \text{ cm } + 42 \text{ cm }   </mrow>
+            <mrow>  = \amp ( 66 + 42 )\text{ cm }  </mrow>
+            <mrow>  = \amp 108 \text{ cm }  </mrow>
+          </md>
+       </p>      
+      </solution>
+    </example>
+    <example>
+     <p>The following circles show the position of hand minutes wall with their respective radii. Calculate the distance covered by each tip.   </p>
+     <statement>
+       <sidebyside>
+         <image>
+           <latex-image label = "circle-full">
+            \begin{tikzpicture}
+              \fill[blue] (-2,0) arc[start angle=180, end angle=360, radius=2cm] -- (0,0) -- cycle;
+              % Draw the radius and label it 'r'
+              \draw[thick, -&gt;] (0,0) -- (2,0) node[midway, above] {\large $r = 56.7 cm$};
+              % Draw the center point
+              \fill (0,0) circle (2pt);
+              \node at (0,1.5){\textbf{(a)}};
+            \end{tikzpicture}
+           </latex-image>
+          </image>
+          <image>
+           <latex-image label = "three-quarter-circle">
+            \begin{tikzpicture}
+              % Draw a 3/4 (270-degree) filled green circle
+              \fill[green] (0,0) -- (2,0) arc[start angle=0, end angle=270, radius=2cm] -- cycle;
+              
+              % Draw the outline of the 3/4 circle
+              \draw[thick] (2,0) arc[start angle=0, end angle=270, radius=2cm] -- (0,0) -- cycle;
+              
+              % Indicate the radius with a label 'r'
+              \draw[thick, -&gt;] (0,0) -- (2,0) node[midway, above] {\large $ r = 7 cm$};
+              % Draw the center point
+              \fill (0,0) circle (2pt);
+              \node at (0,1.5){\textbf{(b)}};
+            \end{tikzpicture}
+           </latex-image>
+          </image>
+          <image>
+           <latex-image label = "quarter-circle">
+            \begin{tikzpicture}
+              \fill[pink] (-2,0) arc[start angle=180, end angle=270, radius=2cm] -- (0,0) -- cycle;
+              % Draw the radius and label it 'r'
+              \draw[thick, -&gt;] (0,0) -- (-2,0) node[midway, above] {\large $r = 21$};
+              % Draw the center point
+              \fill (0,0) circle (2pt);
+              \node at (0,1.5){\textbf{(c)}};
+            \end{tikzpicture}
+           </latex-image>
+          </image>
+       </sidebyside>
+    </statement>
+     <solution>
+      <statement>
+       <p>
+        <ol marker="(a)">
+          <li>
+             <p>
+              <md>
+                <mrow> \text { Circumference } = \amp \pi r + 2r</mrow>
+                <mrow>  2 \text{r} =\amp 56.7 \text{ cm }  \times 2 = 113.4 \text{ cm } </mrow>
+                <mrow>  = \amp \times 3.14 \times 56.7 \text{ cm } + 113.4 \text{ cm }  </mrow>
+                <mrow>  = \amp 178.038 \text{ cm } + 113.4 \text{ cm } </mrow>
+                <mrow>  = \amp ( 66 + 42 )\text{ cm }  </mrow>
+                <mrow>  = \amp 291.438 \text{ cm }  </mrow>
+              </md>
+            </p> 
+          </li>
+                <li>
+                <p>
+                  <md>
+                    <mrow> \text{ Circumference } = \amp \frac {3}{4} \times 2\pi r + 2 \text {r}</mrow>
+                    <mrow>  2 \text{ r }  =\amp 2 \times 7 \text { cm } = 14 \text { cm } </mrow>
+                    <mrow>  = \amp \frac {3}{4} \times \frac {22}{7} \times 14 \text { cm } + 14 \text{ cm }   </mrow>
+                    <mrow>  = \amp \frac {924}{28} \text { cm } + 14 \text{ cm }   </mrow>
+                    <mrow>  = \amp ( 33 + 14 )\text { cm }  </mrow>
+                    <mrow>  = \amp 47 \text{ cm }  </mrow>
+                 </md>
+               </p> 
+          </li>
+          <li> 
+            <p >
+              <md>
+                <mrow> \text{ Circumference } = \amp \frac {1}{4} \times 2\pi r + 2 \text {r}</mrow>
+                <mrow>  2 \text{ r }  =\amp 2 \times 35 \text { cm } = 70 \text { cm } </mrow>
+                <mrow>  = \amp \frac {1}{4} \times \frac {22}{7} \times 70 \text { cm } + 70 \text{ cm }   </mrow>
+                <mrow>  = \amp \frac {308}{28} \text { cm } + 14 \text{ cm }   </mrow>
+                <mrow>  = \amp ( 110 + 70 )\text { cm }  </mrow>
+                <mrow>  = \amp 180 \text{ cm }  </mrow>
+              </md>
+           </p>  
+         </li>   
+         </ol>
+        </p>
+      </statement>
+     </solution>
+    </example>
+
+
     
   </subsection>

@@ -1,7 +1,210 @@
 <subsection xml:id="subsec-writing-experimental-probability-outcomes-in-different-situations">
     <title>Writing experimental probability outcomes in different situations</title>
     <p>
-        
+        Writing experimental probability outcomes" means recording the results of an experiment by noting how many times a specific event occurred out of a total number of trials essentially expressing the probability of that event happening based on the actual data collected during the experiment, rather than theoretical calculations.
     </p>
+    <p>
+        It's usually written as a fraction, decimal, or percentage where the numerator is the number of times the event occurred and the denominator is the total number of trials. 
+    </p>
+    <p>
+        <m>\textbf{Key points about experimental probability outcomes:}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Based on real data:
+                </p>
+                <p>
+                    Unlike theoretical probability, which relies on mathematical calculations, experimental probability is based on the actual outcomes observed in an experiment. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Calculated as a ratio:
+                </p>
+                <p>
+                    To write an experimental probability, you divide the number of times the event occurred by the total number of trials. 
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        Mathematically, the formula for the experimental probability is defined by;
+    </p>
+    <p>
+        <m>\textbf{Probability of an Event P(E) = Number of times an event occurs / Total number of trials.}</m>
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            Given a die shown below.
+        </p>
+        <image source="/A die.jpg" width="40%">
+            <shortdescription>Die</shortdescription>
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Toss a die <m>25</m> times.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        (a) How many times does <m>1</m> appear out of <m>25</m> tosses?
+                    </p>
+                    <p>
+                        (b) How many times does <m>2</m> appear out of <m>25</m> tosses?
+                    </p>
+                    <p>
+                        (c) How many times does <m>3</m> appear out of <m>25</m> tosses?
+                    </p>
+                    <p>
+                        (d) How many times does <m>4</m> appear out of <m>25</m> tosses?
+                    </p>
+                    <p>
+                        (e) How many times does <m>5</m> appear out of <m>25</m> tosses?
+                    </p>
+                    <p>
+                        (f) How many times does <m>6</m> appear out of <m>25</m> tosses?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Write the number of times each face appears as a fraction of the number of tosses. What do you think the fractions you get represent?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your results with other learners in class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        Learning point
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Flipping a coin or tossing a dice are examples of chance experiments.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A trial or chance experiment may have different possible outcomes.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            Given a spinner shown below.
+        </p>
+        <image width="40%">
+            <latex-image>
+                \begin{tikzpicture}
+                    % Define colors
+                    \definecolor{yellow}{RGB}{255, 230, 128}
+                    \definecolor{green}{RGB}{128, 200, 128}
+                    \definecolor{blue}{RGB}{128, 200, 255}
+                    \definecolor{purple}{RGB}{200, 160, 255}
     
+                    % Draw the circle and divide into 8 sections
+                    \foreach \i in {0,1} {
+                       \fill[rotate=45*\i, yellow] (0,0) -- (90:2) arc (90:45:2) -- cycle;
+                    }
+                    \foreach \i in {2,3} {
+                       \fill[rotate=45*\i, purple] (0,0) -- (90:2) arc (90:45:2) -- cycle;
+                    }
+                   \foreach \i in {4,5} {
+                      \fill[rotate=45*\i, blue] (0,0) -- (90:2) arc (90:45:2) -- cycle;
+                    }
+                   \foreach \i in {6,7} {
+                      \fill[rotate=45*\i, green] (0,0) -- (90:2) arc (90:45:2) -- cycle;
+                    }
+    
+                    % Draw the circle outline
+                    \draw[thick] (0,0) circle (2);
+    
+                   % Draw the radial lines
+                   \foreach \i in {0,1,2,3,4,5,6,7} {
+                       \draw[thick] (0,0) -- (45*\i:2);
+                    }
+    
+                   % Add numbers at the center of each section
+                   \foreach \i [count=\n from 1] in {67.5, 22.5, -22.5, -67.5, -112.5, -157.5, 157.5, 112.5} {
+                       \node at (\i:1.3) {\Large \bf \n};
+                    }
+    
+                    % Draw the spinner arrow (shortened)
+                    \fill[red] (-0.15,1.5) -- (0.15,1.5) -- (0,1.8) -- cycle;
+                    \draw[thick,red] (0,0) -- (0,1.5);
+                    \fill[red] (0,0) circle (0.2);
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        (a) Spin the spinner <m>20</m> times.
+                    </p>
+                    <p>
+                        (b) Individually, record the number of times the arrow stops on each of the numbers.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How many times does the arrow stop on each numbers out of <m>20</m> spins?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Express the number of times the arrow stops on each number as a fraction of the number of spins. What do you think the fractions you get represent?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your results with other learners in class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        Learning point
+    </p>
+    <p>
+        Suppose you spin a spinner seven times and the arrow stops at <m>3</m> four times:
+    </p>
+    <p>
+        The experimental probability that the arrow will point to <m>3</m> is given by:
+    </p>
+    <p>
+        <m>\textbf{Probability}</m><m>(3)</m> = <m>\frac{4}{7}</m>
+    </p>
+    <p>
+        Therefore, <m>\textbf{experimental probability}</m> = <m>\frac{\textbf{number of outcomes}}{\textbf{total number of trials'}}</m>
+    </p>
+    <example>
+        <statement>
+            <p>
+                A bag contains three red balls and two green balls. If a ball is picked from the bag at random, list all the possible outcomes.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Possible outcomes are; <m>\textbf{red, red, red, green and green.}</m>
+            </p>
+        </solution>
+    </example>
 </subsection>

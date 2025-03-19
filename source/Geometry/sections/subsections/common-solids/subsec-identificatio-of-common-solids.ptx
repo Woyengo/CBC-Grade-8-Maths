@@ -1,0 +1,115 @@
+<subsection xml:id="subsec-Identificatio-of-common-solids">
+        <title>Identification of common solids</title>
+        <p>
+            In grade 6, you learnt about the faces, edges and verticies of 3D objects.Discuss the different types of 3D objects.
+        </p>
+
+        <p>
+            In this section, you will identify common solids.
+        </p>
+            <activity>
+                <statement>
+                    <p>
+                        Work in groups.
+                    </p>
+
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Collect solids of different shapes around your school compound. 
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Group them according to their shapes.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    In each case count the number of faces, edges and verticies a solid has.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    Discuss and share with other groups.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+            </activity>
+
+            <sidebyside>
+                <image>
+                 <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                         \begin{tikzpicture}        
+                       % Define the 3D coordinates and color the faces
+                        \fill[yellow!50] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0)-- cycle; % Bottom face        
+                        \fill[yellow!50] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face
+                        \fill[yellow!50] (0,0,0) -- (0,0,3) -- (0,2,3) -- (0,2,0) -- cycle; % Left face
+                        \fill[yellow!50] (3,0,0) -- (3,0,3) -- (3,2,3) -- (3,2,0) -- cycle; % Right face
+                        \fill[orange!50] (0,2,0) -- (3,2,0) -- (3,2,3) -- (0,2,3) -- cycle; % Front face
+                        \fill[orange!50] (0,0,0) -- (3,0,0) -- (3,0,3) -- (0,0,3) -- cycle; % Back face
+                        
+                        % Draw edges
+                        \draw[thick] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0) -- cycle; % Bottom face outline
+                        \draw[thick] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face outline
+                        \draw[thick] (0,0,0) -- (0,0,3);
+                        \draw[thick] (3,0,0) -- (3,0,3);
+                        \draw[thick] (3,2,0) -- (3,2,3);
+                        \draw[thick] (0,2,0) -- (0,2,3);
+                    \end{tikzpicture}
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+
+                <image>
+                  <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        % Define coordinates for cube
+                        \def\side{6} % Side length in cm
+                        
+                        \coordinate (A) at (0,0,0);
+                        \coordinate (B) at (\side,0,0);
+                        \coordinate (C) at (\side,\side,0);
+                        \coordinate (D) at (0,\side,0);
+                        \coordinate (E) at (0,0,\side);
+                        \coordinate (F) at (\side,0,\side);
+                        \coordinate (G) at (\side,\side,\side);
+                        \coordinate (H) at (0,\side,\side);
+                        
+                        % Draw the cube faces
+                        \fill[cyan!50,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle; % Bottom face
+                        \fill[cyan!30,opacity=0.5] (E) -- (F) -- (G) -- (H) -- cycle; % Top face
+                        \fill[cyan!40,opacity=0.5] (A) -- (B) -- (F) -- (E) -- cycle; % Side face
+                        
+                        % Draw edges
+                        \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                        \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+                        \draw[thick] (A) -- (E);
+                        \draw[thick] (B) -- (F);
+                        \draw[thick] (C) -- (G);
+                        \draw[thick] (D) -- (H);
+                        
+                        % Add labels
+                        \node[below left] at (A) {A};
+                        \node[below right] at (B) {B};
+                        \node[above right] at (C) {C};
+                        \node[above left] at (D) {D};
+                        \node[below left] at (E) {E};
+                        \node[below right] at (F) {F};
+                        \node[above right] at (G) {G};
+                        \node[above left] at (H) {H};
+                    \end{tikzpicture}
+                </latex-image>    
+                </image>
+
+            </sidebyside>
+    </subsection>

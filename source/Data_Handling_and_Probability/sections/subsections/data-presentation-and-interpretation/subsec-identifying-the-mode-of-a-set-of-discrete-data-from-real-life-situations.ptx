@@ -1,10 +1,105 @@
 <subsection xml:id="subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations">
-    <title>identifying the mode of a set of discrete data from real life situations</title>
+    <title>identifying the mode of a set of discrete data</title>
 
     <p>
-        A decimal is a number that is written in the base-10 place-value system. 
-        The decimal point separates the whole number part from the fractional part of the number. 
-        The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
+        The mode of a data set is the value that appears most frequently. 
     </p>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            A mathematics teacher at Mukumu secondary school gave a short quiz to a class of 40 students, and these are their scores
+        </p>
+        <p>
+            <m>5, 7, 8, 10, 7, 6, 7, 9, 8, 7, 6, 9, 10, 7, 8, 9, 7, 6, 8</m>
+        </p>
+        <p>
+            <m>9, 6, 7, 8, 9, 10, 7, 6, 8, 9, 7, 6, 8, 9, 7, 6, 8, 9, 10, 7, 6</m>
+        </p>
+        <p>
+            <ol marker="(i).">
+                <li>
+                    <p>
+                        Count how many times each score appears.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the most frequent one 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Compare your answer with others in class
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{green} \textbf{Learning Point}}</m>
+    </p>
+    <p>
+        In a set of data, mode is the item or value that appears the most frequently.
+    </p>
+    <example>
+        <statement>
+            <p>
+                A shoe store recorded the shoe sizes of 30 customers who bought shoes. The sizes are:
+            </p>
+            <p>
+                <m>38, 40, 42, 39, 41, 40, 38, 42, 43, 40, 41, 39, 42, 40</m>
+            </p>
+            <p>
+                <m> 38, 41, 39, 42, 40, 41, 38, 39, 42, 40, 41, 39, 42, 40, 38, 41</m>
+            </p>
+            <p>
+                Create a frequency table for the shoe sizes.
+            </p>
+            <p>
+                Find the mode of the data set.
+            </p>
+        </statement>
+        <solution>
+            <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
+                <row>
+                    <cell>Shoe Size</cell>
+                    <cell>Tally</cell>
+                    <cell>Frequency</cell>
+                </row>
+                
+                <row>
+                    <cell>38</cell>
+                    <cell>||||</cell>
+                    <cell>4</cell>
+                </row>
+
+                <row>
+                    <cell>39</cell>
+                    <cell>|||||</cell>
+                    <cell>5</cell>
+                </row>
+
+                <row>
+                    <cell>40</cell>
+                    <cell>||||| ||</cell>
+                    <cell>7</cell>
+                </row>
+
+                <row>
+                    <cell>41</cell>
+                    <cell>||||| |</cell>
+                    <cell>6</cell>
+                </row>
+                </tabular>
+                <p>
+                    The mode of the data is <m>7</m>
+                </p>
+
+
+
+        </solution>
+    </example>
     
 </subsection>

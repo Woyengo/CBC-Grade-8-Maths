@@ -1,0 +1,235 @@
+<subsection xml:id="subsec-expressing-numbers-to-the-required-significant-figures">
+    <title>Expressing Numbers to the Required Significant Figures</title>
+    <p>
+        <alert>Significant figures</alert> (or <alert>significant digits</alert>) are the digits in a number
+        that contribute to its precision. They include all non-zero digits, 
+        any zeros between non-zero digits, and trailing zeros in decimal numbers.
+    </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups of 5 learners</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Consider the following numbers: <m>0.00123,\,78.0089,\,12.3100,</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Find and identify the <alert>significant digits</alert> in each of the numbers above.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Express each number in <alert>step (a)</alert> to <m>4</m> significant figures.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share and discuss your findings with the rest of learners in the class.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <p>
+        <m>\textbf{Learning Point}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    All nonzero digits are significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    All zeros between nonzero digits are significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Leading zeros (to the left of the first nonzero digit) are not significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Trailing zeros to the right of the decimal place are significant.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Zero appearing after non-zero digit. On the whole numbers
+                    side may be significant or may not be significant figures.
+                    It can be a place holder or a significant.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                How many significant figures are there in the following masses?
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>45.023</m> kg
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>120</m> kg
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>145.60</m> kg
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.0023</m> kg
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>45.023</m> kg
+                        </p>
+                        <p>
+                            All nonzero digits are significant and zeros between them count as significant.
+                        </p>
+                        <p>
+                            Thus <m>45.023</m> kg contains five significant digits.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>120</m> kg
+                        </p>
+                        <p>
+                            All the zeros that are on the right of the last non-zero digit are significant if they come from a measurement.
+                        </p>
+                        <p>
+                            Thus <m>120</m> kg contains three significant digits.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>145.60</m> kg
+                        </p>
+                        <p>
+                            All the zeros that are on the right of the last non-zero digit, after the decimal point, are significant.
+                        </p>
+                        <p>
+                            Thus <m>145.60</m> kg contains five significant digits.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.0023</m> kg
+                        </p>
+                        <p>
+                            Leading zeros are never significant
+                        </p>
+                        <p>
+                            Thus <m>0.0023</m> kg contains two significant digits.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Express each of the following numbers to the given number of significant figures in brackets:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>12891 \quad (3)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.02789 \quad (2)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>12891 \quad (3)</m> 
+                        </p>
+                        <p>
+                           The number <m>12891</m>  has five significant digits.
+                        </p>
+                        <p>
+                            To round it off to three significant
+                            figures, we consider the <alert>fourth significant digit</alert>.
+                        </p>
+                        <p>
+                            The fourth significant digit is <m>9</m>, which is <alert>greater than</alert>
+                            <m>5</m>. Therefore, we add <m>1</m> to the third significant digit and replace
+                            the fourth and fifth significant digits with zeros.
+                        </p>
+                        <p>
+                            Thus, <m>12891</m> to three significant figures is <m>12900</m>.
+                        </p>
+                        <p>
+                            In this case, zeros serve as placeholders and not significant figures.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.02789 \quad (2)</m>
+                        </p>
+                        <p>
+                           The number <m>0.02789</m> has four significant digits because the leading zeros are not significant digits. 
+                        </p>
+                        <p>
+                            To round it off to two significant digits,
+                            we consider the <alert>third significant digit</alert>.
+                        </p>
+                        <p>
+                            The third significant digit is <m>8</m>, which is <alert>greater
+                            than</alert> <m>5</m>. Therefore, we add <m>1</m> to the second significant digit and
+                            we remove the remaining digits.
+                        </p>
+                        <p>
+                            Thus, <m>0.02789</m> correct to <m>2</m> significant digit is <m>0.028</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>

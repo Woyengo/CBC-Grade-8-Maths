@@ -1,0 +1,146 @@
+<subsection xml:id="subsec-percents">
+    <title>Percents</title>
+
+    <introduction>
+        <p>
+            Percents are a way to express a number as a fraction of 100. 
+            The word "percent" means "per hundred." For example, 50% is the same as 50 out of 100, or 50/100. 
+            The symbol for percent is <m>%.</m>
+        </p>
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-working-out-percentage-change-of-given-quantities-in-real-life-situations">
+        <title>Working Out Percentage Change of Given Quantities in Real Life Situations</title>
+
+        <activity>
+                <title>Work in Groups.</title>
+                
+                <p>
+                    Consider the following information
+                </p>
+                <p>
+                    Moraa takes five days to till a vegetable garden.
+                </p>
+                <p>
+                    Ruto takes ten days to till the garden.
+                </p>
+                <p>
+                    In your groups, discuss the following and record your findings.
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                What fraction of the garden can Moraa till in a day?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What fraction of the garden can Ruto till in a day?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What fraction can they till in a day if they worked together?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Share your findings with other groups.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+            </md>
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>{\color{green} \text{Increase or decrease in quantities can be expressed as percentages of the original quantities.}}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>{\color{green} \text{Percentage increase can be represented as;}}</m>
+                    </p>
+                    <p>
+                        <me>
+                            {\color{green} \text{Percentage increase} =  (\frac{increase}{original}) \times 100 \%}
+                        </me>                
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>{\color{green} \text{Percentage decrease can be represented as;}}</m>
+                    </p>
+                    <p>
+                        <me>
+                            {\color{green} \text{Percentage decrease} =} {\color{green} (\frac{decrease}{original}) \times 100 \%}
+                        </me>
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    A box cnatains <m>25</m> pens. If five more pens are added into the box,
+                    find the percentage increase in the number of pens in the box.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>\text{Percentage increase} =  \amp (\frac{\text{Number of pens added}}{\text{Initial number of pens}}) \times 100 \%</mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>= \amp (\frac{5}{25}) \times 100 \% </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>= \amp 20 \% </mrow>
+                    </md>
+                </p>
+
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    A basket contains <m>10</m> mangoes. Three mangoes were removed.
+                    Find the percentage decrease in the number of mangoes in the basket.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>\text{Percentage decrease} = \amp (\frac{\text{Number of mangoes removed}}{\text{Initial number of mangoes}}) \times 100 \% </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>= \amp (\frac{3}{10}) \times 100 \% </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>= \amp 30 \% </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>    
+</subsection>
