@@ -1,0 +1,311 @@
+<subsection xml:id="subsec-conversion-of-actual-length-to-scale-length">
+    <title>Conversion of actual length to scale length</title>
+    <p>
+        To convert an actual length to a scale length, divide the actual length by the scale factor, which represents how much real-world distance corresponds to one unit of measurement on the drawing or map.
+    </p>
+    <p>
+        Actual length is the real-world length of the same object. 
+    </p>
+    <p>
+        Scale length refers to the length of an object as represented in the drawing or model.
+    </p>
+    <p>
+        To convert an actual length to a scale length, you divide the actual length by the scale factor, which is typically expressed as a ratio (e.g., <m>1:100</m>).
+    </p>
+    <p>
+        For example, a scale like 1:100 means that 1 unit on the drawing represents 100 units in real life.
+    </p>
+    <p>
+        <m>\textbf{Key points on conversion of actual to scale length.}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Identify the scale: Determine the ratio of the drawing to the real-life object (e.g., <m>1:25, 1:100, 1:500</m>).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Divide the real length: Take the actual length and divide it by the scale factor.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Scale Length = <m>\frac{\textbf{Actual length}}{\textbf{Scale Factor}}</m>
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            <ol marker="(i)">
+                <li>
+                    <p>
+                        Using a ruler or tape measure, grid paper, pencil, and eraser, measure the height and width of your whiteboard/blackboard.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                       Convert the measured height and width of your whiteboard/blackboard to scale height and scale width using the following scales:
+                    </p>
+                </li>
+                <li>
+                    
+                <ul>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>10 \textbf{cm}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>20 \textbf{cm}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>50 \textbf{cm}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>10 \textbf{m}</m>.
+                        </p>
+                    </li>
+                </ul>
+                </li>
+                <li>
+                    <p>
+                        Record your results in the table shown below.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="center" header="yes">
+                                <cell>Actual height</cell>
+                                <cell>Actual width</cell>
+                                <cell>Scale</cell>
+                                <cell>Scale height</cell>
+                                <cell>Scale width</cell>
+                            </row>
+                            <row>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell><m>1 \textbf{cm}</m> represents <m>10 \textbf{cm}</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell><m>1 \textbf{cm}</m> represents <m>20 \textbf{cm}</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell><m>1 \textbf{cm}</m> represents <m>50 \textbf{cm}</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell></cell>
+                                <cell></cell>
+                                <cell><m>1 \textbf{cm}</m> represents <m>10 \textbf{m}</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share your findings with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        Learning point
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    To covert actual length to scale length, the actual length is divided by a given factor scale.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                The length of a building is <m>15 \textbf{m}</m>. John drew the building using a scale where <m>1 \textbf{cm}</m> represents <m>3 \textbf{m} </m>. Determine the length of the drawing.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Length of the actual building = <m>15 \textbf{m}</m>
+            </p>
+            <p>
+                Scale = <m>1 \textbf{cm}</m> represents <m>3 \textbf{m} </m>
+            </p>
+            <p>
+                <m>15 \textbf{m}</m> is represented by:
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{15 \cancel{m}}{1 \cancel{m}} \times 1 \textbf{cm}</mrow>
+                    <mrow> = \amp 5 \textbf{cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, The length of the drawing is <m>5 \textbf{cm}</m>
+            </p>
+
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Calculate the scale length that corresponds to an actual bridge length of 120 meters for the given scales;
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>20 \textbf{m} </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>1 \textbf{km} </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>80 \textbf{m} </m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>100 \textbf{m} </m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Actual length of the bridge = <m>120 \textbf{m}</m>
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>20 \textbf{m} </m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{120 \cancel{m}}{20 \cancel{m}} \times 1 \textbf{cm}</mrow>
+                                <mrow> = \amp 6 \textbf{cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The scale length is, <m>6 \textbf{cm}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>1 \textbf{km} </m>
+                        </p>
+                        <p>
+                            First, we need to convert <m> \textbf{km}</m> to <m> \textbf{m}</m>
+                        </p>
+                        <p>
+                            Since, <m>1 \textbf{km}</m> = <m>1000 \textbf{m} </m>, we convert:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{1 \cancel{km}}{1 \cancel{km}} \times 1000 \textbf{m}</mrow>
+                                <mrow> = \amp 1000 \textbf{m}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore <m>1 \textbf{cm}</m> represents <m>1000 \textbf{m} </m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{120 \textbf{m}}{1000 \textbf{m}} = 0.12\textbf{cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The scale length is , <m>0.12 \textbf{cm}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>80 \textbf{m} </m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{120 \cancel{m}}{80 \cancel{m}} \times 1 \textbf{cm}</mrow>
+                                <mrow> = \amp 1.5 \textbf{cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The scale length is, <m>1.5 \textbf{cm}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1 \textbf{cm}</m> represents <m>100 \textbf{m} </m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{120 \cancel{m}}{100 \cancel{m}} \times 1 \textbf{cm}</mrow>
+                                <mrow> = \amp 1.2 \textbf{cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The scale length is, <m>1.2 \textbf{cm}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A map is drawn to a scale of <m>1 \textbf{cm}</m> represents <m>5 \textbf{km} </m>. Two towns A and B are <m>200 \textbf{km}</m> apart. What is the distance between the two towns on the map.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Actual distance between towns A and B: <m>200 \textbf{km}</m>
+            </p>
+            <p>
+                Scale: <m>1 \textbf{cm}</m> represents <m>5 \textbf{km} </m>
+            </p>
+            <p>
+                <m>\textbf{Map distance}</m> = <m>\textbf{Actual ditance} \div \textbf{Scale factor}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{200 \cancel{km}}{5 \cancel{km}} \times 1 \textbf{cm}</mrow>
+                    <mrow> = \amp 40 \textbf{cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, Therefore, the distance between towns A and B on the map is <m>40 \textbf{cm}</m>
+            </p>
+        </solution>
+    </example>
+</subsection>

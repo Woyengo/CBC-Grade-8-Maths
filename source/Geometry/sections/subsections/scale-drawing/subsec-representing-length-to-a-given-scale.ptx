@@ -1,0 +1,191 @@
+<subsection xml:id="subsec-representing-length-to-a-given-scale">
+    <title>Representing length to a given scale</title>
+    <p>
+        Representing length to a given scale involves creating a proportional representation of real-world measurements, typically in drawings, maps, or models.
+    </p>
+    <p>
+        A scale is a ratio that compares the dimensions of a representation (like a drawing) to the corresponding dimensions of the actual object. It indicates how much smaller or larger the representation is compared to reality.
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            The teacher provided the learners with a textbook, a ruler, and an exercise book for the activity.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Individually, draw the textbook accurately in your exercise book.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How different is the length of your drawing from the actual length of the textbook?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the actual length of the textbook and the length of your drawing in centimetres.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your work with the other groups and compare results.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            What you require:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Ruler or measuring tape
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Exercise book or plain paper
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pencil
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Students individually observe the classroom window and door and estimate its height and width in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Using the ruler or measuring tape, accurately measure the actual height and width of the window and door in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Recordyour measurement in the table shown below.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Object</cell>
+                                <cell>Measured height</cell>
+                                <cell>Measured width</cell>
+                            </row>
+                            <row>
+                                <cell>Door</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Window</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Draw a scaled-down version of the height and width of window and door in the exercise books using a scale of 1cm represents 15cm.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record your results in the table below
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Objects</cell>
+                                <cell>New measurement (Height)</cell>
+                                <cell>New measurement (Width)</cell>
+                            </row>
+                            <row>
+                                <cell>Door</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Window</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Share and discuss your results with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                The length of a school field is measured as <m>12000</m>cm. Given that <m>1</m>cm represents <m>600</m>cm, represent the length of the school field on paper.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Actual length of a school field = <m>12000</m>cm.
+            </p>
+            <p>
+                Scale = <m>1</m>cm represents <m>600</m>cm.
+            </p>
+            <p>
+                <m>\frac{12000}{600}=20</m>cm
+            </p>
+            <p>
+                Therefore, the scale length is <m>20</m>cm
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The height of a mountain is 3,500 meters. If we use a scale where 1 cm represents 500 meters, represent the height of the mountain in your workbook.
+            </p>
+
+        </statement>
+        <solution>
+            <p>
+                Actual height of the mountain = <m>3500</m> meters
+            </p>
+            <p>
+                Scale = <m>1</m>cm represents <m>500</m> meters
+            </p>
+            <p>
+                To determine the height on paper:
+            </p>
+            <p>
+                <m>\frac{\textbf{Actual height }}{\textbf{Scale factor}}</m>
+            </p>
+            <p>
+                = <m>\frac{3500}{500} = 7</m>cm
+            </p>
+            <p>
+                Therefore, the height of the mountain would be drawn as 7 cm tall on paper.
+            </p>
+        </solution>
+    </example>
+</subsection>
