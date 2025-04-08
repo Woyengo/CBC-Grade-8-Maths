@@ -1,15 +1,5 @@
 <subsection xml:id="subsec-calculating-the-mean-of-a-set-of-discrete-data-from-real-life-situations">
     <title>calculating the mean of a set of discrete data</title>
-
-    <p>
-        The mean also known as average of a data set is the sum of all values divided by the total number of values.
-    </p>
-    <p>
-        Formula for Mean is given by:
-    </p>
-    <p>
-        <m> \textbf{Mean} = \frac{\textbf{sum of all values}}{\textbf{Total number of values}}</m>
-    </p>
     <activity>
         <p>
             <m>{\color{red} \textbf{Work in groups}}</m>
@@ -39,6 +29,18 @@
             </ol>
         </p>
     </activity>
+    <p>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
+    </p>
+    <p>
+        The mean also known as average of a data set is the sum of all values divided by the total number of values.
+    </p>
+    <p>
+        Formula for Mean is given by:
+    </p>
+    <p>
+        <m> \textbf{Mean} = \frac{\textbf{sum of all values}}{\textbf{Total number of values}}</m>
+    </p>
     <example>
         <statement>
             <p>
