@@ -7,6 +7,9 @@
         <p>
             <m>\textbf{Data Interpretation}</m> - is the method for evaluating the represented data in order to derive significant findings.  It involves understanding what the data indicates, spotting patterns and drawing well-informed conclusions from the results.
         </p>
+        <p>
+            
+        </p>
     </introduction>
 
     <xi:include href="subsections/data-presentation-and-interpretation/subsec-drawing-bar-graphs-of-data-from-real-life-situations.ptx" /> 
