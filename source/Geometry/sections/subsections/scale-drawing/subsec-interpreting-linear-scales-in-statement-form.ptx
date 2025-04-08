@@ -139,6 +139,39 @@
                 On a city map, the distance between the library and museum is <m>4.5 \textbf{ cm}</m>. If the actual distance is <m>900 \textbf{ meters}</m>. Interpret and write the scale in statement form.
             </p>
         </statement>
+        <solution>
+            <p>
+                Map distance = <m>4.5 \textbf{ cm}</m>
+            </p>
+            <p>
+                Actual distance = <m>900 \textbf{ meters}</m>
+            </p>
+            <p>
+                Convert meters into cm 
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{900 \cancel{ m}}{1 \cancel{ m}} \times 100 \textbf{ cm}</mrow>
+                    <mrow> = \amp90,000 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                so, Actual distance = <m>90,000 \textbf{ cm}</m>
+            </p>
+            <p>
+                The formula to find the scale is:
+            </p>
+            <p>
+                <md>
+                    <mrow> \textbf{Scale} = \amp \frac{\textbf{Actual Distance}}{\textbf{ Map Distance}}</mrow>
+                    <mrow> = \amp \frac{90,000}{4.5}</mrow>
+                    <mrow> =  \amp 20,000 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                So, the scale is <m>1:20,000</m>, meaning <m>1 \textbf{ cm}</m> on the map represents <m>20,000 \textbf{ cm}</m> (or <m>200 \textbf{ m}</m>) in reality.
+            </p>
+        </solution>
     </example>
     
 </subsection>
