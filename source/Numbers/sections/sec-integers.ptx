@@ -13,4 +13,6 @@
     <xi:include href="subsections/integers/identifying-integers.ptx" />
     <xi:include href="subsections/integers/representing-integers-on-a-number-line.ptx" />
     <xi:include href="subsections/integers/addition-of-integers.ptx" />
+    <xi:include href="subsections/integers/subtraction-of-integers.ptx" />
+    <xi:include href="subsections/integers/combined-operations-of-integers-on-a-number-line.ptx" />
 </section>
