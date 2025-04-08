@@ -1,7 +1,258 @@
 <subsection xml:id="subsec-performing-chance-experiments-in-different-situations">
     <title>Performing chance experiments in different situations</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            Suppose the bag contains:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>4</m> red counters
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>3</m> blue counters
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>2</m> green counters
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>1</m> yellow counter
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            This makes a total of <m>10</m> counters.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Before drawing, predict how many times you think each color will appear if you draw 20 times, replacing the counter back into the bag after each draw.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Perform the experiment by drawing a counter from the bag, recording its color, and putting it back before drawing again. Repeat <m>20</m> times and fill in the table below.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Color</cell>
+                                <cell>Tally Marks</cell>
+                                <cell>Actual Count</cell>
+                            </row>
+                            <row>
+                                <cell>Red</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Blue</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Green</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Green</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Repeat the experiment by drawing counters 15 and 30 times.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Analyze:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Which color appeared the most? 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Which color appeared the least?
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share and compare your findings with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        
+        <m>\textbf{Chance Experiment}</m> is an activity or situation where the outcome is not certain. You don’t know what will happen until you try it.
+    </p>
+    <p>
+        Each time you do the experiment, you might get a different result, even if the conditions stay the same.
+    </p>
+    <p>
+        <m>\textbf{ Examples of Chance Experiments:}</m>
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Tossing a Coin
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                A coin has <m>2</m> sides: Heads and Tails
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Each side has a <m>1</m> out of <m>2</m> chance <m>(50)</m>%
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Rolling a Die
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                A die has <m>6</m> faces numbered from <m>1</m> to <m>6</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Each number has a <m>1</m> out of <m>6</m> chance
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Picking Counters
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                A bag may have counters of different colors
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The chance of picking a certain color depends on how many of that color are in the bag
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ol>
+    </p>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    <m>\textbf{Experiment}</m>: A process that leads to one or more outcomes (e.g., rolling a die)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{trial}</m>: One performance of the experiment (e.g., one roll of the die)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{outcome}</m>: The result of a chance experiment.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Probability}</m>: A number that tells how likely an event is to happen, usually between <m>0</m> and <m>1</m>.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>0</m> means it cannot happen
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>1</m> means it is certain to happen
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A probability of <m>0.5</m> or <m>(50)</m>% means it’s equally likely to happen or not
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ul>
     </p>
     
+    <example>
+        <statement>
+            <p>
+                Akello has four different T-shirts in her drawer: navy, grey, white, and red. She chooses one T-shirt randomly. What are the possible colours of the T-shirt Akello picked?
+            </p>
+        </statement> 
+        <solution>
+            <p>
+                The possible colours of the T-shirt Akello picked are: navy, grey, white, red.
+            </p>
+        </solution>  
+    </example>
+    <example>
+        <statement>
+            <p>
+                A basket contains <m>4</m> different fruits: apple, banana, peach, and pineapple. One fruit is randomly chosen from the basket.
+            </p>
+            <p>
+                List the sample space of the possible types of fruit that could be chosen.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The sample space of the possible types of fruit is:
+            </p>
+            <p>
+                Sample Space = {apple, banana, peach, pineapple}
+            </p>
+        </solution>
+    </example>
 </subsection>

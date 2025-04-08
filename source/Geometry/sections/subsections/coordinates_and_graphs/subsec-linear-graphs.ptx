@@ -1,15 +1,5 @@
 <subsection xml:id="subsec-linear-graphs">
-    <title>linear-graphs</title>
-
-    <p>
-        The general form of a linear equation:<m>y=mx+c </m> 
-    </p>
-    <p>
-         Students will learn how to plot a linear graph given a linear equation in the form
-    </p>
-    <p>
-        <m>y=mx+c </m> 
-    </p>
+    <title>Linear Graphs</title>
     <activity>
         <p>
             <m>{\color{red} \textbf{Work in groups}}</m>
@@ -98,6 +88,12 @@
             </ol>
         </p>
     </activity>
+    <p>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
+    </p>
+    <p>
+        The general form of a linear equation:<m>y=mx+c </m> 
+    </p>
     <example>
         <statement>
             <p>
@@ -245,7 +241,7 @@
                 </ol>
             </p>
             <p>
-                <m>{\color{green} \textbf{Take notice}}</m>
+                <m>{\color{black} \textbf{Take notice}}</m>
             </p>
             <p>
                 <ol marker="i.">

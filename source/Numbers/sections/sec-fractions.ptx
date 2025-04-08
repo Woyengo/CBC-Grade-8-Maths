@@ -9,12 +9,12 @@
             The numerator represents the number of parts you have and the denominator represents the total number of parts in the whole.
         </p>
     </introduction>
-    <xi:include href="subsections/fractions/combined-operations-involving-addition-and-subtraction.ptx"/>
-    <xi:include href="subsections/fractions/combined-operations-involving-multiplication-and-division.ptx" />
-    <xi:include href="subsections/fractions/combined-operations-involving-three-operations.ptx" />
-    <xi:include href="subsections/fractions/combined-operations-involving-all-operations.ptx" />
-    <xi:include href="subsections/fractions/combined-operations-involving-brackets.ptx" />
-    <xi:include href="subsections/fractions/operations-involving-fractions-in-real-life.ptx" />
-
     
+    <xi:include href="subsections/fractions/combined-operations-involving-addition-and-subtraction.ptx"/>
+    <xi:include href="subsections/fractions/combined-operations-involving-multiplication-and-division.ptx"/>
+    <xi:include href="subsections/fractions/combined-operations-involving-three-operations.ptx"/>
+    <xi:include href="subsections/fractions/combined-operations-involving-all-operations.ptx"/>
+    <xi:include href="subsections/fractions/combined-operations-involving-brackets.ptx"/>  
+    <xi:include href="subsections/fractions/operations-involving-fractions-in-real-life.ptx"/>
+  
 </section>

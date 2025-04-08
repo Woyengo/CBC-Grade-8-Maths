@@ -1,14 +1,5 @@
 <subsection xml:id="subsec-drawing-bar-graphs-of-data-from-real-life-situations">
-    <title>drawing bar graphs of data from real life situations</title>
-
-    <p>
-        A bar graph is a graphical representation of data using rectangular bars,
-        where the length or height of each bar is proportional to the value it represents.
-    </p>
-    <p>
-        Bars can be displayed either vertically or horizontally and
-        are used to compare different categories or groups.
-    </p>
+    <title>Drawing Bar Graphs of Data </title>
     <activity>
         <p>
             <m>{\color{red} \textbf{Work in groups}}</m>
@@ -45,10 +36,13 @@
         </p>
     </activity>
     <p>
-        <m>{\color{green} \textbf{Learning Point}}</m>
+        <m>{\color{green} \textbf{Key Takeaway}}</m>
     </p> 
     <p>A bar graph is the display of information using rectangles of uniform width. The length of each rectangle represents the frequency.</p>
-
+    <p>
+        Bars can be displayed either vertically or horizontally and
+        are used to compare different categories or groups.
+    </p>
     <example>
         <statement>
           
@@ -126,7 +120,7 @@
             <m>{\color{red} \textbf{Further Activity}}</m>
         </p>
         <p>
-            <ol marker="(a).">
+            <ol marker="a.">
                 <li>
                     <p>
                         Collect data in your class about the ages of students and represent it using a bar graph

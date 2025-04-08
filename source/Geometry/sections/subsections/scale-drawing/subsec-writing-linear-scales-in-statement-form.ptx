@@ -1,0 +1,165 @@
+<subsection xml:id="subsec-writing-linear-scales-in-statement-form">
+    <title>Writing linear scales in statement form</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            Three stalls, A, B and C in a market is marked on a map. The distance between A and B is <m>150 \textbf{ cm}</m>, B and C is <m>250 \textbf{ cm}</m>. If the actual distance from A to B is <m>1.5 \textbf{ km}</m>.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Express the scale used in statement form.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the actual distance between B and C.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        Linear scale shows, the relationship between drawing (scale) length and actual length. Linear scale of a diagram is given in statement. To write a linear scale in statement form, you express it as:
+    </p>
+    <p>
+        <m>1 \textbf{ cm}</m> cm on the map represents <m></m> km (or meters) in real life.
+    </p>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    A linear scale in statement form indicates what a single unit of measurement on the scale corresponds to in real-world length.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                A farmer's field is <m>500 \textbf{ m}</m> long. On a map, this length is represented by a <m>5 \textbf{ cm}</m> line. Work out the scale of the map in statement form.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Actual length = <m>500 \textbf{ m}</m>
+            </p>
+            <p>
+                Map length = <m>5 \textbf{ cm}</m>
+            </p>
+            <p>
+                Convert <m>500 \textbf{ m}</m> to <m>\textbf{cm}</m>
+            </p>
+            <p>
+                Since <m>1 \textbf{ cm}</m> = <m>10,000 \textbf{ m}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{500 \cancel{ m}}{1 \cancel{ m}} \times 10,000 \textbf{ cm}</mrow>
+                    <mrow> = \amp 50,000 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Scale} =  \amp \frac{ \textbf{Actual Length}} {\textbf{Map Length}}</mrow>
+                    <mrow>\textbf{Scale} =  \amp \frac{50000}{5}</mrow>
+                    <mrow> = \amp 10,000 \textbf{ cm} </mrow>
+                    <mrow> = \amp 10,000:1  </mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, in statement form <m>1 \textbf{ cm}</m> on the map represents <m>10,000 \textbf{ cm}</m> (or <m>100 \textbf{ m}</m>) in reality.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A rectangular swimming pool measures <m>25 \textbf{ m}</m> by <m>10 \textbf{ m}</m>. On a map, its longer side is represented by <m>5 \textbf{ cm}</m>.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Write the scale of the map in statement form.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine the mapped length of the shorter side.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Length = <m>25 \textbf{ m}</m>
+                        </p>
+                        <p>
+                            Width = <m>10 \textbf{ m}</m>
+                        </p>
+                        <p>
+                            Map representation = <m>25 \textbf{ m}</m> (actual) = <m>5 \textbf{ cm}</m> (on map)
+                        </p>
+                        <p>
+                            Since the map uses cm, convert meters to centimeters:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{25 \cancel{ m}}{1 \cancel{ m}} \times 100 \textbf{ cm}</mrow>
+                                <mrow> = \amp 2,500 \textbf{ cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{Scale} =  \amp \frac{ \textbf{Actual Length}} {\textbf{Map Length}}</mrow>
+                                <mrow>\textbf{Scale} =  \amp \frac{2500}{5}</mrow>
+                                <mrow> = \amp 500 \textbf{ cm} </mrow>
+                                <mrow> = \amp 1:500  </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Scale = <m>1 \textbf{ cm}</m> : <m>500 \textbf{cm}</m>
+                        </p>
+                        <p>
+                            In statement form, <m>1 \textbf{ cm}</m> represents <m>500 \textbf{ meters}</m> on the map
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The shorter side is <m>10 \textbf{ m}</m>, which is <m>1000 \textbf{ cm}</m>.
+                        </p>
+                        <p>
+                            Using the scale 1:500:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \textbf{Mapped length} = \amp \frac{1000}{500}</mrow>
+                                <mrow> = \amp 2 \textbf{ cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Mapped length of the shorter side is <m>2 \textbf{ cm}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

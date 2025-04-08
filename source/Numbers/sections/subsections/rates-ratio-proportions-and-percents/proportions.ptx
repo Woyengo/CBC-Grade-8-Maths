@@ -1,8 +1,589 @@
 <subsection xml:id="subsec-propotions">
     <title>Proportions</title>
 
-    <p>
-        A proportion is a statement that two ratios are equal.
-    </p>
+    <introduction>
+        <p>
+            A proportion is a statement that two ratios are equal.
+        </p>
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-identifying-direct-proportions-in-real-life">
+        <title>Identifying Direct Proportions in Real Life</title>
+
+        <activity>
+            <title>Work in Groups</title>
+            
+            <p>
+                Consider a <m>2</m> <em>kg</em> packet flour costing <em>Kshs.</em> <m>180</m>.
+            </p>
+            <p>
+                
+                <ol>
+                    <li>
+                        <p>
+                            Copy and complete the table
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the ratio of any two quantities and the ratio of their corresponding costs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compare the two ratios.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share with other groups.
+                        </p>
+                    </li>                
+                </ol>            
+            </p>
+
+            <table>
+                <title>Flour Quantity-Costs table</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Quantity in Packets</cell> <cell>Cost in Shillings</cell>
+                    </row>
+
+                    <row>
+                        <cell>1</cell> <cell></cell>
+                    </row>
+
+                    <row>
+                        <cell>2</cell> <cell></cell>
+                    </row>
+
+                    <row>
+                        <cell>3</cell> <cell></cell>
+                    </row>
+
+                    <row>
+                        <cell>4</cell> <cell></cell>
+                    </row>
+
+                    <row>
+                        <cell>5</cell> <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </activity>
+
+        <activity>
+            <title>Work in Groups.</title>
+            
+            <p>
+                Consider the cost of one matcchbox is <em>Kshs.</em> <m>10</m>.
+                <ol>
+                    <li>
+                        <p>
+                            Discuss how to complete the table below
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your results with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="no">
+                        <cell>Bumber of matchbox</cell>
+                        <cell>1</cell> 
+                        <cell>2</cell>
+                        <cell>3</cell>
+                        <cell>6</cell>
+                        <cell>8</cell>
+                        <cell>9</cell>
+                    </row>
+                    <row>
+                        <cell>Cost (<em>Kshs.</em>)</cell>
+                        <cell>10</cell>
+                        <cell></cell> 
+                        <cell>30</cell> 
+                        <cell></cell> 
+                        <cell></cell>
+                        <cell>90</cell>
+                    </row>
+                </tabular>
+            </table>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+            </md>
+        </p>
+        <tabular>
+            <row>
+                <cell><m>{\color{green} \text{A direct proportion is identified when two quanties are such that if one quantity changes in a particualr ratio,
+            the other quantity changes in the same ratio.}}</m></cell>
+            </row>
+        </tabular>
+
+        <example>
+            <statement>
+                <p>
+                    The table below shows the cost of various number of cups.
+                </p>
+                <table>
+                    <title>Cups cost table</title>
+                    <tabular left="medium" right="medium" top="medium" bottom="medium">
+                        <row halign="center" header="no">
+                            <cell>Number of cups</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell>Cost <em>(Kshs.)</em></cell>
+                            <cell>60</cell>
+                            <cell>120</cell>
+                            <cell>130</cell>
+                            <cell>240</cell>
+                            <cell>300</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Find the ratio of the number of cups to the cost for each pair.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Share your fndings whether the number of cups is directly proportional to the cost.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-working-out-direct-proportions-in-real-life-situations">
+        <title>Working Out Direct Proportions in Real Life Situations</title>
+
+        <activity>
+        <p>
+            Consiider the cost of <m>15</m> <em>m</em> of ribbon as <em>Kshs.</em> <m>300.</m>
+        </p>
+            <ol>
+                <li>
+                    <p>
+                        Copy and complete the table below.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share the results with other groups.
+                    </p>
+                </li>
+            </ol>
+
+            <table>
+                <title>Ribon-cost table</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="no">
+                        <cell>Length of the ribbon <em>(m)</em></cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                        <cell>10</cell>
+                        <cell>15</cell>
+                        <cell>20</cell>
+                        <cell>25</cell>
+                    </row>
+                    <row>
+                        <cell>Cost <em>(Kshs.)</em></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+            </md>
+        </p>
+        <tabular>
+            <row>
+                <cell><m>{\color{green} \text{The ratio in a direct proportion is used to find one quantity when the corresponding quantity is given.}}</m></cell>
+            </row>
+        </tabular>
+
+        <example>
+            <statement>
+                <p>
+                    The cost of four litres of milk is <em>Kshs.</em> <m>240.</m>
+                    Find the cost of six litres of the milk.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-identifying-indirect-proportions-in-real-life-situations">
+        <title>Identifying Indirect Proportionscin Real Life Situations</title>
+
+        <activity>
+            <title>Work in Groups</title>
+            
+            <p>
+                Consider a number of learners sharing 40 biscuits as shown in the table below
+            </p>
+            
+            <table>
+                <title>Biscuits sharing table</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="no">
+                        <cell>Number of learners</cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                        <cell>5</cell>
+                        <cell>8</cell>
+                        <cell>10</cell>
+                    </row>
+                    <row>
+                        <cell>Amout of biscuits</cell>
+                        <cell>40</cell>
+                        <cell>20</cell>
+                        <cell>10</cell>
+                        <cell>8</cell>
+                        <cell>5</cell>
+                        <cell>4</cell>
+                    </row>
+                </tabular>
+            </table>
+            
+            <ol>
+                <li>
+                    <p>
+                        Work the ratios of learners to bisuits from the first row.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Compute the variations of obtained in the row.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss with others how the ratios are changing.
+                    </p>
+                </li>
+            </ol>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+            </md>
+        </p>
+        <p>
+            <m>{\color{green} \text{An indirect proportion is identified when two quantities are such that if one quantity increases in a particualr ratio, 
+            then the other quantity decreases in the same ratio.}}</m>
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    The table below shows corresponding quantities <m>x</m> and <m>y.</m>
+                </p>
+
+                <table>
+                    <title></title>
+                    <tabular left="medium" right="medium" bottom="medium" top="medium">
+                        <row halign="center" header="yes">
+                            <cell><em>x</em></cell>
+                            <cell>200</cell>
+                            <cell>300</cell>
+                            <cell>500</cell>
+                            <cell>600</cell>
+                            <cell>900</cell>
+                        </row>
+                        <row>
+                            <cell><em>y</em></cell>
+                            <cell>4.5</cell>
+                            <cell>3</cell>
+                            <cell>1.8</cell>
+                            <cell>1.5</cell>
+                            <cell>1</cell>
+                        </row>
+                    </tabular>
+                </table>
+
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Find the ratio of the;
+                            </p>
+                            <p>
+                                <ol>
+                                    <li>
+                                        <p>
+                                            <m>1^st</m> value of <m>x</m> to the <m>2^nd</m> value.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>2^nd</m> value of <m>x</m> to the <m>4^th</m> value.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>3^rd</m> value of <m>x</m> to the <m>5^th</m> value.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find he ratios of the corresponding values of <m>y</m> for the values of <m>x</m> in (a).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                State whether <m>x</m> is inversely proportional to <m>y.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                <md>
+                                    <mrow>200:300 = \amp \frac{200}{100}:\frac{300}{100} </mrow>
+                                </md>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>= \amp 2:3 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <md>
+                                    <mrow>300:600 = \amp \frac{300}{600} </mrow>
+                                </md>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>= \amp 1:2 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <md>
+                                    <mrow>500:900 = \amp \frac{500}{100}:\frac{900}{100} </mrow>
+                                </md>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>= \amp 5:9 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-working-out-indirect-proportions-in-real-life-situations">
+        <title>Working Out Indirect Proportions in Real Life Situations</title>
+
+        <activity>
+            <title>Work in Groups.</title>
+            
+            <p>
+                Consider the following table showing time in hours taken to cover a distance of <m>100</m> <em>km</em> at various speeds in kilometers per hour.
+            </p>
+
+            <table>
+                <title>Time and Speed table</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Time <em>(hours)</em></cell>
+                        <cell>1</cell>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                        <cell>5</cell>
+                    </row>
+                    <row>
+                        <cell>Speed <em>(km/h)</em></cell>
+                        <cell>100</cell>
+                        <cell>50</cell>
+                        <cell>25</cell>
+                        <cell>20</cell>
+                    </row>
+                </tabular>
+            </table>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Find the ratio of any two quantities in the first row (time).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the ratio of the corresponding speeds.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the product of the corresponding quantities.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share your findings with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+            </md>
+        </p>
+        <p>
+            <m>{\color{green} \text{The ratio in an indirect poportion is used to find a quantity when the corresponding quantity is given.}}</m>
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Umu takes three days to weed a garden. She works for eaight hours a day.
+                    Find how long i would take her to weed the same gardeen working six hours a day.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    In this case the number of days she takes increases as time per day reduces/decreases in the same ratio.
+                </p>
+                <p>
+                    The ratio for the time in hours is
+                    <me>
+                        8:6
+                    </me>                
+                </p>
+                <p>
+                    Let thw number of days be <m>x</m> when working for 6 hours a day.
+                </p>
+                <p>
+                    The ratio for the days is
+                    <me>
+                        3:y
+                    </me>                
+                </p>
+                <p>
+                    Therefore,
+                </p>
+                <p>
+                    <md>
+                        <mrow>\farc{8}{6} = \amp \frac{y}{3} </mrow>
+                    </md>                                
+                </p>
+                <p>
+                    Cross multiplying we have;
+                </p>
+                <p>
+                    <md>
+                        <mrow>6y = \amp 24 </mrow>
+                    </md>
+                </p>
+                <p>
+                    Dividing both side by <m>6</m>, we have;
+                </p>
+                <p>
+                    <md>
+                        <mrow>y = \amp 4 </mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, it would takes her four days to weed the garden woking six hours a day.
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Ten men take <m>12</m> days to complete a task. 
+                    How long will eigth men take to complete the task?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The number of men decreases in the ratio <m>8:10.</m>
+                </p>
+                <p>
+                    Therefore, the number of days taken increase in the ratio <m>10:8</m>
+                </p>
+                <p>
+                    The number of days <m>8</m> men can take is given as;
+                </p>
+                <p>
+                    <md>
+                        <mrow>= \amp 12 \times \frac{10}{8} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>= \amp 15 \text{days}</mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+    
     
 </subsection>
