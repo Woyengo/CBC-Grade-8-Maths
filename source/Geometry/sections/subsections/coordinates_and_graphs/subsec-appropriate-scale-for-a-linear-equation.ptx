@@ -1,15 +1,5 @@
 <subsection xml:id="subsec-appropriate-scale-for-a-linear-equation">
-    <title>appropriate scale for a linear equation</title>
-
-    <p>
-        When plotting a linear equation on a Cartesian plane,        
-    </p>
-    <p>
-        choosing the right scale is important to ensure that all points fit on the graph and are evenly spaced for easy interpretation.
-    </p>
-    <p>
-        The scale refers to how numbers are represented on the x-axis and y-axis.
-    </p>
+    <title>Appropriate Scale for a Linear Equation</title>
     <activity>
         <p>
             <m>{\color{red} \textbf{Work in groups}}</m>
@@ -66,10 +56,16 @@
         </p>
     </activity>
     <p>
-        <m>{\color{red} \textbf{Learning Points}}</m>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
+    </p>  
+    <p>
+        When plotting a linear equation on a Cartesian plane,        
     </p>
     <p>
-        In a Cartesian coordinate system, a straight line can be used to symbolise a linear equation.
+        choosing the right scale is important to ensure that all points fit on the graph and are evenly spaced for easy interpretation.
+    </p>
+    <p>
+        The scale refers to how numbers are represented on the x-axis and y-axis.
     </p>
     <example>
         <statement>
