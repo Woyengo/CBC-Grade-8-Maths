@@ -2,6 +2,11 @@
 
 <section xml:id="sec-scale_drawing" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Scale Drawing</title>
+    <introduction>
+        <p>
+            <m>\textbf{A scale drawing}</m> is a proportional representation of an object or place, where all dimensions are reduced or enlarged using a specific ratio while maintaining their correct proportions.
+        </p>
+    </introduction>
 
     <xi:include href="subsections/scale-drawing/subsec-representing-length-to-a-given-scale.ptx" />
     <xi:include href="subsections/scale-drawing/subsec-conversion-of-actual-length-to-scale-length.ptx" />
