@@ -1,8 +1,6 @@
 <subsection xml:id="subsec-simple-interest2">
     <title>Simple interest(2)</title>
-    <p>
-       <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In the previous section, You calculated simple interest.
     </p>
@@ -98,7 +96,7 @@
         </p>
     </activity>
     <p>
-        <m>{\color{blue} \textbf{Essential Concept:}}</m>
+        <m>{\color{black} \textbf{Key Takeaway:}}</m>
     </p>
     <p>
         <m>\text{Simple interest}= \text{principal} \times \text{rate} \times \text{time} </m>...(i)
@@ -201,7 +199,7 @@
                 </md>
             </p>
             <p>
-                The simple interest rate<m>R</m> is <m>{\color{blue} 8\% }</m>.
+                The simple interest rate is <m>{\color{blue} 8\% }</m>.
             </p>
         </solution>
     </example>

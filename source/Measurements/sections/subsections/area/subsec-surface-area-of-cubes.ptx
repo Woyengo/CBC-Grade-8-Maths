@@ -2,95 +2,9 @@
     <title>Surface area of cubes</title>
 
 
-    <introduction>
-        <p>
-            A <m>\textbf{cube }</m>has six congruent square faces. 
-            The total area of the faces is the surface area of the cube.
-       </p>
-        <p>
-        The surface area is measured in square units including <m>cm^2 </m> and <m>m^2</m>.
-        </p>
-        <p>
-            The
-            surface area of a 3D shape
-            is the total area of all the
-            faces
-            of the shape. For example, the surface area of a cube is the total area of all six square faces. This is <m>
-            6 \times side^2</m>. The six faces of a cube is as shown are as shown
-        </p>
-        <sidebyside>
-            <image width="40%">
-            <latex-image label="cube1">
-                \begin{tikzpicture}
-                    % Define colors
-                    \definecolor{orange}{RGB}{255,204,153}
-                    \definecolor{blue}{RGB}{173,216,230}
-                    \definecolor{pink}{RGB}{255,182,193}
-                    
-                    % Define cube vertices
-                    \def\a{2} % Cube side length
-
-                    % Top face
-                    \fill[orange] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a) -- (\a,0+\a/2) -- cycle;
-                    \draw[thick] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a) -- (\a,0+\a/2) -- cycle;
-                    
-                    % Left face
-                    \fill[blue] (0,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (0,0) -- cycle;
-                    \draw[thick] (0,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (0,0) -- cycle;
-                    
-                    % Right face
-                    \fill[blue] (2*\a,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (2*\a,0) -- cycle;
-                    \draw[thick] (2*\a,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (2*\a,0) -- cycle;
-                    
-                    % Outline
-                    \draw[thick] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a);
-                    \draw[thick] (0,\a) -- (0,0);
-                    \draw[thick] (2*\a,\a) -- (2*\a,0);
-                    \draw[thick] (0,0) -- (\a,-\a+\a/2) -- (2*\a,0);
-                \end{tikzpicture}
-            </latex-image>
-            
-            </image>
-
-            <image width="40%"> 
-            <latex-image label="cube2">
-                \begin{tikzpicture}
-                    % Define colors
-                    \definecolor{orange}{RGB}{255,204,153}
-                    \definecolor{blue}{RGB}{173,216,230}
-                    \definecolor{pink}{RGB}{255,182,193}
-
-                    % Draw the squares
-                    \foreach \x/\y/\c in {0/0/blue, 1/0/blue, 2/0/blue, 
-                                        1/1/orange, 1/-1/orange, 
-                                        -1/0/blue} {
-                        \fill[\c] (\x,\y) rectangle ++(1,1);
-                        \draw[thick] (\x,\y) rectangle ++(1,1);
-                    }
-                \end{tikzpicture}
-            </latex-image>
-            
-            </image>
-        </sidebyside>
-        <p>
-            <m>\textbf{To work out the surface area of a cube:}</m>
-        </p>
-        <p>
-            <ol marker="a">
-                <li>
-                    <p>
-                    Square
-                    one edge of the cube. This gives the area of one square face. 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Multiply the area of one square face by six.
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </introduction>
+    
+        
+    
     
 
     <subsubsection xml:id="subsubsec-surface-area-of-cubes-in-real-life-situations">
@@ -98,13 +12,13 @@
         <activity>
             <introduction>
                 <p>
-                    <alert>Work in groups</alert>
+                    <m>\textbf{Work in groups}</m>
                 </p>
             </introduction>
             <task>
                 <statement>
                     <p>
-                        <m>\textbf{what you need;}</m> Use a model of a cube in this activity.
+                        <m>\textbf{What you require:}</m> Use a model of a cube in this activity.
                     </p>
                     <p>
                         Identify the number of faces in the figure below.
@@ -175,25 +89,91 @@
             
         </activity>
         <p>
-            <m>{\color{blue} \textbf{Essential Concept:}}</m>
+            <m>{\color{black} \textbf{Key Takeaway:}}</m>
         </p>
         <p>
-            <ul>
+            A <m>\textbf{cube }</m>has six congruent square faces. 
+            The total area of the faces is the surface area of the cube.
+       </p>
+        
+        <p>
+            The surface area of a 3D shape is the total area of all its faces. For example, the surface area of a cube is the combined area of its six square faces. This can be calculated using the formula: 
+            <m>
+            6 \times side^2</m>. The six faces of a cube are shown below. 
+        </p>
+        <sidebyside>
+            <image width="40%">
+            <latex-image label="cube1">
+                \begin{tikzpicture}
+                    % Define colors
+                    \definecolor{orange}{RGB}{255,204,153}
+                    \definecolor{blue}{RGB}{173,216,230}
+                    \definecolor{pink}{RGB}{255,182,193}
+                    
+                    % Define cube vertices
+                    \def\a{2} % Cube side length
+
+                    % Top face
+                    \fill[orange] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a) -- (\a,0+\a/2) -- cycle;
+                    \draw[thick] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a) -- (\a,0+\a/2) -- cycle;
+                    
+                    % Left face
+                    \fill[blue] (0,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (0,0) -- cycle;
+                    \draw[thick] (0,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (0,0) -- cycle;
+                    
+                    % Right face
+                    \fill[blue] (2*\a,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (2*\a,0) -- cycle;
+                    \draw[thick] (2*\a,\a) -- (\a,0+\a/2) -- (\a,-\a+\a/2) -- (2*\a,0) -- cycle;
+                    
+                    % Outline
+                    \draw[thick] (0,\a) -- (\a,\a+\a/2) -- (2*\a,\a);
+                    \draw[thick] (0,\a) -- (0,0);
+                    \draw[thick] (2*\a,\a) -- (2*\a,0);
+                    \draw[thick] (0,0) -- (\a,-\a+\a/2) -- (2*\a,0);
+                \end{tikzpicture}
+            </latex-image>
+            
+            </image>
+
+            <image width="40%"> 
+            <latex-image label="cube2">
+                \begin{tikzpicture}
+                    % Define colors
+                    \definecolor{orange}{RGB}{255,204,153}
+                    \definecolor{blue}{RGB}{173,216,230}
+                    \definecolor{pink}{RGB}{255,182,193}
+
+                    % Draw the squares
+                    \foreach \x/\y/\c in {0/0/blue, 1/0/blue, 2/0/blue, 
+                                        1/1/orange, 1/-1/orange, 
+                                        -1/0/blue} {
+                        \fill[\c] (\x,\y) rectangle ++(1,1);
+                        \draw[thick] (\x,\y) rectangle ++(1,1);
+                    }
+                \end{tikzpicture}
+            </latex-image>
+            
+            </image>
+        </sidebyside>
+        <p>
+            <m>\textbf{To work out the surface area of a cube:}</m>
+        </p>
+        <p>
+            <ol marker="a)">
                 <li>
                     <p>
-                        The surface area of a solid is the sum of area of all 
-                        faces. For a cube of length <m>l</m> units, the area of each face is <m>l \times l</m> 
-                        square units <m>= l^2</m> square units.
-                    </p>
-                    <p>
-                        <md>
-                            <mrow> \text{The sum of areas of six faces}= \amp (6 \times l^2)  \, \text{square units.}</mrow>
-                            <mrow>= \amp  6\, l^2 \, \text{square units}.</mrow>
-                        </md>
+                    Square
+                    one edge of the cube. This gives the area of one square face. 
                     </p>
                 </li>
-            </ul>
+                <li>
+                    <p>
+                        Multiply the area of one square face by six.
+                    </p>
+                </li>
+            </ol>
         </p>
+        
         <example>
             <statement>
                 <p>

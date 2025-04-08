@@ -1,8 +1,6 @@
 <subsection xml:id="subsec-application-of-scale-drawings2">
     <title>Application of scale drawings(2)</title>
-    <p>
-        <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In the previous section, you applied scale drawing to determine actual measurements 
         when given scale measurements. Review again if you can still attempt any question of such.
@@ -225,12 +223,72 @@
 
         </solution>
     </example>
+    
+
+
     <p>
-        <m>\textbf{Digital activities}</m>
-    </p>
+      <m>\textbf{Technology Integration: Exploring Scale Drawing}</m>
+   </p>
     <p>
-        Follow the link to explore mor ab out scale drawing. <m>\textbf{👉🏻👉🏻}</m> <url href="https://youtu.be/GZN7xsqeFLw" />
+        To deepen your understanding of scale drawing and its practical applications, explore the following digital resources:
+    </p>  
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Math is Fun – Scale Drawings
+                </p>
+                <p>
+                    This resource offers clear explanations and visuals for understanding scale drawing, including examples and practice problems.
+                </p>
+                <p>
+                    <url href="https://www.mathsisfun.com/geometry/scale-drawing.html" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    CK-12 – Scale Drawings Interactive Lesson
+                </p>
+                <p>
+                    An interactive lesson that guides learners through the basics of scale drawings with dynamic visuals and self-check quizzes.
+                </p>
+                <p>
+                    <url href="https://www.ck12.org/geometry/scale-drawings/lesson/Scale-Drawings-Basics-MS-Geometry/" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    YouTube Video – Introduction to Scale Drawings
+                </p>
+                <p>
+                    A visual and engaging video lesson explaining how to interpret and create scale drawings.
+                </p>
+                <p>
+                    <url href="https://youtu.be/MUPz6pG9u-4" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    YouTube Video – Scale Drawing by THE KING'S SCHOOL - NAIROBI
+                </p>
+                <p>
+                    A comprehensive tutorial tailored for Standard 8 students, focusing on the concepts and applications of scale drawing.
+                </p>
+                <p>
+                    <url href="https://youtu.be/GZN7xsqeFLw" />
+                </p>
+            </li>
+    </ol>
     </p>
+
+
+
+
+
+
+
+
+
 
 
 

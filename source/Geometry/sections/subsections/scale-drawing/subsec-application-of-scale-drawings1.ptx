@@ -1,8 +1,6 @@
 <subsection xml:id="subsec-application-of-scale-drawings1">
     <title>Application of scale drawings(1)</title>
-    <p>
-        <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In the previous section, you made scale drawings. Check on how you did it and use to solve any question that 
         pops under scale drawing.
@@ -22,7 +20,7 @@
             <ol marker="(i).">
                 <li>
                     <p>
-                        The figure below shows the Map of Kenya showing <m>47</m> counties. Study it
+                        The figure below shows the Map of Kenya showing <m>47</m> counties. Study it.
                     </p>
                     <image source="/Kenya.png" width="70%">
                       <shortdescription>Map of Kenya</shortdescription>
