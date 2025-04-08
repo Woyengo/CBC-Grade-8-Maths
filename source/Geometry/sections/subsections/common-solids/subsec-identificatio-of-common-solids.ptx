@@ -45,10 +45,11 @@
 
             <sidebyside>
                 <image>
+                 <shortdescription></shortdescription>
                 <latex-image>
                     \begin{tikzpicture}
                          \begin{tikzpicture}        
-                                % Define the 3D coordinates and color the faces
+                       % Define the 3D coordinates and color the faces
                         \fill[yellow!50] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0)-- cycle; % Bottom face        
                         \fill[yellow!50] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face
                         \fill[yellow!50] (0,0,0) -- (0,0,3) -- (0,2,3) -- (0,2,0) -- cycle; % Left face
@@ -66,11 +67,10 @@
                     \end{tikzpicture}
                     \end{tikzpicture}
                 </latex-image>
-                    <shortdescription></shortdescription>
-                    
                 </image>
 
                 <image>
+                  <shortdescription></shortdescription>
                 <latex-image>
                     \begin{tikzpicture}
                         % Define coordinates for cube
@@ -108,47 +108,8 @@
                         \node[above right] at (G) {G};
                         \node[above left] at (H) {H};
                     \end{tikzpicture}
-                </latex-image>
-                    <shortdescription></shortdescription>
-                    
+                </latex-image>    
                 </image>
 
-                
             </sidebyside>
-
-            <image>
-            <latex-image>
-                \begin{tikzpicture}
-    
-                % Define measurements
-                    \def\r{6.5}  % Radius of base
-                    \def\l{26}   % Slant height
-                    \def\theta{180} % Angle of the sector (approximate calculation)
-
-                    % Draw the sector (lateral surface of the cone)
-                    \fill[yellow!70] (0,0) -- (\theta:\l) arc (\theta:0:\l) -- cycle;
-                    \draw[thick] (0,0) -- (\theta:\l);
-                    \draw[thick] (0,0) -- (0:\l);
-                    \draw[thick] (\theta:\l) arc (\theta:0:\l);
-
-                    % Label the slant height
-                    \node[left] at (\theta/2:\l/2) {26 cm};
-
-                    % Draw the base circle
-                    \fill[yellow!70] (0,-\l-2) circle (\r);
-                    \draw[thick] (0,-\l-2) circle (\r);
-
-                    % Draw the radius of the base
-                    \draw[dashed] (0,-\l-2) -- (\r,-\l-2);
-                    \node[below] at (\r/2,-\l-2) {6.5 cm};
-
-                    % Mark the 90-degree angle at the top
-                    \draw (0,0) ++(90:1) -- ++(-45:1) -- ++(-90:1);
-                    \node[above] at (0,1) {90°};
-                \end{tikzpicture}
-            </latex-image>
-                <shortdescription></shortdescription>
-                
-            </image>
-
     </subsection>

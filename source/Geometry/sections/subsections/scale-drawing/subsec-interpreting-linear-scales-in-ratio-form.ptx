@@ -1,0 +1,324 @@
+<subsection xml:id="subsec-interpreting-linear-scales-in-ratio-form">
+    <title>Interpreting linear scales in ratio form</title>
+    <p>
+        Interpreting linear scales in ratio form means understanding and using scale representations where distances on a map, drawing, or model are expressed as a ratio compared to real-world measurements.
+    </p>
+    <p>
+        <m>\textbf{Key Concepts:}</m>
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    <m>\textbf{Definition of Scale in Ratio Form}</m>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                A scale in ratio form is written as <m>1:x</m> or <m>1/x</m>, meaning <m>1</m> unit on the drawing or map represents <m>x</m> units in real life.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Using Scale to Find Real Distances}</m>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                If the scale is <m>1:5000</m> and a road on a map measures <m>3 \textbf{ cm}</m>, the actual length is:
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> = \amp 3 \times 5000 \textbf{ cm}</mrow>
+                                    <mrow> =  \amp 15000 \textbf{ cm}</mrow>
+                                    <mrow> =  \amp 150 \textbf{ m}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    
+                    <m>\textbf{Converting Between Units}</m>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Ensure all measurements are in the same unit before calculation.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Common conversions:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <m>1 \textbf{ cm}</m> = <m>10 \textbf{ mm}</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>1 \textbf{ m}</m> = <m>100 \textbf{ cm}</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>1 \textbf{ km}</m> = <m>1000 \textbf{ m}</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>1 \textbf{ km}</m> = <m>100,000 \textbf{ cm}</m>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Finding Scale from Given Measurements}</m>
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                If the actual distance is <m>2 \textbf{ km}</m>, and it is represented as <m>4 \textbf{ cm}</m> on a map:
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\textbf{Scale} = \amp \frac{\textbf{Map Distance}}{\textbf{Real Distance}}</mrow>
+                                    <mrow> =  \amp \frac{4 \textbf{ cm}}{200,000 \textbf{ cm}}</mrow>
+                                    <mrow> =  \amp 1 : 50,000</mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ol>
+    </p>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            The table below shows measurements from a scaled drawing and their corresponding real-world lengths:
+        </p>
+        <table>
+            <title></title>
+            <tabular left="medium" right="medium" top="medium" bottom="medium"> 
+                <row halign="left" header="yes">
+                    <cell>Drawing Length</cell>
+                    <cell>Actual Length</cell>
+                </row>
+                <row>
+                    <cell><m>5 \textbf{ cm}</m></cell>
+                    <cell><m>25 \textbf{ cm}</m></cell>
+                </row>
+                <row>
+                    <cell><m>4 \textbf{ cm}</m></cell>
+                    <cell><m>16 \textbf{ cm}</m></cell>
+                </row>
+                <row>
+                    <cell><m>6 \textbf{ cm}</m></cell>
+                    <cell><m>36 \textbf{ cm}</m></cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Find and write the linear scale used for each row.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Interpret the linear scales in each row.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Express the scale as a ratio in its simplest form.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If a new object is drawn at the same scale as the first row, and its actual size is <m>50 \textbf{ cm}</m>, what will its drawing length be?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Explain why scale ratios are important in technical drawings and maps.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                A map has a scale of <m>1:50,000</m>. If the distance between two towns on the map is <m>8 \textbf{ cm}</m>, what is the actual distance in kilometers?
+            </p>
+        </statement>
+        <solution>
+
+            <p>
+                Map distance = <m>8 \textbf{ cm}</m>
+            </p>
+            <p>
+                Scale Factor = <m>50,000</m>
+            </p>
+            <p>
+                Formula for Actual distance:
+            </p>
+            <p>
+                <md>
+                    <mrow> \textbf{Actual Distance} = \amp \textbf{Map Distance} \times \textbf{ Scale factor}</mrow>
+                    <mrow>  = \amp 8 \times 50,000</mrow>
+                    <mrow> =  \amp 400,000 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Conversion of <m>\textbf{cm}</m> to <m>\textbf{km}</m>
+            </p>
+            <p>
+                Therefore, <m>1 \textbf{ km}</m> = <m>100,000 \textbf{ cm}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{400,000 \cancel{ cm}}{100,000 \cancel{ cm}} \times 1 \textbf{ km}</mrow>
+                    <mrow> = \amp4 \textbf{ km}</mrow>
+                </md>
+            </p>
+            <p>
+                The actual distance is <m>4 \textbf{ km}</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A blueprint of a house is drawn to a scale of <m>1:100</m>. If the living room is actually <m>6 \textbf{ meters}</m> long and <m>6 \textbf{ meters}</m> wide, what are the dimensions of the living room on the blueprint in centimeters?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To find the dimensions of the living room on the blueprint, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Blueprint Dimension} = \\amp \frac{\textbf{Actual Dimension}}{\textbf{Scale Factor}}</mrow>
+                </md>
+            </p>
+            <p>
+                Scale = <m>1:100</m>
+            </p>
+            <p>
+                Actual Length = <m>6 \textbf{ meters}</m>
+            </p>
+            <p>
+                Actual Width = <m>4 \textbf{ meters}</m>
+            </p>
+            <p>
+                Convert meters to centimeters:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Length} = \amp \frac{6 \cancel{ m}}{1 \cancel{ m}} \times 100 \textbf{ cm}</mrow>
+                    <mrow> = \amp 600 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Width} = \amp \frac{4 \cancel{ m}}{1 \cancel{ m}} \times 100 \textbf{ cm}</mrow>
+                    <mrow> = \amp 400 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Calculate the dimensions on the blueprint using the scale.
+            </p>
+            <p>
+                <md>
+                    <mrow> \textbf{Blueprint Length} = \amp \frac{\textbf{Actual Length}}{\textbf{Scale Factor}}</mrow>
+                    <mrow> = \amp \frac{600}{100}</mrow>
+                    <mrow> = \amp6 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                <md>
+                    <mrow> \textbf{Blueprint Width} = \amp \frac{\textbf{Actual Width}}{\textbf{Scale Factor}}</mrow>
+                    <mrow> = \amp \frac{400}{100}</mrow>
+                    <mrow> = \amp4 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                The living room measures <m>6 \textbf{ cm}</m> long and <m>4 \textbf{ cm}</m> wide on the blueprint.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A rectangular swimming pool is drawn on a blueprint using a scale of <m>1:250</m>. The width of the pool is <m>5 \textbf{ cm}</m> on the blueprint, and the actual length of the pool is <m>50 \textbf{ meters}</m>. What is the actual width of the swimming pool in meters?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Actual Dimension} = \\amp \frac{\textbf{Blueprint Dimension}}{\textbf{Scale Factor}}</mrow>
+                </md>
+            </p>
+            <p>
+                Scale = <m>1:250</m>
+            </p>
+            <p>
+                Blueprint Width = <m>5 \textbf{ cm}</m>
+
+            </p>
+            <p>
+                Actual Length = <m>50 \textbf{ meters}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Actual Width} =  \amp 5 \times 250</mrow>
+                    <mrow> =  \amp 1250 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Convert cm to meters:
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{1250 \cancel{ cm}}{100\cancel{ cm}} \times 1 \textbf{ m}</mrow>
+                    <mrow> = \amp12.5 \textbf{ m}</mrow>
+                </md>
+            </p>
+            <p>
+                The actual width of the swimming pool is <m>12.5 \textbf{ meters}</m>.
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

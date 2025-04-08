@@ -1,7 +1,91 @@
 <subsection xml:id="subsec-expressing-probability-outcomes-in-decimals-in-different-situations">
     <title>Expressing probability outcomes in decimals  in different situations</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            Materials Needed:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Small colored objects (like beads or buttons) in 3 colors to represent watermelons, bananas, and mangoes.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    E.g., green = watermelon, yellow = banana, orange = mango.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Small paper bags or containers
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Worksheets or notebooks for recording answers
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculators (optional)
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Place 7 green, 5 yellow, and 3 orange items into a bag to represent watermelons, bananas, and mangoes respectively, for a total of 15 fruits.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Each student draws one item from the bag without looking, records the color (fruit), then returns it to the bag, repeating this process 10 times.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Count how many times they picked each color (fruit).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Then calculate the experimental probability for each fruit:
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Write your answer in decimal form.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share your answer with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        Expressing probability outcomes in decimals means representing the likelihood of events using numbers between 0 and 1 (eg 0.25), where:
+        <m>\textbf{Expressing probability outcomes in decimals}</m> means representing the likelihood of events using numbers between 0 and 1 (eg 0.25), where:
     </p>
     <p>
         <ul>
@@ -17,7 +101,26 @@
             </li>
             <li>
                 <p>
-                    Values between 0 and 1 represent varying degrees of likelihood.
+                    Any number between 0 and 1 (like 0.25, 0.5, 0.75) shows how likely the event is:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                0.5 = 50% chance (like flipping a fair coin and getting heads).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                0.25 = 25% chance.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                0.75 = 75% chance.
+                            </p>
+                        </li>
+                    </ul>
                 </p>
             </li>
             <li>
@@ -27,147 +130,14 @@
             </li>
         </ul>
     </p>
-    <activity>
-        <p>
-            Work in groups
-        </p>
-        <p>
-            Given a colour spinner below.
-        </p>
-        <image width="40%">
-            <latex-image>
-                \begin{tikzpicture}
-                    % Define colors
-                    \definecolor{spinnerRed}{RGB}{255, 100, 100}
-                    \definecolor{spinnerBlue}{RGB}{100, 150, 255}
-                    \definecolor{spinnerGreen}{RGB}{100, 200, 100}
-                    \definecolor{spinnerYellow}{RGB}{255, 230, 100}
-    
-                    % Draw the four equal sections
-                    \fill[spinnerRed] (0,0) -- (0:2) arc (0:90:2) -- cycle;
-                    \fill[spinnerBlue] (0,0) -- (90:2) arc (90:180:2) -- cycle;
-                    \fill[spinnerGreen] (0,0) -- (180:2) arc (180:270:2) -- cycle;
-                    \fill[spinnerYellow] (0,0) -- (270:2) arc (270:360:2) -- cycle;
-    
-                   % Draw the circle outline
-                   \draw[thick] (0,0) circle (2);
-    
-                   % Draw the dividing lines
-                   \foreach \i in {0,1,2,3} {
-                       \draw[thick] (0,0) -- (90*\i:2);
-                    }
-    
-                   % Add color labels with smaller font size
-                   \node at (45:1.3) {\normalsize \textbf{RED}};
-                   \node at (135:1.3) {\normalsize \textbf{BLUE}};
-                   \node at (225:1.3) {\normalsize \textbf{GREEN}};
-                   \node at (315:1.3) {\normalsize \textbf{YELLOW}};
-    
-                   % Draw the spinner arrow
-                   \fill[black] (-0.15,1.5) -- (0.15,1.5) -- (0,1.8) -- cycle;
-                   \draw[thick,black] (0,0) -- (0,1.5);
-                   \fill[black] (0,0) circle (0.2);
-                \end{tikzpicture}
-            </latex-image>
-        </image>
-        <p>
-            <ol>
-                <li>
-                    <p>
-                        Spin the spinner <m>15</m> times.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Record how many times the spinner lands on each color.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Find the probability of each color appearing by dividing the number of times it appears by the total spins.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Express the probability as a decimal.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Record the result in the table below.
-                    </p>
-                    <table>
-                        <title></title>
-                        <tabular left="medium" right="medium" top="medium" bottom="medium">
-                            <row halign="left" header="yes"> 
-                                <cell>Colour</cell>
-                                <cell>Number of times appeared</cell>
-                                <cell>Probability(decimal)</cell>
-                            </row>
-                            <row>
-                                <cell>Red</cell>
-                                <cell></cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell>Blue</cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell>Green</cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell>Yellow</cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                        </tabular>
-                    </table>
-                </li>
-                <li>
-                    <p>
-                        Discuss the following questions in groups.
-                    </p>
-                </li>
-            </ol>
-        </p>
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        Which color had the highest probability?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Did each color appear as expected? Why or why not?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        If we spin the spinner more times, will the probabilities change?
-                    </p>
-                </li>
-            </ul>
-        </p>
-    </activity>
     <p>
-        Learning point
+        <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
             <li>
                 <p>
-                    Probability expressed as a decimal has one key learning point: proportion.
-                </p>
-            </li>
-            <li>
-                <p>
-                    A decimal probability represents the proportion of times an event is expected to occur when an experiment is repeated many times. For example, a probability of 0.25 means the event is expected to occur in 25% of trials or 1 out of 4 times.
+                    Expressing probability outcomes as decimals means dividing favorable outcomes by total outcomes and writing the result as a number between <m>0</m> and <m>1</m>.
                 </p>
             </li>
         </ul>
@@ -175,23 +145,23 @@
     <example>
         <statement>
             <p>
-                A bag contains six apples, three guavas and one orange. What is the probability that a fruit selected at random is:
+                A bag contains seven watermelons, five bananas and three mangoes. What is the probability that a fruit selected at random is:
             </p>
             <p>
                 <ol marker="a)">
                     <li>
                         <p>
-                            A guava? 
+                            A watermelon? 
                         </p>
                     </li>
                     <li>
                         <p>
-                            An apple?
+                            A banana?
                         </p>
                     </li>
                     <li>
                         <p>
-                            An orange?
+                            A mango?
                         </p>
                     </li>
                 </ol>
@@ -202,62 +172,95 @@
         </statement>
         <solution>
             <p>
-                Apples = <m>6</m>
+                Watermelons = <m>7</m>
             </p>
             <p>
-                Guavas = <m>3</m>
+                Bananas = <m>5</m>
             </p>
             <p>
-                Orange = <m>1</m>
+                Mangoes = <m>3</m>
             </p>
             <p>
-                Total number of fruits  <m>6+3+1 = 10</m>
+                Total number of fruits  <m>7+5+3 = 15</m>
             </p>
             <p>
                 <ol marker="a)">
                     <li>
                         <p>
-                            Calculating the probability of selecting a guava
+                            Calculating the probability of selecting a watermelon, we use formula:
                         </p>
                         <p>
-                            <m>\textbf{Probability(guava) = Number of guava/Total number of fruits.}</m>
+                            <md>
+                                <mrow>\textbf{P(Watermelon)} = \amp \frac{\textbf{Number of possible outcomes of a watermelon}}{\textbf{Total number of fruits}}</mrow>
+                                <mrow> = \amp \frac{7}{15}</mrow>
+                                <mrow> = \amp 0.4667</mrow>
+                            </md>
                         </p>
                         <p>
-                            = <m>\frac{3}{10}</m>
-                        </p>
-                        <p>
-                            Therefore, <m>3\div 10=0\cdot 3</m>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Calculating the probability of selecting an Apple.
-                        </p>
-                        <p>
-                            <m>\textbf{Probability(Apple) = Number of Apples/Total number of fruits.}</m>
-                        </p>
-                        <p>
-                            = <m>\frac{6}{10}</m>
-                        </p>
-                        <p>
-                            Therefore, <m>6\div 10=0\cdot 6</m>
+                            Therefore, the probability of selcting a watermelon is <m>0.4667</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Calculating the probability of selecting an Orange.
+                            Calculating the probability of selecting a banana, we use formula:
                         </p>
                         <p>
-                            <m>\textbf{Probability(Orange) = Number of Orange/Total number of fruits.}</m>
+                            <md>
+                                <mrow>\textbf{P(Banana)} = \amp \frac{\textbf{Number of possible outcomes of a banana}}{\textbf{Total number of fruits}}</mrow>
+                                <mrow> = \amp \frac{5}{15}</mrow>
+                                <mrow> = \amp \frac{1}{3}</mrow>
+                                <mrow> = \amp 0.3333</mrow>
+                            </md>
                         </p>
                         <p>
-                            = <m>\frac{1}{10}</m>
+                            Therefore, the probability of selcting a banana is <m>0.3333</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculating the probability of selecting a mango, we use formula:
                         </p>
                         <p>
-                            Therefore, <m>1\div 10=0\cdot 1</m>
+                            <md>
+                                <mrow>\textbf{P(Mango)} = \amp \frac{\textbf{Number of possible outcomes of a mango}}{\textbf{Total number of fruits}}</mrow>
+                                <mrow> = \amp \frac{3}{15}</mrow>
+                                <mrow> = \amp \frac{1}{5}</mrow>
+                                <mrow> = \amp 0.2</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, the probability of selcting a mango is <m>0.2</m>
                         </p>
                     </li>
                 </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                In a school with <m>50</m> students, <m>12</m> students have a bicycle. What is the probability that a student picked at random owns a bicycle? Write the answer in decimal form.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The total number of students is: <m>50</m>
+            </p>
+            <p>
+                The number of students who own a bicycle is: <m>12</m>
+            </p>
+            <p>
+                Using the probability formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Probability} = \amp \frac{\textbf{Number of favorable outcomes}}{\textbf{Total number of outcomes}}</mrow>
+                    <mrow> =  \amp \frac{12}{50}</mrow>
+                    <mrow> =  \amp 0.24</mrow>
+                </md>
+            </p>
+            <p>
+                So, the probability that a randomly selected student owns a bicycle is <m>0.24</m>.
             </p>
         </solution>
     </example>

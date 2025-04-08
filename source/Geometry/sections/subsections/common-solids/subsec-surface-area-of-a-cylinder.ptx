@@ -45,7 +45,7 @@
 
                 <figure>
                     <caption></caption>
-                    <interactive xml:id="geogebra-cylinder2" geogebra="uxwtsjbw" width="100%" aspect="9:7" reset-icon="yes"/>
+                    <interactive xml:id="geogebra-cylinder2" geogebra="uxwtsjbw" width="100%" aspect="9:5" reset-icon="yes" material-width="1200px"/>
                 </figure>
         </statement>
        </activity>
@@ -56,30 +56,33 @@
                 The figure below shows a cylinder whose radius and height are <m>14</m><m>cm</m>.and <m>15</m><m>cm</m> respectively.
             </p>
 
-            <image>
+            <image width="50%">
             <latex-image>
                 \begin{tikzpicture}
-              % Define colors
-    \definecolor{myblue}{rgb}{0.3, 0.6, 1.0}
-    \definecolor{mygreen}{rgb}{0.0, 0.8, 0.0}
-    \definecolor{mypurple}{rgb}{0.6, 0.2, 1.0}
-    
-    % Draw the cylinder
-    \shade[bottom color=mygreen, top color=myblue, opacity=0.5] (0,0) ellipse (2 and 0.5);
-    \draw[thick, black] (0,0) ellipse (2 and 0.5);
-    \draw[thick, black] (-2,0) -- (-2,4);
-    \draw[thick, black] (2,0) -- (2,4);
-    \shade[bottom color=mygreen, top color=white, opacity=0.5] (0,4) ellipse (2 and 0.5);
-    \draw[thick, mypurple] (0,4) ellipse (2 and 0.5);
-    
-    % Radius annotation
-    \draw[dashed] (0,4) -- (1.5,4);
-    \draw[thick] (1.5,4) -- (1.5,3.8) -- (0,3.8);
-    \node[right] at (1.5,4) {\small $r$};
+                   % Define colors
+                    \definecolor{myorange}{rgb}{1.0, 0.6, 0.2}  % Orange color for top and bottom
+                    \definecolor{myred}{rgb}{1.0, 0.2, 0.2}     % Red color for curved surface
 
-    % Height annotation
-    \draw[dashed] (0,0) -- (0,4);
-    \node[right] at (0,2) {\small $h$};
+                    % Draw the bottom ellipse
+                    \shade[bottom color=myorange, top color=white, opacity=0.5] (0,0) ellipse (2 and 0.5);
+                    \draw[thick, black] (0,0) ellipse (2 and 0.5);
+
+                    % Draw the curved surface in red
+                    \filldraw[bottom color=myred, top color=white, opacity=0.5] (-2,0) -- (-2,4) arc (180:360:2 and 0.5) -- (2,0) -- cycle;
+                    \draw[thick, black] (-2,0) -- (-2,4);
+                    \draw[thick, black] (2,0) -- (2,4);
+
+                    % Draw the top ellipse
+                    \shade[bottom color=myorange, top color=white, opacity=0.5] (0,4) ellipse (2 and 0.5);
+                    \draw[thick, black] (0,4) ellipse (2 and 0.5);
+
+                    % Radius annotation
+                    \draw[dashed] (0,4) -- (2,4);
+                    \node[right] at (0.8,4.1) {\small $14 cm$};
+
+                    % Height annotation
+                    \draw[dashed] (0,0) -- (0,4);
+                    \node[right] at (0,2) {\small $15 cm$};
                 \end{tikzpicture}
             </latex-image>
                 <shortdescription></shortdescription>
@@ -99,6 +102,33 @@
             <p>
                 (a).The net of the cylinder is shown below
             </p>
+
+            <image width="50%">
+              <shortdescription></shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                     % Define colors
+                    \definecolor{myorange}{rgb}{1.0, 0.6, 0.2}  % Orange for circular bases
+                    \definecolor{myred}{rgb}{0.8, 0.2, 0.4}     % Red for the rectangle
+
+                    % Draw the rectangular surface of the cylinder
+                    \filldraw[fill=myred, draw=black, thick] (-3,-2) rectangle (3,2);
+
+                    % Draw the two circular bases
+                    \filldraw[fill=myorange, draw=black, thick] (0,3.5) circle (1.5);
+                    \filldraw[fill=myorange, draw=black, thick] (0,-3.5) circle (1.5);
+
+                    % Draw dashed lines to indicate radius and height
+                
+                    \node[right] at (3,0) {\small $15 cm$};
+                    
+                    \draw[dashed] (0,3.6) -- (1.5,3.6);
+                    \draw[dashed] (0,-3.6) -- (1.5,-3.6);
+                    \node[right] at (0.4,3.8) {\small $14 cm$};
+                    \node[right] at (0.4,-3.8) {\small $14 cm$};
+                \end{tikzpicture}
+            </latex-image>         
+            </image>
 
             <p>
                 <md>
