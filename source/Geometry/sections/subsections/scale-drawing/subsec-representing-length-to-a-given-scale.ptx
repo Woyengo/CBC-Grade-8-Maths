@@ -1,14 +1,8 @@
 <subsection xml:id="subsec-representing-length-to-a-given-scale">
     <title>Representing length to a given scale</title>
-    <p>
-        Representing length to a given scale involves creating a proportional representation of real-world measurements, typically in drawings, maps, or models.
-    </p>
-    <p>
-        A scale is a ratio that compares the dimensions of a representation (like a drawing) to the corresponding dimensions of the actual object. It indicates how much smaller or larger the representation is compared to reality.
-    </p>
     <activity>
         <p>
-            Work in groups
+            <m>\textbf{Work in groups}</m>
         </p>
         <p>
             The teacher provided the learners with a textbook, a ruler, and an exercise book for the activity.
@@ -40,7 +34,7 @@
     </activity>
     <activity>
         <p>
-            Work in groups
+            <m>\textbf{Work in groups}</m>
         </p>
         <p>
             What you require:
@@ -139,52 +133,117 @@
             </ol>
         </p>
     </activity>
+    <p>
+        <m>\textbf{Representing length to a given scale}</m> involves creating a proportional representation of real-world measurements, typically in drawings, maps, or models.
+    </p>
+    <p>
+        <m>\textbf{A scale}</m> is a ratio that compares the dimensions of a representation (like a drawing) to the corresponding dimensions of the actual object. It indicates how much smaller or larger the representation is compared to reality.
+    </p>
+    
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Scale drawing helps represent real-world objects proportionally on paper, using a specific ratio to maintain accurate measurements.
+                </p>
+            </li>
+        </ul>
+    </p>
     <example>
         <statement>
             <p>
-                The length of a school field is measured as <m>12000</m>cm. Given that <m>1</m>cm represents <m>600</m>cm, represent the length of the school field on paper.
+                The length of a school field is measured as <m>12000 \textbf{ cm}</m>. Given that <m>1 \textbf{ cm}</m> represents <m>600 \textbf{ cm}</m>, represent the length of the school field on paper.
             </p>
         </statement>
         <solution>
             <p>
-                Actual length of a school field = <m>12000</m>cm.
+                Actual length of a school field = <m>12000 \textbf{ cm}</m>.
             </p>
             <p>
-                Scale = <m>1</m>cm represents <m>600</m>cm.
+                Scale = <m>1 \textbf{ cm}</m> represents <m>600 \textbf{ cm}</m>.
             </p>
             <p>
-                <m>\frac{12000}{600}=20</m>cm
+                To find the length on paper, we use the formula:
             </p>
             <p>
-                Therefore, the scale length is <m>20</m>cm
+                <md>
+                    <mrow>\textbf{Drawing Length} = \amp \frac{\textbf{Actual Length}}{\textbf{Scale Factor}}</mrow>
+                    <mrow> = \amp \frac{12,000}{600}</mrow>
+                    <mrow> = \amp 20 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, The length of the school field on paper will be <m>20 \textbf{ cm}</m>.
             </p>
         </solution>
     </example>
     <example>
         <statement>
             <p>
-                The height of a mountain is 3,500 meters. If we use a scale where 1 cm represents 500 meters, represent the height of the mountain in your workbook.
+                The height of a mountain is <m>3,500 \textbf{ meters}</m>. If we use a scale where <m>1 \textbf{ cm}</m> represents <m>500 \textbf{ meters}</m>, represent the height of the mountain in your workbook.
             </p>
 
         </statement>
         <solution>
             <p>
-                Actual height of the mountain = <m>3500</m> meters
+                Actual height of the mountain = <m>3500 \textbf{ meters}</m> 
             </p>
             <p>
-                Scale = <m>1</m>cm represents <m>500</m> meters
+                Scale = <m>1 \textbf{ cm}</m> represents <m>500 \textbf{ meters}</m>
             </p>
             <p>
-                To determine the height on paper:
+                To find the height of the mountain on paper, we use the formula:
             </p>
             <p>
-                <m>\frac{\textbf{Actual height }}{\textbf{Scale factor}}</m>
+                <md>
+                    <mrow>\textbf{Drawing Height} = \amp \frac{\textbf{Actual height }}{\textbf{Scale factor}}</mrow>
+                    <mrow> = \amp \frac{3500}{500}</mrow>
+                    <mrow> =  \amp 7 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            
+            <p>
+                Therefore, the height of the mountain would be drawn as <m>7 \textbf{ cm}</m> tall on paper.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A map has a scale of <m>1:75,000</m>. A road is <m>6 \textbf{ kilometers}</m> long in reality. How long should it be drawn on the map in centimeters?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Scale = <m>1:75,000</m> (This means <m>1 \textbf{ cm}</m> on the map represents <m>75,000 \textbf{ cm}</m> in reality.)
             </p>
             <p>
-                = <m>\frac{3500}{500} = 7</m>cm
+                Actual road length = <m>6 \textbf{ km}</m>
             </p>
             <p>
-                Therefore, the height of the mountain would be drawn as 7 cm tall on paper.
+                Convert kilometers to centimeters:
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{6 \cancel{ km}}{1 \cancel{ km}} \times 100,000 \textbf{ cm}</mrow>
+                    <mrow> = \amp 600,000\textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Now, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Drawing Length} = \amp \frac{\textbf{Actual Length}}{\textbf{Scale Factor}}</mrow>
+                    <mrow> = \amp \frac{600,000}{75,000}</mrow>
+                    <mrow> = \amp 8 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                The road should be drawn as <m>8 \textbf{ cm}</m> long on the map.
             </p>
         </solution>
     </example>
