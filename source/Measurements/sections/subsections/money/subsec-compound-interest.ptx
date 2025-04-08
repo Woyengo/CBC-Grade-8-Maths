@@ -1,28 +1,16 @@
 <subsection xml:id="subsec-compound-interest">
     <title>Compound interest</title>
     <introduction>
-        <p>
-          <m>\textbf{Recall:}</m>
-        </p>
+        
         <p>
             In the previous sections, you learnt how to calculate simple interest.
         </p>
         <p>
             In this section, you will learn how to calculate another type of interest called <m>\textbf{compound interest.}</m>
         </p>
-        <definition xml:id="def-compound-interest">
-            <statement>
-                <p>
-                    <m>\textbf{Compound interest}</m> is the interest where the principal keeps changing each year.
-                </p>
-                <p>
-                    The principal of any year is the sum of the principal and the interest of the previous year.
-                </p>
-                <p>
-                    <m>\textbf{Compound interest}</m> is the total interest earned in all the year.
-                </p>
-            </statement>
-        </definition>
+        
+        
+            
     </introduction>
     
 
@@ -80,12 +68,38 @@
             </p>
         </activity>
         <p>
-            <m>{\color{blue} \textbf{Essential Concept:}}</m>
+            <m>{\color{black} \textbf{Key Takeaway:}}</m>
         </p>
+
+        <p>
+            <m>\textbf{Compound interest}</m> is the interest where the principal keeps changing each year.
+        </p>
+        <p>
+            The principal of any year is the sum of the principal and the interest of the previous year.
+        </p>
+        <p>
+            <m>\textbf{Compound interest}</m> is the total interest earned in all the year.
+        </p>
+
+
+
+
         <p>
             The difference between the amount derived from accumulated interest 
             and the initial amount is the compound interest.
         </p>
+
+        <p>
+            <m>\textbf{N/B:}</m>
+            <m>\textbf{Simple Interest}</m> is calculated only on the 
+            original principal,
+           while <m>\textbf{Compound Interest}</m> is calculated on the 
+           principal plus accumulated interest, making it
+            grow over time that the principal was deposited.
+
+
+        </p>
+
         <example>
             <statement>
                 <p>

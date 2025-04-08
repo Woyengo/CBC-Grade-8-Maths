@@ -2,6 +2,7 @@
 
 <section xml:id="sec-scale_drawing" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Scale Drawing</title>
+    
 
     <xi:include href="subsections/scale-drawing/subsec-application-of-scale-drawings1.ptx" />
     <xi:include href="subsections/scale-drawing/subsec-application-of-scale-drawings2.ptx" />

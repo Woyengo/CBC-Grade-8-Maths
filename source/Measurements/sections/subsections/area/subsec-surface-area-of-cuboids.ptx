@@ -3,111 +3,16 @@
 
     <introduction>
         <p>
-       <m>\textbf{Recall:}</m>
-    </p>
-    <p>
-        In grade 7, you calculated the area of a squre and the area of a rectangle.
-    </p>
-    <p>
-        In this section will look at the surface area of a cuboid.
-    </p>
-    <definition xml:id="def-cuboid">
-        <statement>
-            <p>
-                A <m>\textbf{cuboid}</m> is a three-dimensional figure or solid which has six rectangular sides called faces.
-            </p>
-            <p>
-                Each face of a cuboid is a rectangle and all of its corners are <m>90</m>-degrees. 
-            </p>
-            <p>
-                It has 8 vertices and 12 edges. The opposite faces of a cuboid are always equal. 
-                It means that the opposite surfaces of the cuboid are in the same dimension.
-            </p>
-            <image width="90%">
-            <latex-image label="cuboid-1">
-                \begin{tikzpicture}[scale=0.5]
-                    % Define dimensions
-                    \def\length{12} % Length of the cuboid
-                    \def\height{5}  % Height of the cuboid
-                    \def\width{4}   % Width (depth) of the cuboid
-
-                    % Define points for the cuboid
-                    \coordinate (A) at (0,0);                   % Front bottom-left
-                    \coordinate (B) at (\length,0);             % Front bottom-right
-                    \coordinate (C) at (\length,\height);       % Front top-right
-                    \coordinate (D) at (0,\height);             % Front top-left
-
-                    \coordinate (E) at (\width,\width);                   % Back bottom-left
-                    \coordinate (F) at (\length+\width,\width);           % Back bottom-right
-                    \coordinate (G) at (\length+\width,\height+\width);   % Back top-right
-                    \coordinate (H) at (\width,\height+\width);           % Back top-left
-
-                    % Fill base rectangle with blue color
-                    \fill[blue!30] (A) -- (B) -- (F) -- (E) -- cycle;
-
-                    % Draw the front face
-                    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
-
-                    % Draw the back face
-                    \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
-
-                    % Connect front and back faces
-                    \draw[thick] (A) -- (E);
-                    \draw[thick] (B) -- (F);
-                    \draw[thick] (C) -- (G);
-                    \draw[thick] (D) -- (H);
-
-                    % Label Length (front edge)
-                    \draw[&lt;-&gt;, red, thick] (A) ++(0,-1) -- ++(\length,0) 
-                    node[midway, below, font=\bfseries, red] {\huge{Length} };
-&lt;-&gt;
-                    % Label Height (right edge)
-                    \draw[&lt;-&gt;, blue, thick] (B) ++(-12.5,0) -- ++(0,\height)
-                    node[midway, left, font=\bfseries, blue] {\huge{Height}};
-
-                    % Label Width (depth)
-                    \draw[&lt;-&gt;, green!70!black, very thick] (B) ++(0,-1) -- ++(\width,\width)
-                    node[midway, below right, font=\bfseries, green!70!black] {\huge{Width} };
-
-                \end{tikzpicture}
-            </latex-image>
-               
-            </image>
-            <p>
-                <m>\textbf{Surface Area of Cuboid Formula}</m>
-            </p>
-            <p>
-                <ol marker="a">
-                    <li>
-                        <p>
-                            Before going into the concept of area, let us denote the dimensions of a cuboid, which are,
-                        </p>
-                        <p>
-                            Length, Width, and Height are represented by <m>l\, w\, h\,</m> respectively.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The Total surface area of a cuboid (TSA) is equal to the 
-                            sum of the areas of it’s <m>6</m> rectangular faces, which is given by:
-                        </p>
-                        <p>
-                            <me>\textbf{Total Surface Area of a Cuboid (TSA)}  {\color{blue} =2 (lw + wh + lh)} \,\textbf{square units}</me>.
-                        </p>
-                        <p>
-                            The above formula gives the total surface area of a cuboid having all six faces.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-            <p>
-                <m>\textbf{Note:}</m> If incase one face is open, <m>\textbf{DO NOT}</m> multiply by two use it singly as, 
-                <m>l \times w</m> then add to the other faces.
-
-            </p>
-        </statement>
-    </definition>
+            In grade 7, you calculated the area of a squre and the area of a rectangle.
+        </p>
+        <p>
+            In this section will look at the surface area of a cuboid.
+        </p>
     </introduction>
+
+    
+
+    
 
     <subsubsection xml:id="subsubsec-surface-area-of-cuboid">
         <title>Working out the surface area of cuboids in real life.</title>
@@ -190,22 +95,101 @@
             </p>
         </activity>
         <p>
-            <m>{\color{blue} \textbf{Essential Concept:}}</m>
+            <m>{\color{black} \textbf{Key Takeaway:}}</m>
+        </p>
+     
+    
+        <p>
+            A <m>\textbf{cuboid}</m> is a three-dimensional figure or solid which has six rectangular sides called faces.
+        </p>
+        
+        <p>
+            It has 8 vertices and 12 edges. The opposite faces of a cuboid are always equal. 
+            It means that the opposite surfaces of the cuboid are in the same dimension.
+        </p>
+        <image width="90%">
+        <latex-image label="cuboid-1">
+            \begin{tikzpicture}[scale=0.5]
+                % Define dimensions
+                \def\length{12} % Length of the cuboid
+                \def\height{5}  % Height of the cuboid
+                \def\width{4}   % Width (depth) of the cuboid
+
+                % Define points for the cuboid
+                \coordinate (A) at (0,0);                   % Front bottom-left
+                \coordinate (B) at (\length,0);             % Front bottom-right
+                \coordinate (C) at (\length,\height);       % Front top-right
+                \coordinate (D) at (0,\height);             % Front top-left
+
+                \coordinate (E) at (\width,\width);                   % Back bottom-left
+                \coordinate (F) at (\length+\width,\width);           % Back bottom-right
+                \coordinate (G) at (\length+\width,\height+\width);   % Back top-right
+                \coordinate (H) at (\width,\height+\width);           % Back top-left
+
+                % Fill base rectangle with blue color
+                \fill[blue!30] (A) -- (B) -- (F) -- (E) -- cycle;
+
+                % Draw the front face
+                \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                % Draw the back face
+                \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+
+                % Connect front and back faces
+                \draw[thick] (A) -- (E);
+                \draw[thick] (B) -- (F);
+                \draw[thick] (C) -- (G);
+                \draw[thick] (D) -- (H);
+
+                % Label Length (front edge)
+                \draw[&lt;-&gt;, red, thick] (A) ++(0,-1) -- ++(\length,0) 
+                node[midway, below, font=\bfseries, red] {\huge{Length} };
+                &lt;-&gt;
+                % Label Height (right edge)
+                \draw[&lt;-&gt;, blue, thick] (B) ++(-12.5,0) -- ++(0,\height)
+                node[midway, left, font=\bfseries, blue] {\huge{Height}};
+
+                % Label Width (depth)
+                \draw[&lt;-&gt;, green!70!black, very thick] (B) ++(0,-1) -- ++(\width,\width)
+                node[midway, below right, font=\bfseries, green!70!black] {\huge{Width} };
+
+            \end{tikzpicture}
+        </latex-image>
+            
+        </image>
+        <p>
+            <m>\textbf{Surface Area of Cuboid Formula}</m>
         </p>
         <p>
-            For a cuboid with dimencions <m>l\,\text{by} \,w \, \text{by} \,h</m> 
-            units, <m>2</m>faces have dimensions <m>l</m> by <m>w</m>, <m>2</m> faces have dimensions <m>w</m> by <m>h</m> and <m>2</m> faces have dimensions <m>l</m> by <m>h</m>.
+            <ol marker="a">
+                <li>
+                    <p>
+                        Before going into the concept of area, let us denote the dimensions of a cuboid, which are,
+                    </p>
+                    <p>
+                        Length, Width, and Height are represented by <m>l\, ,w\, , \, \textbf{and}\,h</m> respectively.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The Total surface area of a cuboid (TSA) is equal to the 
+                        sum of the areas of it’s <m>6</m> rectangular faces, which is given by:
+                    </p>
+                    <p>
+                        <me>\textbf{Total Surface Area of a Cuboid (TSA)}  {\color{blue} =2 (lw + wh + lh)} \,\textbf{square units}</me>.
+                    </p>
+                    <p>
+                        The above formula gives the total surface area of a cuboid having all six faces.
+                    </p>
+                </li>
+            </ol>
         </p>
         <p>
-            <md>
-                <mrow> \text{The total area}=\amp 2(l \times w)+2(w \times h)+2(l \timesh) </mrow>
-                <mrow> =\amp 2lw+2wh+2lh</mrow>
-                <mrow> =\amp 2(lw+wh+lh) </mrow>
-            </md>
+            <m>\textbf{Note:}</m> If incase one face is open, <m>\textbf{DO NOT}</m> multiply by two use it singly as, 
+            <m>l \times w</m> then add to the other faces.
+
         </p>
-        <p>
-            Therefore, the surface area of a cuboid <m>{\color{green} =2(lw+wh+lh)}</m>
-        </p>
+           
         <example>
             <statement>
                 <p>
@@ -231,10 +215,10 @@
                         \draw[very thick] (\length+\depth,\depth) -- ++(0,\height);
 
                         % Label the dimensions without lines
-                        \node[left] at (-0.3,\height/2) {\huge{10 cm}};
-                        \node[below] at (\length/2,-0.3) {\huge{15 cm}};
+                        \node[left] at (-0.3,\height/2) {10 cm};
+                        \node[below] at (\length/2,-0.3) {15 cm};
                         
-                        \node[below right] at (\length+\depth/2,1.3) {\huge{8 cm}};
+                        \node[below right] at (\length+\depth/2,1.3) {8 cm};
 
                     \end{tikzpicture}
                 </latex-image>
