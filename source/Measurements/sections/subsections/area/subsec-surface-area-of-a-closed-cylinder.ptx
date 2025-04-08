@@ -1,121 +1,14 @@
 <subsection xml:id="subsec-surface-area-of-a-closed-cylinder">
     <title>Surface area of a closed cylinder</title>
-    <p>
-        <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In grade 7, you calculated the area of a circle and rectangles. How did you do it?
     </p>
     <p>
         In this section, you will calculate the surface area of a closed cylinder.
     </p>
-    <definition xml:id="def-cylinder">
-        <statement>
-            <p>
-                A <m>\textbf{cylinder}</m> is a three-dimensional structure having circular bases which are parallel to each other.
-            </p>
-            <p>
-                It does not have any vertices. Generally, 
-                the area of the three-dimensional shapes refers to the surface area.
-            </p>
-            <p>
-                The surface area is represented in square units. For example, <m>cm^2\,, m^2</m> and so on. 
-            </p>
-            <p>
-                A cylinder contains <m>r \,\text{and}\, h</m> where <m>r</m> represent the radius of the cylinder and <m>h</m> represent the height of the cylinder as shown below;
-            </p>
-            <image width="50%">
-            <latex-image label="cylinder1">
-                \begin{tikzpicture}[scale=1]
-                   % Define cylinder dimensions
-                    \def\radius{1.5} % Radius
-                    \def\height{3}   % Height
+         
 
-                    % Draw the top and bottom ellipses
-                    \draw[thick] (-\radius,0) arc (180:360:\radius cm and 0.5cm); % Bottom ellipse (visible part)
-                    \draw[thick, dashed] (\radius,0) arc (0:180:\radius cm and 0.5cm); % Bottom ellipse (hidden part)
-                    \draw[thick] (-\radius,\height) arc (180:360:\radius cm and 0.5cm); % Top ellipse (visible part)
-                    \draw[thick] (\radius,\height) arc (0:180:\radius cm and 0.5cm); % Top ellipse (hidden part)
-
-                    % Draw the vertical sides
-                    \draw[thick] (-\radius,0) -- (-\radius,\height);
-                    \draw[thick,fill=blue] (\radius,0) -- (\radius,\height);
-
-                    % Draw height indicator
-                    \draw[dashed] (0,0) -- (0,\height);
-                    \node[left,fill=pink] at (0,\height/2) {\textit{\textbf{h}}};
-
-                    % Draw radius indicator
-                    \draw[dashed] (0,0) -- (\radius,0);
-                    \node[below,,fill=pink] at (\radius/2,0) {\textit{\textbf{r}}};
-
-                    % Mark points
-                    \fill (0,0) circle (1.5pt);
-                    \fill (0,\height) circle (1.5pt);
-
-                \end{tikzpicture}
-            </latex-image>
-                
-            </image>
-            <p>
-                <m>\textbf{Area of a Cylinder Formula}</m>
-            </p>
-            <p>
-                <ol>
-                    <li>
-                        <p>
-                            The total area of a cylinder is based on:
-                        </p>
-                        <p>
-                            <ul>
-                                <li>
-                                    <p>
-                                        Curved Surface Area (CSA)
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        Base Area
-                                    </p>
-                                </li>
-                            </ul>
-                        </p>
-                    </li>
-                </ol>
-            </p>
-            <p>
-                <m>\textbf{Curved Surface Area}</m>
-            </p>
-            <p>
-                The curved surface area of a cylinder (CSA) is defined as the area of the 
-                curved surface of any given cylinder having a base radius '<m>r</m>', and height '<m>h</m>'
-            </p>
-            <p>
-                The formula for a curved area is given by:<me>\textbf{CSA} = 2\pi \times r \times h \text{Square units}</me>
-            </p>
-            <p>
-                <m>\textbf{Base Area of Cylinder}</m>
-            </p>
-            <p>
-                The base of the cylinder is a circular shape. Hence, 
-                by the formula of area of the circle, we know,
-            </p>
-            <p>
-                Area of the circular bases of cylinder <m>= 2 (\pi r^2)</m>  [Since the cylinder has two circular bases]
-            </p>
-            <p>
-                <m>\textbf{Total Surface Area of Cylinder}</m>
-            </p>
-            <p>
-                <md>
-                    <mrow> \text{TSA} = \amp 2 \pi r h  + 2 \pi r^2</mrow>
-                    <mrow> =\amp {\color{blue} 2 \pi r(h+r)}</mrow>
-                </md>
-            </p>
-        
-            
-        </statement>
-    </definition>
     <activity>
         <p>
             <m>\textbf{Work in groups}</m>
@@ -244,20 +137,109 @@
         </p>
     </activity>
     <p>
-        <m>{\color{blue} \textbf{Essential Concept:}}</m>
+        <m>{\color{Black} \textbf{Key Takaway:}}</m>
+    </p>
+
+    <p>
+        A <m>\textbf{cylinder}</m> is a three-dimensional structure having circular bases which are parallel to each other.
+    </p>
+   
+    <p>
+        A cylinder contains <m>r \,\text{and}\, h</m> where <m>r</m> represent the radius of the cylinder and <m>h</m> represent the height of the cylinder as shown below;
+    </p>
+    <image width="50%">
+    <latex-image label="cylinder1">
+        \begin{tikzpicture}[scale=1]
+            % Define cylinder dimensions
+            \def\radius{1.5} % Radius
+            \def\height{3}   % Height
+
+            % Draw the top and bottom ellipses
+            \draw[thick] (-\radius,0) arc (180:360:\radius cm and 0.5cm); % Bottom ellipse (visible part)
+            \draw[thick, dashed] (\radius,0) arc (0:180:\radius cm and 0.5cm); % Bottom ellipse (hidden part)
+            \draw[thick] (-\radius,\height) arc (180:360:\radius cm and 0.5cm); % Top ellipse (visible part)
+            \draw[thick] (\radius,\height) arc (0:180:\radius cm and 0.5cm); % Top ellipse (hidden part)
+
+            % Draw the vertical sides
+            \draw[thick] (-\radius,0) -- (-\radius,\height);
+            \draw[thick,fill=blue] (\radius,0) -- (\radius,\height);
+
+            % Draw height indicator
+            \draw[dashed] (0,0) -- (0,\height);
+            \node[left,fill=pink] at (0,\height/2) {\textit{\textbf{h}}};
+
+            % Draw radius indicator
+            \draw[dashed] (0,0) -- (\radius,0);
+            \node[below,,fill=pink] at (\radius/2,0) {\textit{\textbf{r}}};
+
+            % Mark points
+            \fill (0,0) circle (1.5pt);
+            \fill (0,\height) circle (1.5pt);
+
+        \end{tikzpicture}
+    </latex-image>
+        
+    </image>
+    <p>
+        <m>\textbf{Area of a Cylinder Formula}</m>
     </p>
     <p>
-        The total surface area of a cylinder of radius <m>r</m> and height <m>h</m>,
-        is given by the sum of the areas of the two circular faces and the 
-        curves face. Thus, 
-        
+        <ol>
+            <li>
+                <p>
+                    The total area of a cylinder is based on:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Curved Surface Area (CSA)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Base Area
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ol>
+    </p>
+    <p>
+        <m>\textbf{Curved Surface Area}</m>
+    </p>
+    <p>
+        The curved surface area of a cylinder (CSA) is defined as the area of the 
+        curved surface of any given cylinder having a base radius '<m>r</m>', and height '<m>h</m>'
+    </p>
+    <p>
+        The formula for a curved area is given by:<me>\textbf{CSA} = 2\pi \times r \times h \text{Square units}</me>
+    </p>
+    <p>
+        <m>\textbf{Base Area of Cylinder}</m>
+    </p>
+    <p>
+        The base of the cylinder is a circular shape. Hence, 
+        by the formula of area of the circle, we know,
+    </p>
+    <p>
+        Area of the circular bases of cylinder <m>= 2 (\pi r^2)</m>  [Since the cylinder has two circular bases]
+    </p>
+    <p>
+        <m>\textbf{Total Surface Area of Cylinder}</m>
     </p>
     <p>
         <md>
-            <mrow> \textbf{Total surface area of a cylinder}=\amp 2\pi r^2+2\pi r h </mrow>
-            <mrow>= \amp 2\pi r(r+h) </mrow>
+            <mrow> \text{TSA} = \amp 2 \pi r h  + 2 \pi r^2</mrow>
+            <mrow> =\amp {\color{blue} 2 \pi r(h+r)}</mrow>
         </md>
     </p>
+
+
+
+    
+    
     <p>
         <m>\textbf{Note:}</m> A cylinder is always considered closed, unless
         it is specified that it is open.

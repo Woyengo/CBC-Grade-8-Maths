@@ -2,9 +2,7 @@
     <title>Area of a circle</title>
 
     <introduction>
-        <p>
-        The "area of a circle" refers to the total space enclosed within the boundary of a circle. 
-        </p>
+        
         <p>
         It is calculated using the formula <m> \textbf{A} = \pi r^2 </m> 
         where <m>\pi = \frac{22}{7}</m> or <m>3.142</m> and 
@@ -64,10 +62,10 @@
             </p>
         </activity>
         <p>
-            <m>\textbf{Essential Concept:}</m>
+            <m>\textbf{Key Takeaway:}</m>
         </p>
         <p>
-            Area of a circle of radius, <m>(r)</m> is <m>\pi r^2</m>.
+            Area of a circle of radius <m>(r)</m> is given by: <me>A=\pi r^2</me>.
         </p>
         <example>
             <statement>
@@ -128,7 +126,7 @@
                             \filldraw[magenta] (0,0) circle (3pt);
                             
                             % Label the radius
-                            \node[anchor=south, black] at (1,0) {\large $3.5 \,cm$};
+                            \node[anchor=south, black] at (1,0) {\textbf{\large $3.5 \,cm$}};
                             
                             % Label the area formula
                             \node[anchor=north, scale=1.2] at (0,-0.3) {\textbf{0}};

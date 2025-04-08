@@ -1,0 +1,258 @@
+<subsection xml:id="subsec-conversion-of-scale-length-to-actual-length">
+    <title>Conversion of scale length to actual length</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        A sketch of a triangular plot of land with sides <m>4 \textbf{ cm}</m>, <m>6 \textbf{ cm}</m> and <m>9 \textbf{ cm}</m> is shown below. If the scale diagram of this plot  is <m>1 \textbf{ cm}</m> represents <m>10 \textbf{ m}</m>.
+                    </p>
+                    <image width="70%">
+                        <latex-image label = "triangle1">
+                            \begin{tikzpicture}
+                                % Define triangle vertices
+                                \coordinate (A) at (0,0);
+                                \coordinate (B) at (9,0); % AB = 9 cm
+                                \coordinate (C) at (3,4); % Approximate position for AC = 4 cm, BC = 6 cm
+
+                                % Draw the triangle
+                                \draw[thick] (A) -- (B) -- (C) -- cycle;
+        
+                                % Label the vertices
+                                \node[left] at (A) {A};
+                                \node[right] at (B) {B};
+                                \node[above] at (C) {C};
+
+                                % Label the sides
+                                \node[below] at (4.5, -0.5) {9 cm}; % AB
+                                \node[left] at (1.5, 2) {4 cm}; % AC
+                                \node[right] at (6, 2) {6 cm}; % BC
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </li>
+                <li>
+                    <p>
+                        Find the actual measurement of the triangular plot of land and fill in the table below.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="center" header="yes">
+                                <cell>Scale length</cell>
+                                <cell>Scale</cell>
+                                <cell>Actual length</cell>
+                            </row>
+                            <row>
+                                <cell><m>4 \textbf{ cm}</m></cell>
+                                <cell><m>1 \textbf{ cm}</m> represents <m>10 \textbf{ m}</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>6 \textbf{ cm}</m></cell>
+                                <cell><m>1 \textbf{ cm}</m> represents <m>10 \textbf{ m}</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>9 \textbf{ cm}</m></cell>
+                                <cell><m>1 \textbf{ cm}</m> represents <m>10 \textbf{ m}</m></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>\textbf{The conversion of scale length to actual length}</m> is the process of determining the real-world size from a scaled representation (e.g., maps, blueprints, models).
+    </p>
+    <p>
+        To convert a scale length to an actual length, multiply the scale length by the scale factor, which represents the real-world distance corresponding to one unit of measurement on the drawing or map.
+    </p>
+    <p>
+        <m>\textbf{Scale length}</m> refers to the length of an object as represented in the drawing or model.
+    </p>
+    <p>
+        <m>\textbf{Actual length}</m> is the real-world length of the same object. 
+    </p>
+    <p>
+        This is the formula of coverting scale length to actual length:
+    </p>
+    <p>
+        <md>
+            <mrow>\textbf{Actual length} =  \amp \textbf{Scale length} \times \textbf{Scale factor}</mrow>
+        </md>
+    </p>
+    <p>
+        <m>\textbf{Key points on conversion of scale to actual length.}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Find the Scale: Determine the scale used in the drawing or map.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Express as a Ratio: If the scale is not already in a ratio form (like 1:n), convert it. For example, if the scale is "1 cm = 5 m", you'd express it as 1:500 (since 5 m = 500 cm).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Calculate the Real Size: Multiply the scale length by the scale factor (the number in the ratio). 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Keep Units Consistent: Make sure all your measurements are in the same units. If they're not, convert them so they are (e.g., all in centimeters or all in inches).
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    To convert scale length to actual length, multiply the scale length by the specified scale factor.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                A road is represented by a line measuring <m>4 \textbf{ cm}</m> on a scale drawing. The scale used is <m>1 \textbf{ cm}</m> represents <m>5 \textbf{ m}</m>. Find the actual length of the road.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Scale length = <m>4 \textbf{ cm}</m>
+            </p>
+            <p>
+                the scale of the drawing = <m>1 \textbf{ cm}</m> represents <m>5 \textbf{ m}</m>
+            </p>
+            <p>
+                Using the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Actual length} =  \amp \textbf{Scale length} \times \textbf{Scale factor}</mrow>
+                    <mrow>=  \amp 4 \textbf{ m}\times 5 \textbf{ m}</mrow>
+                    <mrow>=  \amp 20 \textbf{ m}</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the actual length of the road is <m>20 \textbf{ m}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The scale of a map is <m>1 \textbf{ cm}</m> represents <m>2 \textbf{ km}</m>, a lake with a circular shape and a diameter of <m>6 \textbf{ cm}</m> appers on the map. What is the actual diameter of the lake?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Scale length = <m>6 \textbf{ cm}</m>
+            </p>
+            <p>
+                <m>1 \textbf{ cm}</m> represents <m>2 \textbf{ km}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Actual diameter} =  \amp \textbf{Scale length} \times \textbf{Scale factor}</mrow>
+                    <mrow> \amp \frac{6 \cancel{cm}}{1 \cancel{cm}} \times 2 \textbf{ km}</mrow>
+                    <mrow>=  \amp 12 \textbf{ km}</mrow>
+                </md>
+            </p>
+            <p>
+                The actual diameter of the lake is <m>12 \textbf{ km}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The floor of a rectangular room has a length of <m>6 \textbf{ cm}</m> and a width of <m>3 \textbf{ cm}</m> . A scale drawing of the room is provided below, where the scale is <m>1 \textbf{ cm}</m> represents <m>20 \textbf{ m}</m>.
+            </p>
+            <image width="50%">
+                <latex-image label = "rectangular">
+                    \begin{tikzpicture}
+                        % Draw the rectangle
+                        \draw[thick] (0,0) rectangle (6,3);
+
+                        % Add labels for dimensions
+                        \draw (-0.5,0) -- (-0.5,3) node[midway,left] {3 cm};
+                        \draw (0,-0.5) -- (6,-0.5) node[midway,below] {6 cm};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+          
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Find the actual measurement of the width;
+                        </p>
+                        <p>
+                            <m>3 \textbf{ cm}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the actual measurement of the length;
+                        </p>
+                        <p>
+                            <m>6 \textbf{ cm}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Scale = <m>1 \textbf{ cm}</m> represents <m>20 \textbf{ m}</m>
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            To find the actual measurement of the width <m>3 \textbf{ cm}</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{3 \cancel{cm}}{1 \cancel{cm}} \times 20 \textbf{ m}</mrow>
+                                <mrow> = \amp 60 \textbf{ m}</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            To find the actual measurement of length  <m>5 \textbf{ cm}</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{6 \cancel{cm}}{1 \cancel{cm}} \times 20 \textbf{ m}</mrow>
+                                <mrow> = \amp 120 \textbf{ m}</mrow>
+                            </md>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+</subsection>

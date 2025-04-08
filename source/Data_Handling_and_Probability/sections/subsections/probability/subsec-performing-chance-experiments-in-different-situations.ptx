@@ -1,213 +1,57 @@
 <subsection xml:id="subsec-performing-chance-experiments-in-different-situations">
     <title>Performing chance experiments in different situations</title>
-    <p>
-        Performing chance experiments in different situations means conducting activities where the outcome is uncertain and can vary each time, allowing you to observe and analyze the probability of different events happening across various scenarios.
-    </p>
-    <p>
-        In this section, you will perform chance experiments using a coin and a die.
-    </p>
-    <p>
-        A coin is a small, flat piece of metal used as currency, typically with two sides, heads and tails.
-    </p>
-    <p>
-        A die is a small, usually cube-shaped object with numbered faces used for rolling in games of chance, where each face represents a different number, typically <m>1</m> to <m>6</m> on a standard die.
-    </p>
     <activity>
         <p>
-            Work in groups
+            <m>\textbf{Work in groups}</m>
         </p>
         <p>
-            Consider a fair coin.
-        </p>
-        <image source="/10 Kenya Shilling coin.jpg" width="40%">
-            <shortdescription>Coin</shortdescription>
-        </image>
-        <p>
-            <ol>
-                <li>
-                    <p>
-                        Before flipping, predict how many times you think each face (Heads or Tails) will appear if you flip the coin <m>20</m> times.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Now, flip the coin and record the actual results in the table below.
-                    </p>
-                    <table>
-                        <title>Coin flip results</title>
-                        <tabular left="medium" right="medium" top="medium" bottom="medium">
-                            <row halign="center" header="yes">
-                                <cell>Face</cell>
-                                <cell>Tally marks</cell>
-                                <cell>Actual count</cell>
-                            </row>
-                            <row halign="center" header="yes">
-                                <cell>Head</cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row halign="center" header="yes">
-                                <cell>Tail</cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                        </tabular>
-                    </table>
-                </li>
-                <li>
-                    <p>
-                        Compare predictions and actual results after each trial. 
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Repeat the experiment by flipping the coin <m>10</m>, <m>15</m> and <m>25</m> times.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Share and compare your results with other groups to identify overall trends.
-                    </p>
-                </li>
-            </ol>
-        </p>
-       
-    </activity>
-    <p>
-        Learning point
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    <m>\textbf{Experiment}</m> is the  entire process of flipping a coin, which is considered a random event with a set of possible outcomes. 
-                </p>
-            </li>
-            <li>
-                <p>
-                    <m>\textbf{trial}</m> is a single instance of flipping the coin, meaning one toss where you observe either heads or tails.
-                </p>
-            </li>
-            <li>
-                <p>
-                    <m>\textbf{outcome}</m> The result of a single flip, which can be either "heads" or "tails".
-                </p>
-            </li>
-        </ul>
-    </p>
-    <activity>
-        <p>
-            Work in groups
+            Suppose the bag contains:
         </p>
         <p>
-            Given a die shown below.
-        </p>
-        <image source="/A die.jpg" width="40%">
-            <shortdescription>Die</shortdescription>
-        </image>
-        <p>
-            <ol>
+            <ul>
                 <li>
                     <p>
-                        Toss the die <m>15</m> times.
+                        <m>4</m> red counters
                     </p>
                 </li>
                 <li>
                     <p>
-                        (a) Record the number of times each face appears.
-                    </p>
-                    <p>
-                        (b) Individually, copy the table below and fill in your results.
-                    </p>
-                    <table>
-                        <title></title>
-                        <tabular left="medium" right="medium" top="medium" bottom="medium">
-                            <row halign="center" header="yes">
-                                <cell>Face</cell>
-                                <cell>Tally marks</cell>
-                                <cell>Number of times a face appears</cell>
-                            </row>
-                            <row>
-                                <cell><m>1</m></cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell><m>2</m></cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell><m>3</m></cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell><m>4</m></cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell><m>5</m></cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                            <row>
-                                <cell><m>6</m></cell>
-                                <cell></cell>
-                                <cell></cell>
-                            </row>
-                        </tabular>
-                    </table>
-                </li>
-                <li>
-                    <p>
-                        Repeat the experiment by tossing the die <m>10</m>, <m>20</m> and <m>25</m> times.
+                        <m>3</m> blue counters
                     </p>
                 </li>
                 <li>
                     <p>
-                        Discuss your results with other groups.
+                        <m>2</m> green counters
                     </p>
                 </li>
-            </ol>
-        </p>
-    </activity>
-    <activity>
-        <p>
-            Work in groups
+                <li>
+                    <p>
+                        <m>1</m> yellow counter
+                    </p>
+                </li>
+            </ul>
         </p>
         <p>
-            Given a bag and objects of three different colours, Blue, Red and Black.
+            This makes a total of <m>10</m> counters.
         </p>
         <p>
             <ol>
                 <li>
                     <p>
-                        Put blue,red and black objects in a bag.
+                        Before drawing, predict how many times you think each color will appear if you draw 20 times, replacing the counter back into the bag after each draw.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Draw the objects from the bag <m>20</m> times, one at a time. Each time you draw an object from the bag, identify its colour and put it back.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Individually, copy the table below and fill in your results.
+                        Perform the experiment by drawing a counter from the bag, recording its color, and putting it back before drawing again. Repeat <m>20</m> times and fill in the table below.
                     </p>
                     <table>
                         <title></title>
                         <tabular left="medium" right="medium" top="medium" bottom="medium">
                             <row halign="left" header="yes">
-                                <cell>Colour</cell>
-                                <cell>Tally marks</cell>
-                                <cell>Number of times you draw an object</cell>
-                            </row>
-                            <row>
-                                <cell>Blue</cell>
-                                <cell></cell>
-                                <cell></cell>
+                                <cell>Color</cell>
+                                <cell>Tally Marks</cell>
+                                <cell>Actual Count</cell>
                             </row>
                             <row>
                                 <cell>Red</cell>
@@ -215,60 +59,200 @@
                                 <cell></cell>
                             </row>
                             <row>
-                                <cell>Black</cell>
+                                <cell>Blue</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Green</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Green</cell>
                                 <cell></cell>
                                 <cell></cell>
                             </row>
                         </tabular>
                     </table>
                 </li>
+                <li>
+                    <p>
+                        Repeat the experiment by drawing counters 15 and 30 times.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Analyze:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Which color appeared the most? 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Which color appeared the least?
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share and compare your findings with other groups.
+                    </p>
+                </li>
             </ol>
         </p>
     </activity>
+    <p>
+        <m>\textbf{Chance Experiment}</m> is an activity or situation where the outcome is not certain. You don’t know what will happen until you try it.
+    </p>
+    <p>
+        Each time you do the experiment, you might get a different result, even if the conditions stay the same.
+    </p>
+    <p>
+        <m>\textbf{ Examples of Chance Experiments:}</m>
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Tossing a Coin
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                A coin has <m>2</m> sides: Heads and Tails
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Each side has a <m>1</m> out of <m>2</m> chance <m>(50)</m>%
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Rolling a Die
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                A die has <m>6</m> faces numbered from <m>1</m> to <m>6</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Each number has a <m>1</m> out of <m>6</m> chance
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Picking Counters
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                A bag may have counters of different colors
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The chance of picking a certain color depends on how many of that color are in the bag
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ol>
+    </p>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    <m>\textbf{Experiment}</m>: A process that leads to one or more outcomes (e.g., rolling a die)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{trial}</m>: One performance of the experiment (e.g., one roll of the die)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{outcome}</m>: The result of a chance experiment.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Probability}</m>: A number that tells how likely an event is to happen, usually between <m>0</m> and <m>1</m>.
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>0</m> means it cannot happen
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>1</m> means it is certain to happen
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A probability of <m>0.5</m> or <m>(50)</m>% means it’s equally likely to happen or not
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+        </ul>
+    </p>
+    
     <example>
         <statement>
             <p>
-                A spinner wheel shown has six equal sectors.
+                Akello has four different T-shirts in her drawer: navy, grey, white, and red. She chooses one T-shirt randomly. What are the possible colours of the T-shirt Akello picked?
             </p>
-           <image width = "40%">
-            <latex-image>
-                \begin{tikzpicture}
-                    % Draw the outer circle
-                    \draw[thick] (0,0) circle (3cm);
-
-                    % Define sector angles and draw dividing lines
-                    \foreach \angle in {0, 60, 120, 180, 240, 300} {
-                        \draw[thick] (0,0) -- (\angle:3cm);
-                    }
-
-                    % Label the sectors with numbers (1 to 6)
-                    \foreach \angle[count=\i] in {30, 90, 150, 210, 270, 330} {
-                        \node at (\angle:2cm) {\Large \textbf{\i}};
-                    }
-
-                    % Draw the central pivot
-                    \filldraw[black] (0,0) circle (0.2cm);
-
-                    % Draw a SHORT black arrow pointing UP from the center
-                    \draw[thick, black, ->] (0,0) -- (90:1cm);
-                \end{tikzpicture}
-            </latex-image>
-           </image>
-            <p>
-                The spinner is span once. List all possible results.
-            </p>
-        </statement>
+        </statement> 
         <solution>
             <p>
-                The possible results are <m>1,2,3,4,5</m> and <m>6</m>
+                The possible colours of the T-shirt Akello picked are: navy, grey, white, red.
             </p>
-        </solution>
+        </solution>  
     </example>
     <example>
         <statement>
             <p>
-                
+                A basket contains <m>4</m> different fruits: apple, banana, peach, and pineapple. One fruit is randomly chosen from the basket.
+            </p>
+            <p>
+                List the sample space of the possible types of fruit that could be chosen.
             </p>
         </statement>
+        <solution>
+            <p>
+                The sample space of the possible types of fruit is:
+            </p>
+            <p>
+                Sample Space = {apple, banana, peach, pineapple}
+            </p>
+        </solution>
     </example>
 </subsection>
