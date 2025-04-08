@@ -1,40 +1,5 @@
 <subsection xml:id="subsec-writing-experimental-probability-outcomes-in-different-situations">
     <title>Writing experimental probability outcomes in different situations</title>
-    <p>
-        Writing experimental probability outcomes" means recording the results of an experiment by noting how many times a specific event occurred out of a total number of trials essentially expressing the probability of that event happening based on the actual data collected during the experiment, rather than theoretical calculations.
-    </p>
-    <p>
-        It's usually written as a fraction, decimal, or percentage where the numerator is the number of times the event occurred and the denominator is the total number of trials. 
-    </p>
-    <p>
-        <m>\textbf{Key points about experimental probability outcomes:}</m>
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    Based on real data:
-                </p>
-                <p>
-                    Unlike theoretical probability, which relies on mathematical calculations, experimental probability is based on the actual outcomes observed in an experiment. 
-                </p>
-            </li>
-            <li>
-                <p>
-                    Calculated as a ratio:
-                </p>
-                <p>
-                    To write an experimental probability, you divide the number of times the event occurred by the total number of trials. 
-                </p>
-            </li>
-        </ul>
-    </p>
-    <p>
-        Mathematically, the formula for the experimental probability is defined by;
-    </p>
-    <p>
-        <m>\textbf{Probability of an Event P(E) = Number of times an event occurs / Total number of trials.}</m>
-    </p>
     <activity>
         <p>
             Work in groups
@@ -49,161 +14,175 @@
             <ol>
                 <li>
                     <p>
-                        Toss a die <m>25</m> times.
+                        Toss a die <m>20</m> times.
                     </p>
                 </li>
                 <li>
                     <p>
-                        (a) How many times does <m>1</m> appear out of <m>25</m> tosses?
+                        How many times does each number from <m>1</m> to <m>6</m> appear out of <m>20</m> tosses of a die? Record in the table below.
                     </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Die Number</cell>
+                                <cell>Frequency (How Many Times It Appears in 20 Tosses)</cell>
+                            </row>
+                            <row>
+                                <cell><m>1</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>2</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>3</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>4</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>5</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>6</m></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
                     <p>
-                        (b) How many times does <m>2</m> appear out of <m>25</m> tosses?
-                    </p>
-                    <p>
-                        (c) How many times does <m>3</m> appear out of <m>25</m> tosses?
-                    </p>
-                    <p>
-                        (d) How many times does <m>4</m> appear out of <m>25</m> tosses?
-                    </p>
-                    <p>
-                        (e) How many times does <m>5</m> appear out of <m>25</m> tosses?
-                    </p>
-                    <p>
-                        (f) How many times does <m>6</m> appear out of <m>25</m> tosses?
+                        Write how many times each number on the die shows up as a fraction of the total number of times you rolled the die.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Write the number of times each face appears as a fraction of the number of tosses. What do you think the fractions you get represent?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Discuss your results with other learners in class.
+                        Discuss and share with other groups.
                     </p>
                 </li>
             </ol>
         </p>
     </activity>
     <p>
-        Learning point
+        <m>\textbf{Experimental probability outcome}</m> refers to the result or observation of an event that occurs during an experiment or trial when calculating experimental probability.
+    </p>
+    <p>
+        <m>\textbf{Experimental probability}</m> refers to the probability of an event happening based on the results of an actual experiment or trial.
+    </p>
+    <p>
+        Formula for Experimental Probability:
+    </p>
+    <p>
+        <md>
+            <mrow>\textbf{P(E)} = \amp \frac{\textbf{Number of outcomes}}{\textbf{Total number of trials}}</mrow>
+        </md>
+    </p>
+    <p>
+        Where;
     </p>
     <p>
         <ul>
             <li>
                 <p>
-                    Flipping a coin or tossing a dice are examples of chance experiments.
+                    P(E) = Experimental probability of event
                 </p>
             </li>
             <li>
                 <p>
-                    A trial or chance experiment may have different possible outcomes.
+                    Number of outcomes = How many times the event you are interested in occurs
+                </p>
+            </li>
+            <li>
+                <p>
+                    Total number of trials = The number of times the experiment is repeated
+                </p>
+            </li>
+        </ul> 
+    </p>
+    
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Experimental probability outcomes are the observed results of trials that allow us to estimate the likelihood of events based on actual occurrences.
                 </p>
             </li>
         </ul>
     </p>
-    <activity>
-        <p>
-            Work in groups
-        </p>
-        <p>
-            Given a spinner shown below.
-        </p>
-        <image width="40%">
-            <latex-image>
-                \begin{tikzpicture}
-                    % Define colors
-                    \definecolor{yellow}{RGB}{255, 230, 128}
-                    \definecolor{green}{RGB}{128, 200, 128}
-                    \definecolor{blue}{RGB}{128, 200, 255}
-                    \definecolor{purple}{RGB}{200, 160, 255}
-    
-                    % Draw the circle and divide into 8 sections
-                    \foreach \i in {0,1} {
-                       \fill[rotate=45*\i, yellow] (0,0) -- (90:2) arc (90:45:2) -- cycle;
-                    }
-                    \foreach \i in {2,3} {
-                       \fill[rotate=45*\i, purple] (0,0) -- (90:2) arc (90:45:2) -- cycle;
-                    }
-                   \foreach \i in {4,5} {
-                      \fill[rotate=45*\i, blue] (0,0) -- (90:2) arc (90:45:2) -- cycle;
-                    }
-                   \foreach \i in {6,7} {
-                      \fill[rotate=45*\i, green] (0,0) -- (90:2) arc (90:45:2) -- cycle;
-                    }
-    
-                    % Draw the circle outline
-                    \draw[thick] (0,0) circle (2);
-    
-                   % Draw the radial lines
-                   \foreach \i in {0,1,2,3,4,5,6,7} {
-                       \draw[thick] (0,0) -- (45*\i:2);
-                    }
-    
-                   % Add numbers at the center of each section
-                   \foreach \i [count=\n from 1] in {67.5, 22.5, -22.5, -67.5, -112.5, -157.5, 157.5, 112.5} {
-                       \node at (\i:1.3) {\Large \bf \n};
-                    }
-    
-                    % Draw the spinner arrow (shortened)
-                    \fill[red] (-0.15,1.5) -- (0.15,1.5) -- (0,1.8) -- cycle;
-                    \draw[thick,red] (0,0) -- (0,1.5);
-                    \fill[red] (0,0) circle (0.2);
-                \end{tikzpicture}
-            </latex-image>
-        </image>
-        <p>
-            <ol>
-                <li>
-                    <p>
-                        (a) Spin the spinner <m>20</m> times.
-                    </p>
-                    <p>
-                        (b) Individually, record the number of times the arrow stops on each of the numbers.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        How many times does the arrow stop on each numbers out of <m>20</m> spins?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Express the number of times the arrow stops on each number as a fraction of the number of spins. What do you think the fractions you get represent?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Discuss your results with other learners in class.
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </activity>
-    <p>
-        Learning point
-    </p>
-    <p>
-        Suppose you spin a spinner seven times and the arrow stops at <m>3</m> four times:
-    </p>
-    <p>
-        The experimental probability that the arrow will point to <m>3</m> is given by:
-    </p>
-    <p>
-        <m>\textbf{Probability}</m><m>(3)</m> = <m>\frac{4}{7}</m>
-    </p>
-    <p>
-        Therefore, <m>\textbf{experimental probability}</m> = <m>\frac{\textbf{number of outcomes}}{\textbf{total number of trials'}}</m>
-    </p>
     <example>
         <statement>
             <p>
-                A bag contains three red balls and two green balls. If a ball is picked from the bag at random, list all the possible outcomes.
+                In a bag of marbles, there are red, blue, and green marbles. You pick a marble, note its color, and put it back. You do this <m>30</m> times. You pick a red marble <m>12</m> times. What is the experimental probability of picking a red marble?
             </p>
         </statement>
         <solution>
             <p>
-                Possible outcomes are; <m>\textbf{red, red, red, green and green.}</m>
+                Total Number of times a red marble was picked = 12
+            </p>
+            <p>
+                Total number of picks = <m>30</m>
+            </p>
+            <p>
+                To calculate the experimental probability of picking a red marble, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{P(Red)} = \amp \frac{\textbf{Number of times a red marble was picked}}{\textbf{Total number of picks}}</mrow>
+                    <mrow> = \amp \frac{12}{30}</mrow>
+                    <mrow> = \amp \frac{2}{5}</mrow>
+                    <mrow> =  \amp 0.4</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the experimental probability of picking a red marble is <m>0.4</m> or <m>40</m>%.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Nanjala rolled a number cube <m>25</m> times and got an even number <m>11</m> times. Predict how many times she might get an even number if she rolls the cube <m>100</m> times.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                From the experiment:
+            </p>
+            <p>
+                Nanjala rolled the number cube <m>25</m> times.
+            </p>
+            <p>
+                She got an even number <m>11</m> times.
+            </p>
+            <p>
+                So, the experimental probability of getting an even number is:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{P(Even)} = \amp \frac{\textbf{Number of even outcomes}}{\textbf{Total number of rolls}}</mrow>
+                    <mrow> = \amp \frac{11}{25}</mrow>
+                </md>
+            </p>
+            <p>
+                To predict how many times Nanjala might get an even number in <m>100</m> rolls, we multiply the experimental probability by <m>100</m>.
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Predicted number of even outcomes} =  \amp \textbf{P(Even)} \times 100</mrow>
+                    <mrow> =  \amp \frac{11}{25} \times 100</mrow>
+                    <mrow> =  \amp 44</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, Nanjala might get an even number <m>44</m> times if she rolls the number cube <m>100</m> times.
             </p>
         </solution>
     </example>

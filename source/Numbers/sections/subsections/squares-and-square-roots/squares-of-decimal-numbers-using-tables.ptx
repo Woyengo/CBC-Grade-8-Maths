@@ -1,6 +1,656 @@
 <subsection xml:id="subsec-squares-of-decimal-numbers-using-tables">
     <title>Squares of decimal numbers using tables</title>
    <p>
-    
+     To find the square of a decimal number:
    </p> 
+   <p>
+    <ol marker="i">
+        <li>
+            <p>
+               Write the decimal number in standard form e.g given <m>0.154</m> writing it in standard form =<m>1.54 \times 10^{-1}</m>
+            </p>
+        </li>
+        <li>
+            <p>
+              Move down the column headed <m>x</m> to locate <m>1.5</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+              Move to the right along the row that has <m>1.5</m> to the column headed <m>4</m>.
+            </p>
+        </li>
+        <li>
+            <p>
+              Read the number at the intersection of the row and the column.
+            </p>
+            <p>
+              The number is <m>2.372</m>
+            </p>
+        </li>
+        <li>
+            <p>
+                Calculate the square of <m>10^{-1} </m>.
+            </p>
+            <p>
+                Since <m> 10^-1 = \frac{1}{10}</m>, then <m>(10^{-1})^2 = \frac{1}{10} \times \frac{1}{10}</m>
+            </p>
+        </li>
+        <li>
+            <p>
+               Multiply the square of <m>1.54</m> by the square of <m>10^{-1}</m>
+            </p>
+        </li>
+    </ol>
+   </p>
+   <p>
+     A number raised to a negative power implies that the number is a fraction or a decimal.
+   </p>
+   <p>
+       Example: <m>10^{-1} = \frac{1}{10}</m>, also written as <m>0.1</m>
+   </p>
+   <p>
+    <m>\quad\quad\quad 10^{-2}= \frac{1}{100}</m>, also written as <m>0.01</m>
+   </p>
+   <activity>
+    <statement>
+        <p>
+            
+        </p>
+        <p>
+            Study the following square table.
+        </p>
+            <tabular >
+                <row bottom="medium" >
+                    <cell ></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium"></cell>
+                    <cell right="medium"></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell right="medium"></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell right="medium"></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell right="medium" ></cell>
+                    <cell bottom="medium"></cell>
+                    <cell bottom="medium"></cell>
+                    <cell bottom="medium"></cell>
+                    <cell bottom="medium"></cell>
+                    <cell bottom="medium">Add</cell>
+                    <cell bottom="medium"></cell>
+                    <cell bottom="medium"></cell>
+                    <cell bottom="medium"></cell>
+                    <cell right="medium" bottom="medium"></cell>
+                </row>
+                <row bottom="medium" left="medium">
+                <cell right="medium"><m>x</m></cell>
+                    <cell right="medium">0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell right="medium">3</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell right="medium">6</cell>
+                    <cell>7</cell>
+                    <cell>8</cell>
+                    <cell right="medium">9</cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell right="medium"><m>3</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell right="medium"><m>6</m></cell>
+                    <cell><m>7</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell right="medium"><m>9</m></cell>
+                </row>
+                <row left="medium"> 
+                    <cell right="medium"><m>1.0</m></cell>
+                    <cell right="medium"><m>1.000</m></cell>
+                    <cell><m>1.020</m></cell>
+                    <cell><m>1.040</m></cell>
+                    <cell right="medium"><m>1.061</m></cell>
+                    <cell><m>1.082</m></cell>
+                    <cell><m>1.103</m></cell>
+                    <cell right="medium"><m>1.124</m></cell>
+                    <cell><m>1.145</m></cell>
+                    <cell><m>1.166</m></cell>
+                    <cell right="medium"><m>1.188</m></cell>
+                    <cell ><m>2</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell right="medium"><m>6</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell right="medium"><m>13</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>17</m></cell>
+                    <cell right="medium"><m>19</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium"><m>1.1</m></cell>
+                    <cell right="medium"><m>1.210</m></cell>
+                    <cell><m>1.232</m></cell>
+                    <cell><m>1.254</m></cell>
+                    <cell right="medium"><m>1.277</m></cell>
+                    <cell><m>1.300</m></cell>
+                    <cell><m>1.323</m></cell>
+                    <cell right="medium"><m>1.346</m></cell>
+                    <cell><m>1.369</m></cell>
+                    <cell><m>1.392</m></cell>
+                    <cell right="medium"><m>1.416</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell right="medium"><m>7</m></cell>
+                    <cell><m>9</m></cell>
+                    <cell><m>11</m></cell>
+                    <cell right="medium"><m>14</m></cell>
+                    <cell><m>16</m></cell>
+                    <cell><m>18</m></cell>
+                    <cell right="medium"><m>21</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium"><m>1.2</m></cell>
+                    <cell right="medium"><m>1.440</m></cell>
+                    <cell><m>1.464</m></cell>
+                    <cell><m>1.488</m></cell>
+                    <cell right="medium"><m>1.513</m></cell>
+                    <cell><m>1.538</m></cell>
+                    <cell><m>1.563</m></cell>
+                    <cell right="medium"><m>1.588</m></cell>
+                    <cell><m>1.613</m></cell>
+                    <cell><m>1.638</m></cell>
+                    <cell right="medium"><m>1.664</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell right="medium"><m>7</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>12</m></cell>
+                    <cell right="medium"><m>15</m></cell>
+                    <cell><m>17</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell right="medium"><m>22</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium"><m>1.3</m></cell>
+                    <cell right="medium"><m>1.690</m></cell>
+                    <cell><m>1.716</m></cell>
+                    <cell><m>1.742</m></cell>
+                    <cell right="medium"><m>1.769</m></cell>
+                    <cell><m>1.796</m></cell>
+                    <cell><m>1.823</m></cell>
+                    <cell right="medium"><m>1.850</m></cell>
+                    <cell><m>1.877</m></cell>
+                    <cell><m>1.904</m></cell>
+                    <cell right="medium"><m>1.932</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell right="medium"><m>8</m></cell>
+                    <cell><m>11</m></cell>
+                    <cell><m>13</m></cell>
+                    <cell right="medium"><m>16</m></cell>
+                    <cell><m>19</m></cell>
+                    <cell><m>22</m></cell>
+                    <cell right="medium"><m>24</m></cell>
+                </row>
+                <row left="medium">
+                <cell right="medium"><m>1.4</m></cell> 
+                <cell right="medium"><m>1.960</m></cell>
+                <cell><m>1.988</m></cell>
+                <cell><m>2.016</m></cell>
+                <cell right="medium"><m>2.045</m></cell>
+                    <cell><m>2.074</m></cell>
+                    <cell><m>2.103</m></cell>
+                    <cell right="medium"><m>2.132</m></cell>
+                    <cell><m>2.161</m></cell>
+                    <cell><m>2.190</m></cell>
+                    <cell right="medium"><m>2.220</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>6</m></cell>
+                    <cell right="medium"><m>9</m></cell>
+                    <cell><m>12</m></cell>
+                    <cell><m>14</m></cell>
+                    <cell right="medium"><m>17</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>23</m></cell>
+                    <cell right="medium"><m>26</m></cell>
+                </row>
+                <row left="medium"> 
+                    <cell right="medium"><m>1.5</m></cell> 
+                    <cell right="medium"><m>2.250</m></cell>
+                    <cell><m>2.280</m></cell>
+                    <cell><m>2.310</m></cell>
+                    <cell right="medium"><m>2.341</m></cell>
+                    <cell><m>2.372</m></cell>
+                    <cell><m>2.403</m></cell>
+                    <cell right="medium"><m>2.434</m></cell>
+                    <cell><m>2.465</m></cell>
+                    <cell><m>2.496</m></cell>
+                    <cell right="medium"><m>2.528</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>6</m></cell>
+                    <cell right="medium"><m>9</m></cell>
+                    <cell><m>12</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell right="medium"><m>19</m></cell>
+                    <cell><m>22</m></cell>
+                    <cell><m>25</m></cell>
+                    <cell right="medium"><m>28</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium"><m>1.6</m></cell>
+                    <cell right="medium"><m>2.560</m></cell>
+                    <cell><m>2.592</m></cell>
+                    <cell><m>2.624</m></cell>
+                    <cell right="medium"><m>2.657</m></cell>
+                    <cell><m>2.690</m></cell>
+                    <cell><m>2.723</m></cell>
+                    <cell right="medium"><m>2.756</m></cell>
+                    <cell><m>2.789</m></cell>
+                    <cell><m>2.822</m></cell>
+                    <cell right="medium"><m>2.856</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>7</m></cell>
+                    <cell right="medium"><m>10</m></cell>
+                    <cell><m>13</m></cell>
+                    <cell><m>16</m></cell>
+                    <cell right="medium"><m>20</m></cell>
+                    <cell><m>23</m></cell>
+                    <cell><m>26</m></cell>
+                    <cell right="medium"><m>30</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium"><m>1.7</m></cell>
+                    <cell right="medium"><m>2.890</m></cell>
+                    <cell><m>2.924</m></cell>
+                    <cell><m>2.958</m></cell>
+                    <cell right="medium"><m>2.993</m></cell>
+                    <cell><m> 3.028</m></cell>
+                    <cell><m>3.063</m></cell>
+                    <cell right="medium"><m>3.098</m></cell>
+                    <cell><m>3.133</m></cell>
+                    <cell><m>3.168</m></cell>
+                    <cell right="medium"><m>3.204</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>7</m></cell>
+                    <cell right="medium"><m>10</m></cell>
+                    <cell><m>14</m></cell>
+                    <cell><m>17</m></cell>
+                    <cell right="medium"><m>21</m></cell>
+                    <cell><m>24</m></cell>
+                    <cell><m>28</m></cell>
+                    <cell right="medium"><m>31</m></cell>
+                </row>
+                <row left="medium">
+                <cell right="medium"><m>1.8</m></cell>  
+                <cell right="medium"><m>3.240</m></cell> 
+                <cell><m>3.276</m></cell> 
+                <cell><m>3.312</m></cell>
+                <cell right="medium"><m>3.349</m></cell>
+                    <cell><m>3.386</m></cell>
+                    <cell><m>3.423</m></cell>
+                    <cell right="medium"><m>3.460</m></cell>
+                    <cell><m>3.497</m></cell>
+                    <cell><m>3.534</m></cell>
+                    <cell right="medium"><m>3.572</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>7</m></cell>
+                    <cell right="medium"><m>11</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>18</m></cell>
+                    <cell right="medium"><m>22</m></cell>
+                    <cell><m>26</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell right="medium"><m>33</m></cell>
+                </row>
+                <row left="medium"> 
+                    <cell right="medium"><m>1.9</m></cell>
+                    <cell right="medium"><m>3.610</m></cell>
+                    <cell><m>3.648</m></cell>
+                    <cell><m>3.686</m></cell>
+                    <cell right="medium"><m>3.725</m></cell>
+                    <cell><m>3.764</m></cell>
+                    <cell><m>3.803</m></cell>
+                    <cell right="medium"><m>3.842</m></cell>
+                    <cell><m>3.881</m></cell>
+                    <cell><m>3.920</m></cell>
+                    <cell right="medium"><m>3.960</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell right="medium"><m>12</m></cell>
+                    <cell><m>16</m></cell>
+                    <cell><m>19</m></cell>
+                    <cell right="medium"><m>23</m></cell>
+                    <cell><m>27</m></cell>
+                    <cell><m>31</m></cell>
+                    <cell right="medium"><m>35</m></cell>
+                </row>
+                <row left="medium">
+                    <cell right="medium"><m>2.0</m></cell>
+                    <cell right="medium"><m>4.000</m></cell>
+                    <cell><m>4.040</m></cell>
+                    <cell><m>4.080</m></cell>
+                    <cell right="medium"><m>4.121</m></cell>
+                    <cell><m>4.162</m></cell>
+                    <cell><m>4.203</m></cell>
+                    <cell right="medium"><m>4.244</m></cell>
+                    <cell><m>4.285</m></cell>
+                    <cell><m>4.326</m></cell>
+                    <cell right="medium"><m>4.368</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell right="medium"><m>12</m></cell>
+                    <cell><m>16</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell right="medium"><m>25</m></cell>
+                    <cell><m>29</m></cell>
+                    <cell><m>33</m></cell>
+                    <cell right="medium"><m>37</m></cell>
+                </row>
+                <row left="medium" bottom="medium">
+                    <cell right="medium"><m>2.1</m></cell>
+                    <cell right="medium"><m>4.410</m></cell>
+                    <cell><m>4.452</m></cell>
+                    <cell><m>4.494</m></cell>
+                    <cell right="medium"><m>4.537</m></cell>
+                    <cell><m>4.580</m></cell>
+                    <cell><m>4.623</m></cell>
+                    <cell right="medium"><m>4.666</m></cell>
+                    <cell><m>4.709</m></cell>
+                    <cell><m>4.752</m></cell>
+                    <cell right="medium"><m>4.796</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>9</m></cell>
+                    <cell right="medium"><m>13</m></cell>
+                    <cell><m>17</m></cell>
+                    <cell><m>21</m></cell>
+                    <cell right="medium"><m>26</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>34</m></cell>
+                    <cell right="medium"><m>39</m></cell>
+                </row>
+            </tabular>
+            <p>
+                1. How do you find the square of a decimal number using table?
+            </p>
+            <p>
+                2. Find the squares of the following numbers using square tables
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                           <m>0.20</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1.832</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1.957</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>0.0122</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                3. Which of the numbers should you first write in standard form before finding their squares using table.
+            </p>
+            <p>
+                4. Discuss and share results with fellow learners.
+            </p>
+    </statement>
+   </activity>
+   <example>
+    <statement>
+        <p>
+            Obiero bought a square tablet for his child to use during the computer studies lessons. 
+            The length of one side of the screen of the tablet was <m>0.01263</m> m.
+            Use square tables to calculate the area of the screen of the tablet.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Area of the tablet screen <m>= (0.01263 \text{m})^2</m> 
+        </p>
+        <p>
+            Write  <m>0.01263</m> in standard form: <m>1.263 \times 10^{-2}</m>
+        </p>
+        <p>
+            Move down the column headed <m>x</m> to locate <m>1.2</m>
+        </p>
+        <p>
+            Move to the right along the row that has <m>1.2</m> to the column headed <m>6</m>
+        </p>
+        <tabular >
+            <row bottom="medium" >
+                <cell ></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"></cell>
+                <cell right="medium"></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell right="medium"></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell right="medium"></cell>
+                <cell></cell>
+                <cell></cell>
+                <cell right="medium" ></cell>
+                <cell bottom="medium"></cell>
+                <cell bottom="medium"></cell>
+                <cell bottom="medium"></cell>
+                <cell bottom="medium"></cell>
+                <cell bottom="medium">Add</cell>
+                <cell bottom="medium"></cell>
+                <cell bottom="medium"></cell>
+                <cell bottom="medium"></cell>
+                <cell right="medium" bottom="medium"></cell>
+            </row>
+            <row bottom="medium" left="medium">
+            <cell right="medium"><m>x</m></cell>
+                <cell right="medium">0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell right="medium">3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell right="medium">6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+                <cell right="medium">9</cell>
+                <cell><m>1</m></cell>
+                <cell><m>2</m></cell>
+                <cell right="medium"><m>3</m></cell>
+                <cell><m>4</m></cell>
+                <cell><m>5</m></cell>
+                <cell right="medium"><m>6</m></cell>
+                <cell><m>7</m></cell>
+                <cell><m>8</m></cell>
+                <cell right="medium"><m>9</m></cell>
+            </row>
+            <row left="medium"> 
+                <cell right="medium"><m>1.0</m></cell>
+                <cell right="medium"><m>1.000</m></cell>
+                <cell><m>1.020</m></cell>
+                <cell><m>1.040</m></cell>
+                <cell right="medium"><m>1.061</m></cell>
+                <cell><m>1.082</m></cell>
+                <cell><m>1.103</m></cell>
+                <cell right="medium"><m>1.124</m></cell>
+                <cell><m>1.145</m></cell>
+                <cell><m>1.166</m></cell>
+                <cell right="medium"><m>1.188</m></cell>
+                <cell ><m>2</m></cell>
+                <cell><m>4</m></cell>
+                <cell right="medium"><m>6</m></cell>
+                <cell><m>8</m></cell>
+                <cell><m>10</m></cell>
+                <cell right="medium"><m>13</m></cell>
+                <cell><m>15</m></cell>
+                <cell><m>17</m></cell>
+                <cell right="medium"><m>19</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>1.1</m></cell>
+                <cell right="medium"><m>1.210</m></cell>
+                <cell><m>1.232</m></cell>
+                <cell><m>1.254</m></cell>
+                <cell right="medium"><m>1.277</m></cell>
+                <cell><m>1.300</m></cell>
+                <cell><m>1.323</m></cell>
+                <cell right="medium"><m>1.346</m></cell>
+                <cell><m>1.369</m></cell>
+                <cell><m>1.392</m></cell>
+                <cell right="medium"><m>1.416</m></cell>
+                <cell><m>2</m></cell>
+                <cell><m>5</m></cell>
+                <cell right="medium"><m>7</m></cell>
+                <cell><m>9</m></cell>
+                <cell><m>11</m></cell>
+                <cell right="medium"><m>14</m></cell>
+                <cell><m>16</m></cell>
+                <cell><m>18</m></cell>
+                <cell right="medium"><m>21</m></cell>
+            </row>
+            <row left="medium">
+                <cell right="medium"><m>1.2</m></cell>
+                <cell right="medium"><m>1.440</m></cell>
+                <cell><m>1.464</m></cell>
+                <cell><m>1.488</m></cell>
+                <cell right="medium"><m>1.513</m></cell>
+                <cell><m>1.538</m></cell>
+                <cell><m>1.563</m></cell>
+                <cell right="medium"><m>{\color{red}1.588}</m></cell>
+                <cell><m>1.613</m></cell>
+                <cell><m>1.638</m></cell>
+                <cell right="medium"><m>1.664</m></cell>
+                <cell><m>2</m></cell>
+                <cell><m>5</m></cell>
+                <cell right="medium"><m>7</m></cell>
+                <cell><m>10</m></cell>
+                <cell><m>12</m></cell>
+                <cell right="medium"><m>15</m></cell>
+                <cell><m>17</m></cell>
+                <cell><m>20</m></cell>
+                <cell right="medium"><m>22</m></cell>
+            </row>
+            <row bottom="medium" left="medium">
+                <cell right="medium"><m>1.3</m></cell>
+                <cell right="medium"><m>1.690</m></cell>
+                <cell><m>1.716</m></cell>
+                <cell><m>1.742</m></cell>
+                <cell right="medium"><m>1.769</m></cell>
+                <cell><m>1.796</m></cell>
+                <cell><m>1.823</m></cell>
+                <cell right="medium"><m>1.850</m></cell>
+                <cell><m>1.877</m></cell>
+                <cell><m>1.904</m></cell>
+                <cell right="medium"><m>1.932</m></cell>
+                <cell><m>3</m></cell>
+                <cell><m>5</m></cell>
+                <cell right="medium"><m>8</m></cell>
+                <cell><m>11</m></cell>
+                <cell><m>13</m></cell>
+                <cell right="medium"><m>16</m></cell>
+                <cell><m>19</m></cell>
+                <cell><m>22</m></cell>
+                <cell right="medium"><m>24</m></cell>
+            </row>
+        </tabular>  
+        <p>
+           Read the number at the intersection of the row and the column. 
+        </p>
+        <p>
+           The number is <m>1.588</m> . 
+        </p>
+        <p>
+            Move farther to the right along the same row to the ADD column headed <m>3</m>
+        </p>  
+        <p>
+            Read the number at the intersection of the row and the column.
+        </p>
+        <p>
+            The number is <m>7</m>.
+        </p>
+        <p>
+            Add the numbers <m>1.588</m> and <m>7</m>.
+        </p>
+        <p>
+            To add the numbers, write <m>7</m> as <m>0.007</m> such that <m>7</m> is alligned with the last digit in <m>1.588</m>.
+        </p>
+        <p>
+            <m>1.588 + 0.007 = 1.595</m>
+        </p>
+        <p>
+            Calculate the square of <m>10^{-2}</m>:
+        </p>
+        <p>
+            <md>
+                <mrow> 10^{-2} =\amp \frac{1}{100} \times \frac{1}{100} </mrow>
+                <mrow> =\amp \frac{1}{10000}</mrow>
+                <mrow> =\amp 0.0001 </mrow>
+            </md>
+        </p>
+        <p>
+            Multiply <m> 1.595</m> by <m>0.0001 </m>
+        </p>
+        <p>
+          Area of the tablet's screen <m> = 1.595 \times 0.0001 </m> 
+        </p>
+         <p>
+            <m>= 0.0001595 \text{m}^2</m> 
+         </p>
+    </solution>
+   </example>
+      
 </subsection>
