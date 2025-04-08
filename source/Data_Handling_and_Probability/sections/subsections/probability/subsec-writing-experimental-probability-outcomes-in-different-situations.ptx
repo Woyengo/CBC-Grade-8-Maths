@@ -1,7 +1,189 @@
 <subsection xml:id="subsec-writing-experimental-probability-outcomes-in-different-situations">
     <title>Writing experimental probability outcomes in different situations</title>
+    <activity>
+        <p>
+            Work in groups
+        </p>
+        <p>
+            Given a die shown below.
+        </p>
+        <image source="/A die.jpg" width="40%">
+            <shortdescription>Die</shortdescription>
+        </image>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Toss a die <m>20</m> times.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How many times does each number from <m>1</m> to <m>6</m> appear out of <m>20</m> tosses of a die? Record in the table below.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Die Number</cell>
+                                <cell>Frequency (How Many Times It Appears in 20 Tosses)</cell>
+                            </row>
+                            <row>
+                                <cell><m>1</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>2</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>3</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>4</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>5</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell><m>6</m></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Write how many times each number on the die shows up as a fraction of the total number of times you rolled the die.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        
+        <m>\textbf{Experimental probability outcome}</m> refers to the result or observation of an event that occurs during an experiment or trial when calculating experimental probability.
+    </p>
+    <p>
+        <m>\textbf{Experimental probability}</m> refers to the probability of an event happening based on the results of an actual experiment or trial.
+    </p>
+    <p>
+        Formula for Experimental Probability:
+    </p>
+    <p>
+        <md>
+            <mrow>\textbf{P(E)} = \amp \frac{\textbf{Number of outcomes}}{\textbf{Total number of trials}}</mrow>
+        </md>
+    </p>
+    <p>
+        Where;
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    P(E) = Experimental probability of event
+                </p>
+            </li>
+            <li>
+                <p>
+                    Number of outcomes = How many times the event you are interested in occurs
+                </p>
+            </li>
+            <li>
+                <p>
+                    Total number of trials = The number of times the experiment is repeated
+                </p>
+            </li>
+        </ul> 
     </p>
     
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Experimental probability outcomes are the observed results of trials that allow us to estimate the likelihood of events based on actual occurrences.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                In a bag of marbles, there are red, blue, and green marbles. You pick a marble, note its color, and put it back. You do this <m>30</m> times. You pick a red marble <m>12</m> times. What is the experimental probability of picking a red marble?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Total Number of times a red marble was picked = 12
+            </p>
+            <p>
+                Total number of picks = <m>30</m>
+            </p>
+            <p>
+                To calculate the experimental probability of picking a red marble, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{P(Red)} = \amp \frac{\textbf{Number of times a red marble was picked}}{\textbf{Total number of picks}}</mrow>
+                    <mrow> = \amp \frac{12}{30}</mrow>
+                    <mrow> = \amp \frac{2}{5}</mrow>
+                    <mrow> =  \amp 0.4</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, the experimental probability of picking a red marble is <m>0.4</m> or <m>40</m>%.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Nanjala rolled a number cube <m>25</m> times and got an even number <m>11</m> times. Predict how many times she might get an even number if she rolls the cube <m>100</m> times.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                From the experiment:
+            </p>
+            <p>
+                Nanjala rolled the number cube <m>25</m> times.
+            </p>
+            <p>
+                She got an even number <m>11</m> times.
+            </p>
+            <p>
+                So, the experimental probability of getting an even number is:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{P(Even)} = \amp \frac{\textbf{Number of even outcomes}}{\textbf{Total number of rolls}}</mrow>
+                    <mrow> = \amp \frac{11}{25}</mrow>
+                </md>
+            </p>
+            <p>
+                To predict how many times Nanjala might get an even number in <m>100</m> rolls, we multiply the experimental probability by <m>100</m>.
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Predicted number of even outcomes} =  \amp \textbf{P(Even)} \times 100</mrow>
+                    <mrow> =  \amp \frac{11}{25} \times 100</mrow>
+                    <mrow> =  \amp 44</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, Nanjala might get an even number <m>44</m> times if she rolls the number cube <m>100</m> times.
+            </p>
+        </solution>
+    </example>
 </subsection>

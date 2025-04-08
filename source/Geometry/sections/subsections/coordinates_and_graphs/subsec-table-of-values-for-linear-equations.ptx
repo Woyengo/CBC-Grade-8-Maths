@@ -1,15 +1,5 @@
 <subsection xml:id="subsec-table-of-values-for-linear-equations">
-    <title>table of values for linear equations</title>
-
-    <p>
-        A table of values helps us organize points that satisfy a linear equation. 
-    </p>
-    <p>
-        By substituting different values of x, we calculate corresponding y-values to create a set of ordered pairs <m>(x,y)</m>
-    </p>
-    <p>
-        These points can then be plotted on a Cartesian plane to form a straight line.
-    </p>
+    <title>Table of Values for Linear Equations</title>
     <activity>
         <p>
             <m>{\color{red} \textbf{Work in groups}}</m>
@@ -25,7 +15,7 @@
         </p>
     </activity>
     <p>
-        <m>{\color{green} \textbf{Learning Points}}</m>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
     </p>
     <p>
         A linear equation is usually in the form <m>\textbf{y = mx + b}</m>
@@ -43,6 +33,15 @@
                 </p>
             </li>
         </ul>
+    </p>
+    <p>
+        A table of values helps us organize points that satisfy a linear equation. 
+    </p>
+    <p>
+        By substituting different values of x, we calculate corresponding y-values to create a set of ordered pairs <m>(x,y)</m>
+    </p>
+    <p>
+        These points can then be plotted on a Cartesian plane to form a straight line.
     </p>
     <example>
         <statement>

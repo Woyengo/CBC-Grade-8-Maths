@@ -1,7 +1,283 @@
 <subsection xml:id="subsec-identifying-events-involving-chance-in-real-life-situations">
-    <title>Identifying events involving chance in real life situations</title>
+    <title>Identifying Events Involving Chance in Real Life Situations</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <ol marker="i)">
+                <li>
+                    <p>
+                        Classify the following events as likely, unlikely, must happen and cannot happen.
+                    </p>
+                </li>
+                <li>
+                
+                <ul>
+                <li>
+                    <p>
+                        A baby learning to walk by the age of two.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        It will rain in the rainy season.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Getting a number between 1 and 6 when rolling a six-sided die.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Tossing a coin and it lands on heads.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The school bell ringing at the end of the day.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A cat giving birth to puppies.
+                    </p>
+                </li>
+            </ul>
+            </li>
+            <li>
+                <p>
+                    Discuss and compare with other groups.
+                </p>
+            </li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        
+        <m>\textbf{Identifying events involving chance in real life situations}</m> means recognizing occurrences where the outcome is not guaranteed and depends on random factors,
+        like flipping a coin (heads or tails), rolling a dice (getting a specific number), weather forecasting (probability of rain), or drawing a specific card from a deck - essentially, situations where there are multiple possible outcomes with varying likelihoods. 
+    </p>
+    <p>
+        <m>\textbf{Examples of real-life situations involving chance:}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Games and gambling: Rolling dice, flipping a coin, drawing cards from a deck, lottery drawings. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Weather prediction: Forecasting the likelihood of rain or snow. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Medical diagnosis: The probability of a positive test result for a disease. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Sports: The chance of a team winning a game, a player hitting a home run. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Market trends: Predicting stock market fluctuations. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Genetics: The probability of inheriting a specific trait from your parents. 
+                </p>
+            </li>
+        </ul>
     </p>
     
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Events can be classified as likely, unlikely, certain (must happen), or impossible (cannot happen).
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                In a classroom of 40 students, the teacher randomly selects one student to answer a question. Identify an event that is likely,unlikely, must happen and cannot happen.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The chosen student has a pencil.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The chosen student is left-handed.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The teacher will select a student.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The teacher picks a student who is not in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Likely: Most students bring a pencil to class, so this is more likely to happen.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Unlikely: Some students may be left-handed, but the majority are right-handed, making this event less likely.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Must happen: The teacher must choose someone, so this will definitely happen.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Cannot happen: The teacher can only pick from the students present in class, making this impossible.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                At a market, a person buys an item from a shop. Classify the following events as likely, unlikely, must happen, or cannot happen:
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            The person buys fruits or vegetables.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The person buys a cow from a clothing shop.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The person buys something from the market.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The person buys a mobile phone.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Likely: Fruits and vegetables are commonly sold in markets, so it is very likely.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Cannot happen: Clothing shops do not sell cows, so this is impossible.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Must happen: If a person goes to the market to buy something, they will definitely purchase an item.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Unlikely: Some markets may sell phones, but most markets focus on food and household items, making this less likely.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                In a school, different events can happen during the day. Classify the following events as likely, unlikely, must happen, or cannot happen:
+            </p>
+            <p>
+            <ol>
+                <li>
+                    <p>
+                        The school bell rings at the end of the day.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A student forgets their lunch at home.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A teacher flies to class using wings.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Students attend lessons in their classrooms.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        </statement>
+        <solution>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Must happen: The bell always rings to signal the end of the school day.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Unlikely: Some students may forget their lunch, but most bring it, so it is possible but not common.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Cannot happen: Humans cannot fly, so this is impossible.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Likely: Students are supposed to attend lessons, so this is very likely to happen.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+        
+    </example>
 </subsection>

@@ -1,0 +1,169 @@
+<subsection xml:id="subsec-net-of-a-pyramid">
+    <title>Net of a Pyramid</title>
+    <p>
+        The net of a pyramid is a two-dimensional representation of the three-dimensional shape of the pyramid. 
+        It is made up of the faces of the pyramid laid out flat, so that you can see all of the sides at once. 
+        The net of a pyramid is useful for visualizing the shape of the pyramid and for calculating its surface area and volume.
+    </p>
+    <p>
+        To create the net of a pyramid, you need to know the dimensions of the pyramid, including the length of the base and the height of the pyramid. 
+        The net of a pyramid consists of a base, which is a polygon that represents the base of the pyramid, and triangular faces that represent the sides of the pyramid. 
+        The net of a pyramid can be folded along the edges of the base to form the three-dimensional shape of the pyramid.
+    </p>
+       
+       <activity>
+       <title>Net of a Square based Pyramid</title> 
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Study the pyramid like the one shown below.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            use the height slider to increase and decrease the height of the pyramid and observe what happens to the overall shape as the height changes.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            move the size of base slider to change the base length of the pyramid and note changes in the base area and overall structure.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Opens and closes the pyramid and observe how the faces move and connect back together.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+                
+                    <figure>
+                            <caption></caption>
+                            <interactive xml:id="geogebra-pyramid_1" geogebra="d24u4r6s" width="100%" aspect="9:7" reset-icon="yes"/>
+                    </figure>
+        </statement>
+                
+       </activity>
+
+       <activity>
+        <statement>
+            <p>
+                Unfold and fold a net for a pyramid. Change the dimensions of the pyramid to explore its geometry.
+            </p>
+ 
+                  <figure>
+                        <caption></caption>
+                        <interactive xml:id="geogebra-pyramid_2" geogebra="mfsm29gu" width="100%" aspect="9:7" reset-icon="yes"/>
+                  </figure>
+
+        </statement>
+       </activity>
+
+       <example>
+        <statement>
+            <p>
+                Draw the net of the pyramid shown below.
+            </p>
+
+            <image>
+            <latex-image>
+                \begin{tikzpicture}
+                                 
+                % Define the coordinates of the rectangular base (4 cm × 2 cm)
+                    \coordinate (A) at (0,0);
+                    \coordinate (B) at (4,0);
+                    \coordinate (C) at (4,2);
+                    \coordinate (D) at (0,2);
+                    
+                    % Define the peak (apex) of the pyramid
+                    \coordinate (P) at (2,4);  % Centered above the rectangle
+
+                    % Fill the shapes with different colors
+                    \fill[cyan!60] (A) -- (B) -- (C) -- (D) -- cycle; % Base rectangle
+                    \fill[orange!60] (A) -- (B) -- (P) -- cycle; % Front triangle
+                    \fill[green!60] (B) -- (C) -- (P) -- cycle; % Right triangle
+                    \fill[yellow!60] (C) -- (D) -- (P) -- cycle; % Back triangle
+                    \fill[blue!60] (D) -- (A) -- (P) -- cycle; % Left triangle
+
+                    % Draw the outlines of the pyramid
+                    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle; % Base rectangle
+                    \draw[thick] (A) -- (P) -- (B); % Front triangle
+                    \draw[thick] (B) -- (P) -- (C); % Right triangle
+                    \draw[thick] (C) -- (P) -- (D); % Back triangle
+                    \draw[thick] (D) -- (P) -- (A); % Left triangle
+
+                    % Add dashed fold lines
+                    \draw[dashed] (A) -- (P);
+                    \draw[dashed] (B) -- (P);
+                    \draw[dashed] (C) -- (P);
+                    \draw[dashed] (D) -- (P);
+
+                    % Label the points
+                    \node[below left] at (A) {A};
+                    \node[below right] at (B) {B};
+                    \node[above right] at (C) {C};
+                    \node[above left] at (D) {D};
+                    \node[above] at (P) {P};
+                \end{tikzpicture}
+            </latex-image>
+                <shortdescription></shortdescription>
+                
+            </image>
+        </statement>
+
+        <solution>
+            <p>
+                The net of the pyramid is shown below.
+            </p>
+
+            <image>
+            <latex-image>
+                \begin{tikzpicture}
+                                     \coordinate (A) at (0,0);
+                    \coordinate (B) at (5,0);
+                    \coordinate (C) at (5,3);
+                    \coordinate (D) at (0,3);
+
+                    % Define the coordinates of the outer triangles (adjusted for consistency)
+                    \coordinate (V1) at (2.5,6);  % Top triangle peak
+                    \coordinate (V2) at (8,1.5);  % Right triangle peak
+                    \coordinate (V3) at (2.5,-3); % Bottom triangle peak
+                    \coordinate (V4) at (-3,1.5); % Left triangle peak
+
+                    % Draw and fill the shapes with different colors
+                    \fill[gray!50] (A) -- (B) -- (C) -- (D) -- cycle; % Rectangle (grayish)
+                    \fill[blue] (D) -- (C) -- (V1) -- cycle; % Top triangle
+                    \fill[orange] (C) -- (B) -- (V2) -- cycle; % Right triangle
+                    \fill[green] (A) -- (B) -- (V3) -- cycle; % Bottom triangle
+                    \fill[yellow] (A) -- (D) -- (V4) -- cycle; % Left triangle
+
+                    % Draw the outlines
+                    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                    \draw[thick] (D) -- (C) -- (V1) -- cycle;
+                    \draw[thick] (C) -- (B) -- (V2) -- cycle;
+                    \draw[thick] (A) -- (B) -- (V3) -- cycle;
+                    \draw[thick] (A) -- (D) -- (V4) -- cycle;
+
+    
+
+                    
+
+                    % Vertex Labels
+                    \node[above] at (V1) {V};
+                    \node[right] at (V2) {V};
+                    \node[below] at (V3) {V};
+                    \node[left] at (V4) {V};
+
+                \end{tikzpicture}
+            </latex-image>
+                <shortdescription></shortdescription>
+                
+            </image>
+        </solution>
+       </example>
+</subsection>

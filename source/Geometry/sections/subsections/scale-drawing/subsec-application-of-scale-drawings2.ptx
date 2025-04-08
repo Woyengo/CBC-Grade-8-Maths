@@ -1,0 +1,327 @@
+<subsection xml:id="subsec-application-of-scale-drawings2">
+    <title>Application of scale drawings(2)</title>
+    
+    <p>
+        In the previous section, you applied scale drawing to determine actual measurements 
+        when given scale measurements. Review again if you can still attempt any question of such.
+    </p>
+    <p>
+        In this section, you will apply scale drawing to determine the scale measurements when given 
+        actual measurement. You are required to identify the original length of a figure which is already drawn to scale.
+    </p>
+    <activity>
+        <p>
+            <m>\textbf{Work in pairs.}</m>
+        </p>
+        <p>
+            <m>\textbf{What you require:}</m> A ruler and a piece of string.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Take a picture of your choice, determine the linear scale of the picture and represent it on piece of paper.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discus the following question with your partner.
+                    </p>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    What is the scale of the chosen picture in statment form? 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Using a piece of string and a ruler, measure the length of the picture 
+                                    in centimetres.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Use the scale to determine the actual length of the picture.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your work with other learners in class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                A model of an elephant at the entrance of a national park 
+                was made using a scale of <m>1\,cm</m> represents <m>0.25\,m</m>. The length of a certain part 
+                of the elephant is <m>140\,cm.</m> Calculate the length of the part of the model.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Since the given scale relates centimeters on the model to 
+                meters on the actual elephant, we first convert the actual length from cm to meters:
+            </p>
+            <p>
+                <md>
+                    <mrow> 1 \,m= \amp 100\, cm</mrow>
+                    <mrow> 140 \,cm= ​\amp \frac{140}{100}</mrow>
+                    <mrow>  =\amp 1.4 \,m</mrow>
+                </md>
+            </p>
+            <p>
+                The given scale states that:
+            </p>
+            <p>
+               <m> 1 \,cm </m> on model <m>=0.25 \,m </m> on actual elephant
+            </p>
+            <p>
+                To find the length of the part on the model, we set up the proportion:
+            </p>
+            <p>
+                <md>
+                    <mrow> 1 \,cm =\amp 0.25 \,m</mrow>
+                    <mrow> ?=\amp 1.4 \,m</mrow>
+                    <mrow> =\amp \frac{ 1.4 \,m \times 1 \,cm}{0.25 \,m} </mrow>
+                    <mrow>= \amp  5.6 \,cm</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                The length of the part of the model is <m>{\color{blue} 5.6 cm.}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A model of a giraffe at the entrance of a wildlife sanctuary was made using a scale where <m>1 \,cm </m> on the model represents <m>0.5\, m </m> in real life. 
+                The actual height of the giraffe is 300 cm. Calculate the height of the giraffe model.
+
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The given information are as shown.
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Scale: 1 cm on the model represents <m>0.5\, m </m>in real life.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Actual height of the giraffe: <m>300 \,cm.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            We need to find the height of the giraffe model.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Since the scale is given in meters, we first convert 300 cm to meters:
+            </p>
+            <p>
+                <md>
+                    <mrow> 1 \,m= \amp 100\, cm</mrow>
+                    <mrow> 300\,cm= ​\amp \frac{300}{100}</mrow>
+                    <mrow>  =\amp 3\,m</mrow>
+                </md>
+            </p>
+            <p>
+                The scale states that:
+            </p>
+            <p>
+               <m> 1 \,cm </m> on model <m>=0.5\,m </m> on actual giraffe
+            </p>
+            <p>
+                To find the length, we set up the proportion:
+            </p>
+            <p>
+                <md>
+                    <mrow> 1 \,cm =\amp 0.5 \,m</mrow>
+                    <mrow> ?=\amp 3 \,m</mrow>
+                    <mrow> =\amp \frac{ 3 \,m \times 1 \,cm}{0.5 \,m} </mrow>
+                    <mrow>= \amp  6 \,cm</mrow>
+                </md>
+            </p>
+            <p>
+                The height of the giraffe model is <m>{\color{blue} 6 cm}</m>.
+            </p>
+
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+               Kemmy drew a blueprint of his living room using a scale of <m>1:50</m>. If the actual length of the living room is <m>6 \,meters</m>, 
+               what is the length of the living room on the blueprint?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The information provided in the question are,
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Scale: <m>1:50 </m> (which means <m>1\,cm</m> on the plan represents <m>50\,cm</m> in real life).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Actual length of the garage: <m>6 \,meters.</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            We need to find the length of the garage on the plan.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Since <m>1\, \text{ meter} = 100 \, \text{centimeters}</m>, we convert <m>6\, meters</m> to centimeters:
+            </p>
+            <p>
+                <md>
+                    <mrow> 1\,m=\amp 100 \, cm</mrow>
+                    <mrow> 6\,m =\amp \frac{6\,m  \times  100 \, cm}{1\,m}</mrow>
+                    <mrow>= \amp 600\, cm</mrow>
+                </md>
+            </p>
+            <p>
+                Now, applying the scale:
+            </p>
+            <p>
+                <md>
+                    <mrow> 1\,cm=\amp 50\,cm </mrow>
+                    <mrow> ?=\amp 600\, cm</mrow>
+                    <mrow> =\amp \frac{600\, cm \times 1\,cm}{50\,cm}</mrow>
+                    <mrow> =\amp 12 \,cm </mrow>
+                </md>
+            </p>
+            <p>
+                The length of the living room on the blueprint is <m>{\color{blue}12 \,cm }</m>.
+            </p>
+
+        </solution>
+    </example>
+    
+
+
+    <p>
+      <m>\textbf{Technology Integration: Exploring Scale Drawing}</m>
+   </p>
+    <p>
+        To deepen your understanding of scale drawing and its practical applications, explore the following digital resources:
+    </p>  
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Math is Fun – Scale Drawings
+                </p>
+                <p>
+                    This resource offers clear explanations and visuals for understanding scale drawing, including examples and practice problems.
+                </p>
+                <p>
+                    <url href="https://www.mathsisfun.com/geometry/scale-drawing.html" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    CK-12 – Scale Drawings Interactive Lesson
+                </p>
+                <p>
+                    An interactive lesson that guides learners through the basics of scale drawings with dynamic visuals and self-check quizzes.
+                </p>
+                <p>
+                    <url href="https://www.ck12.org/geometry/scale-drawings/lesson/Scale-Drawings-Basics-MS-Geometry/" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    YouTube Video – Introduction to Scale Drawings
+                </p>
+                <p>
+                    A visual and engaging video lesson explaining how to interpret and create scale drawings.
+                </p>
+                <p>
+                    <url href="https://youtu.be/MUPz6pG9u-4" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    YouTube Video – Scale Drawing by THE KING'S SCHOOL - NAIROBI
+                </p>
+                <p>
+                    A comprehensive tutorial tailored for Standard 8 students, focusing on the concepts and applications of scale drawing.
+                </p>
+                <p>
+                    <url href="https://youtu.be/GZN7xsqeFLw" />
+                </p>
+            </li>
+    </ol>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>
+        <m>{\color{blue} \textbf{The key importance of studying Scale drawing}}</m>.
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                   Scale drawings help represent objects proportionally. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Understanding scales allows us to determine actual measurements accurately.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Scale drawings are essential in many fields, such as architecture, design, and geography.
+                </p>
+            </li>
+        </ul>
+    </p>
+  
+
+
+
+
+ 
+
+
+
+    
+</subsection>

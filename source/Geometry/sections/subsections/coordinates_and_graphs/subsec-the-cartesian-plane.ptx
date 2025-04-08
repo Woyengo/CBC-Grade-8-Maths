@@ -1,24 +1,5 @@
 <subsection xml:id="subsec-the-cartesian-plane">
-    <title> cartesian plane</title>
-
-    <p>
-        The Cartesian plane is a two-dimensional coordinate system defined by two perpendicular number lines
-        <ul>
-            <li>
-                <p>
-                    The <m>\textbf{x-axis}</m>, (horizontal line).
-                </p>
-            </li>
-            <li>
-                <p>
-                    The <m>\textbf{y-axis}</m>, (vertical line).
-                </p>
-            </li>
-        </ul>
-    </p>
-    <p>
-        These axes intersect at a point called the <m>\textbf{origin (0,0)}</m> , dividing the plane into four.
-    </p>
+    <title> Cartesian Plane</title>
     <activity>
         <p>
             <m>{\color{red} \textbf{Work in groups}}</m>
@@ -112,7 +93,7 @@
         </p>
     </activity>
     <p>
-        <m>{\color{green} \textbf{Learning Point}}</m>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
     </p>
     <image>
         <latex-image label="h">
@@ -153,5 +134,23 @@
                 </p>
             </li>
         </ol>
+    </p>
+    <p>
+        The Cartesian plane is a two-dimensional coordinate system defined by two perpendicular number lines
+        <ul>
+            <li>
+                <p>
+                    The <m>\textbf{x-axis}</m>, (horizontal line).
+                </p>
+            </li>
+            <li>
+                <p>
+                    The <m>\textbf{y-axis}</m>, (vertical line).
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        These axes intersect at a point called the <m>\textbf{origin (0,0)}</m> , dividing the plane into four.
     </p>
 </subsection>

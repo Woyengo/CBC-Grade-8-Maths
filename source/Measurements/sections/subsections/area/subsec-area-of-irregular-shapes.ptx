@@ -11,23 +11,7 @@
         In this section, you will learn about area of irregular shapes you learn in grade <m>5</m> and 
         <m>7</m>
     </p>
-    <definition xml:id="def-irregular-shapes">
-        <statement>
-            <p>
-                <m>\textbf{Irreguar shapes}</m> are shapes that do not have 
-                equal sides and angles.
-            </p>
-            <p>
-                A kite,leaf,flowers and etc are some of the irregular shapes around.
-            </p>
-            <p>
-                Look at the figure below for some irregular shapes around us.
-            </p>
-            <image source="/leaf.png" width="90%">
-                <shortdescription>Irregular shapes</shortdescription>
-            </image>
-        </statement>
-    </definition>
+    
     <activity>
         <p>
         <m>\textbf{Work in groups}</m>
@@ -123,9 +107,36 @@
             </ol>
         </p>
     </activity>
+
+
     <p>
-        <m>{\color{blue} \textbf{Essential Concept:}}</m>
+        <m>\textbf{Extended Activity:}</m>
     </p>
+    <p>
+        During your free time, trace your fingers on a square grid and calculate the area of 
+        your finger. What is the area?
+    </p>
+
+
+
+
+    <p>
+        <m>{\color{black} \textbf{Key Takeaway:}}</m>
+    </p>
+
+    <p>
+        <m>\textbf{Irreguar shapes}</m> are shapes that do not have 
+        equal sides and angles.
+    </p>
+    <p>
+        A kite, leaf, flowers and etc are some of the irregular shapes around.
+    </p>
+    <p>
+        Look at the figure below for some irregular shapes around us.
+    </p>
+    <image source="/leaf.png" width="90%">
+        <shortdescription>Irregular shapes</shortdescription>
+    </image>
     <p>
         Drawing or tracing an irregular form on a square grid can allow you to estimate its area.  The area is approximated by counting the number of full unit squares and treating 
         incomplete squares as half squares.
@@ -278,17 +289,59 @@
             </p>
         </solution>
     </example>
-    <p>
-        <m>\textbf{Follow-up activity:}</m>
-    </p>
-    <p>
-        During your free time, trace your fingers on a square grid and calculate the area of 
-        your finger. What is the area?
-    </p>
     
+    
+    
+
+
+
+
+
     <p>
-        <m>\textbf{Some digital activities for you.}</m>
-    </p>
+    <m>\textbf{Technology Integration: Exploring Area}</m>
+</p>
+<p>
+    To explore the concept of area in a more interactive and engaging way, check out the following resources:
+</p>
+<p>
+    <ol>
+    <li>
+        <p>
+            Inch Calculator – Area Calculator
+        </p>
+        <p>
+            A useful online tool that helps you calculate the area of various shapes using standard formulas and dimensions.
+        </p>
+        <p>
+            <url href="https://www.inchcalculator.com/area-calculator/?utm_source=chatgpt.com" />
+        </p>
+    </li>
+    <li>
+        <p>
+            YouTube Video – Area of Shapes
+        </p>
+        <p>
+            This video provides a simple and visual explanation of how to find the area of different geometric figures.
+        </p>
+        <p>
+            <url href="https://youtu.be/JnLDmw3bbuw" />
+        </p>
+    </li>
+    <li>
+        <p>
+            DoodleLearning – Area Formula Guide
+        </p>
+        <p>
+            A learner-friendly platform that breaks down area formulas and helps you practice applying them to real problems.
+        </p>
+        <p>
+            <url href="https://doodlelearning.com/maths/skills/geometry/area-formula" />
+        </p>
+    </li>
+</ol>
+</p>
+
+
 
     
     

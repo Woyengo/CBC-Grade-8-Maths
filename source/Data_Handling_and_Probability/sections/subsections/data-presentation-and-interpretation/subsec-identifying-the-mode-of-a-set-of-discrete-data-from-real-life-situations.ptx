@@ -1,9 +1,5 @@
 <subsection xml:id="subsec-identifying-the-mode-of-a-set-of-discrete-data-from-real-life-situations">
-    <title>identifying the mode of a set of discrete data from real life situations</title>
-
-    <p>
-        The mode of a data set is the value that appears most frequently. 
-    </p>
+    <title>Identifying the Mode of a Set of Discrete Data</title>
     <activity>
         <p>
             <m>{\color{red} \textbf{Work in groups}}</m>
@@ -38,10 +34,10 @@
         </p>
     </activity>
     <p>
-        <m>{\color{green} \textbf{Learning Point}}</m>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
     </p>
     <p>
-        In a set of data, mode is the item or value that appears the most frequently.
+        The mode of a data set is the value that appears most frequently. 
     </p>
     <example>
         <statement>

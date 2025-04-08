@@ -1,6 +1,157 @@
-<subsubsection xml:id="subsubsec-combined-operations-involving-three-operations">
+<subsection xml:id="subsubsec-combined-operations-involving-three-operations">
     <title>Combined operations involving three operations</title>
     <p>
-        
+      When you are required to perform combined operations involving three operations, carry out operations according to their order.
     </p>
-</subsubsection>
+    <p>
+        Order of operations can be:
+    </p>
+    <p>
+        <ol marker= "i)">
+            <li>
+                <p>
+                   Division <m>\rightarrow</m> Addition <m>\rightarrow</m> Subtraction
+                </p>
+            </li>
+            <li>
+                <p>
+                    Multiplication <m>\rightarrow</m> Addition <m>\rightarrow</m> Subtraction
+                </p>
+            </li>
+            <li>
+                <p>
+                    Division <m>\rightarrow</m> Multiplication <m>\rightarrow</m> Subtraction
+                </p>
+            </li>
+            <li>
+                <p>
+                    Division <m>\rightarrow</m> multiplication <m>\rightarrow</m> Subtraction
+                </p>
+            </li>
+        </ol>
+    </p>
+    <activity>
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+                In Masomo college, <m>\frac{2}{5}</m> of the population study agriculture and <m>\frac{1}{4}</m> of the population study business.The rest of the population study artisan courses.
+                 In <m>2024</m>, <m>\frac{1}{2}</m> of the agriculture students dropped out of the course to study mathematics, <m>\frac{1}{3}</m> of the business students went for attachment and <m>\frac{1}{5}</m> of the artisan students learned a new skill.
+            </p>
+            <p>
+                <ol marker= "a)">
+                    <li>
+                        <p>
+                            <ol marker= "i)" >
+                                <li>
+                                    <p>
+                                      Working in groups of <m>5</m>, write an expression to calculate the fraction of the student population who pursued artisan courses? 
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        What fraction of the student population pursued artisan courses? <m>\textbf{Hint:} {\color{blue}\text{Total population = 1}}</m> 
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction of agriculture students dropped agriculture to do mathematics?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction of business students went for attachment?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction of the artisan students learned a new skill?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction of the total population dropped agriculture, went for attachment, or learned a new skill? <m>\textbf{Hint:} {\color{blue}\text{ Add the fractions from questions b, c, and d}}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                         Calculate the fraction of the population that remained unchanged (did not drop agriculture, go for attachment, or learn a new skill)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss the order in which you have carried out the operations with other learners in class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Work out: <m>\frac{5}{6} \times \frac{3}{10}+ \frac{2}{3} \div \frac{4}{5}</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To work out <m>\frac{5}{6} \times \frac{3}{10}+ \frac{2}{3} \div \frac{4}{5} </m>, follow the order:
+            </p>
+            <p>
+                Division <m>\rightarrow</m> Multiplication <m>\rightarrow</m> Addition
+            </p>
+            <p>
+                Carry out division by multiplying <m>\frac{2}{3}</m> by the reciprocal of <m>\frac{4}{5}</m>, which is <m>\frac{5}{4}</m>.
+            </p>
+            <p>
+              <md>
+                <mrow>=\amp \frac{5}{6} \times \frac{3}{10}+ \frac{2}{3} \times \frac{5}{4} </mrow>
+                <mrow> \frac{\cancel{2}^1}{3} \times \frac{5}{\cancel{4}_2} =\amp \frac{1 \times 5}{3 \times 2}</mrow>
+                <mrow> =\amp \frac{5}{6} </mrow>
+              </md>
+            </p>
+            <p>
+                Carry out multiplication: <m>\frac{5}{6} \times \frac{3}{10} + \frac{5}{6}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \frac{\cancel{5}^1}{\cancel{6}_2} \times \frac{\cancel{3}^1}{\cancel{10}_2} =\amp \frac{1 \times 1}{2 \times 2}</mrow>
+                    <mrow> =\amp \frac{1}{4} </mrow>
+                </md>
+            </p>
+            <p>
+                Carry out addition: <m>\frac{1}{4} + \frac{5}{6}</m>. The LCM of <m>4</m> and <m>6</m> is <m>24</m>
+            </p>
+            <p>
+                <md>
+                    <mrow> \frac{1}{4} + \frac{5}{6} =\amp \frac{6+20}{24} </mrow>
+                    <mrow>=\amp \frac{26}{24}</mrow>
+                </md>
+            </p>
+            <p>
+                Simplify <m>\frac{26}{24}</m> by dividing both the numerator and the denominator by <m>2</m>.
+            </p>
+            <p>
+                <md>
+                  <mrow>\frac{26}{24} =\amp \frac{13}{12}</mrow>
+                </md>
+            </p>
+            <p>
+              <m>\frac{13}{12}</m> written in an improper fraction is <m>1\frac{1}{12}</m>
+            </p>
+            
+
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+    </exercise>
+</subsection>
