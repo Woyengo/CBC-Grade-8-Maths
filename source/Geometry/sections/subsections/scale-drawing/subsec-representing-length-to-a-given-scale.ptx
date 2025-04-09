@@ -1,0 +1,250 @@
+<subsection xml:id="subsec-representing-length-to-a-given-scale">
+    <title>Representing length to a given scale</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            The teacher provided the learners with a textbook, a ruler, and an exercise book for the activity.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Individually, draw the textbook accurately in your exercise book.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How different is the length of your drawing from the actual length of the textbook?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the actual length of the textbook and the length of your drawing in centimetres.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your work with the other groups and compare results.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            What you require:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Ruler or measuring tape
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Exercise book or plain paper
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pencil
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Students individually observe the classroom window and door and estimate its height and width in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Using the ruler or measuring tape, accurately measure the actual height and width of the window and door in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Recordyour measurement in the table shown below.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Object</cell>
+                                <cell>Measured height</cell>
+                                <cell>Measured width</cell>
+                            </row>
+                            <row>
+                                <cell>Door</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Window</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Draw a scaled-down version of the height and width of window and door in the exercise books using a scale of 1cm represents 15cm.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Record your results in the table below
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Objects</cell>
+                                <cell>New measurement (Height)</cell>
+                                <cell>New measurement (Width)</cell>
+                            </row>
+                            <row>
+                                <cell>Door</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Window</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Share and discuss your results with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>\textbf{Representing length to a given scale}</m> involves creating a proportional representation of real-world measurements, typically in drawings, maps, or models.
+    </p>
+    <p>
+        <m>\textbf{A scale}</m> is a ratio that compares the dimensions of a representation (like a drawing) to the corresponding dimensions of the actual object. It indicates how much smaller or larger the representation is compared to reality.
+    </p>
+    
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Scale drawing helps represent real-world objects proportionally on paper, using a specific ratio to maintain accurate measurements.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                The length of a school field is measured as <m>12000 \textbf{ cm}</m>. Given that <m>1 \textbf{ cm}</m> represents <m>600 \textbf{ cm}</m>, represent the length of the school field on paper.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Actual length of a school field = <m>12000 \textbf{ cm}</m>.
+            </p>
+            <p>
+                Scale = <m>1 \textbf{ cm}</m> represents <m>600 \textbf{ cm}</m>.
+            </p>
+            <p>
+                To find the length on paper, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Drawing Length} = \amp \frac{\textbf{Actual Length}}{\textbf{Scale Factor}}</mrow>
+                    <mrow> = \amp \frac{12,000}{600}</mrow>
+                    <mrow> = \amp 20 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Therefore, The length of the school field on paper will be <m>20 \textbf{ cm}</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The height of a mountain is <m>3,500 \textbf{ meters}</m>. If we use a scale where <m>1 \textbf{ cm}</m> represents <m>500 \textbf{ meters}</m>, represent the height of the mountain in your workbook.
+            </p>
+
+        </statement>
+        <solution>
+            <p>
+                Actual height of the mountain = <m>3500 \textbf{ meters}</m> 
+            </p>
+            <p>
+                Scale = <m>1 \textbf{ cm}</m> represents <m>500 \textbf{ meters}</m>
+            </p>
+            <p>
+                To find the height of the mountain on paper, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Drawing Height} = \amp \frac{\textbf{Actual height }}{\textbf{Scale factor}}</mrow>
+                    <mrow> = \amp \frac{3500}{500}</mrow>
+                    <mrow> =  \amp 7 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            
+            <p>
+                Therefore, the height of the mountain would be drawn as <m>7 \textbf{ cm}</m> tall on paper.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A map has a scale of <m>1:75,000</m>. A road is <m>6 \textbf{ kilometers}</m> long in reality. How long should it be drawn on the map in centimeters?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Scale = <m>1:75,000</m> (This means <m>1 \textbf{ cm}</m> on the map represents <m>75,000 \textbf{ cm}</m> in reality.)
+            </p>
+            <p>
+                Actual road length = <m>6 \textbf{ km}</m>
+            </p>
+            <p>
+                Convert kilometers to centimeters:
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{6 \cancel{ km}}{1 \cancel{ km}} \times 100,000 \textbf{ cm}</mrow>
+                    <mrow> = \amp 600,000\textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                Now, we use the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Drawing Length} = \amp \frac{\textbf{Actual Length}}{\textbf{Scale Factor}}</mrow>
+                    <mrow> = \amp \frac{600,000}{75,000}</mrow>
+                    <mrow> = \amp 8 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                The road should be drawn as <m>8 \textbf{ cm}</m> long on the map.
+            </p>
+        </solution>
+    </example>
+</subsection>

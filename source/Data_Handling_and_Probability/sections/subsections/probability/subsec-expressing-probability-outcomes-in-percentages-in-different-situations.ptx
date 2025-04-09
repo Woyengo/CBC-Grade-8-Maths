@@ -1,0 +1,241 @@
+<subsection xml:id="subsec-expressing-probability-outcomes-in-percentages-in-different-situations">
+    <title>Expressing probability outcomes in percentages in different situations</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        In a class of <m>30</m> students, each learner should mention their favorite pet from the following options: Dog, Cat, Rabbit and Parrot.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Copy and fill in the table below with the class results.
+                    </p>
+                    <table>
+                        <title></title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium"> 
+                            <row halign="left" header="yes">
+                                <cell>Pet</cell>
+                                <cell>Tally marks</cell>
+                                <cell>Number of learners(percentage)</cell>
+                            </row>
+                            <row>
+                                <cell>Dog</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Cat</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Rabbit</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Parrot</cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Convert each probability to a percentage.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with other groups
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        Probability can be expressed as a percentage to show how likely an event is to occur. A probability percentage tells us the chance of an event happening out of 100.
+    </p>
+    <p>
+        <m>\textbf{Key points}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    A probability of <m>0</m>% means the event cannot happen.
+                </p>
+            </li>
+            <li>
+                <p>
+                    An event with a probability of <m>50</m>% has an equal chance of occurring or not occurring.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A probability of <m>100</m>% means the event will definitely happen.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The total probability of all possible outcomes always adds up to <m>100</m>%
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Expressing probability outcomes in percentages helps to clearly communicate the likelihood of an event occurring, making it easier to understand and compare different situations.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Suppose you roll a die <m>12</m> times and the number <m>4</m> appears <m>3</m> times. Determine the probability of rolling a <m>4</m> in the next roll as a percentage.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Number of trials = <m>12</m>
+            </p>
+            <p>
+                Number of times <m>4</m> appeared = <m>3</m>
+            </p>
+            <p>
+                Using the formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Probability of getting a 4} = \amp \frac{\textbf{Number of times 4 appears}}{\textbf{Total trials}}</mrow>
+                    <mrow> = \amp \frac{3}{12}</mrow>
+                </md>
+            </p>
+            <p>
+                Convert to a percentage:
+            </p>
+            <p>
+                <md>
+                    <mrow> = \amp \frac{3}{12} \times 100\%</mrow>
+                    <mrow> = \amp 25\%</mrow>
+                </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                You interviewed <m>10</m> classmates and asked them to name their favorite subject from the following options: Science, Maths, English, and Social Studies. The results were:
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>3</m> classmates prefer Science
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2</m> classmates prefer Maths
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>4</m> classmates prefer English
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1</m> classmate prefers Social Studies
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            What is the probability, as a percentage, that a learner prefers English?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What is the probability, as a percentage, that a learner prefers Science?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Number of learners who prefer English = <m>4</m>
+                        </p>
+                        <p>
+                            Total number of learners = <m>10</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{Probability} = \amp \frac{\textbf{Number of learners who prefer English}}{\textbf{Total number of learners}}</mrow>
+                                <mrow> = \amp \frac{4}{10}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Convert to percentage:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> = \amp \frac{4}{10} \times 100\%</mrow>
+                                <mrow> =  \amp 40\%</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            So, the probability that a learner prefers English is <m>40\%</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Number of learners who prefer Science = <m>3</m>
+                        </p>
+                        <p>
+                            Total number of learners = <m>10</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{Probability} = \amp \frac{\textbf{Number of learners who prefer Science}}{\textbf{Total number of learners}}</mrow>
+                                <mrow> = \amp \frac{3}{10}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Convert to percentage:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> = \amp \frac{3}{10} \times 100\%</mrow>
+                                <mrow> =  \amp 30\%</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            So, the probability that a learner prefers Science is <m>30\%</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

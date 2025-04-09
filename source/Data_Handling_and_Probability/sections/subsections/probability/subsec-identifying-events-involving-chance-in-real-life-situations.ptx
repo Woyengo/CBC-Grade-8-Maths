@@ -1,7 +1,61 @@
 <subsection xml:id="subsec-identifying-events-involving-chance-in-real-life-situations">
-    <title>Identifying events involving chance in real life situations</title>
+    <title>Identifying Events Involving Chance in Real Life Situations</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <ol marker="i)">
+                <li>
+                    <p>
+                        Classify the following events as likely, unlikely, must happen and cannot happen.
+                    </p>
+                </li>
+                <li>
+                
+                <ul>
+                <li>
+                    <p>
+                        A baby learning to walk by the age of two.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        It will rain in the rainy season.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Getting a number between 1 and 6 when rolling a six-sided die.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Tossing a coin and it lands on heads.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The school bell ringing at the end of the day.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A cat giving birth to puppies.
+                    </p>
+                </li>
+            </ul>
+            </li>
+            <li>
+                <p>
+                    Discuss and compare with other groups.
+                </p>
+            </li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        Identifying events involving chance in real life situations means recognizing occurrences where the outcome is not guaranteed and depends on random factors,
+        <m>\textbf{Identifying events involving chance in real life situations}</m> means recognizing occurrences where the outcome is not guaranteed and depends on random factors,
         like flipping a coin (heads or tails), rolling a dice (getting a specific number), weather forecasting (probability of rain), or drawing a specific card from a deck - essentially, situations where there are multiple possible outcomes with varying likelihoods. 
     </p>
     <p>
@@ -41,73 +95,15 @@
             </li>
         </ul>
     </p>
-    <activity>
-        <p>
-            Work in groups
-        </p>
-        <p>
-            <ol marker="i)">
-                <li>
-                    <p>
-                        Classify the following events as likely, unlikely, must happen and cannot happen.
-                    </p>
-                </li>
-                <li>
-                
-                <ul>
-                <li>
-                    <p>
-                        A baby learning to walk by the age of two.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        It will rain in the rainy season.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Getting a number between 1 and 6 when rolling a six-sided die.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Tossing a coin and it lands on heads.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The school bell ringing at the end of the day.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        A fish living outside water.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        A cat giving birth to puppies.
-                    </p>
-                </li>
-            </ul>
-            </li>
-            <li>
-                <p>
-                    Discuss and compare with other groups.
-                </p>
-            </li>
-            </ol>
-        </p>
-    </activity>
+    
     <p>
-        Learning point
+        <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
             <li>
                 <p>
-                    Events are such that they are likely, unlikely, must happen and cannot happen.
+                    Events can be classified as likely, unlikely, certain (must happen), or impossible (cannot happen).
                 </p>
             </li>
         </ul>

@@ -19,7 +19,7 @@
 
                 <figure>
                     <caption></caption>
-                    <interactive xml:id="geogebra-cone" geogebra="mjy5pjdb" width="100%" aspect="9:7" reset-icon="yes"/>
+                    <interactive xml:id="geogebra-cone" geogebra="mjy5pjdb" width="100%" aspect="9:7" reset-icon="yes" material-width="1000px"/>
                 </figure>
         </statement>
     </activity>
@@ -113,27 +113,35 @@
             <image width ="50%">
             <latex-image>
                 \begin{tikzpicture}
-  % Define colors
-    \definecolor{coneColor}{rgb}{0.3, 0.6, 1}  % Light blue
-    \definecolor{circleColor}{rgb}{1, 0.6, 0}  % Orange
-    
-    % Draw the sector representing the curved surface of the cone
-    \fill[coneColor] (0,0) -- (-2.5,2.5) arc (150:390:2.5) -- cycle;
-    \draw[thick] (0,0) -- (-2.5,2.5);
-    \draw[thick] (0,0) -- (2.5,2.5);
-    \draw[thick] (-2.5,2.5) arc (150:390:2.5);
-    
-    % Draw the base circle so its top touches the bottom of the sector
-    \fill[circleColor] (0,-2.7) circle (1.5);
-    \draw[thick] (0,-2.7) circle (1.5);
-    
-    % Indicate the radius of the base
-    \draw[dashed] (0,-1.5) -- (1.5,-1.5);
-    \node[above] at (0.75,-1.5) {r};
-    
-    % Indicate the slant height of the sector
-    \draw[dashed] (0,0) -- (0,2.5);
-    \node[left] at (0,1.25) {h};
+                % Draw the sector (cone's lateral surface)
+                
+                \fill[blue!50] (0,0) -- (5,5) arc (0:180:5) -- cycle;
+                \draw[thick] (0,0) -- (5,5);
+                \draw[thick] (0,0) -- (-5,5);
+                \draw[thick] (5,5) arc (0:180:5);
+
+                % Draw the detached circle (base of the cone)
+                \fill[orange] (0,11.9) circle (2);  
+                \draw[thick] (0,11.9) circle (2);
+
+                % Draw the radius of the base circle (from center to right side)
+                \draw[thick] (0,11.9) -- (2,11.9);
+
+                % Label the radius
+                \node[above] at (1,11.9) {\(r = 7\) cm};
+
+                % Add angle theta
+            \draw (0.8,0) arc (0:180:1) node[midway, above] {\(\theta\)};
+
+                % Add radius labels for slant height
+                \draw (-5,5) node[left] {\(r\)};
+                \draw (5,5) node[right] {\(r\)};
+                
+                % Label points
+                \node[above] at (0,-0.5) {\(C\)};
+                \node[left] at (-5,5) {\(A\)};
+                \node[right] at (5,5) {\(B\)};
+
                 \end{tikzpicture}
             </latex-image>
                 <shortdescription></shortdescription>

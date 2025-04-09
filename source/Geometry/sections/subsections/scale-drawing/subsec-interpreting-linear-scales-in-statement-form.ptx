@@ -1,0 +1,177 @@
+<subsection xml:id="subsec-interpreting-linear-scales-in-statement-form">
+    <title>Interpreting linear scales in statement form</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Given a measuring tape or ruler, grid paper and  a pencil to complete the activity.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the length, width and height of your desk in cm.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Given the distance between each desk in a classroom is <m>50 \textbf{ cm}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the scale used in the statement form.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss with the other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>\textbf{Interpreting a linear scale in statement form}</m> means understanding the relationship between distances on a map (or drawing) and the corresponding distances on the real world using words.
+    </p>
+    <p>
+        <m>\textbf{A linear scale}</m>, also known as a bar scale or graphic scale, is a visual representation of the relationship between map distances and real-world distances.
+    </p>
+    <p>
+        The scale is often expressed in a statement, such as "every 1 cm on the drawing corresponds to an actual distance of 50 meters in reality.
+    </p>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Interpreting linear scales means understanding how numbers on a scale represent real-life things, helping you compare and measure different values easily.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                The distance between two mountain peaks on a map is <m>15 \textbf{ cm}</m>.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            If the actual distance between the two peaks is <m>45 \textbf{ km}</m>, interpret the scale and write it in a statement form.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If the actual distance between two other mountain peaks along the same range is <m>60 \textbf{ km}</m>, determine the scale of the distance between them on the map.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Distance between two mountain peaks on the map = <m>15  \textbf{ cm}</m>.
+            </p>
+            <p>
+                Actual distance between the two peaks = <m>45 \textbf{ km}</m>.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Interpreting the Scale
+                        </p>
+                        <p>
+                            To find the scale, we divide the actual distance by the map distance:
+                        </p>
+                        <p>
+                            Convert <m>45 \textbf{ km}</m> to <m>\textbf{cm}</m>
+                        </p>
+                        <p>
+                            Since <m>1 \textbf{ km}</m> = <m>100,000 \textbf{ cm}</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp \frac{45 \cancel{ km}}{1 \cancel{ km}} \times 100,000 \textbf{ cm}</mrow>
+                                <mrow> = \amp 4,500,000 \textbf{ cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{Scale} =  \amp \frac{ \textbf{Actual Distance}} {\textbf{Map Distance}}</mrow>
+                                <mrow>\textbf{Scale} =  \amp \frac{4,500,000}{15}</mrow>
+                                <mrow> = \amp 300,000 \textbf{ cm} </mrow>
+                            </md>
+                        </p>
+                        <p>
+                            So, the scale is <m>1:300,000</m>, meaning <m>1 \textbf{ cm}</m> on the map represents <m>300,000 \textbf{ cm}</m> (or <m>3 \textbf{ km}</m>) in reality.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Finding the Map Distance for 60 km.
+                        </p>
+                        <p>
+                            Using the same scale <m>1 \textbf{ cm}</m> represents <m>3 \textbf{ km}</m>, we determine the map distance for an actual distance of <m>60 \textbf{ km}</m>:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{Map Distance} =  \amp \frac{ \textbf{Actual Distance}} {\textbf{Scale factor}}</mrow>
+                                <mrow> = \amp \frac{60}{3}</mrow>
+                                <mrow> = \amp 20 \textbf{ cm}</mrow>
+                            </md>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                On a city map, the distance between the library and museum is <m>4.5 \textbf{ cm}</m>. If the actual distance is <m>900 \textbf{ meters}</m>. Interpret and write the scale in statement form.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Map distance = <m>4.5 \textbf{ cm}</m>
+            </p>
+            <p>
+                Actual distance = <m>900 \textbf{ meters}</m>
+            </p>
+            <p>
+                Convert meters into cm 
+            </p>
+            <p>
+                <md>
+                    <mrow> \amp \frac{900 \cancel{ m}}{1 \cancel{ m}} \times 100 \textbf{ cm}</mrow>
+                    <mrow> = \amp90,000 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                so, Actual distance = <m>90,000 \textbf{ cm}</m>
+            </p>
+            <p>
+                The formula to find the scale is:
+            </p>
+            <p>
+                <md>
+                    <mrow> \textbf{Scale} = \amp \frac{\textbf{Actual Distance}}{\textbf{ Map Distance}}</mrow>
+                    <mrow> = \amp \frac{90,000}{4.5}</mrow>
+                    <mrow> =  \amp 20,000 \textbf{ cm}</mrow>
+                </md>
+            </p>
+            <p>
+                So, the scale is <m>1:20,000</m>, meaning <m>1 \textbf{ cm}</m> on the map represents <m>20,000 \textbf{ cm}</m> (or <m>200 \textbf{ m}</m>) in reality.
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

@@ -2,9 +2,7 @@
     <title>Interest and principal</title>
 
     <introduction>
-        <p>
-          <m>\textbf{Recall:}</m>
-        </p>
+        
         <p>
             <ol marker="(a)">
                 <li>
@@ -73,7 +71,7 @@
 
         </activity>
         <p>
-            <m>{\color{blue} \textbf{Essential Concept:}}</m>
+            <m>{\color{black} \textbf{Key Takeaway:}}</m>
         </p>
         <p>
            <ul>
@@ -212,7 +210,7 @@
                                 <md>
                                     <mrow>\text{Intrest}= \amp \text{Amount}- \text{Principal}</mrow>
                                     <mrow> =\amp  sh.\, 38\, 880 - sh.\, 36\, 000</mrow>
-                                    <mrow> =\amp    sh. \, 2\330</mrow>
+                                    <mrow> =\amp    sh. \, 2\,330</mrow>
                                 </md>
                             </p>
                             <p>

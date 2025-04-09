@@ -22,12 +22,12 @@
 
                     <figure>
                         <caption></caption>
-                        <interactive xml:id="geogebra-cuboid" geogebra="s55e7j5v" width="100%" aspect="9:7" reset-icon="yes"/>
+                        <interactive xml:id="geogebra-cuboid" geogebra="s55e7j5v" width="100%" aspect="9:7" reset-icon="yes" material-width="1000px"/>
                     </figure>
 
                     <figure>
                         <caption></caption>
-                        <interactive xml:id="geogebra-cuboi" geogebra="zc46agnf" width="100%" aspect="9:7" reset-icon="yes"/>
+                        <interactive xml:id="geogebra-cuboi" geogebra="zc46agnf" width="100%" aspect="9:7" reset-icon="yes" material-width="1000px"/>
                     </figure>
             </statement>
         </activity>

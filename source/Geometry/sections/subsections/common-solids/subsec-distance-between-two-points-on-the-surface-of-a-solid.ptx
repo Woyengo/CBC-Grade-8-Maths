@@ -4,5 +4,236 @@
         The distance between two points on the surface of a solid is the shortest distance between the two points along the surface of the solid. 
         This distance can be calculated using the Pythagorean theorem, which states that the square of the hypotenuse of a right-angled triangle is equal to the sum of the squares of the other two sides.
     </p>
+
+    <p>
+        In the previous sections, you sketched the nets of different common solids.
+        In this section, tou will determine the distance between any two points on the surface of solids.
+    </p>
+
+    <activity>
+        <statement>
+            <p>
+                Work in groups.
+            </p>
+
+            <p>
+                Explore
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            (a). Study the cuboid below
+                        </p>
+
+                        <p>
+                            (b). Individually, sketch the net of the cuboid.
+                        </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    % Define coordinates for cube
+                        \def\side{6} % Side length in cm
+                        
+                        \coordinate (A) at (0,0,0);
+                        \coordinate (B) at (\side,0,0);
+                        \coordinate (C) at (\side,\side,0);
+                        \coordinate (D) at (0,\side,0);
+                        \coordinate (E) at (0,0,\side);
+                        \coordinate (F) at (\side,0,\side);
+                        \coordinate (G) at (\side,\side,\side);
+                        \coordinate (H) at (0,\side,\side);
+                        
+                        % Draw the cube faces
+                        \fill[cyan!50,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle; % Bottom face
+                        \fill[cyan!30,opacity=0.5] (E) -- (F) -- (G) -- (H) -- cycle; % Top face
+                        \fill[cyan!40,opacity=0.5] (A) -- (B) -- (F) -- (E) -- cycle; % Side face
+                        
+                        % Draw edges
+                        \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                        \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+                        \draw[thick] (A) -- (E);
+                        \draw[thick] (B) -- (F);
+                        \draw[thick] (C) -- (G);
+                        \draw[thick] (D) -- (H);
+                        
+                        % Add labels
+                        \node[below left] at (A) {A};
+                        \node[below right] at (B) {B};
+                        \node[above right] at (C) {C};
+                        \node[above left] at (D) {D};
+                        \node[below left] at (E) {E};
+                        \node[below right] at (F) {F};
+                        \node[above right] at (G) {G};
+                        \node[above left] at (H) {H};
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            (a). On the net, draw lines <m>EG</m>, <m>GX</m> and <m>XE</m>
+                        </p>
+
+                        <p>
+                            (b). Using the pythagorean theorem, calculate the distance between points <m>E</m> and <m>B</m> through point <m>A</m>.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Calculate the distance between points <m>A</m> and <m>B</m> through points:
+                        </p>
+                        
+                        <sidebyside>
+                            <p>
+                                (a). Points <m>E</m> and <m>F</m>
+                            </p>
+
+                            <p>
+                                (b). Points <m>H</m> and <m>C</m>
+                            </p>
+                        </sidebyside>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
+    <example>
+    <statement>
+        <p>
+            Calculate the distance between points <m>H</m> and <m>F</m> through points <m>M</m> and <m>N</m> as shown in the cube below.Note : point <m>M</m> and <m>N</m> are at midpoints of lines <m>DC</m> and <m>AB</m>
+        </p>
+
+        <image width="50%">
+            <shortdescription></shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                    % Define coordinates for cube
+                        \def\side{6} % Side length in cm
+                        
+                        \coordinate (A) at (0,0,0);
+                        \coordinate (B) at (\side,0,0);
+                        \coordinate (C) at (\side,\side,0);
+                        \coordinate (D) at (0,\side,0);
+                        \coordinate (E) at (0,0,\side);
+                        \coordinate (F) at (\side,0,\side);
+                        \coordinate (G) at (\side,\side,\side);
+                        \coordinate (H) at (0,\side,\side);
+                        
+                        % Draw the cube faces
+                        \fill[cyan!50,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle; % Bottom face
+                        \fill[cyan!30,opacity=0.5] (E) -- (F) -- (G) -- (H) -- cycle; % Top face
+                        \fill[cyan!40,opacity=0.5] (A) -- (B) -- (F) -- (E) -- cycle; % Side face
+                        
+                        % Draw edges
+                        \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                        \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+                        \draw[thick] (A) -- (E);
+                        \draw[thick] (B) -- (F);
+                        \draw[thick] (C) -- (G);
+                        \draw[thick] (D) -- (H);
+                        
+                        % Add labels
+                        \node[below left] at (A) {A};
+                        \node[below right] at (B) {B};
+                        \node[above right] at (C) {C};
+                        \node[above left] at (D) {D};
+                        \node[below left] at (E) {E};
+                        \node[below right] at (F) {F};
+                        \node[above right] at (G) {G};
+                        \node[above left] at (H) {H};
+                \end{tikzpicture}
+            </latex-image>
+            
+        </image>
+    </statement>
+     <solution>
+        <p>
+            
+        </p>
+
+        <image width="50%">
+            <shortdescription></shortdescription>
+            <latex-image>
+                \begin{tikzpicture}
+                       % Coloring different rectangles
+                        \fill[red!50] (0,-4) -- (0,-2) -- (0,0) -- (0,2) -- (0,4) -- (2,4) -- (2,2) -- (2,0) -- (2,-2) -- (2,-4) -- (0,-4) -- cycle; % A, B, C, D
+                        
+                        \fill[green!50] (-2,0) -- (0,0) -- (0,-2) -- (-2,-2) -- (-2,0); % E
+                        
+                        \fill[blue!50] (2,0) -- (4,0) -- (4,-2) -- (2,-2) -- (2,0); % F
+                        
+                        \fill[yellow!50] (0,2) -- (2,2) -- (2,4) -- (0,4) -- cycle; % A
+                        
+                        \fill[orange!50] (0,0) -- (2,0) -- (2,2) -- (0,2) -- cycle; % B
+                        
+                        \fill[cyan!50] (0,-2) -- (2,-2) -- (2,0) -- (0,0) -- cycle; % C
+                        
+                        \fill[purple!50] (0,-4) -- (2,-4) -- (2,-2) -- (0,-2) -- cycle; % D
+
+                        % Drawing the edges
+                        \draw (0,-4) -- (0,4);
+                        \draw (2,-4) -- (2,4);
+                        \draw (0,4) -- (2,4);
+                        \draw (0,2) -- (2,2);
+                        \draw (0,0) -- (2,0);
+                        \draw (0,-2) -- (2,-2);
+                        \draw (-2,0) -- (0,0) -- (2,0) -- (4,0);
+                        \draw (-2,-2) -- (0,-2) -- (2,-2) -- (4,-2);
+                        \draw (-2,0) -- (-2,-2);
+                        \draw (4,0) -- (4,-2);
+
+                        % Adding dimension labels
+                        \node[left] at (0,3) {5 cm};
+                        \node[right] at (2,3) {5 cm};
+                        \node[right] at (2,1) {4 cm};
+                        \node[left] at (0,1) {4 cm};
+                        \node[above] at (1,4) {6 cm};
+                        \node[below] at (1,-4) {6 cm};
+                        \node[below] at (3,0) {4 cm};
+                        \node[below] at (-1,0) {4 cm};
+                        \node[right] at (-3,-1) {5 cm};
+                        \node[right] at (4,-1) {5 cm};
+                        \node[right] at (2,-3) {4 cm};
+                        \node[right] at (-1,-3) {4 cm};
+
+                        
+                        % Adding vertex labels
+                        \node[above left] at (0,4) {H};
+                        \node[above right] at (2,4) {G};
+                        \node[above right] at (4.1,-2) {G};
+                        \node[left] at (0,2) {D};
+                        \node[right] at (2,2) {C};
+                        \node[left] at (0.2,0) {A};
+                        \node[right] at (4.1,0) {C};
+                        \node[left] at (0,-2.1) {E};
+                        \node[right] at (2,-2) {F};
+                        \node[below left] at (0,-4) {H};
+                        \node[below right] at (2,-4) {G};
+                        \node[below left] at (-2.1,0.1) {D};
+                        \node[below left] at (-2.1,-2) {H};
+                        \node[below left] at (2.3,0.3) {B};
+
+                        % Marking midpoints
+                        \node[fill=black, circle, inner sep=1pt, label=above:M] at (1,2) {};
+                        \node[fill=black, circle, inner sep=1pt, label=below:N] at (1,0) {};
+
+                        % Drawing the line through H, M, N, F with a continuous bold blue line
+                        \draw[thick, blue] (0,4) -- (1,2) -- (1,0) -- (2,-2);
+                      
+                \end{tikzpicture}
+            </latex-image>
+            
+        </image>
+     </solution>
+        
+    </example>
     
 </subsection>

@@ -1,0 +1,269 @@
+<subsection xml:id="subsec-expressing-probability-outcomes-in-decimals-in-different-situations">
+    <title>Expressing probability outcomes in decimals  in different situations</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            Materials Needed:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Small colored objects (like beads or buttons) in 3 colors to represent watermelons, bananas, and mangoes.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    E.g., green = watermelon, yellow = banana, orange = mango.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Small paper bags or containers
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Worksheets or notebooks for recording answers
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculators (optional)
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Place 7 green, 5 yellow, and 3 orange items into a bag to represent watermelons, bananas, and mangoes respectively, for a total of 15 fruits.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Each student draws one item from the bag without looking, records the color (fruit), then returns it to the bag, repeating this process 10 times.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculate:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    Count how many times they picked each color (fruit).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Then calculate the experimental probability for each fruit:
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Write your answer in decimal form.
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share your answer with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>\textbf{Expressing probability outcomes in decimals}</m> means representing the likelihood of events using numbers between 0 and 1 (eg 0.25), where:
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    0 represents an impossible event (0% chance).
+                </p>
+            </li>
+            <li>
+                <p>
+                    1 represents a certain event (100% chance).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Any number between 0 and 1 (like 0.25, 0.5, 0.75) shows how likely the event is:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                0.5 = 50% chance (like flipping a fair coin and getting heads).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                0.25 = 25% chance.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                0.75 = 75% chance.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Probabilities always add up to 1.0.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Expressing probability outcomes as decimals means dividing favorable outcomes by total outcomes and writing the result as a number between <m>0</m> and <m>1</m>.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                A bag contains seven watermelons, five bananas and three mangoes. What is the probability that a fruit selected at random is:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            A watermelon? 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A banana?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A mango?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Express the answer as a decimal.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Watermelons = <m>7</m>
+            </p>
+            <p>
+                Bananas = <m>5</m>
+            </p>
+            <p>
+                Mangoes = <m>3</m>
+            </p>
+            <p>
+                Total number of fruits  <m>7+5+3 = 15</m>
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Calculating the probability of selecting a watermelon, we use formula:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{P(Watermelon)} = \amp \frac{\textbf{Number of possible outcomes of a watermelon}}{\textbf{Total number of fruits}}</mrow>
+                                <mrow> = \amp \frac{7}{15}</mrow>
+                                <mrow> = \amp 0.4667</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, the probability of selcting a watermelon is <m>0.4667</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculating the probability of selecting a banana, we use formula:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{P(Banana)} = \amp \frac{\textbf{Number of possible outcomes of a banana}}{\textbf{Total number of fruits}}</mrow>
+                                <mrow> = \amp \frac{5}{15}</mrow>
+                                <mrow> = \amp \frac{1}{3}</mrow>
+                                <mrow> = \amp 0.3333</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, the probability of selcting a banana is <m>0.3333</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculating the probability of selecting a mango, we use formula:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{P(Mango)} = \amp \frac{\textbf{Number of possible outcomes of a mango}}{\textbf{Total number of fruits}}</mrow>
+                                <mrow> = \amp \frac{3}{15}</mrow>
+                                <mrow> = \amp \frac{1}{5}</mrow>
+                                <mrow> = \amp 0.2</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, the probability of selcting a mango is <m>0.2</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                In a school with <m>50</m> students, <m>12</m> students have a bicycle. What is the probability that a student picked at random owns a bicycle? Write the answer in decimal form.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The total number of students is: <m>50</m>
+            </p>
+            <p>
+                The number of students who own a bicycle is: <m>12</m>
+            </p>
+            <p>
+                Using the probability formula:
+            </p>
+            <p>
+                <md>
+                    <mrow>\textbf{Probability} = \amp \frac{\textbf{Number of favorable outcomes}}{\textbf{Total number of outcomes}}</mrow>
+                    <mrow> =  \amp \frac{12}{50}</mrow>
+                    <mrow> =  \amp 0.24</mrow>
+                </md>
+            </p>
+            <p>
+                So, the probability that a randomly selected student owns a bicycle is <m>0.24</m>.
+            </p>
+        </solution>
+    </example>
+
+    
+</subsection>

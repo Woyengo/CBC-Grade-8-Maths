@@ -13,29 +13,8 @@
         <p>
             In this section, you will learn how to calculate simple intrest.
         </p>
-        <definition xml:id="def-simple-intrest">
-            <statement>
-                <p>
-                    <m>\textbf{Simple intrest(I)}</m> is the interest  calculated using only the initial principal at a given rate and time.
-                </p>
-                <p>
-                    <m>\textbf{Rate }</m> is the ratio of interest earned in a given period of time to the principle.
-                </p>
-                <p>
-                    The rate is expressed as a percentage of the principal per annum <m>\textbf{(P.A).}</m>
-                </p>
-                
-            </statement>
-        </definition>
-        <p>
-            <m>\textbf{Simple Interest Formulae}</m>
-        </p>
-        <p>
-            <md>
-                <mrow> \text{Simple intrest }(I) =\amp \text{Principal} \times \frac{\text{Rate}}{100} \times \text{Time} </mrow>
-                <mrow>I= \amp  \frac{PRT}{100}</mrow>
-            </md>
-        </p>
+
+        
     </introduction>
   
 
@@ -114,58 +93,32 @@
             </p>
         </activity>
         <p>
-            <m>{\color{blue} \textbf{Essential Concept:}}</m>
+            <m>{\color{black} \textbf{Key Takeaway:}}</m>
+        </p>
+
+        <p>
+            <m>\textbf{Simple intrest(I)}</m> is the interest calculated only on the initial amount of money, called the principal, over a period of time at a fixed rate.
         </p>
         <p>
-            <ul >
-                <li>
-                    <p>
-                      The percentage at which the interest is calculated is called the 
-                      <m>\textbf{rate}(R)</m>
-                    </p>
-
-                </li>
-                <li>
-                    <p>
-                        Simple interest is the interest earned on a fixed principal over time.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        If Ekadeli had deposited <m> sh\, 15\,000</m> that earned interest at a rateb of <m>5\%</m> 
-                        per yearm the simple interest at the end of two years will be:
-                    </p>
-                    <p>
-                        <m>5\%</m> means for every <m>sh\, 100 </m>, he 
-                        earns  <m>sh\, 5</m> interest. Therefore, in two years :
-                    </p>
-                    <p>
-                        <m>sh\, 100 </m> earns <m>sh\, (5 \times 2)</m>
-                    </p>
-                    <p>
-                        <m>sh\, 1 </m> earns <m>sh \, (\frac{5 \times 2}{100})= sh \, (\frac{5}{100} )</m>
-                    </p>
-                    <p>
-                        <m>sh\, 15\, 000</m> earns <m>sh\, (\frac{5}{100} \times sh\, 15\,000 \times 2) = sh\, 1\,500</m>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Suppose Ekadeli  deposited <m>sh\, P</m> and interest was paid at a rate <m>R</m> 
-                        for <m>T</m> years.
-                    </p>
-                    <p>
-                        <m>\text{Simple interest}= \text{principal} \times \text{rate as a percentage} \times \text{time in years}</m>
-                    </p>
-                    <p>
-                        <md>
-                            <mrow>= \amp P \times R \times T </mrow>
-                            <mrow>= \amp PRT </mrow>
-                        </md>
-                    </p>
-                </li>
-            </ul>
+            The principal <m>P</m> is the original amount of money invested or borrowed.
         </p>
+        <p>
+            The rate (<m>R</m>) is the percentage of the principal charged as interest per year. It is usually expressed as a percentage per annum (<m>\textbf{P.A}</m>).
+        </p>
+        <p>
+            The time (<m>T</m>) is the duration for which the money is invested or borrowed, typically measured in years.
+        </p>
+        <p>
+            The formula for calculating simple interest is:
+        </p>
+        
+        <p>
+            <md>
+                <mrow> \text{Simple intrest }(I) =\amp \text{Principal} \times \frac{\text{Rate}}{100} \times \text{Time} </mrow>
+                <mrow>I= \amp  \frac{PRT}{100}</mrow>
+            </md>
+        </p>
+
         <example>
             <statement>
                 <p>
