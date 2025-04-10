@@ -24,7 +24,7 @@
                 <m>\textbf{What you require:}</m> A model of a cuboid and a ruler.
             </p>
             <p>
-                <ol marker="(i)">
+                <ol>
                     <li>
                         <p>
                             Get a cuboid like the one shown bellow.
@@ -167,7 +167,7 @@
                         Before going into the concept of area, let us denote the dimensions of a cuboid, which are,
                     </p>
                     <p>
-                        Length, Width, and Height are represented by <m>l\, ,w\, , \, \textbf{and}\,h</m> respectively.
+                        Length, Width, and Height are represented by <m>l\, ,w\, , \, \text{and}\,h</m> respectively.
                     </p>
                 </li>
                 <li>
