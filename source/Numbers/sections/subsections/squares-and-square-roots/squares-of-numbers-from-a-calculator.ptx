@@ -3,7 +3,7 @@
     <p>
     A calculator is a portable device used to perform different mathematical calculations, such as addition, subtraction, multiplication, and division.    
     </p>
-    <image source="calculator.png">
+    <image source="/cal.jpg">
         <shortdescription>sample of a calculator</shortdescription>
     </image>
     <p>
@@ -19,17 +19,17 @@
         <ol>
             <li>
                 <p>
-                    Press the key that has the number <m>3</m>.
+                    Press the key <kbd>3</kbd>.
                 </p>
             </li>
             <li>
                 <p>
-                    Press the key <m>x^2</m>
+                    Press the key <kbd>x²</kbd>
                 </p>
             </li>
             <li>
                 <p>
-                    Press the key <m>=</m>
+                    Press the key <kbd>=</kbd>
                 </p>
             </li>
             <li>
@@ -43,13 +43,13 @@
         To find the square of a decimal number e.g 4.7:
     </p>
     <p>
-        Press the keys <m>4</m> then <m>.</m> finally press <m>7</m>.
+        Press the keys <kbd>4</kbd> then <kbd>.</kbd> finally press <kbd>7</kbd>.
     </p>
     <p>
-        Press the key <m>x^2</m> which means square.
+        Press the key <kbd>x²</kbd> which means square.
     </p>
     <p>
-         Press the key <m>=</m>
+         Press the key <kbd>=</kbd>
     </p>
     <p>
         Then read the number on the screen of the calculator.
@@ -109,7 +109,43 @@
         </statement>
         <solution>
             <p>
-                
+                To calculate the area of the flower garden, multiply the two given dimensions:
+            </p>
+            <p>
+               Area = <m>0.256 \times 0.256</m>
+            </p>
+            <p>
+                Using a calculator:
+            </p>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            Press the key <kbd>0</kbd>,<kbd>.</kbd>,<kbd>2</kbd>,<kbd>5</kbd>,<kbd>6</kbd>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Press the key <kbd>x</kbd>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Press the key <kbd>0</kbd>,<kbd>.</kbd>,<kbd>2</kbd>,<kbd>5</kbd>,<kbd>6</kbd>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Press the key <kbd>=</kbd>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Read the number on the screen of the calculator.
+            </p>
+            <p>
+                Therefore, the area of the flower garden is <m>0.065536 \text{m^2}</m>.
             </p>
         </solution>
     </example>
