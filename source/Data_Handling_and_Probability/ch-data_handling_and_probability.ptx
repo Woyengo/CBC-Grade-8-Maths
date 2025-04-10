@@ -1,9 +1,6 @@
 <chapter xml:id="ch-data-handling-and-probability" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Data Handling and Probability</title>
 
-    <p>
-        This chapter is about data handling and probability.
-    </p>
 
     <xi:include href="sections/sec-data-presentation-and-interpretation.ptx" />
     

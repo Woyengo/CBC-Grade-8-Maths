@@ -263,7 +263,7 @@
                 
             </image>
             <p>
-                <ol marker="(a).">
+                <ol marker="(a)">
                     <li>
                         <p>
                             At what time did the bus start its journey?
@@ -319,7 +319,7 @@
         </statement>
         <solution>
             <p>
-                <ol marker="(a).">
+                <ol marker="(a)">
                     <li>
                         <p>
                             The bus started its journey at <m>11:00</m>.
