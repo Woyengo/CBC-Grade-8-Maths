@@ -1,19 +1,20 @@
 <subsection xml:id="subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle">
-        <title>Construction of a circle touching the vertices of a triangle</title>
+        <title>Construction of a Circle Touching the Vertices of a Triangle</title>
         <p>
-            A circle touching the vertices(corners) of a triangle is called <term>circumscribed circle.</term>
+            A circle touching the vertices (corners) of a triangle is called <term>circumscribed circle.</term>
         </p>
+        <activity>
         <p>
-            For your activity, construct a circumscribed circle for the given triangle. Follow the instructions below. 
+            Construct a circumscribed circle for the given triangle. Follow the instructions below. 
         </p>
         <p>
             <term>Instructions</term>
         </p>
         <p>
-            <ul>
+            <ol>
                 <li>
                     <p>
-                        Select the <term>perpendicular bisector tool(Window)</term> and click on the points <m>A \text { and } B</m>
+                        Select the <term>perpendicular bisector tool (Window 3)</term> and click on the points <m>A \text { and } B</m>
                         to construct a perpendicular line cutting through segment <m>AB</m>
                     </p>
                 </li>
@@ -24,15 +25,15 @@
                 </li>
                 <li>
                     <p>
-                        Select <term>intersect tool(Window)</term> and mark the point of intersection <m>D,</m>of the two perpendicular lines. 
+                        Select <term>intersect tool (Window 2)</term> and mark the point of intersection <m>D,</m>of the two perpendicular lines. 
                     </p>
                 </li>
                 <li>
                     <p>
-                        Select <term>circle with center tool(Window)</term> and click at points <m>D</m> and  <m>A</m> to construct the circle. 
+                        Select <term>circle with center tool (Window 4)</term> and click at points <m>D</m> and  <m>A</m> to construct the circle. 
                     </p>
                 </li>
-            </ul>
+            </ol>
         </p>
 
         <figure>
@@ -44,4 +45,5 @@
             </slate>
             </interactive>
         </figure>
+        </activity>
     </subsection>

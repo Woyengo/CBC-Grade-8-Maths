@@ -1,15 +1,81 @@
 <subsection xml:id="subsec-solving-linear-simultaneous-equations-using-graphs">
-    <title>Solving linear simultaneous equations using graphs</title>
+    <title>Solving Linear Simultaneous Equations Using Graphs</title>
     <p>
         Linear simultaneous equations are algebraic equations with the same variables and are solved at the same time.
     </p>
     <p>
         One of the ways of solving simultaneous equations is graphical method.
     </p>
-    <p>
-        Here is an activity on how to solve simultaneous equations graphically.
-    </p>
     <activity>
+        <statement>
+            <p>
+                <term>Materials Needed</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Graph paper
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Rulers
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Pencils 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Example equations
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                <term>Instructions</term>
+            </p>
+            <p>
+                Solve the following linear simultaneous equations graphically. 
+                <me>
+                    y = 2x + 6
+                </me>
+                <me>
+                    y = -x + 3
+                </me>    
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                           Create a table for the <m>x \text{ and } y</m> coordinates of each equation. 
+                           Choose <m>5</m>  values of <m>x</m> to calculate the <m>y</m> coordinates for the two tables.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Plot the points for each equation on the same graph paper. Use a ruler to draw straight lines through the points for each equation.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Locate the point where the two lines intersect on their graph and write down the coordinates.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your results with your fellow learners. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+        
+    <example>
     <statement>
          <p>
             Solve the following simultaneous equations graphically: 
@@ -102,12 +168,12 @@
             </interactive>
         </figure>
         <p>
-            Identiffy the point of intersection of the two lines, that is point <m>(1,3)</m>
+            Identify the point of intersection of the two lines, that is point <m>(1,3)</m>
         </p>
         <p>
             The solution for the two simultaneous equations is the coordinates of the intersection of the two lines. <m>x = 1</m> and <m>y = 3.</m>
         </p>    
     </solution>   
-    </activity>
+</example>
     
 </subsection>
