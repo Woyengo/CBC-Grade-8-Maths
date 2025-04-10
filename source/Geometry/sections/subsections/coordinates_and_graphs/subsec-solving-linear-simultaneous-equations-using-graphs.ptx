@@ -1,0 +1,113 @@
+<subsection xml:id="subsec-solving-linear-simultaneous-equations-using-graphs">
+    <title>Solving linear simultaneous equations using graphs</title>
+    <p>
+        Linear simultaneous equations are algebraic equations with the same variables and are solved at the same time.
+    </p>
+    <p>
+        One of the ways of solving simultaneous equations is graphical method.
+    </p>
+    <p>
+        Here is an activity on how to solve simultaneous equations graphically.
+    </p>
+    <activity>
+    <statement>
+         <p>
+            Solve the following simultaneous equations graphically: 
+        </p>
+        <p>
+            <me>
+                y = -x + 4
+            </me>  
+            <me>
+                y = 2x +1 
+            </me> 
+        </p>
+    </statement>
+
+    <solution>
+        <p>
+            Make separate tables of <m>x \text{ and } y</m> variables for each equation.
+        </p>
+        <figure xml:id="equations">
+            <caption>Simultaneous_equations</caption>
+            <sidebyside widths="50% 50%">
+               <tabular>
+                <row>
+                    <cell><m> y = -x + 4 </m></cell>
+                </row>
+            </tabular>
+            <tabular>
+                <row>
+                    <cell><m> y = 2x +1 </m></cell>
+                </row>
+            </tabular> 
+            </sidebyside>   
+        </figure>
+        <figure xml:id="tables">
+            <caption>Tables</caption>
+            <sidebyside widths="50% 50%">
+            <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                <row halign="center">
+                    <cell><m>x</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                </row>
+
+                <row halign="center">
+                    <cell><m>y</m></cell>
+                    <cell><m>6</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>2</m></cell>
+                </row>
+            </tabular>
+
+            <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                <row halign="center">
+                    <cell><m>x</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                </row>
+
+                <row halign="center">
+                    <cell><m>y</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>3</m></cell>
+                    <cell><m>5</m></cell>
+                </row>
+            </tabular>
+                
+            </sidebyside>
+        </figure>
+        
+        <p>
+            Construct the two lines for the equations in your graph as shown below.
+        </p>
+        <figure>
+            <caption>Graph</caption>
+            <interactive xml:id="geogebra-linear-graph1" platform="geogebra" width="90%" aspect="4:3">
+            <slate xml:id="linear-graph1" surface="geogebra" material="ahrrtrmg" aspect="4:3">
+                enableShiftDragZoom(true);
+                showResetIcon(false);
+            </slate>
+            </interactive>
+        </figure>
+        <p>
+            Identiffy the point of intersection of the two lines, that is point <m>(1,3)</m>
+        </p>
+        <p>
+            The solution for the two simultaneous equations is the coordinates of the intersection of the two lines. <m>x = 1</m> and <m>y = 3.</m>
+        </p>    
+    </solution>   
+    </activity>
+    
+</subsection>

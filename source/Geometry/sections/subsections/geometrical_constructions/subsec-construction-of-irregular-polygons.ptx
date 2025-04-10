@@ -82,7 +82,7 @@
             
             <activity>
                 <p>
-                    Here is an activity on the construction of an isosceles triangle in Geogebra.
+                    Here is an activity on the construction of an isosceles triangle by created by <term>Simona Riva</term> in Geogebra.
                 </p>
 
                 <figure>
@@ -107,7 +107,7 @@
                 </p>
 
                 <figure>
-                    <caption>Irregular triangles</caption>
+                    <caption>Created by <term>Simona Riva</term> in Geogebra.</caption>
                     <interactive xml:id="geogebra-triangle" platform="geogebra" width="95%" aspect="4:3">
                     <slate xml:id="scalene-right-triangles" surface="geogebra" material="fcrvdheb" aspect="4:3">
                         enableShiftDragZoom(true);

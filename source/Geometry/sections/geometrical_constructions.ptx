@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 
-<section xml:id="sec-geometrical_constructions">
+<section xml:id="sec-geometrical_constructions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Geometrical Constructions</title>
 
     <xi:include href="subsections/geometrical_constructions/subsec-definition.ptx" />
