@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-writing-linear-scales-in-ratio-form">
+    <title>Writing Linear Scales in Ratio Form</title>
+    <activity>
+        <p>
+            <m>
+            \textbf{Materials needed;}
+            </m>
+            
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Rulers
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        String or measuring tapes
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Atlases or printed simple maps (or teacher-prepared maps)
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Calculators
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Manilla paper and markers
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Conversion tables (optional handout)
+                    </p>
+                </li>
+            </ul>
+            <ol>
+                <li>
+                    <p>
+                        Collection of maps and atlases and distributing to individual groups.
+                    </p>
+                    <p>
+                        (a) Students will work in pairs or small groups to find a map that has a scale. 
+                    </p>
+                    <p>
+                        Choose the Key to use on the Map e.g:
+                    </p>
+                    <p>
+                        1 cm represents 500 m
+                    </p>
+                    <p>
+                        2 cm represents 1 km
+                    </p>
+                    <p>
+                        1.5 cm represents 3.5 km etc.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Convert real distances into cm
+                    </p>
+                    <p> (a) Write and simplify the ratio e.g 1 cm : 500 m </p>
+                    <p> (b) 1 cm : 500 m = 1 : 50,000 </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the distance between two landmarks on the map using a ruler or string.
+                    </p>
+                    <p> (a) If the scale is 1:50,000</p>
+                    <p> (b)  Find the real-life distance <m> (3.2 \times 50,000 = 160,000\, \text{cm} = 1.6\, \text{km})</m> </p>
+                </li>
+                <li>
+                    <p>
+                        Create a Poster Presentation. Let each group design a poster with:
+                    </p>
+                    <p>
+                      (a)  The original map snippet
+                    </p>
+                    <p> (b) The converted scales in ratio form</p>
+                    <p> (c) Sample calculations</p>
+                    <p> (d) A unique name for the map</p>
+                </li>
+                <li>
+                    <p>
+                        Gallery Walk and Peer Review 
+                    </p>
+                    <p>Walk around other groups viewing each other's work and compare their posters posters with yours.</p>
+                </li>
+
+
+            </ol>
+        </p>
+        <p>
+            PART A:  Fill in the table below:
+        </p>
+        <table>
+            <title>Understanding Scale</title>
+            <tabular halign="left" valign="top" right="medium" left="medium" top="medium" bottom="medium">
+                <row header="yes">
+                    <cell>Given Scale (e.g. 1 cm represents 2 km)</cell>
+                    <cell>	Convert real-life distance to cm</cell>
+                    <cell>Write Ratio Form (same units)</cell>
+                </row>
+                <row>
+                    <cell>1 cm represents 500 m</cell>
+                    <cell>____________________________</cell>
+                    <cell>____________________________</cell>
+                </row>
+                <row>
+                    <cell>2 cm represents 1 km</cell>
+                    <cell>____________________________</cell>
+                    <cell>____________________________</cell>
+                </row>  
+                <row>
+                    <cell>1.5 cm represents 3.5 km</cell>
+                    <cell>____________________________</cell>
+                    <cell>____________________________</cell>
+                </row>  
+            </tabular>
+        </table>
+        <p>PART B: Measuring Map Distances</p>
+        <p>Use a ruler or string to measure the distance between two landmarks on the map.  Write the distance in cm and calculate their actual real-life distances.</p>
+        <table>
+            <title>Measuring Map Distances</title>
+            <tabular halign="left" valign="top" right="medium" left="medium" top="medium" bottom="medium">
+                <row header="yes">
+                    <cell>From</cell>
+                    <cell>To</cell>
+                    <cell>Map Distance (cm)</cell>
+                    <cell>
+                        Scale used (e.g. 1 cm represents 2 km)
+                    </cell>
+                    <cell>Actual Distance (km)</cell>
+                </row>
+                <row>
+                    <cell>School</cell>
+                    <cell>PLayground</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Market</cell>
+                    <cell>Town Hall</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>Hospital</cell>
+                    <cell>Library</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+        <sidebyside>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>\textbf{PART C: Poster Creation}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Stick your small map or draw it.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Write the ratio scales clearly
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Show sample distance calculations.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Give your map a creative title!
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Add decorations or fun labels.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <image source="/map-poster.png">
+                <shortdescription></shortdescription>
+            </image>
+        </sidebyside>
+        <p>
+            <m>\textbf{PART D: Group assessment}</m>
+
+        </p>
+        <table>
+            <title>Assesment Rubric </title>
+            <tabular halign="left" valign="top" right="medium" left="medium" top="medium" bottom="medium">
+                <row>
+                    <cell>Criteria</cell>
+                    <cell>
+                        Excellent (3)
+                    </cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </table>
+         <table>
+            <title>Assessment Rubric (Sample)</title>
+            <tabular>
+              <row>
+                <cell>Criteria</cell>
+                <cell>Excellent (3)</cell>
+                <cell>Good (2)</cell>
+                <cell>Needs Support (1)</cell>
+              </row>
+              <row>
+                <cell>Accurate unit conversion</cell>
+                <cell>✔️</cell> 
+                <cell>✔️</cell>
+                <cell>❌</cell> 
+              </row>
+              <row>
+                <cell>Ratio form is correct</cell>
+                <cell>✔️</cell>
+                <cell>✔️</cell>
+                <cell>❌</cell>
+              </row>
+              <row>
+                <cell>Mathematical explanation clear</cell>
+                <cell>✔️</cell>
+                <cell>✔️</cell>
+                <cell>❌</cell>
+              </row>
+              <row>
+                <cell>Team collaboration</cell>
+                <cell>✔️</cell>
+                <cell>✔️</cell>
+                <cell>❌</cell>
+              </row>
+            </tabular>
+        </table> 
+        
+
+    </activity>  
+</section>
