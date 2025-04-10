@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-section-circles" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Circles</title>
-    <introduction>
-        <p>
-        Why Temperature?
-        </p>
-    </introduction>  
-
+    <title>Circles</title> 
+    <p>
+        
+    </p>
+     
     <xi:include href="subsections/circles/subsec-subsection-circumference-of-a-circle"/>
     <xi:include href="subsections/circles/subsec-subsection-length-of-an-arc-of-a-circle-1"/>
     <xi:include href="subsections/circles/subsec-subsection-length-of-an-arc-of-a-circle-2"/>
