@@ -1,6 +1,108 @@
 <subsection xml:id="subsec-addition-of-integers">
     <title>Addition of integers</title>
     <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <ol >
+                <li>
+                    <p>
+                        Make information cards like the ones shown below.
+                    </p>
+                    
+                    <!-- <tabular halign="left"  right="medium" top="medium" left="medium">
+                        <row>
+                            <cell><m>{\color{blue} \textbf{Morara deposited sh 6000
+                            in a savings account.  }}</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>{\color{blue} \textbf{The bank paid him sh 600 as a simple iterest at the end
+                            of one year.}}</m></cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell><m>{\color{blue} \textbf{At what rate did the bank pay interest?}}</m></cell>
+                        </row>
+                    </tabular> -->
+                    <tabular halign="left" right="medium" top="medium" left="medium">
+                        <col width="40%"/>
+                        <row>
+                            <cell >
+                                <p>
+                                    <!-- <m>{\color{black} \textbf{Onyimbo deposited sh 70 000 in a bank that 
+                                        paid a simple interest at a rate of 8% per annum.  }}</m> -->
+                                        Onyimbo deposited sh 70 000 in a bank that 
+                                        paid a simple interest at a rate of 8% per annum.
+                                        Onyimbo deposited sh 70 000 in a bank that 
+                                        paid a simple interest at a rate of 8% per annum.
+                                </p>
+                            </cell>
+                            <!-- <cell>  </cell> -->
+                        </row>
+                        <!-- <row>
+                            <cell>
+                                line
+                            </cell>
+                        </row> -->
+                        <!-- <row>
+                            <cell><m>{\color{black} \textbf{He earned sh 22 400 
+                            as a simple interest.}}</m></cell>
+                        </row>
+                        <row  bottom="medium">
+                            <cell><m>{\color{black} \textbf{For how long did he deposited the money?}}</m></cell>
+                        </row> -->
+                    </tabular>
+                    <!-- <tabular halign="left"  right="medium" top="medium" left="medium">
+                        <row>
+                            <cell><m>{\color{red} \textbf{Cheprotich deposited money in bank that paid a simple 
+                            interest at a rate of 6%. }}</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>{\color{red}\textbf{He earned sh 4 800 as a simple interest after 
+                            two years.}}</m></cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell><m>{\color{red}\textbf{What was the principal?}}</m></cell>
+                        </row>
+                    </tabular> -->
+                    
+                </li>
+                <li>
+                    <p>
+                        In tarns, pick a card
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Guide the other learners in a discussion of the 
+                        questtion on the card you picked.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    How do you calculate the rate?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How do you calculate the time
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How do you calculate the principal?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <activity>
         <introduction>
             <p>
                 <alert>Work in groups</alert>
