@@ -905,16 +905,16 @@
                Read the number at the intersection of the row and the column.
             </p>
             <p>
-               The number is <m>4.410</m>
+               The number is <m>4.410</m>.
             </p>
             <p>
-              Calculate the square of <m>10</m>: <m>10 \times 10 = 100</m>
+              Calculate the square of <m>10</m>: <m>10 \times 10 = 100</m>.
             </p>
             <p>
-              Multiply <m>4.410</m> by the square of <m>10</m>: <m>4.410 \times 100</m>
+              Multiply <m>4.410</m> by the square of <m>10</m>: <m>4.410 \times 100</m>.
             </p>
             <p>
-            <m>21^2 = 441</m>
+            <m>21^2 = 441</m>.
             </p>
         </solution>
     </example>

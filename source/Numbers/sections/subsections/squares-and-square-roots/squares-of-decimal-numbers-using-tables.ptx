@@ -4,7 +4,7 @@
      To find the square of a decimal number:
    </p> 
    <p>
-    <ol marker="i">
+    <ol marker="(i)">
         <li>
             <p>
                Write the decimal number in standard form e.g given <m>0.154</m> writing it in standard form =<m>1.54 \times 10^{-1}</m>
@@ -399,7 +399,7 @@
                 2. Find the squares of the following numbers using square tables
             </p>
             <p>
-                <ol marker="a)">
+                <ol marker="(a)">
                     <li>
                         <p>
                            <m>0.20</m> 
@@ -614,7 +614,7 @@
            The number is <m>1.588</m> . 
         </p>
         <p>
-            Move farther to the right along the same row to the ADD column headed <m>3</m>
+            Move farther to the right along the same row to the ADD column headed <m>3</m>.
         </p>  
         <p>
             Read the number at the intersection of the row and the column.
@@ -629,7 +629,7 @@
             To add the numbers, write <m>7</m> as <m>0.007</m> such that <m>7</m> is alligned with the last digit in <m>1.588</m>.
         </p>
         <p>
-            <m>1.588 + 0.007 = 1.595</m>
+            <m>1.588 + 0.007 = 1.595</m>.
         </p>
         <p>
             Calculate the square of <m>10^{-2}</m>:
