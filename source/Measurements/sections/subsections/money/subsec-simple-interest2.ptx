@@ -19,44 +19,47 @@
                         Make information cards like the ones shown below.
                     </p>
                     
-                    <tabular halign="left"  right="medium" top="medium" left="medium">
+                    <tabular halign="left"  right="medium" top="medium" left="medium" bottom="medium">
+                        <col width="90%"></col>
                         <row>
-                            <cell><m>{\color{blue} \textbf{Morara deposited sh 6000
-                            in a savings account.  }}</m></cell>
+                            <cell>
+                                <p>
+                                    Morara deposited <m>sh \,6\,000</m>
+                                    in a savings account. The bank paid him <m>sh \,600</m> as a simple iterest at the end
+                                    of one year. At what rate did the bank pay interest?
+                                </p>
+                            </cell>
+                            
                         </row>
-                        <row>
-                            <cell><m>{\color{blue} \textbf{The bank paid him sh 600 as a simple iterest at the end
-                            of one year.}}</m></cell>
-                        </row>
-                        <row bottom="medium">
-                            <cell><m>{\color{blue} \textbf{At what rate did the bank pay interest?}}</m></cell>
-                        </row>
+                        
                     </tabular>
-                    <tabular halign="left" right="medium" top="medium" left="medium">
+                    <tabular halign="left" right="medium" top="medium" left="medium" bottom="medium">
+                        <col width="90%"></col>
                         <row>
-                            <cell ><m>{\color{black} \textbf{Onyimbo deposited sh 70 000 in a bank that 
-                            paid a simple interest at a rate of 8% per annum.  }}</m></cell>
+                            <cell>
+                                <p>
+                                    <term>Onyimbo deposited <m>sh \,70\, 000</m> in a bank that 
+                                    paid a simple interest at a rate of <m>8\%</m> per annum. He earned sh <m>22 \,400 </m>
+                                    as a simple interest. For how long did he deposited the money?</term>
+                                </p>
+                            </cell>
+                            
                         </row>
-                        <row>
-                            <cell><m>{\color{black} \textbf{He earned sh 22 400 
-                            as a simple interest.}}</m></cell>
-                        </row>
-                        <row  bottom="medium">
-                            <cell><m>{\color{black} \textbf{For how long did he deposited the money?}}</m></cell>
-                        </row>
+                        
                     </tabular>
-                    <tabular halign="left"  right="medium" top="medium" left="medium">
+                    <tabular halign="left"  right="medium" top="medium" left="medium" bottom="medium">
+                        <col width="90%"></col>
                         <row>
-                            <cell><m>{\color{red} \textbf{Cheprotich deposited money in bank that paid a simple 
-                            interest at a rate of 6%. }}</m></cell>
+                            <cell>
+                                <p>
+                                    Cherotich deposited money in bank that paid a simple 
+                                    interest at a rate of <m>6\%</m>. He earned <m>sh \,4\, 800</m> as a simple interest after 
+                                    two years. What was the principal?
+                                </p>
+                            </cell>
+                            
                         </row>
-                        <row>
-                            <cell><m>{\color{red}\textbf{He earned sh 4 800 as a simple interest after 
-                            two years.}}</m></cell>
-                        </row>
-                        <row bottom="medium">
-                            <cell><m>{\color{red}\textbf{What was the principal?}}</m></cell>
-                        </row>
+                        
                     </tabular>
                     
                 </li>
@@ -148,7 +151,7 @@
                 <m>R= 10\%</m>
             </p>
             <p>
-                <m>T=2 \text{years}</m>
+                <m>T=2 \,\text{years}</m>
             </p>
             <p>
                 <md>
@@ -237,7 +240,7 @@
                 </md>
             </p>
             <p>
-                The duration it take <m>(T)</m> is <m>{\color{blue} \text{3 years}}</m>
+                The duration it take is <m>{\color{blue} \text{3 years}}</m>
             </p>
             
         </solution>

@@ -39,19 +39,37 @@
                 <ol>
                     <li>
                         <p>
-                            <m>\textbf{(a)}</m> What do we call the money we deposit in a financial institution?
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        What do we call the money we deposit in a financial institution?
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        What do we call the extra money earned on the deposits?
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{(b)}</m> What do we call the extra money earned on the deposits?
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
-                            <m>\textbf{(a)}</m> How is the extra money calculated.
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        How is the extra money calculated.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        What determines the amount of extra money a deposit earns?
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{(b)}</m> What determines the amount of extra money a deposit earns?
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
@@ -101,7 +119,7 @@
                     He was given the loan on condition that he repays the whole amount at the end of one year and pay a charge of Ksh. <m>10\,000</m>.
                 </p>
                 <p>
-                    <ol marker="(a)">
+                    <ol marker="(a) ">
                         <li>
                             <p>
                                 Identify and write the principal.

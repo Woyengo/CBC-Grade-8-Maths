@@ -15,7 +15,7 @@
                 A graph paper and a razorblade or a parir of scissor✂️
             </p>
             <p>
-                <ol marker="(i)">
+                <ol>
                     <li>
                         <p>
                             Draw a circle of radius <m>7 \, cm</m> on a graph paper.
@@ -125,7 +125,7 @@
         </image>
 
         <p>
-            <m>{\color{black}\textit{The area of a Sector}}</m>
+            <m>{\color{black}\textbf{The area of a Sector}}</m>
         </p>
         <p>
             Consider the area of the shadedregion below;
@@ -197,7 +197,7 @@
             </hint>
             <solution>
                 <p>
-                    <m>A=\frac{\hheta}{360} \times \pi r^2 </m>
+                    <m>A=\frac{\theta}{360} \times \pi r^2 </m>
                 </p>
                 <p>
                     <m>r=7 \,cm</m> and <m>\theta = 120^\circ</m>
@@ -273,7 +273,7 @@
             </statement>
             <solution>
                 <p>
-                   <m>\textbf{(a)}</m>  <m>Area=\frac{\Theta^\circ}{360^\circ} \pi r^2</m>
+                   <m>\textbf{(a)}</m>  <m>Area=\frac{\theta^\circ}{360^\circ} \pi r^2</m>
                 </p>
                 <p>
                     <md>
@@ -287,7 +287,7 @@
                 </p>
 
                 <p>
-                   <m>\textbf{(b)}</m>  <m>Area=\frac{\Theta^\circ}{360^\circ} \pi r^2</m>
+                   <m>\textbf{(b)}</m>  <m>Area=\frac{\theta^\circ}{360^\circ} \pi r^2</m>
                 </p>
                 <p>
                     <md>
@@ -330,11 +330,20 @@
                 <ol >
                     <li>
                         <p>
-                            <m>\textbf{a}</m> Draw a circle of radius of <m>7\,cm</m> on a piece of paper and cut it out.
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        Draw a circle of radius of <m>7\,cm</m> on a piece of paper and cut it out.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Using <m>\pi = \frac{22}{7}</m>, calculate the area of the circular cutout.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{b}</m> Using <m>\pi = \frac{22}{7}</m>, calculate the area of the circular cutout.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
@@ -343,11 +352,20 @@
                     </li>
                     <li>
                         <p>
-                            <m>\textbf{a}</m> Measure the angle at the centre of one semicircles.
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        Measure the angle at the centre of one semicircles.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Express the angle as a fraction of <m>360^\circ</m>.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{b}</m> Express the angle as a fraction of <m>360^\circ</m>.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
@@ -379,12 +397,12 @@
             <ul>
                 <li>
                     <p>
-                        The area of a semi-circle is given by <me>\frac{180}{360} \times \pi r^2= \frac{1}{2} \pi r^2</me>.
+                        The area of a semi-circle is given by: <me>\frac{180}{360} \times \pi r^2= \frac{1}{2} \pi r^2</me>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Area of a quater-circle is given by <me>\frac{90}{360} \times \pi r^2= \frac{1}{4} \pi r^2</me>.
+                        Area of a quater-circle is given by: <me>\frac{90}{360} \times \pi r^2= \frac{1}{4} \pi r^2</me>.
                     </p>
                 </li>
             </ul>
