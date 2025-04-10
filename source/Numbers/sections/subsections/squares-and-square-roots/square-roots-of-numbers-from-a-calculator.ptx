@@ -1,6 +1,157 @@
 <subsection xml:id="subsec-square-roots-of-numbers-from-a-calculator">
     <title>Square roots of numbers from a calculator</title>
+   
     <p>
-        
+        The square root button on a calculator is labelled <kbd>√</kbd>. Therefore, to find the square root of a number using a calculator, you press <kbd>√</kbd> followed by the number.
     </p>
+    <p>
+        Example: To find <m>\sqrt{64}</m> using a calculator, press the button <kbd>√</kbd> followed by the key <kbd>6</kbd> then <kbd>4</kbd> .
+    </p>
+    <p>
+        Next, press the <kbd>=</kbd> sign, then read the displayed results.  
+    </p>
+    <activity>
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+              1. Working in groups, use a calculator to explore the following:
+            </p>
+            <p>
+               <ul>
+                <li>
+                    <p>
+                        Press the <kbd>√</kbd> button on your calculator. What happens when you press it without entering a number?
+                    </p>
+                    <p>
+                        Now, press <kbd>√</kbd> then press the key <kbd>2</kbd>,<kbd>5</kbd> then press <kbd>=</kbd> and read the displayed result. 
+                    </p>
+                </li>
+               </ul> 
+            </p>
+            <p>
+               2. Work out the square roots of the following numbers using a calculator:
+            </p>
+            <p>
+                <ol marker="a)" cols="3">
+                <li>
+                    <p>
+                        <m>0.2025</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>0.1225</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>0.0625</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>0.3025</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\frac{1}{256}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\frac{25}{4096}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\frac{49}{100}</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>625</m>
+                    </p>
+                </li>
+            </ol>
+            </p>
+            <p>
+               3. What happens if you try to find the square root of a negative number, like <m>-16</m>? Does your calculator give an answer?
+            </p>
+            <p>
+                4. Share your work with fellow learners.
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+              Work out the square roots of the following numbers using a calculator:  
+            </p>
+            <p>
+                Express the answers to 4 significant figures.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>7223</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>7.744</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                           On your calculator, 
+                        </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Press the <kbd>√</kbd> button, then press the key <kbd>7</kbd>,<kbd>2</kbd>,<kbd>2</kbd>,<kbd>3</kbd>, then press the <kbd>=</kbd> sign.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Read the square root of <m>7223</m> on the screen of your calculator.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Therefore, the square root of <m>7223</m> expressed to four significant figure is <m>84.99</m>.
+                                        </p>
+                                    </li>
+                                </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            On your calculator,
+                        </p>
+                        <p>
+                            Press the <kbd>√</kbd> button, then press the key <kbd>7</kbd>,<kbd>.</kbd>,<kbd>7</kbd>,<kbd>4</kbd>,<kbd>4</kbd>, then press the <kbd>=</kbd> sign.
+                        </p>
+                        <p>
+                            Read the square root of <m>7.744</m> on the screen of your calculator.
+                        </p>
+                        <p>
+                            Therefore, the square root of <m>7.744</m> expressed to four significant figures is <m>2.783</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+        </solution>
+    </example>
 </subsection>

@@ -1,0 +1,482 @@
+<subsection xml:id="subsec-application-of-scale-drawings1">
+    <title>Application of scale drawings(1)</title>
+    
+    <p>
+        In the previous section, you made scale drawings. Check on how you did it and use to solve any question that 
+        pops under scale drawing.
+    </p>
+    <p>
+        In this section, you will apply scale drawing to determine actual measurements when given 
+        scale measurements.
+    </p>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <m>\textbf{What you require:}</m> A piece of string and a ruler.
+        </p>
+        <p>
+            <ol marker="(i).">
+                <li>
+                    <p>
+                        The figure below shows the Map of Kenya showing <m>47</m> counties. Study it.
+                    </p>
+                    <image source="/Kenya.png" width="70%">
+                      <shortdescription>Map of Kenya</shortdescription>
+                    </image>
+                    <p>
+                        The scale is given by <m>1:10\,000\,km</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Use the scale and the string to deteemine:
+                    </p>
+                    <p>
+                        <ol marker="a.">
+                            <li>
+                                <p>
+                                    The distance from Mombasa to Malindi.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The distance from Wajir to Garisa.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The distance from Hola to Lamu.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your work with other learners in class.
+                    </p>
+                </li>
+                
+                
+                    
+            </ol>
+        </p>
+        
+    </activity>
+    <example>
+        <statement>
+            <p>
+                The scale of the map of a certain country is <m>1\,cm \,\text{represent}\,100\,m</m>
+            </p>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            Write this scale in ratio form.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The distance between a cattle dip and a homestadead on a map is 
+                            <m>14\,cm</m>. Determine the actual distance between the homestade and cattle dip in kilometres.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            The scale in ratio form is given by:
+                        </p>
+                        <p>
+                            We are given that 1 cm on the map represents 100 m in reality.
+                        </p>
+                        <p>
+                            To express this in ratio form, we convert meters to centimeters:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> 1 \,m=\amp 100 \,cm</mrow>
+                                <mrow> 100 \,m=\amp 100 \times 100</mrow>
+                                <mrow> =\amp 10,000\, cm</mrow>
+                                
+                            </md>
+                        </p>
+                        <p>
+                            Thus, the scale is:
+                        </p>
+                        <p>
+                            <m>{\color{blue} 1:10,000}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Distance between cattle dip and homestade <m>=14\,cm</m>
+                        </p>
+                        <p>
+                            First, you calculate the actual distance in <m>m</m> then finally convert to kilometres using,
+                        </p>
+                        <p>
+                            <m>1\,000\,m=1\,km</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{If} \,1\,cm=\amp 100\,m </mrow>
+                                <mrow> 14\,cm=\amp ?</mrow>
+                                <mrow> =\amp \frac{14\,cm \times 100\,m}{1\,cm}</mrow>
+                                <mrow>= \amp {\color{blue} 1\,400 \,m}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Convert <m>{\color{blue} 1\,400 \,m}</m> to kilometres.
+                        </p>
+                        <p>
+                            We know that;
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> 1\,000\,m=\amp 1\,km </mrow>
+                                <mrow> {\color{blue} 1\,400 \,m}=\amp ?</mrow>
+                                <mrow> =\amp \frac{1\,400\,m \times 1\,km}{1\,000\,cm}</mrow>
+                                <mrow>= \amp 1.4 \,km</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore,
+                        </p>
+                        <p>
+                            Ditance between homestade and cattle dip <m>={\color{black} 1.4 \,km}</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The figure below shows the scale drawing of flowerbed <m>ABCD</m> drawn 
+                to scale of <m>1:250</m>.
+            </p>
+            <image width="50%">
+            <latex-image label="scale2">
+                \begin{tikzpicture}[scale=1.5]
+                    % Define the coordinates of the vertices
+                    \coordinate (A) at (0, 0);
+                    \coordinate (B) at (0, 3);
+                    \coordinate (C) at (4, 3);
+                    \coordinate (D) at (2, -2);
+
+                    % Draw the triangle and quadrilateral
+                    \draw[fill=cyan!30] (A) -- (B) -- (C) -- (D) -- cycle;
+
+                    % Draw the diagonal
+                    \draw (A) -- (C);
+
+                    % Add the labels
+                    \node[left] at (A) {A};
+                    \node[above] at (B) {B};
+                    \node[right] at (C) {C};
+                    \node[below] at (D) {D};
+
+                    % Add the lengths
+                    \node[left] at (0, 1.5) {3 cm};
+                    \node[above right] at (2, 3) {4 cm};
+                    \node[below right] at (3, 0.5) {5 cm};
+                    \node[below left] at (1, -1) {4.5 cm};
+
+                    % Add the right angle mark
+                    \draw (0.2, 3) -- (0.2, 2.8) -- (0, 2.8);
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            Calculate the actual lengths of the sides of the flowerbed.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculate the actual length of line <m>AC</m> that cuts across the flowerbed.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+               <ol marker="(a)">
+                <li>
+                    <p>
+                        The scale <m>1:250</m> means <m>1\,cm</m> represent <m>250\,cm</m>
+                    </p> 
+                    <p>
+                        Therefore, the length of,
+                    </p>
+                    <p>
+                        <ol marker="i">
+                            <li>
+                                <p>
+                                    <m>AB=3\,cm</m>
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> \text{Recal} \, 1\,cm=\amp 250\,cm</mrow>
+                                        <mrow> 3\,cm=\amp \frac{3\,cm \times 250\,cm}{1\,cm}</mrow>
+                                        <mrow> =\amp 750\,cm </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    Actual length of <m>AB=750\,cm</m> Divide by <m>100</m> to convert 
+                                    to <m>m</m>.
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> =\amp \frac{750\,cm}{100}</mrow>
+                                        <mrow> =\amp {\color{blue} 7.5\,m}</mrow>
+                                    </md>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>BC=4\,cm</m>
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow>  1\,cm=\amp 250\,cm</mrow>
+                                        <mrow> 4\,cm=\amp \frac{4\,cm \times 250\,cm}{1\,cm}</mrow>
+                                        <mrow> =\amp 1\,000\,cm </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    Actual length of <m>BC=1\,000\,cm</m> Divide by <m>100</m> to convert 
+                                    to <m>m</m>.
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> =\amp \frac{1\,000\,cm}{100}</mrow>
+                                        <mrow> =\amp {\color{blue} 10\,m}</mrow>
+                                    </md>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>CD=5\,cm</m>
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow>  1\,cm=\amp 250\,cm</mrow>
+                                        <mrow> 5\,cm=\amp \frac{5\,cm \times 250\,cm}{1\,cm}</mrow>
+                                        <mrow> =\amp 1\,250\,cm </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    Actual length of <m>CD=1\,000\,cm</m> Divide by <m>100</m> to convert 
+                                    to <m>m</m>.
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> =\amp \frac{1\,250\,cm}{100}</mrow>
+                                        <mrow> =\amp {\color{blue} 12.5\,m}</mrow>
+                                    </md>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>DA=4.5\,cm</m>
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow>  1\,cm=\amp 250\,cm</mrow>
+                                        <mrow> 4.5\,cm=\amp \frac{4.5\,cm \times 250\,cm}{1\,cm}</mrow>
+                                        <mrow> =\amp 1\,125\,cm </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    Actual length of <m>DA=1\,000\,cm</m> Divide by <m>100</m> to convert 
+                                    to <m>m</m>.
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> =\amp \frac{1\,125\,cm}{100}</mrow>
+                                        <mrow> =\amp {\color{blue} 11.25\,m}</mrow>
+                                    </md>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To find length <m>Ac</m>, we should recal that,
+                    </p>
+                    <p>
+                        Triangle <m>ABC</m> is a right angle triangle.
+                    </p>
+                    <p>
+                        You use the pythagorean relationship to find the length that is <m>H^2=b^2+h^2</m>.
+                    </p>
+                    <p>
+                        Where, <m>H=AC\, h=BC \, \text{and}\,b=AB</m>
+                    </p>
+                    <p>
+                        Therefore,
+                    </p>
+                    <p>
+                        <md>
+                            <mrow> AC^2=\amp AB^2+BC^2 </mrow>
+                            <mrow> =\amp 750^2+1\,000^2</mrow>
+                            <mrow> =\amp 562\,500 + 1\,000\,000</mrow>
+                            <mrow> =\amp  1\,562\,500</mrow>
+                            <mrow> =\amp \sqrt{1\,562\,500}</mrow>
+                            <mrow> =\amp 1\,250\,cm </mrow>
+                            
+                        </md>
+                    </p>
+                    <p>
+                        Converting length <m>AC=1\,250\,cm </m> meteres by dividing by <m>100</m>
+                    </p>
+                    <p>
+                        <md>
+                            <mrow> AC=\amp \frac{1\,250\,cm}{100}</mrow>
+                            <mrow> =\amp {\color{blue} 12.5\,m}</mrow>
+                        </md>
+                    </p>
+
+                </li>
+               </ol> 
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                The figure shown below shows the scale drawing of a playground. 
+                The scale of the drawing is <m>1\,cm \,\text{represent}\, 200\,m</m>.
+                Calculate the actual length of sides <m>PQ</m> and <m>RS</m>
+            </p>
+            <image width="50%">
+            <latex-image label="scale1">
+                \begin{tikzpicture}
+                    % Define points
+                    \coordinate (P) at (0,4);
+                    \coordinate (S) at (-5,1.5);
+                    \coordinate (Q) at (2,1.5);
+                    \coordinate (R) at (0,-1);
+
+                    % Draw the kite
+                    \draw[thick,fill=green] (P) -- (S) -- (R) -- (Q) -- cycle;
+                    \draw[thick] (S) -- (Q);
+                    \draw[thick] (P) -- (R);
+                    
+                    \draw[thick] (-2.2,3.1) -- (-1.9,2.9);
+                    \draw[thick] (-2.2,3) -- (-1.9,2.8);
+                    \draw[thick] (-2.2,-0.1) -- (-1.9,0.1);
+                    \draw[thick] (-2.2,0) -- (-1.9,0.2);
+                    
+                    \draw[thick] (0.9,3.2) -- (0.7,2.7);
+                    
+                    
+                    \draw[thick] (0.7,0.2) -- (0.9,-0.2);
+                    
+                    
+                    
+                    
+
+                    % Add labels
+                    \node[above] at (P) {\textbf{P }};
+                    \node[left] at (S) {\textbf{S }};
+                    \node[right] at (Q) {\textbf{Q }};
+                    \node[below] at (R) {\textbf{R }};
+                    
+                    \node at (-2,3.5)  {\huge{4 cm}};
+                    \node at (2,0)  {\huge{3 cm}};
+                \end{tikzpicture}
+            </latex-image>
+                
+            </image>
+        </statement>
+        <solution>
+            <p>
+                To find length <m>PQ</m>,
+            </p>
+            <p>
+                We need to recall that, Triangle <m>PQR</m> is an issoceles triangle,
+            </p>
+            <p>
+                It implies that, 
+            </p>
+            <p>
+                Side <m>RQ=PQ=3 \,cm</m>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                The actual length is given by,
+            </p>
+            <p>
+                <md>
+                    <mrow> 1\,cm=\amp 200\,m </mrow>
+                    <mrow> 3\,cm=\amp ?</mrow>
+                    <mrow> =\amp \frac{3\,cm \times 200 \,m}{1\,cm} </mrow>
+                    <mrow>= \amp {\color{blue} 600\,m } </mrow>
+                </md>
+            </p>
+
+            <p>
+                To find length <m>RS</m>,
+            </p>
+            <p>
+                Triangle <m>PQR</m> is an issoceles triangle,
+            </p>
+            <p>
+                It implies that, 
+            </p>
+            <p>
+                Side <m>PS=RS=4 \,cm</m>
+            </p>
+            <p>
+                Therefore,
+            </p>
+            <p>
+                The actual length is given by,
+            </p>
+             <p>
+                <md>
+                    <mrow> 1\,cm=\amp 200\,m </mrow>
+                    <mrow> 4\,cm=\amp ?</mrow>
+                    <mrow> =\amp \frac{4\,cm \times 200 \,m}{1\,cm} </mrow>
+                    <mrow>= \amp {\color{blue} 800\,m} </mrow>
+                </md>
+            </p>
+            <p>
+                Therefor, the actual length are,
+            </p>
+            <p>
+                <m>PQ=600\,m</m>
+            </p>
+            <p>
+                <m>RS=800\,m</m>
+            </p>
+        </solution>
+    </example>
+
+
+
+
+
+ 
+
+
+
+    
+</subsection>

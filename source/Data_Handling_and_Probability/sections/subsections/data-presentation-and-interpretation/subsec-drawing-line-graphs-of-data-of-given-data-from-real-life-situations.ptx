@@ -1,9 +1,5 @@
 <subsection xml:id="subsec-drawing-line-graphs-of-data-of-given-data-from-real-life-situations">
-    <title>drawing line graphs of data of given data</title>
-
-   <p>
-        A line graph is a type of chart used to display information that changes over time. It consists of a horizontal (x-axis) and a vertical (y-axis), with data points connected by a line to show trends, patterns, and variations in data.
-   </p>
+    <title>Drawing Line Graphs of Data of given Data</title>
    <activity>
         <p>
             The table below shows Muthoni's math test scores throughout the year:
@@ -49,10 +45,10 @@
         </p>
    </activity>
    <p>
-        <m>{\color{green} \textbf{Learning Point}}</m>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
    </p>
-   <p>
-        Straight lines are used to link points in line graphs, which show how values change over time.
+    <p>
+        A line graph is a type of chart used to display information that changes over time. It consists of a horizontal (x-axis) and a vertical (y-axis), with data points connected by a line to show trends, patterns, and variations in data.
    </p>
    <example>
     <statement>

@@ -141,12 +141,32 @@
         exercise-worksheet="no"
         exercise-readingquestion="no"
       />-->
+      <knowl
+        theorem="no"
+        proof="yes"
+        definition="no"
+        example="no"
+        example-solution="yes"
+        project="no"
+        task="no"
+        remark="no"
+        objectives="no"
+        outcomes="no"
+        figure="no"
+        table="no"
+        listing="no"
+        list="no"
+        exercise-inline="no"
+        exercise-divisional="no"
+        exercise-worksheet="no"
+        exercise-readingquestion="no"
+      />
 
     <!-- Specify the theme for the html by giving names to     -->
     <!-- override defaults.  Ex:<css theme="denver"/>          -->
     <!-- See also                                              -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
-      <!--<css theme="denver"/>-->
+      <css theme="denver" palette="leaves" main-color="green" />
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->

@@ -1,8 +1,6 @@
 <subsection xml:id="subsec-surface-area-of-open-cylinders">
     <title>Surface area of open cylinders</title>
-    <p>
-        <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In the previous section, you calculated the surface area of a closed cylinder. How did you do it?
     </p>
@@ -75,8 +73,47 @@
             </ol>
         </p>
     </activity>
+
+     <p>
+        <m>{\color{blue} \textbf{Extended Activity:}}</m>
+    </p>
+    <sidebyside>
+        <p>
+           The figure on the right shows the roof of a shade for motocycle riders. The roof is painted 
+           on the outer curved surface and the two semi-circle faces. Calculate the surface area of the roof that is painted. 
+        </p>
+        <image width="40%">
+        <latex-image label="cylinder7">
+            \begin{tikzpicture}[rotate=90]
+                % Fill the shape with green
+                \fill[green] (-2,0) arc (180:360:2 and 0.8) -- (2,4) arc (360:180:2 and 0.8) -- cycle;
+                
+                % Draw the base ellipse
+                \draw[thick] (-2,0) arc (180:360:2 and 0.8); 
+
+                % Draw the vertical sides
+                \draw[thick] (-2,0) -- (-2,4);
+                \draw[thick] (2,0) -- (2,4);
+
+                % Draw the top semicircle
+                \draw[thick,fill=green] (-2,4) arc (180:360:2 and 0.8);
+
+                % Draw a line at the top of the semicircle
+                \draw[thick] (-2,4) -- (2,4);
+                
+                % Label the top semicircle as the diameter
+                \node[above,rotate=90] at (0,4) {3.5 m};
+                
+                % Label the height
+                \node[right] at (2.2,2) {7 m};
+            \end{tikzpicture}
+        </latex-image>
+        </image>
+    </sidebyside>
+
+
     <p>
-        <m>{\color{blue} \textbf{Essential Concepts:}}</m>
+        <m>{\color{black} \textbf{Key Takeaway:}}</m>
     </p>
     <p>
         An open cylinder has a curved surface and one circular face.
@@ -91,8 +128,7 @@
         </md>
     </p>
     <p>
-        <m>\textbf{Note:}</m> For an open cylinder an exeminer will give guidlines. But most of the cylinders 
-        are considerd closed.
+        <m>\textbf{Note:}</m> For an open cylinder an exeminer will give guidlines. 
     </p>
     <example>
         <statement>
@@ -210,42 +246,7 @@
             </p>
         </solution>
     </example>
-    <p>
-        <m>{\color{blue} \textbf{Follow-up activity:}</m>
-    </p>
-    <sidebyside>
-        <p>
-           The figure on the right shows the roof of a shade for motocycle riders. The roof is painted 
-           on the outer curved surface and the two semi-circle faces. Calculate the surface area of the roof that is painted. 
-        </p>
-        <image width="40%">
-        <latex-image label="cylinder7">
-            \begin{tikzpicture}[rotate=90]
-                % Fill the shape with green
-                \fill[green] (-2,0) arc (180:360:2 and 0.8) -- (2,4) arc (360:180:2 and 0.8) -- cycle;
-                
-                % Draw the base ellipse
-                \draw[thick] (-2,0) arc (180:360:2 and 0.8); 
-
-                % Draw the vertical sides
-                \draw[thick] (-2,0) -- (-2,4);
-                \draw[thick] (2,0) -- (2,4);
-
-                % Draw the top semicircle
-                \draw[thick,fill=green] (-2,4) arc (180:360:2 and 0.8);
-
-                % Draw a line at the top of the semicircle
-                \draw[thick] (-2,4) -- (2,4);
-                
-                % Label the top semicircle as the diameter
-                \node[above,rotate=90] at (0,4) {3.5 m};
-                
-                % Label the height
-                \node[right] at (2.2,2) {7 m};
-            \end{tikzpicture}
-        </latex-image>
-        </image>
-    </sidebyside>
+   
   
 
 

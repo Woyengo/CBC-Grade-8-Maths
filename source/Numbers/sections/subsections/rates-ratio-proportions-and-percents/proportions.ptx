@@ -190,6 +190,7 @@
         <p>
             Consiider the cost of <m>15</m> <em>m</em> of ribbon as <em>Kshs.</em> <m>300.</m>
         </p>
+        <p>
             <ol>
                 <li>
                     <p>
@@ -202,7 +203,7 @@
                     </p>
                 </li>
             </ol>
-
+        </p>
             <table>
                 <title>Ribon-cost table</title>
                 <tabular left="medium" right="medium" top="medium" bottom="medium">
@@ -289,24 +290,25 @@
                     </row>
                 </tabular>
             </table>
-            
-            <ol>
-                <li>
-                    <p>
-                        Work the ratios of learners to bisuits from the first row.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Compute the variations of obtained in the row.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Discuss with others how the ratios are changing.
-                    </p>
-                </li>
-            </ol>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Work the ratios of learners to bisuits from the first row.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compute the variations of obtained in the row.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss with others how the ratios are changing.
+                        </p>
+                    </li>
+                </ol>
+            </p>
         </activity>
 
         <p>
