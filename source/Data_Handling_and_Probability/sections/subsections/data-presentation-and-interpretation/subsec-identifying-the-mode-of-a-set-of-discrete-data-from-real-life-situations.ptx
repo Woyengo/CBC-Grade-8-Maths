@@ -14,7 +14,7 @@
             <m>9, 6, 7, 8, 9, 10, 7, 6, 8, 9, 7, 6, 8, 9, 7, 6, 8, 9, 10, 7, 6</m>
         </p>
         <p>
-            <ol marker="(i).">
+            <ol marker="(a)">
                 <li>
                     <p>
                         Count how many times each score appears.

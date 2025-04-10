@@ -1,0 +1,218 @@
+<subsection xml:id="subsec-application-of-linear-simultaneous-equations-in-real-life">
+    <title>Application of Linear Simultaneous Equations in Real Life</title>
+    <p>
+        Simultaneous equations are used in solving word problem questions with unknown variables.
+        Algebraic equations are formed from the word problem.
+    </p>
+    <p>
+        One of the real life applications of simultaneous equations in real life is in business to determine costs of items.
+    </p>
+    <activity>
+        <statement>
+            <p>
+                <term>Materials needed</term>
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Graph paper 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Ruler and writing materials
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Juma, a vendor in Gikomba market, sells bananas and mangoes. One of his customers, Aisha, bought <m>5</m> mangoes
+                 and <m>2</m> bananas at a cost of <m>Ksh.\, 300.</m> Another customer, Kinara, bought <m>3</m> mangoes and <m>4</m> 
+                 bananas for <m>Ksh. \, 240.</m> Find the price of a mango and a banana.
+            </p>
+            <p>
+               <term>Instructions</term> 
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        Form two simultaneous equations from the information above. Use <m>Ksh.\, m</m> as the cost of a mango 
+                        and <m>Ksh.\, b</m> as the cost of a banana.  
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Create two tables of value for the coordinates of the two simultaneous equations.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Construct the two lines for the two equations in your graph paper.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Locate the point where the two lines intersect on their graph and write down the coordinates.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What is the cost of a mango and a banana?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss your findings with your fellow learners.
+                    </p>
+                </li>
+            </ol>
+            <p>
+                
+            </p>
+        </statement>
+    </activity>
+    <example>
+    <statement>
+        <p>
+            Mara and Abdi went to the shop to buy books and pens. Mara bought two books and one 
+            pen at a cost of <m>120</m> shillings. Abdi bought two books and two pens at a cost of 
+            <m>140</m> shillings. Find the cost of a book and a pen.
+            Use <m>x</m> to represent the cost of a book and use <m>y</m> to represent the cost of a pen.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Cost of a book: <m>x</m>
+        </p>
+        <p>
+            Cost of a pen: <m>y</m>
+        </p>
+        <p>
+            Amount of money Mara spent on buying <m>2</m> books is: <m>2 \times x = 2x</m>
+        </p>
+        <p>
+            The cost of buying <m>1</m> pen is: <m>1 \times y = y</m>
+        </p>
+        <p>
+            The total cost of buying <m>2</m> books and <m>1</m> pen is: 
+            <me>
+                2x + y = 120
+            </me>   
+        </p>
+         <p>
+            Amount of money Abdi spent on buying <m>2</m> books is: <m>2 \times x = 2x</m>
+        </p>
+        <p>
+            The cost of buying <m>2</m> pens is: <m>2 \times y = 2y</m>
+        </p>
+        <p>
+            The sum of buying <m>2</m> books and <m>2</m> pens is: 
+            <me>
+                2x + 2y = 140
+            </me>   
+        </p>
+        <p>
+            The two simultaneous equations formed are:
+            <me>
+                2x + y = 120.
+            </me>
+            <me>
+                2x + 2y = 140.
+            </me>      
+        </p>
+        <p>
+            Form two tables from the two simultaneous equations
+        </p>
+        <figure xml:id="equations-2">
+            <caption>Simultaneous_equation</caption>
+            <sidebyside widths="50% 50%">
+               <tabular>
+                <row>
+                    <cell><m> 2x + y = 120</m></cell>
+                </row>
+            </tabular>
+            <tabular>
+                <row>
+                    <cell><m> 2x + 2y = 140.</m></cell>
+                </row>
+            </tabular> 
+            </sidebyside>   
+        </figure>
+        <figure xml:id="table-2">
+            <caption>Table</caption>
+            <sidebyside widths="50% 50%">
+            <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                <row halign="center">
+                    <cell><m>x</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>40</m></cell>
+                </row>
+
+                <row halign="center">
+                    <cell><m>y</m></cell>
+                    <cell><m>120</m></cell>
+                    <cell><m>80</m></cell>
+                    <cell><m>60</m></cell>
+                    <cell><m>40</m></cell>
+                </row>
+            </tabular>
+
+            <tabular valign="top" top="minor" bottom="minor" left="minor" right="minor"> 
+                <row halign="center">
+                    <cell><m>x</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>40</m></cell>
+                </row>
+
+                <row halign="center">
+                    <cell><m>y</m></cell>
+                    <cell><m>70</m></cell>
+                    <cell><m>50</m></cell>
+                    <cell><m>40</m></cell>
+                    <cell><m>30</m></cell>
+                </row>
+            </tabular>
+                
+            </sidebyside>
+        </figure>
+
+        <p>
+            Construct the two lines for the equations in your graph as shown below.
+        </p>
+        <figure>
+            <caption>Line Graph</caption>
+            <interactive xml:id="geogebra-linear-graph2" platform="geogebra" width="90%" aspect="4:3">
+            <slate xml:id="linear-graph2" surface="geogebra" material="srya7mbq" aspect="4:3">
+                enableShiftDragZoom(true);
+                showResetIcon(false);
+            </slate>
+            </interactive>
+        </figure>
+
+        <p>
+            The solution for the two simultaneous equations is the coordinates of the intersection of the two lines. 
+        </p>
+        <p>
+            <m>x = 50</m> and <m>y = 20.</m>
+        </p>
+        <p>
+            Therefore:
+        </p>
+        <p>
+            Cost of a book is <m>50.</m>
+        </p>
+        <p>
+            Cost of a pen is <m> 20.</m>
+        </p>
+
+    </solution>
+        
+    </example>
+    
+    
+</subsection>

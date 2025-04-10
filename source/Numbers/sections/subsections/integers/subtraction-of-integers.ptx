@@ -1,0 +1,175 @@
+<subsection xml:id="subsec-subtraction-of-integers">
+    <title>Subtraction of Integers on a Number line</title>
+    <p>
+        
+    </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups of 5 learners</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Using a number line, work out the following:
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>(+5) - (3)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>(-7) - (-5)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>(+5) - (3)</m>
+                        </p>
+                        <p>
+                            We start at <m>+5</m> as our initial point.
+                        </p>
+                        <p>
+                            Since we are subtracting <m>+3</m>, 
+                            we move <m>3</m> steps to the <alert>left</alert> of the number line and stop at <m>+2</m>
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-subtraction-of-integers1">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-2.5,0) -- (8.5,0);
+                                    
+                                    \foreach \x in {-2,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1,...,8} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+                                    % Draw curved arrows for jumps
+                                    \draw[red,- &gt;] (5,0.1) to[bend right=60] (4,0.1);
+                                    \draw[red,- &gt;] (4,0.2) to[bend right=60] (3,0.1);
+                                    \draw[red,- &gt;] (3,0.2) to[bend right=60] (2,0.1);
+                                    
+                                    % Start label
+                                    \draw[] (5,0) -- (5,0.5);
+                                    \node[above] at (5,0.55) {\textbf{start}};
+                                    
+                                    % Stop label
+                                    \draw[] (2,0) -- (2,0.5);
+                                    \node[above] at (2,0.55) {\textbf{stop}};
+                                    
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                            <me>
+                                (+5) - (3) = (+2)
+                            </me>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>(-7) - (-5)</m>
+                        </p>
+                        <p>
+                            We start at <m>-7</m> as our initial point.
+                        </p>
+                        <p>
+                            Since we are subtracting <m>-5</m>, 
+                            we move <m>5</m> steps to the <alert>right</alert> of the number line and stop at <m>-2</m>.
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-subtraction-of-integers2">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-8.5,0) -- (1.5,0);
+
+                                    \foreach \x in {-8,...,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+                                    
+                                    % Draw curved arrows for jumps
+                                    \draw[red,- &gt;] (-7,0.1) to[bend left=60] (-6,0.1);
+                                    \draw[red,- &gt;] (-6,0.2) to[bend left=60] (-5,0.1);
+                                    \draw[red,- &gt;] (-5,0.2) to[bend left=60] (-4,0.1);
+                                    \draw[red,- &gt;] (-4,0.2) to[bend left=60] (-3,0.1);
+                                    \draw[red,- &gt;] (-3,0.2) to[bend left=60] (-2,0.1);
+                                    
+                                    % Start 
+                                    \draw[] (-7,0) -- (-7,0.5);
+                                    \node[above] at (-7,0.55) {\textbf{start}};
+                                    
+                                    % Stop label
+                                     \draw[] (-2,0) -- (-2,0.5);
+                                    \node[above] at (-2,0.55) {\textbf{stop}};
+                                    
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                            <me>
+                                (-7) - (-5) = (-2)
+                            </me>
+                            
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>

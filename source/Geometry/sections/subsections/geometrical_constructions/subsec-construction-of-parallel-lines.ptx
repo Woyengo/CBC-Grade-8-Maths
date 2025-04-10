@@ -1,5 +1,5 @@
     <subsection xml:id="subsec-construction-of-parallel-lines">
-        <title>Construction of parallel lines</title>
+        <title>Construction of Parallel Lines</title>
         <p>
             Parallel lines are lines that are the same distance apart from each other and they will never meet. 
         </p>
@@ -26,9 +26,9 @@
             </p>
         </activity>
 
-        <exercise>
+        <activity>
             <p>
-                In the exercise below, you are provided with a GeoGebra applet. You are required to construct parallel lines.
+                You are provided with a GeoGebra applet. Construct parallel lines.
             </p>
             <p>
                 <term>Instructions</term>
@@ -37,27 +37,27 @@
                 <ol>
                     <li>
                         <p>
-                           Using the <term>point tool(window 2)</term> in the toolbar, create two points <m>A</m> and <m>B.</m> 
+                           Using the <term>point tool (window 2)</term> in the toolbar, create two points <m>A</m> and <m>B.</m> 
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>line tool(window 3),</term> create a line passing through the points <m>A</m> and <m>B.</m>
+                            Using the <term>line tool (window 3),</term> create a line passing through the points <m>A</m> and <m>B.</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>point tool(window 2),</term> create another point <m>C</m> on the applet.
+                            Using the <term>point tool (window 2),</term> create another point <m>C</m> on the applet.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>parallel line tool(window 4),</term> create a line, parallel to <m>AB</m> and passing through point <m>C</m>
+                            Using the <term>parallel line tool (window 4),</term> create a line, parallel to <m>AB</m> and passing through point <m>C</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>move tool(window 1),</term> drag points  <m>A</m> or <m>B</m> and observe what happens to the line passing through point <m>C.</m>
+                            Using the <term>move tool (window 1),</term> drag points  <m>A</m> or <m>B</m> and observe what happens to the line passing through point <m>C.</m>
                         </p>
                     </li>
                 </ol>
@@ -76,5 +76,12 @@
             <p>
                 What have you discovered? Share your findings with other learners.
             </p>   
-        </exercise>
+        </activity>
+        <activity>
+            <statement>
+                <p>
+                    As an extended activity, explore on the construction of parallel lines using a ruler and a set square.
+                </p>
+            </statement>
+        </activity>
     </subsection>

@@ -1,5 +1,5 @@
 <subsection xml:id="subsec-construction-of-perpendicular-lines">
-        <title>Construction of perpendicular lines</title>
+        <title>Construction of Perpendicular Lines</title>
         <p>
             Perpendicular lines are lines that meet at right angle, that is, they intersect at <m>90^\circ</m>
         </p>
@@ -31,7 +31,8 @@
     
         </activity>
 
-        <exercise>
+        <activity>
+            <statement>
             <p>
                 Construct perpendicular lines in the applet below. 
             </p>
@@ -42,32 +43,32 @@
                 <ol>
                     <li>
                         <p>
-                           Using the <term>point tool(window 1)</term> in the toolbar, create two points <m>A</m> and <m>B.</m> 
+                           Using the <term>point tool (window 1)</term> in the toolbar, create two points <m>A</m> and <m>B.</m> 
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>line tool(window 3),</term> create a line passing through the points <m>A</m> and <m>B.</m>
+                            Using the <term>line tool (window 3),</term> create a line passing through the points <m>A</m> and <m>B.</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>point tool(window 1),</term> create another point <m>C</m> on the applet.
+                            Using the <term>point tool (window 1),</term> create another point <m>C</m> on the applet.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>perpendicular line tool(window 4),</term> create a line, perpendicular to <m>AB</m> and passing through point <m>C</m>
+                            Using the <term>perpendicular line tool (window 4),</term> create a line, perpendicular to <m>AB</m> and passing through point <m>C</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>move tool(window 1),</term> drag points  <m>A</m> or <m>B</m> and observe what happens to the line passing through point <m>C.</m>
+                            Using the <term>move tool (window 1),</term> drag points  <m>A</m> or <m>B</m> and observe what happens to the line passing through point <m>C.</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Using the <term>angle tool(window 5),</term> measure the angle formed by the intersection of lines  <m>AB</m> and the line passing through point <m>C.</m> 
+                            Using the <term>angle tool (window 5),</term> measure the angle formed by the intersection of lines  <m>AB</m> and the line passing through point <m>C.</m> 
                         </p>
                     </li>
                 </ol>
@@ -85,7 +86,9 @@
 
             <p>
                What is the measure of the angle formed by the intersection of the two lines? Discuss your findings with other learners. 
-            </p>   
-        </exercise>
+            </p> 
+            </statement>  
+        </activity>
+    
         
     </subsection>

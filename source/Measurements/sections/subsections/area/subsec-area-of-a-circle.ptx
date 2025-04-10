@@ -34,19 +34,37 @@
                     </li>
                     <li>
                         <p>
-                            <m>\textbf{(a)}</m> Stretch the string and draw a circle as shown on the right.
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        Stretch the string and draw a circle as shown on the right.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Draw several other circles using different lengths of strings.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{(b)}</m> Draw several other circles using different lengths of strings.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
-                          <m>\textbf{(a)}</m> Measure the radius of each circle that you have drawn.  
+                            <ol marker="(a)">
+                                <li>
+                                    <p>
+                                        Measure the radius of each circle that you have drawn.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Using formula, <m>\textbf{area}= \pi r^2</m>, calculate the area of each circle.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{(b)}</m> Using formula, <m>\textbf{area}= \pi r^2</m>, calculate the area of each circle.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
@@ -90,7 +108,7 @@
             <statement>
                 <p>
                    Find the area of each of the following circles with 
-                   O as the centre use <m>\pi = \frac{22}{7}</m>: 
+                   <m>O</m> as the centre use <m>\pi = \frac{22}{7}</m>: 
                 </p>
                 <sidebyside>
                     <image width="40%">
@@ -146,7 +164,7 @@
                 </p>
                 <p>
                     <md>
-                        <mrow>\text{Diametter} =\amp 42 \,cm</mrow>
+                         <mrow>\text{Diametter} =\amp 42 \,cm</mrow>
                         <mrow> \text{Radius(r)}= \amp \frac{42}{2} </mrow>
                         <mrow>= \amp 21 \,cm</mrow>
 

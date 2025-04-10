@@ -1,7 +1,70 @@
 <subsection xml:id="subsec-interpreting-linear-scales-in-ratio-form">
     <title>Interpreting linear scales in ratio form</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            The table below shows measurements from a scaled drawing and their corresponding real-world lengths:
+        </p>
+        <table>
+            <title></title>
+            <tabular left="medium" right="medium" top="medium" bottom="medium"> 
+                <row halign="left" header="yes">
+                    <cell>Drawing Length</cell>
+                    <cell>Actual Length</cell>
+                </row>
+                <row>
+                    <cell><m>5 \textbf{ cm}</m></cell>
+                    <cell><m>25 \textbf{ cm}</m></cell>
+                </row>
+                <row>
+                    <cell><m>4 \textbf{ cm}</m></cell>
+                    <cell><m>16 \textbf{ cm}</m></cell>
+                </row>
+                <row>
+                    <cell><m>6 \textbf{ cm}</m></cell>
+                    <cell><m>36 \textbf{ cm}</m></cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Find and write the linear scale used for each row.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Interpret the linear scales in each row.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Express the scale as a ratio in its simplest form.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If a new object is drawn at the same scale as the first row, and its actual size is <m>50 \textbf{ cm}</m>, what will its drawing length be?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Explain why scale ratios are important in technical drawings and maps.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and share with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        Interpreting linear scales in ratio form means understanding and using scale representations where distances on a map, drawing, or model are expressed as a ratio compared to real-world measurements.
+        <m>\textbf{Interpreting linear scales in ratio form}</m> means understanding and using scale representations where distances on a map, drawing, or model are expressed as a ratio compared to real-world measurements.
     </p>
     <p>
         <m>\textbf{Key Concepts:}</m>
@@ -110,69 +173,19 @@
             </li>
         </ol>
     </p>
-    <activity>
-        <p>
-            Work in groups
-        </p>
-        <p>
-            The table below shows measurements from a scaled drawing and their corresponding real-world lengths:
-        </p>
-        <table>
-            <title></title>
-            <tabular left="medium" right="medium" top="medium" bottom="medium"> 
-                <row halign="left" header="yes">
-                    <cell>Drawing Length</cell>
-                    <cell>Actual Length</cell>
-                </row>
-                <row>
-                    <cell><m>5 \textbf{ cm}</m></cell>
-                    <cell><m>25 \textbf{ cm}</m></cell>
-                </row>
-                <row>
-                    <cell><m>4 \textbf{ cm}</m></cell>
-                    <cell><m>16 \textbf{ cm}</m></cell>
-                </row>
-                <row>
-                    <cell><m>6 \textbf{ cm}</m></cell>
-                    <cell><m>36 \textbf{ cm}</m></cell>
-                </row>
-            </tabular>
-        </table>
-        <p>
-            <ol>
-                <li>
-                    <p>
-                        Find and write the linear scale used for each row.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Interpret the linear scales in each row.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Express the scale as a ratio in its simplest form.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        If a new object is drawn at the same scale as the first row, and its actual size is <m>50 \textbf{ cm}</m>, what will its drawing length be?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Explain why scale ratios are important in technical drawings and maps.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Discuss and share with other groups.
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Interpreting linear scales in ratio form involves understanding the relationship between the map or diagram distance and the actual real-world distance as a simplified ratio.
+                </p>
+            </li>
+        </ul>
+    </p>
+    
     <example>
         <statement>
             <p>

@@ -161,7 +161,7 @@
         </statement>
         <solution>
             <p>
-                Find the LCM of the <m>3</m> denominators that is LCM of <m>3,7</m> and <m>2</m> which is <m>42</m>.
+                First, find the LCM of the <m>3</m> denominators, that is LCM of <m>3,7</m> and <m>2</m> which is <m>42</m>.
             </p>
             <p>
                 Then using the LCM perform the operations starting from addition followed by subtraction.
@@ -169,7 +169,9 @@
             <p>
                 <md>
                   <mrow> \frac{2}{3} + \frac{2}{7} - \frac{1}{2} =\amp \frac{12+14-21}{42}</mrow>  
+                  <mrow> \amp </mrow>
                    <mrow> \frac{12+14-21}{42} =\amp \frac{26-21}{42}</mrow> 
+                   <mrow> \amp </mrow>
                     <mrow> =\amp \frac{5}{42} </mrow> 
                 </md>   
             </p>

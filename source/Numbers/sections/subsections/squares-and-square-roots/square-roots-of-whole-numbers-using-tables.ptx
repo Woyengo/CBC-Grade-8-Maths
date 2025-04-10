@@ -426,7 +426,7 @@
             Use the square root tables to work out the square root of each of the following numbers.
         </p>
         <p>
-            <ol>
+            <ol marker="(a)">
                 <li>
                     <p>
                         <m>2136</m>
@@ -450,7 +450,7 @@
             <ol>
                 <li>
                     <p>
-                        To find the square root of <m>2136</m>, write the number in the form <m>21.36 \times 10^2</m>
+                        To find the square root of <m>2136</m>, write the number in the form <m>21.36 \times 10^2</m>.
                     </p>
                     <p>
                        Move down the first column headed <m>x</m> to locate<m>21</m>.
@@ -813,16 +813,13 @@
             </row>
         </tabular> 
                     <p>
-                        The number at the intersection of the row and column is <m>4.6152</m>
+                        The number at the intersection of the row and column is <m>4.6152</m>.
                     </p>
                     <p>
                         Move farther to the right along the same row to the ADD column headed <m>6</m>.
                     </p>
                     <p>
-                        The number at the intersection of the row and the column is <m>65</m>
-                    </p>
-                    <p>
-                      Add the numbers <m>4.6152</m> and <m>65</m>.
+                        The number at the intersection of the row and the column is <m>65</m>.
                     </p>
                     <tabular>
                         <row>
@@ -854,7 +851,7 @@
                         </row>
                     </tabular>
                     <p>
-                        Calculate the square root of <m>10^2</m>
+                        Calculate the square root of <m>10^2</m>.
                     </p>
                     <p>
                         <m>\sqrt{10^2} = \sqrt{100}</m>
@@ -866,7 +863,7 @@
                         Multiply <m>4.6217</m> by <m>10</m>.
                     </p>
                     <p>
-                        Therefore, <m>\sqrt{2136} = 46.217</m>
+                        Therefore, <m>\sqrt{2136} = 46.217</m>.
                     </p>
                 </li>
                 <li>
@@ -886,16 +883,16 @@
                         Move farther to the right along the same row to the ADD column headed <m>1</m>.
                     </p>
                     <p>
-                      The number at the intersection is <m>13</m>
+                      The number at the intersection is <m>13</m>.
                     </p>
                     <p>
-                        Add the numbers <m>3.8079</m> and <m>13</m> 
+                        Add the numbers <m>3.8079</m> and <m>13</m>. 
                     </p>
                     <p>
                         <m>3.8079 + 0.0013 = 3.8092</m>
                     </p>
                     <p>
-                        Calculate the square root of <m>10^2</m>
+                        Calculate the square root of <m>10^2</m>.
                     </p>
                     <p>
                         <m>\sqrt{10^2} = \sqrt{100} = 10</m>
@@ -904,7 +901,7 @@
                         Multiply <m>3.8092</m> by <m>10</m>.
                     </p>
                     <p>
-                        Therefore, <m>\sqrt{1451}  = 38.092</m>
+                        Therefore, <m>\sqrt{1451}  = 38.092</m>.
                     </p>
                 </li>
                 <li>
@@ -921,7 +918,7 @@
                         Read the number at the intersection of the row and the column which is <m>3.4641</m>.
                     </p>
                     <p>
-                        Hence, <m>\sqrt{12}</m> from the table is <m>= 3.4641</m>
+                        Hence, <m>\sqrt{12}</m> from the table is <m>= 3.4641</m>.
                     </p>
                 </li>
             </ol>
