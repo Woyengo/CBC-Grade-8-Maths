@@ -1,5 +1,5 @@
 <subsection xml:id="subsec-angle-properties-of-polgons">
-        <title>Angle properties of polgons</title>
+        <title>Angle Properties of Polgons</title>
 
         <p>
             In Grade 7 you learnt about properties of angles in a polygon; number of sides of polygons,
@@ -16,7 +16,7 @@
             <ol>
                 <li>
                     <p>
-                        Identify the number of sides(<m>n</m>) of the regular polygon.
+                        Identify the number of sides (<m>n</m>) of the regular polygon.
                     </p>
                 </li>
 
@@ -34,6 +34,8 @@
             </ol>
         </p> 
 
+    <activity>
+      <statement>
         <p>
             Copy and fill in the table below.
         </p>
@@ -42,7 +44,7 @@
             <title><term>Angle properties of regular polygons</term></title>
             <tabular halign="center" top="medium" left="medium" bottom="medium" right="medium">
                 <row header="yes">
-                    <cell>Number of sides(n)</cell>
+                    <cell>Number of sides (n)</cell>
                     <cell>Number of right triangles</cell>
                     <cell>Sum of interior angles</cell>
                 </row>
@@ -92,6 +94,8 @@
         <p>
             Discuss and share your results with other learners.
         </p>
+      </statement>        
+    </activity>
 
         <example>
           <statement>
