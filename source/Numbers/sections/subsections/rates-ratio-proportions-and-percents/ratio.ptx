@@ -9,7 +9,7 @@
     </introduction>
 
     <subsubsection xml:id="subsubsec-Experessing-Fractions-as-Ratios-in-Real-Life-Situations">
-        <title>Experessing Fractions as Ratios in Real-Life Situations</title>
+        <title>Experessing Fractions as Ratios in Real-Life Situations.</title>
 
         <activity>
             <p>
@@ -92,19 +92,19 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp \textbf{Learning Point} </mrow>
             </md>
         </p>
 
         <p>
             <md>
-                <mrow> \amp \color{green} \text{Fraction} \, (\frac{a}{b})\, \text{can be expressed as a ratio} \, (a:b), \, ie </mrow>
+                <mrow> \amp \text{Fraction} \, (\frac{a}{b})\, \text{can be expressed as a ratio} \, (a:b), \, i.e </mrow>
             </md>
         </p>
 
         <p>
             <md>
-                <mrow> \amp \color{green} \frac{3}{8} = 3:8 </mrow>
+                <mrow> \amp \frac{3}{8} = 3:8 </mrow>
             </md>
         </p>
 
@@ -360,21 +360,21 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp \textbf{Learning Point} </mrow>
             </md>
         </p>
 
         <p>
-            <m>{\color{green} \text{To compare rates,}}</m>
+            <m> \text{To compare rates,}</m>
             <ul>
                 <li>
                     <p>
-                        <m>{\color{green} \text{Express each ratio as a fraction.}}</m>
+                        Express each ratio as a fraction.
                     </p>
                 </li>
                 <li>
                     <p>
-                        <m>{\color{green} \text{Write the equivalenta form for each fraction such that the fraction have the same denominator.}}</m>
+                        Write the equivalenta form for each fraction such that the fraction have the same denominator.
                     </p>
                 </li>
             </ul>
@@ -442,7 +442,9 @@
                 <p>
                     <md>
                         <mrow>\frac{3}{5} = \amp \frac{3 \times 8}{5 \times 8} </mrow>
-                    </md>, 
+                    </md>,
+                </p>
+                <p>                     
                     <md>
                         <mrow>\frac{7}{8} = \amp \frac{7 \times 5}{8 \times 5} </mrow>
                     </md>
@@ -471,7 +473,7 @@
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-comparing-three-ratios-in-different-situations">
-        <title>Comparing Three Ratios in Different Situations</title>
+        <title>Comparing Three Ratios in Different Situations.</title>
 
         <activity>
             <title>Work in Groups</title>
@@ -539,7 +541,15 @@
                 <p>
                     <md>
                         <mrow>\frac{2}{3} = \amp \frac{2 \times 6}{3 \times 6} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
                         <mrow>\frac{5}{6} = \amp \frac{5 \times 3}{6 \times 3} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>                        
                         <mrow>\frac{4}{9} = \amp \frac{4 \times 2}{9 \times 2} </mrow>
                     </md>
                 </p>
@@ -567,7 +577,7 @@
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-dividing-quantities-in-given-ratios-in-real-life-situations">
-        <title>Dividing Quantities in Given Ratios in Real Rife Situations</title>
+        <title>Dividing Quantities in Given Ratios in Real Rife Situations.</title>
 
         <activity>
             <title>Work in Groups</title>
@@ -607,45 +617,45 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp {\textbf{Key Takeaway}} </mrow>
             </md>
         </p>
         <p>
             <ul>
                 <li>
                     <p>
-                        <m>{\color{green} \text{If a quantity is divided in the ratio} [a:b], \text{the resulting fractions of the quantity are:}}</m>
-                        <m>{\color{green} \text{for}}</m> <m>{\color{green} a;}</m>
+                        <m>{\text{If a quantity is divided in the ratio} [a:b], \text{the resulting fractions of the quantity are:}}</m>
+                        <m>{\text{for}}</m> <m>{a;}</m>
                         <md>
-                            <mrow>\amp {\color{green} \frac{a}{(a+b)}} </mrow>
+                            <mrow>\amp {\frac{a}{(a+b)}} </mrow>
                         </md>
-                        <m>{\color{green} \text{and for}}</m> <m>{\color{green} b;}</m>
+                        <m>{\text{and for}}</m> <m>{b;}</m>
                         <md>
-                            <mrow> \amp {\color{green}\frac{b}{(a+b)}}</mrow>
+                            <mrow> \amp {\frac{b}{(a+b)}}</mrow>
                         </md>
                     </p>
                 </li>
 
                 <li>
                     <p>
-                        <m>{\color{green} \text{For the ratio} [a:b:c], \text{the resulting fractions of quantities are:}}</m>
+                        <m>{\text{For the ratio} [a:b:c], \text{the resulting fractions of quantities are:}}</m>
                     </p>
                     <p>
-                        <m>{\color{green} \text{for}}</m> <m>{\color{green} a;}</m> 
+                        <m>{\text{for}}</m> <m>{a;}</m> 
                         <md>
-                            <mrow> \amp{\color{green} \frac{a}{(a+b+c)}}</mrow>
+                            <mrow> \amp{\frac{a}{(a+b+c)}}</mrow>
                         </md>
                     </p>
                     <p>
-                        <m>{\color{green} \text{for}}</m> <m>{\color{green} b;}</m>
+                        <m>{\text{for}}</m> <m>{b;}</m>
                         <md>
-                            <mrow> \amp {\color{green} \frac{b}{(a+b+c)}} </mrow>
+                            <mrow> \amp {\frac{b}{(a+b+c)}} </mrow>
                         </md>
                     </p>
                     <p>
-                        <m>{\color{green} \text{for}}</m> <m>{\color{green} c;}</m>
+                        <m>{\text{for}}</m> <m>{c;}</m>
                         <md>
-                            <mrow> \amp {\color{green} \frac{c}{(a+b+c)}} </mrow>
+                            <mrow> \amp {\frac{c}{(a+b+c)}} </mrow>
                         </md>
                     </p>
                 </li>
@@ -661,7 +671,43 @@
             </statement>
             <solution>
                 <p>
-                    
+                    Expressing each part of the ratio as a fraction of the total, 
+                    Cheptoo got <m>\frac{2}{5}</m> and Mwango got <m>\frac{3}{5}</m> of the apples.
+                </p>
+                <p>
+                    Mwango got <m>\frac{3}{5}</m> of the apples.
+                </p>
+                <p>
+                    Therefore, the number of apples Cheptoo got is;
+                    <me>
+                        Number\, of\, apples\, Cheptoo\, got\, = \frac{2}{5} \times 20
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        = \frac{40}{5}
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        = 8 \text{ apples}
+                    </me>
+                </p>
+                <p>
+                    The number of apples Mwango got is;
+                    <me>
+                        Number\, of\, apples\, Mwango\, got\, = \frac{3}{5} \times 20
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = \frac{60}{5}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = 12 \text{ apples}
+                    </me>
                 </p>
             </solution>
         </example>
@@ -675,7 +721,26 @@
             </statement>
             <solution>
                 <p>
-                    
+                    The total number of parts in the ratio is;
+                    <me>
+                        2 + 3 + 4 = 9
+                    </me>
+                </p>
+                <p>
+                    The shares are;
+                    <md>
+                        <mrow>\frac{2}{9} \times 63 \amp = 14\, \text{hectares} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{3}{9} \times 63 \amp = 21\, \text{hectares} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{4}{9} \times 63 \amp = 28\, \text{hectares} </mrow>
+                    </md>
                 </p>
             </solution>
         </example>
@@ -683,7 +748,7 @@
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-working-out-rates-in-different-situations">
-        <title>Working Out Rates in Different Situations</title>
+        <title>Working Out Ratios in Different Situations.</title>
 
         <activity>
             <title>Work in Groups</title>
@@ -715,7 +780,30 @@
             </statement>
             <solution>
                 <p>
-                    
+                    <me>
+                        Total\, number\, of\, litres\, of\, substance\, A\, and\, B\, = 6000
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        \text{Litres of substance} B = (\text{Total number of litres} - \text{Litres of substance} A) \text{litres}
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        = (6000 - 2400)\, litres
+                    </me>                    
+                </p>
+                <p>
+                    Ratio of <m>A</m> and <m>B</m>
+                    <md>
+                        <mrow> \amp = 2400:3000 </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \amp = 2:3 </mrow>
+                    </md>
                 </p>
             </solution>
         </example>
@@ -723,7 +811,7 @@
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-working-out-increase-and-decrease-of-quantities-using-ratio-in-real-life-situations">
-        <title>Working Out Increase and Decrease of Quantities Using Ratio in Real Life Situations</title>
+        <title>Working Out Increase and Decrease of Quantities Using Ratio in Real Life Situations.</title>
 
         <activity>
             <title>Work in Groups.</title>
@@ -759,16 +847,14 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp {\text{Key Takeaway}} </mrow>
             </md>
         </p>
 
-        <tabular>
-            <row>
-                <cell><m>{\color{green} \text{To increase or decrease a quantity in a given ratio, 
-                the quantity is multiplied by the corresponding fraction to the ratio.}}</m></cell>
-            </row>
-        </tabular>
+        <p>
+            To increase or decrease a quantity in a given ratio, 
+            the quantity is multiplied by the corresponding fraction to the ratio.
+        </p>
 
         <example>
             <statement>
@@ -780,7 +866,30 @@
             </statement>
             <solution>
                 <p>
-                    
+                    <me>
+                        Population\, before\, was = 211400
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        Population\, increase\, ratio\, was\, = (9:7)
+                    </me>
+                </p>
+                <p>
+                    Population after increase is;
+                    <me>
+                        211400 \times \frac{9}{7} = \frac{9 \times 211400}{7}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = \frac{1902600}{7}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = 271800\, people
+                    </me>
                 </p>
             </solution>
         </example>
@@ -794,7 +903,30 @@
             </statement>
             <solution>
                 <p>
-                    
+                    Fraction representing the reduction of milk production is;
+                    <me>
+                        \frac{5}{9}
+                    </me>                    
+                </p>
+                <p>
+                  <me>
+                        \text{Initial production} = 360 \text{ litres}
+                  </me>
+                </p>
+                <p>
+                    <me>
+                        \text{New production} = 360 \times \frac{5}{9}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = \frac{1800}{9}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = 200 \text{ litres}
+                    </me>
                 </p>
             </solution>
         </example>
