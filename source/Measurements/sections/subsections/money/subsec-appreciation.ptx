@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="subsec-appreciation">
+  <title>Appreciation</title>
+
+  <p>
+    Appreciation 📈
+
+   Appreciation means the increase in value of something over time. For example, if you buy a piece of land for Sh. 5,000 and after a few years it is worth Sh. 7,000. It has then  appreciated in value.
+  </p>
+  
+  <p>
+    Appreciation = Value goes up 🚀
+  </p>
+<exploration>
+  <statement>
+    <p>
+      Mogaka bought a piece of land at Ksh. 250,000 in Sirare. He practised cash crop farming. After 5 years the area developed due to construction of schools, roads and hosptals. Mogaka sold the piece of land at Ksh. 750,000. 
+    </p>
+    <p>
+      What could have caused the change in the price of money?
+    </p>
+    <p>
+      List examples of items that appreciate in value over time?
+    </p>
+  </statement>
+</exploration>
+<activity>
+    <p>
+      Listen carefully to the role play below.
+    </p>
+    <p>
+      What you require, someone to read for you this conversation as you internalize on what it talks about.
+    </p>
+      <p>
+    <ul>
+      <li>
+        <p>
+          <m>\textbf {Nyali:}</m> Good morning Mr. Kavai?</p>
+          <p><m>\textbf {Kavai:}</m> Good morning Nyali how are you?
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\textbf {Nyali:}</m> I'm fairing on well.</p>
+          <p><m>\textbf {Kavai:}</m> We thank God for the gift of life.
+        </p>  
+      </li>
+      <li>
+        <p>
+          <m>\textbf {Nyali:}</m> Yeah. How much money did you spend in constructing this magnificient house?</p>
+          <p><m>\textbf {Kavai:}</m> I spent 1.2 million including purchasing the piece of land.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\textbf {Nyali:}</m> How do you intend to pay back that some of money you spent?</p>
+          <p><m>\textbf {Kavai:}</m> I'm planning to rent the smaller apartments for Ksh. 50,000 per month.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\textbf {Nyali:}</m> Wow that's a brilliant idea. </p>
+          <p><m>\textbf {Kavai:}</m> Sure that's why I invested in building it. Besides I will not be rentimmg I'l be staying in this house.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\textbf {Nyali:}</m>I have also noticed that the value of property in this area appreciates at 10% per annum due to prescence of social amenities. So maybe some later time you can sell the house and recover the money you spent constructing the house and earn a profit.</p>
+         <p> <m>\textbf {Kavai:}</m> That's a brilliant idea. I'll think about it .
+        </p>
+      </li>
+    </ul>
+    </p>
+    <p>
+      From the conversation, calculate the value of the house in 3 years?
+    </p>
+  
+</activity>
+<example>
+
+  <statement>
+    <p>
+      A plot of land's value in 2020 was at Sh. 1 200 000. The value of the plot ppreciated at a rate of 10% per annum in the first year,  12% per annum in the second year,  15% per annum in the third  year,  20% per annum in the forth year and 25% in the fifth year. Calculate the value of the land at the end of the 5th year.
+     </p>
+  </statement>
+  <hint>
+    <p>
+      Value after Appreciation = principal + (rate <m>\times</m> principal)
+    </p>
+ </hint>
+  <solution>
+    <p>
+      <md>
+        <mrow> \text {Value at the end of } 2020 = \amp \text {sh.} 1 200 000 + (\frac {10}{100} \times \text {sh.} 1 200 000 )</mrow>
+        <mrow> = \amp \text {sh.}1 320 000</mrow>
+        <mrow> \text {Value at the end of } 2021 = \amp \text {sh.} 1 320 000 + (\frac {12}{100} \times \text {sh.} 1 320 000 )</mrow>
+        <mrow> = \amp \text {sh.}  1 478 400</mrow>
+        <mrow> \text {Value at the end of } 2022 =  \amp \text {sh.} 1 477 400 + (\frac {15}{100} \times \text {sh.} 1 478 400)</mrow>
+        <mrow> = \amp \text {sh.} 1 700 160</mrow>
+        <mrow> \text {Value at the end of } 2023 = \amp \text {sh.} 1 700 160+ (\frac {20}{100} \times \text {sh.}1 700 160  )</mrow>
+        <mrow> = \amp \text {sh.} 2 040 192</mrow>
+        <mrow> \text {Value at the end of }  2024 = \amp \text {sh.} 2 040 192 + (\frac {25}{100} \times \text {sh.} 2 040 192)</mrow>
+        <mrow> = \amp \text {sh.} 2 550 240</mrow>
+        <mrow> \amp </mrow>
+      </md>
+    </p>
+  </solution>
+</example>
+</subsection>

@@ -3,7 +3,7 @@
     <p>
     A calculator is a portable device used to perform different mathematical calculations, such as addition, subtraction, multiplication, and division.    
     </p>
-    <image source="/cal.jpg">
+    <image source="/cal.jpg" width="50%">
         <shortdescription>sample of a calculator</shortdescription>
     </image>
     <p>

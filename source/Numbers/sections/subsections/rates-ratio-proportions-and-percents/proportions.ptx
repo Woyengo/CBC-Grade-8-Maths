@@ -49,23 +49,23 @@
                         <cell>Quantity in Packets</cell> <cell>Cost in Shillings</cell>
                     </row>
 
-                    <row>
+                    <row halign="center">
                         <cell>1</cell> <cell></cell>
                     </row>
 
-                    <row>
+                    <row halign="center">
                         <cell>2</cell> <cell></cell>
                     </row>
 
-                    <row>
+                    <row halign="center">
                         <cell>3</cell> <cell></cell>
                     </row>
 
-                    <row>
+                    <row halign="center">
                         <cell>4</cell> <cell></cell>
                     </row>
 
-                    <row>
+                    <row halign="center">
                         <cell>5</cell> <cell></cell>
                     </row>
                 </tabular>
@@ -117,15 +117,14 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp {\textbf{Key Takeaway}} </mrow>
             </md>
         </p>
-        <tabular>
-            <row>
-                <cell><m>{\color{green} \text{A direct proportion is identified when two quanties are such that if one quantity changes in a particualr ratio,
-            the other quantity changes in the same ratio.}}</m></cell>
-            </row>
-        </tabular>
+        
+        <p>
+            A direct proportion is identified when two quanties are such that if one quantity changes in a particualr ratio,
+            the other quantity changes in the same ratio.
+        </p>
 
         <example>
             <statement>
@@ -170,10 +169,38 @@
             </statement>
             <solution>
                 <p>
-                    <ol>
+                    <ol marker="(a)">
                         <li>
                             <p>
-                                
+                                <me>
+                                    1:60
+                                </me>                                
+                            </p>
+                            <p>
+                                <me>
+                                    2:120 = 1:60
+                                </me>
+                            </p>
+                            <p>
+                                <me>
+                                    3:180 = 1:60
+                                </me>
+                            </p>
+                            <p>
+                                <me>
+                                    4:240 = 1:60
+                                </me>
+                            </p>
+                            <p>
+                                <me>
+                                    5:300 = 1:60
+                                </me>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The ratio of the number of cups to the cost is <m>1:60</m> for all the pairs. 
+                                Therefore, the number of cups is directly proportional to the cost.
                             </p>
                         </li>
                     </ol>
@@ -187,23 +214,24 @@
         <title>Working Out Direct Proportions in Real Life Situations</title>
 
         <activity>
-        <p>
-            Consiider the cost of <m>15</m> <em>m</em> of ribbon as <em>Kshs.</em> <m>300.</m>
-        </p>
-        <p>
-            <ol>
-                <li>
-                    <p>
-                        Copy and complete the table below.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Discuss and share the results with other groups.
-                    </p>
-                </li>
-            </ol>
-        </p>
+            <title>Work in Groups.</title>
+            <p>
+                Consiider the cost of <m>15</m> <em>m</em> of ribbon as <em>Kshs.</em> <m>300.</m>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Copy and complete the table below.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share the results with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
             <table>
                 <title>Ribon-cost table</title>
                 <tabular left="medium" right="medium" top="medium" bottom="medium">
@@ -233,14 +261,12 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp {\textbf{Key Takeaway}} </mrow>
             </md>
         </p>
-        <tabular>
-            <row>
-                <cell><m>{\color{green} \text{The ratio in a direct proportion is used to find one quantity when the corresponding quantity is given.}}</m></cell>
-            </row>
-        </tabular>
+        <p>
+            The ratio in a direct proportion is used to find one quantity when the corresponding quantity is given.
+        </p>
 
         <example>
             <statement>
@@ -251,7 +277,19 @@
             </statement>
             <solution>
                 <p>
-                    
+                    4 L of milk costs <em>Kshs.</em> <m>240.</m>
+                </p>
+                <p>
+                    The cost of <m>1</m> L of milk is given as;
+                    <me>
+                        \frac{240}{4} =  60
+                    </me>                    
+                </p>
+                <p>
+                    Therefore, the cost of 6 L of milk is given as;
+                    <me>
+                        \frac{60}{1} \times 6 =  Kshs. \, 360
+                    </me>                    
                 </p>
             </solution>
         </example>
@@ -313,12 +351,12 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp {\textbf{Key Takeaway}} </mrow>
             </md>
         </p>
         <p>
-            <m>{\color{green} \text{An indirect proportion is identified when two quantities are such that if one quantity increases in a particualr ratio, 
-            then the other quantity decreases in the same ratio.}}</m>
+            An indirect proportion is identified when two quantities are such that if one quantity increases in a particualr ratio, 
+            then the other quantity decreases in the same ratio.
         </p>
 
         <example>
@@ -492,11 +530,11 @@
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp {\textbf{Key Takeaway}} </mrow>
             </md>
         </p>
         <p>
-            <m>{\color{green} \text{The ratio in an indirect poportion is used to find a quantity when the corresponding quantity is given.}}</m>
+            The ratio in an indirect poportion is used to find a quantity when the corresponding quantity is given.
         </p>
 
         <example>
@@ -530,7 +568,7 @@
                 </p>
                 <p>
                     <md>
-                        <mrow>\farc{8}{6} = \amp \frac{y}{3} </mrow>
+                        <mrow>\frac{8}{6} = \amp \frac{y}{3} </mrow>
                     </md>                                
                 </p>
                 <p>
@@ -550,7 +588,7 @@
                     </md>
                 </p>
                 <p>
-                    Therefore, it would takes her four days to weed the garden woking six hours a day.
+                    Therefore, it would takes her <m>4</m> days to weed the garden woking <m>6</m> hours a day.
                 </p>
             </solution>
         </example>
@@ -579,7 +617,7 @@
                 </p>
                 <p>
                     <md>
-                        <mrow>= \amp 15 \text{days}</mrow>
+                        <mrow>= \amp 15\, \text{days}</mrow>
                     </md>
                 </p>
             </solution>
