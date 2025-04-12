@@ -1,0 +1,25 @@
+<section xml:id="sec-Linear equations">
+    <title>Linear equations</title>
+    <p>
+        You are planning resume for the next terms session in your school. You need to buy exercise books and a mathematical set. The cost of one exercise book is Ksh <m>50</m>, and a mathematical set costs Ksh <m>200</m>. If you have a total of Ksh <m>450</m> to spend, how many exercise books can you buy for your school work?
+    </p>
+    <p>
+        [**A photo of a bookshop(showing shelves behind) with the seller and a student at the counter with a set and some books at the counter**]
+    </p>
+    <p>
+        In this situation we need to form an equation to determine the number of exercise books. We can represent the number of books as <m>b</m> and write the total cost as:
+    </p>
+    <p>
+        <me>
+            50 b + 200 = 450
+        </me>
+    </p>
+    <p>
+        Therefore we can say, a <m>linear</m> <m>equation</m> is a mathematical statement that shows the relationship between numbers and an unknown value using addition, subtraction, multiplication, or division.
+    </p>
+    <p>
+        Understanding how to form and solve linear equations allows us to make better decisions and solve practical challenges efficiently.
+    </p>
+
+  <xi:include href="subsections/subsec-formation-of-linear-equations-with-two-unknowns.ptx" />
+</section>
