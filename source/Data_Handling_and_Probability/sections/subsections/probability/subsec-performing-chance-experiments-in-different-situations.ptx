@@ -109,80 +109,15 @@
         </p>
     </activity>
     <p>
-        <m>\textbf{Chance Experiment}</m> is an activity or situation where the outcome is not certain. You don’t know what will happen until you try it.
-    </p>
-    <p>
-        Each time you do the experiment, you might get a different result, even if the conditions stay the same.
-    </p>
-    <p>
-        <m>\textbf{ Examples of Chance Experiments:}</m>
-    </p>
-    <p>
-        <ol>
-            <li>
-                <p>
-                    Tossing a Coin
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                A coin has <m>2</m> sides: Heads and Tails
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Each side has a <m>1</m> out of <m>2</m> chance <m>(50)</m>%
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Rolling a Die
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                A die has <m>6</m> faces numbered from <m>1</m> to <m>6</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Each number has a <m>1</m> out of <m>6</m> chance
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Picking Counters
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                A bag may have counters of different colors
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                The chance of picking a certain color depends on how many of that color are in the bag
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-        </ol>
-    </p>
-    <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
+            <li>
+                <p>
+                    <m>\textbf{Chance Experiment}</m> is an activity or situation where the outcome is not certain. You don’t know what will happen until you try it.
+                </p>
+            </li>
             <li>
                 <p>
                     <m>\textbf{Experiment}</m>: A process that leads to one or more outcomes (e.g., rolling a die)

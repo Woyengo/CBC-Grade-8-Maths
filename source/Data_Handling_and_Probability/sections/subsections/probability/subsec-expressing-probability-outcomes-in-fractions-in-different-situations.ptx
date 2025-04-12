@@ -89,26 +89,7 @@
             </ol>
         </p>
     </activity>
-    <p>
-        <m>\textbf{Expressing probability outcomes in fractions}</m> means representing the likelihood of an event happening as a fraction.
-    </p>
-    <p>
-        Where;
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    The numerator represents the number of favorable outcomes.
-                </p>
-            </li>
-            <li>
-                <p>
-                    The denominator represents the total number of possible outcomes.
-                </p>
-            </li>
-        </ul>
-    </p>
+    
     
     <p>
         <m>\textbf{Key Takeaway}</m>
@@ -117,7 +98,24 @@
         <ul>
             <li>
                 <p>
-                    Expressing probability outcomes in fractions helps us understand the likelihood of events in different situations by dividing the number of favorable outcomes by the total possible outcomes for each specific case.
+                    <m>\textbf{Expressing probability outcomes in fractions}</m> means representing the likelihood of an event happening as a fraction.
+                </p>
+                <p>
+                    Where;
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                The numerator represents the number of favorable outcomes.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The denominator represents the total number of possible outcomes.
+                            </p>
+                        </li>
+                    </ul>
                 </p>
             </li>
         </ul>
