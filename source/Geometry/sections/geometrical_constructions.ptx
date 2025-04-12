@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<section xml:id="sec-geometrical_constructions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Geometrical Constructions</title>
+
+    <xi:include href="subsections/geometrical_constructions/subsec-definition.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-parallel-lines.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-perpendicular-lines.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-dividing-lines-proportionally.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-angle-properties-of-polgons.ptx" /> 
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-regular-polygons.ptx" /> 
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-irregular-polygons.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-a-circle-touching-the-vertices-of-a-triangle.ptx" />
+    <xi:include href="subsections/geometrical_constructions/subsec-construction-of-a-circle-touching-the-sides-of-a-triangle.ptx" />  
+         
+</section>

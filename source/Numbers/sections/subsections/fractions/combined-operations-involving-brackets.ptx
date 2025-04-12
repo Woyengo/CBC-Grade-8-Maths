@@ -1,0 +1,175 @@
+<subsection xml:id="subsec-combined-operations-involving-brackets">
+    <title>Combined operations involving brackets</title>
+    <p>
+     To work out combined operations of fractions involving brackets we: 
+    </p>
+    <p>
+        <ol marker= "a)">
+            <li>
+                <p>
+                   Look at the expression : <m>(\frac{1}{2} + \frac{1}{3} )\times \frac{3}{4} - \frac{1}{6}</m>  and identify the operations inside and outside the brackets.
+                  
+                </p>
+            </li>
+            <li>
+                <p>
+                  Following the order of operations, solve the operations inside the brackets first i.e . <m>(\frac{1}{2} + \frac{1}{3})</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                   Find the LCM of the denominators, <m>2</m> and <m>3</m> which is <m>6</m>.  
+                   Then add the fractions: <md>
+                                              <mrow>  \frac{1}{2} + \frac{1}{3} =\amp\frac{3+2}{6} </mrow>
+                                              <mrow> \amp </mrow>
+                                              <mrow> =\amp \frac{5}{6}</mrow>
+                                            </md>
+                </p>
+            </li>
+            <li>
+                <p>
+                    After simplifying the operations inside the brackets, perform any other operation involved ensuring to follow order.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{5}{6} \times \frac{3}{4} -\frac{1}{6} </mrow>
+                        <mrow> \amp </mrow>
+                        <mrow> \frac{5}{6} \times \frac{3}{4}=\amp \frac{5 \times 3}{6 \times 4} </mrow>
+                        <mrow> \amp </mrow>
+                        <mrow> =\amp \frac{15}{24}</mrow>
+                        <mrow> \amp </mrow>
+                        <mrow> \frac{15}{24} - \frac{1}{6} =\amp \frac{15-4}{24} </mrow>
+                        <mrow> \amp </mrow>
+                        <mrow> =\amp\frac{11}{24} </mrow>
+                    </md>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Reduce the final fraction to its simplest form if possible.
+                    Since <m>\frac{11}{24}</m> is already in its simplest form we leave the answer as <m>\frac{11}{24}</m>.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <activity>
+        <statement>
+            <p>
+            
+            </p>
+            <p>
+             1. Work out the following fraction problems in groups of <m>5</m>.
+            </p>
+            <p>
+               <ol>
+                <li>
+                    <p>
+                        <m>(\frac{2}{5} \times  \frac{3}{4} ) +\frac{1}{2} - \frac{1}{8}</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(\frac{3}{4} \div  \frac{1}{2} ) - (\frac{1}{3} + \frac{1}{6})</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(\frac{5}{6} - \frac{1}{3} )\times (\frac{2}{5} + \frac{1}{10})</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(\frac{2}{3} + \frac{1}{4} )\times \frac{1}{2} - \frac{1}{8}</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(\frac{3}{5} \div \frac{1}{4} ) + (\frac{1}{} - \frac{1}{5})</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(\frac{4}{5} - \frac{1}{2} )\times \frac{3}{4} + \frac{1}{8}</m> 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>(\frac{1}{3} + \frac{1}{6} )\div (\frac{2}{3} \div \frac{1}{4})</m> 
+                    </p>
+                </li>
+               </ol>
+            </p>
+            <p>
+               2. Write down the order of operations you used while working out each question.
+            </p>
+            <p>
+              3. What operation should you perform first?
+            </p>
+            <p>
+              4. How do you find a common denominator for addition or subtraction?
+
+             </p>
+            <p>
+              5. How do you simplify the final fraction? 
+            </p>
+            <p>
+             6. Discuss your work with fellow learners.
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Work out: <m>\frac{1}{3}(\frac{3}{4} \div \frac{1}{2}) \times 1\frac{1}{2} + \frac{1}{2}- \frac{1}{8}</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+              1. Work out the brackets first
+            </p>
+            <p>
+                <m>\frac{1}{3}(\frac{3}{4} \div \frac{1}{2})</m>
+            </p>
+            <p>
+                <m>\frac{3}{4} \div \frac{1}{2} = \frac{3}{4} \times \frac{2}{1} = \frac{3}{2}</m>
+            </p>
+            <p>
+               <m>\frac{1}{3}(\frac{3}{2})</m> is the same as <m>\frac{1}{3} \times \frac{3}{2}</m>
+            </p>
+            <p>
+               2. Rewriting the expression we have: <m>\frac{1}{3} \times \frac{3}{2} \times 1\frac{1}{2} + \frac{1}{2} - \frac{1}{8}</m> 
+            </p>
+            <p>
+               3. Working out multiplication: <m>\frac{1}{3} \times \frac{3}{2} \times 1\frac{1}{2} </m>
+            </p>
+            <p>
+               Convert <m>1\frac{1}{2}</m> into an improper fraction that is: <m>\frac{2 \times 1 + 1}{2} = \frac{3}{2}</m>
+            </p>
+            <p>
+                Multiplying <m>\frac{1}{\cancel{3}} \times \frac{\cancel{3}}{2} \times \frac{3}{2} = \frac{1 \times 1 \times3}{1 \times 2 \times 2}</m>
+            </p>
+            <p>
+                Hence, <m>\frac{1}{3} \times \frac{3}{2} \times 1\frac{1}{2} </m> <m>= \frac{3}{4}</m> and the expression becomes <m>\frac{3}{4}+ \frac{1}{2}- \frac{1}{8}</m>
+            </p>
+             <p>
+               4. Working out addition: <md>
+                                            <mrow> \frac{3}{4}+\frac{1}{2} =\amp \frac{3+2}{4} </mrow>
+                                            <mrow> =\amp \frac{5}{4}</mrow>
+                                        </md>
+               
+             </p>
+             <p>
+               5. Working out subtraction:  <md>
+                                                <mrow> \frac{5}{4} - \frac{1}{8} =\amp \frac{10-1}{8}</mrow>
+                                                <mrow> =\amp \frac{2}{8} </mrow>
+                                            </md>
+             </p>
+             <p>
+                6. Simplify <m>\frac{2}{8}</m> by dividing through by <m>2</m>.
+             </p>
+             <p>
+                 Therefore, <m>\frac{1}{3}(\frac{3}{4} \div \frac{1}{2}) \times 1\frac{1}{2} + \frac{1}{2}- \frac{1}{8} = \frac{1}{4}</m>
+             </p>
+        </solution>
+    </example>
+</subsection>

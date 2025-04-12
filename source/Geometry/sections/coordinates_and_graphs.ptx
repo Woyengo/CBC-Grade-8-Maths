@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-coordinates_and_graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <title>Coordinates and Graphs</title>
+   <introduction>
+        <p>
+            <m>\textbf{Coordinates}</m> refer to an ordered pair of numbers (x, y), that represent the exact location of a point on the Cartesian plane.
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        The <m>\textbf{x-coordinate}</m> tells you how far left or right the point is from the origin.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The <m>\textbf{y-coordinate}</m> tells you how far up or down the point is from the origin.
+                    </p>
+                </li>
+            </ul>
+        </p>
+   </introduction>
+
+    <xi:include href="subsections/coordinates_and_graphs/subsec-the-cartesian-plane.ptx" /> 
+    <xi:include href="subsections/coordinates_and_graphs/subsec-identifying-points-on-the-cartesian-plane.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-plotting-points-on-the-cartesian-plane-in-different-situations.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-table-of-values-for-linear-equations.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-appropriate-scale-for-a-linear-equation.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-linear-graphs.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-solving-linear-simultaneous-equations-using-graphs.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-application-of-linear-simultaneous-equations-in-real-life.ptx" />
+</section>

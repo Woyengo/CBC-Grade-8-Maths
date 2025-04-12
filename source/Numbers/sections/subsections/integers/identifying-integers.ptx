@@ -1,0 +1,80 @@
+<subsection xml:id="subsec-identifying-integers">
+    <title>Identifying integers</title> 
+    <!-- <p>
+        <term>Integers</term> are a fundamental concept in mathematics with wide applications
+        in real-life situations. In sports and games, points, scores, and 
+        rankings are often represented using integers. In Grade <m>7</m>, 
+        you learned about whole numbers. In this section, we will take 
+        a step further to explore <term>integers</term>. 
+    </p> -->
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Choose a starting point on a flat surface.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Take five steps forward, counting each step as you move.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Return to the starting point and take five steps backward, marking each step.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Assign a positive value (+) to steps taken forward and a negative value (-) to steps taken backward.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Compare your results with your classmates and discuss your findings.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <definition xml:id="def-integer-term">
+        <statement>
+            <p>
+                <term>Integers</term> are set of positive numbers, 
+                negatives numbers and zero.
+            </p>
+        </statement>
+    </definition>
+    <!-- <p>
+        <term>Integers</term> are set of positive numbers, 
+        negatives numbers and zero.
+    </p> -->
+    <p>
+        <ul>
+            <li>
+                <p>
+                    All <term>whole numbers</term> are integers, 
+                    but not all integers are whole numbers because 
+                    integers also include negative numbers.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Integers do not include fractions or decimals.
+                </p>
+            </li>
+        </ul>
+    </p>
+</subsection>

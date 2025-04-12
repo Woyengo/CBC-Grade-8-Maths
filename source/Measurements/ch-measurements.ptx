@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-measurements">
+<chapter xml:id="ch-measurements" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Measurements</title>
+    <introduction>
+        <p>
+            This chapter is about measurements.
+        </p>
+    </introduction>
 
-    <p>
-        This chapter is about measurements.
-    </p>
+    <!-- include sections -->
+    <xi:include href="sections/sec-section-circles.ptx" />
+
+    <!-- include sections -->
+    <xi:include href="sections/sec-section-area.ptx" />
+
+    <!-- include sections -->
+    <xi:include href="sections/sec-section-money.ptx" />
     
 </chapter>

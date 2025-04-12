@@ -1,0 +1,68 @@
+<subsection xml:id="subsec-dividing-lines-proportionally">
+            <title>Dividing lines proportionally</title>
+            <p>
+                A line can be divided into a given number of equal parts / proportions.
+            </p>
+            <activity>
+                <p>
+                  Here is an activity on how to divide a line proportionally into 5 equal parts.
+                </p>
+                <p>
+                  1. Draw a line <m>AB</m> and <m>AC</m> as shown below   
+                </p>
+
+                <image width="50%">
+                <shortdescription>Proportional division of lines</shortdescription>
+                <latex-image label="lines">
+                    \begin{tikzpicture}
+                        \draw[thick,black] (-2,0) node[left] {$A$} -- (3,0) node[right]{$B$};
+                        \draw[thick,black] (-2,0) -- (4,4) node[right]{$C$};
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+
+                <p>
+                   2.  Using a pair of compasses, draw 5 arcs of equal lengths on line <m>AC.</m>
+                </p>
+                <image width="50%">
+                <shortdescription>Proportional division of lines</shortdescription>
+                <latex-image label="proportional-lines">
+                    \begin{tikzpicture}
+                        \draw[thick,black] (0,0) node[left] {$A$} -- (5,0) node[right]{$B$};
+                        \draw[thick,black] (0,0) -- (6,6) node[right]{$C$};
+                        \foreach \x in {1,2,3,4,5}{
+                          \draw(\x,\x+0.25)--(\x,\x-0.25) node[right]{$\x$};
+                        };
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+
+                <p>
+                   3. Using a set square and a ruler, draw parallel lines from arcs marked on line <m>AC</m> to line <m>AB.</m>
+                </p>
+
+                <image width="50%">
+                <shortdescription>Proportional division of lines-2</shortdescription>
+                <latex-image label="proportional-lines-2">
+                    \begin{tikzpicture}
+                        \draw[thick,black] (0,0) node[left] {$A$} -- (5,0) node[right]{$B$};
+                        \draw[thick,black] (0,0) -- (6,6) node[right]{$C$};
+                        \foreach \x in {1,2,3,4,5}{
+                          \draw(\x,\x+0.25)--(\x,\x-0.25) node[right]{$\x$};
+                        };
+
+                        \draw[thick,blue] (1,1) -- (1,0) node[below]{$P$};
+                        \draw[thick,blue] (2,2) -- (2,0) node[below]{$Q$};
+                        \draw[thick,blue] (3,3) -- (3,0) node[below]{$R$};
+                        \draw[thick,blue] (4,4) -- (4,0) node[below]{$S$};
+                        \draw[thick,blue] (5,5) -- (5,0);
+                    \end{tikzpicture}
+                </latex-image>
+                </image>
+
+                <p>
+                   4. Measure the distance between lines: <m>AP,\, PQ,\, QR,\, RS,\, SB.</m> Compare and discuss your findings with other learners.
+                </p>
+            </activity>
+                
+    </subsection>

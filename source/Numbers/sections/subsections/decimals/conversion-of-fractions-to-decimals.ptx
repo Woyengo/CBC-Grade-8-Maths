@@ -1,0 +1,193 @@
+<subsection xml:id="subsec-conversion-of-fractions-to-decimals">
+    <title>Conversion of fractions to decimals</title>
+    <p> 
+        To convert a fraction into a decimal, we divide the numerator by the denominator. 
+        For instance, to find the decimal equivalent of a fraction such as <m>\frac{1}{2}</m>,
+        divide <m>1</m> by <m>2</m>, which gives <m>1 \div 2 = 0.5</m>. 
+    </p>
+    <p>
+        Alternatively, we can convert a fraction to a decimal by writing its equivalence 
+        fraction with a denominator which is divisible by <m>10.</m>
+        <ul>
+            <li>
+                <p>
+                    Identify a number that, when multiplied by the denominator, results in 
+                    <m>10, 100, 1000,</m> or any number that is <m>1</m> followed by zeros.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Multiply both the numerator and the denominator by that number to create an 
+                    equivalent fraction with a denominator that is a power of <m>10</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write down the numerator of the new fraction. 
+                    Move the decimal point to the left by as many places as there are zeros in the denominator.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups of 5 learners</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Complete the following table below by following the steps below:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Convert the fractions into equivalent fractions with a 
+                                denominator that is a power of <m>10</m> <m>(\text{ e.g. }, 10, 100, 1000).</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Simplify the new fraction to decimal form.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <tabular top="medium" bottom="medium" right="medium" left="medium">
+                    <row header="yes">
+                        <cell>Fraction</cell>
+                        <cell>Equivalence fraction</cell>
+                        <cell>Decimal</cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{3}{20}</m></cell>
+                        <cell><m>\frac{3 \times 5}{20 \times 5} = \frac{15}{100}</m></cell>
+                        <cell><m>0.15</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{7}{4}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{51}{250}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{9}{25}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><m>\frac{3}{50}</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share your completed table with the rest of the class. 
+                    Discuss how you converted the fractions and determined their decimal equivalents.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Convert the following fractions to decimals.
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>\frac{7}{8}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\frac{9}{5}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>\frac{7}{8}</m>
+                        </p>
+                        <p>
+                            Multiply both the numerator and the denominator by <m>125</m> to make the denominator a power of <m>10</m>.
+                        </p>
+                        <p>
+                            <me>
+                                \frac{7}{8} = \frac{7 \times 125}{8 \times 125} = \frac{875}{1000}
+                            </me>
+                        </p>
+                        <p>
+                            Write down <m>875</m> with the decimal point <m>3</m> spaces from the right (because <m>1000</m> has <m>3</m> zeros)
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp = \frac{875}{1000} </mrow>
+                                <mrow> \amp </mrow>
+                                <mrow> \amp = 0.875 </mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\frac{9}{5}</m>
+                        </p>
+                        <p>
+                            Multiply both the numerator and the denominator by <m>2</m> to make the denominator a power of <m>10</m>.
+                        </p>
+                        <p>
+                            <me>
+                                \frac{9}{5} = \frac{9 \times 2}{5 \times 2} = \frac{18}{10}
+                            </me>
+                        </p>
+                        <p>
+                            Write down <m>18</m> with the decimal point <m>1</m> space from the right (because <m>10</m> has one zero)
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp= \frac{18}{10} </mrow>
+                                <mrow> \amp </mrow>
+                                <mrow> \amp= 1.8 </mrow>
+                            </md>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <!-- <example>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+        <solution>
+            <p>
+                
+            </p>
+        </solution>
+    </example> -->
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>

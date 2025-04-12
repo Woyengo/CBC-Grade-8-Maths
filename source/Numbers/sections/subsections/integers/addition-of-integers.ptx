@@ -1,0 +1,263 @@
+<subsection xml:id="subsec-addition-of-integers">
+    <title>Addition of integers</title>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Use a number line to work out the following:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>(-8) + (+3)</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>(+1) + (-4)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+               <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>(-8) + (+3)</m>
+                        </p>
+                        <p>
+                            Draw the number line as shown below.
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-addition-of-integers1-part1">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-8.5,0) -- (3.5,0);
+
+                                    \foreach \x in {-8,...,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1,...,3} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                            Locate the <m>(-8)</m> on the number line.
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-addition-of-integers1-part2">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-8.5,0) -- (3.5,0);
+
+                                    \foreach \x in {-8,...,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1,...,3} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+                                    \draw[thick,fill=red,red] (-8,0) circle(0.1);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                             From the <m>(-8)</m>, move <m>3</m> spteps to the right, because the second
+                             number <m>(+3)</m> is positive. 
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-addition-of-integers1-part3">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-8.5,0) -- (3.5,0);
+
+                                    \foreach \x in {-8,...,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1,...,3} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+                                    % Draw curved arrows for jumps
+                                    \draw[red,- &gt;] (-8,0.1) to[bend left=60] (-7,0.1);
+                                    \draw[red,- &gt;] (-7,0.2) to[bend left=60] (-6,0.1);
+                                    \draw[red,- &gt;] (-6,0.2) to[bend left=60] (-5,0.1);
+                                    
+                                    % Start label
+                                    \draw[] (-8,0) -- (-8,0.5);
+                                    \node[above] at (-8,0.55) {\textbf{start}};
+                                    
+                                    % Stop label
+                                    \draw[] (-5,0) -- (-5,0.5);
+                                    \node[above] at (-5,0.55) {\textbf{stop}};
+                                    
+                                    \draw[thick,fill=red,red] (-8,0) circle(0.1);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                            <me>
+                                (-8) + (+3) = (-5)
+                            </me>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>(+1) + (-4)</m>
+                        </p>
+                        <p>
+                            Draw the number line as shown below.
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-addition-of-integers2-part1">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-5.5,0) -- (3.5,0);
+
+                                    \foreach \x in {-5,...,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1,2,3} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                            Locate the <m>(+1)</m> on the number line.
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-addition-of-integers2-part2">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-5.5,0) -- (3.5,0);
+
+                                    \foreach \x in {-5,...,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1,2,3} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+                                    \draw[thick,fill=red,red] (1,0) circle(0.1);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                             From the <m>(+1)</m>, move <m>4</m> spteps to the right, because the second
+                             number <m>(-4)</m> is negative. 
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="number-line-addition-of-integers2-part3">
+                                \begin{tikzpicture}
+                                    \draw[&lt; - &gt;](-5.5,0) -- (3.5,0);
+
+                                    \foreach \x in {-5,...,-1} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {1,2,3} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+
+                                    % Draw curved arrows for jumps
+                                    \draw[red,- &gt;] (1,0.1) to[bend right=60] (0,0.1);
+                                    \draw[red,- &gt;] (0,0.2) to[bend right=60] (-1,0.1);
+                                    \draw[red,- &gt;] (-1,0.2) to[bend right=60] (-2,0.1);
+                                    \draw[red,- &gt;] (-2,0.2) to[bend right=60] (-3,0.1);
+                                    
+                                    % Start label
+                                    \draw[] (1,0) -- (1,0.5);
+                                    \node[above] at (1,0.55) {\textbf{start}};
+                                    
+                                    % Stop label
+                                    \draw[] (-3,0) -- (-3,0.5);
+                                    \node[above] at (-3,0.55) {\textbf{stop}};
+
+                                    \draw[thick,fill=red,red] (1,0) circle(0.1);
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                            <me>
+                                (+1) + (-4) = (-3)
+                            </me>
+                        </p>
+                    </li>
+               </ol> 
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>

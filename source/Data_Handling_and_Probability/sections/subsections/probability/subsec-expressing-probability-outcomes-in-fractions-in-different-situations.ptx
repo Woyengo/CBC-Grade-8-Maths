@@ -1,0 +1,299 @@
+<subsection xml:id="subsec-expressing-probability-outcomes-in-fractions-in-different-situations">
+    <title>Expressing probability outcomes in fractions in different situations</title>
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            In a bag, there are <m>10</m> marbles of different colors:
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>4</m> red marbles
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>3</m> blue marbles
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>2</m> green marbles
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>1</m> yellow marble
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            A student picks one marble at random from the bag.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Identify the total number of possible outcomes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find number of times you pick a marble, probability of picking each color, express it as a fraction and fill in your results in the table below
+                    </p>
+                    <table>
+                        <title>Identifying the Total Number of Possible Outcomes</title>
+                        <tabular left="medium" right="medium" top="medium" bottom="medium">
+                            <row halign="left" header="yes">
+                                <cell>Colour</cell>
+                                <cell>Number of Marbles</cell>
+                                <cell>Number of Times Picked</cell>
+                                <cell>Probability (Fraction Form)</cell>
+                            </row>
+                            <row halign="left" header="yes">
+                                <cell>Red</cell>
+                                <cell><m>4</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row halign="left" header="yes">
+                                <cell>Blue</cell>
+                                <cell><m>3</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row halign="left" header="yes"> 
+                                <cell>Green</cell>
+                                <cell><m>2</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                            <row halign="left" header="yes">
+                                <cell>Yellow</cell>
+                                <cell><m>1</m></cell>
+                                <cell></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                </li>
+                <li>
+                    <p>
+                        Discuss your results with other groups.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>\textbf{Expressing probability outcomes in fractions}</m> means representing the likelihood of an event happening as a fraction.
+    </p>
+    <p>
+        Where;
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The numerator represents the number of favorable outcomes.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The denominator represents the total number of possible outcomes.
+                </p>
+            </li>
+        </ul>
+    </p>
+    
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Expressing probability outcomes in fractions helps us understand the likelihood of events in different situations by dividing the number of favorable outcomes by the total possible outcomes for each specific case.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Akinyi tossed a fair coin <m>30</m> times and noted the result of each flip. She recorded whether the coin landed on heads or tails for every trial.
+            </p>
+            <p>
+                The results of her experiments are shown in the table below.
+            </p>
+            <table>
+                <title></title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="left" header="yes">
+                        <cell>Face</cell>
+                        <cell>Head(H)</cell>
+                        <cell>Tail(T)</cell>
+                    </row>
+                    <row halign="left" header="yes">
+                        <cell>Number of times</cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>20</m></cell>
+                    </row>
+                </tabular>
+            </table>
+            <p>
+                Find the probability of getting a;
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Head
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Tail
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Number of tosses (total possible outcomes) = <m>10+20 = 30</m>
+                        </p>
+                        <p>
+                            The probability of getting a head (H) is the ratio of the number of heads to the total number of tosses.
+                        </p>
+                        <p>
+                           <md>
+                                <mrow>\textbf{P(Head)} = \amp \frac{\textbf{Number of heads}}{\textbf{Total number of tosses}}</mrow>
+                                <mrow> =  \amp \frac{10}{30}</mrow>
+                                <mrow> =  \amp \frac{1}{3}</mrow>
+                           </md>
+                        </p>
+                        <p>
+                            The probability of getting a Head is <m>\frac{1}{3}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The probability of getting a tail (T) is the ratio of the number of tails to the total number of tosses.
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{P(Tail)} = \amp \frac{\textbf{Number of tails}}{\textbf{Total number of tosses}}</mrow>
+                                <mrow> =  \amp \frac{20}{30}</mrow>
+                                <mrow> =  \amp \frac{2}{3}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The probability of getting a Tail is <m>\frac{2}{3}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Mr. Indimuli puts <m>20</m> letters in a bag. The letters include <m>6</m>F's, <m>5</m>D's, <m>4</m>C's, <m>3</m>B's and <m>2</m>A's. He will randomly select a letter out of the bag to determine your grade. Find the following probabilities. Give an answer as a fraction.
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Find the probability of getting an F.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the probability of passing.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Calculate the probability of getting an A or B.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Total numbers of letters: <m>6+5+4+3+2 = 20</m>
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            Number of <m>\textbf{F's} = 6</m>
+                        </p>
+                        <p>
+                            To calculate the probability of getting an F:
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{P(F)} = \amp \frac{\textbf{Number of F's}}{\textbf{Total number of letters}}</mrow>
+                                <mrow> = \amp \frac{6}{20}</mrow>
+                                <mrow> = \amp \frac{3}{10}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            Therefore, the probability of getting an F is <m>\frac{3}{10}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Probability of passing: P(A,B,C,D).
+                        </p>
+                        <p>
+                            Number of A's = <m>2</m>, B's = <m>3</m> , C's = <m>4</m>, D's = <m>5</m>
+                        </p>
+                        <p>
+                            Total for A,B,C,D = <m>5+4+3+2 = 14</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{P(Passing)} = \amp \frac{\textbf{Number of A's + B'S + C'S + D'S}}{\textbf{Total number of letters}}</mrow>
+                                <mrow> = \amp \frac{14}{20}</mrow>
+                                <mrow> = \amp \frac{7}{10}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The probability of passing a grade is <m>\frac{7}{10}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            To calculate P(A,B):
+                        </p>
+                        <p>
+                            Total for A's and B's ; <m>2+3 = 5</m>
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>\textbf{P(A or B)} = \amp \frac{\textbf{Number of A's + Number of B'S }}{\textbf{Total number of letters}}</mrow>
+                                <mrow> = \amp \frac{5}{20}</mrow>
+                                <mrow> = \amp \frac{1}{4}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            The Probability of Getting an A or B is <m>\frac{1}{4}</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

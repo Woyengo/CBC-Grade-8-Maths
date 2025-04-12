@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Squares-and-Square-Roots" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Squares and Square Roots</title>
+    <introduction>
+    <p>
+        Akinyi, a Grade <m>8</m> student, uses squares and square roots to help her family plan their vegetable garden. Her parents want to create a square garden with an area of <m>36</m> square meters. To determine the length of each side, Akinyi calculates the square root of <m>36</m>, which is <m>6</m> meters. This allows her family to know they need <m>4 \times 6 = 24</m> meters of fencing to enclose the garden.
+    </p>
+    <p>
+        Squares and square roots are essential tools in solving real-world problems. Learners use them to calculate unknown lengths in triangles using the Pythagorean theorem, find areas, and design structures that require precise measurements.
+    </p>
+</introduction>
+    
+   
+    <xi:include href="subsections/squares-and-square-roots/squares-of-whole-numbers-using-tables.ptx"/>
+    <xi:include href="subsections/squares-and-square-roots/squares-of-decimal-numbers-using-tables.ptx"/>
+    <xi:include href="subsections/squares-and-square-roots/square-roots-of-whole-numbers-using-tables.ptx"/>
+    <xi:include href="subsections/squares-and-square-roots/square-roots-of-decimals-numbers-using-tables.ptx"/>
+    <xi:include href="subsections/squares-and-square-roots/squares-of-numbers-from-a-calculator.ptx"/>
+    <xi:include href="subsections/squares-and-square-roots/square-roots-of-numbers-from-a-calculator.ptx"/>
+    
+</section>

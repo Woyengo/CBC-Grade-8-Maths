@@ -1,0 +1,210 @@
+<subsection xml:id="subsec-construction-of-regular-polygons">
+        <title>Construction of Regular Polygons</title>
+        <introduction>
+         <p>
+            In construction of regular polygons, you shall be using GeoGebra platform with step by step guides for each polygon
+        </p>
+                
+        
+        </introduction>
+        <subsubsection xml:id="subsubsec-Construction-of-a-triangle">
+            <title>Construction of a Triangle</title>
+            <activity>
+            <p>
+              This activity involves constructing an equilateral triangle, that is, a triangle with sides of equal lengths.
+            </p>
+            <p>
+                <term>Instructions</term>
+            </p>
+            <p>
+                <ol> 
+                    <li>
+                        <p>
+                            Select <term>point tool (Window 1),</term> create points <m>A</m> and <m>B</m> on the applet.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>segment tool (Window 5),</term> draw a segment by clicking on point <m>A</m> then <m>B.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                             Select <term>compass tool (Window 3)</term>. Then click on point <m>A</m> and point <m>B</m> 
+                             (It represents how wide the compass is) and again on point <m>A</m> (It represents the sharp end of the compass). 
+                             Then click on <m>B</m> and <m>A</m> (It represents the width  opening of the compass) and again on <m>B</m> (It represents the sharp end of the compass).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Select <term>intersect tool (Window 4),</term> and mark a point <m>c</m>,  at the point of intersection of the two circles.  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>segment tool (Window 5),</term> and draw  line segments using points <m>BC</m>and <m>AC.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Hide the two circles by selecting the <term>show/hide object tool (Window 6)</term> and then click on the circles.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Move points <m>A</m> or <m>B</m> and observe what happens to your triangle. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <figure>
+                <caption>Equilateral triangle</caption>
+                <interactive xml:id="geogebra-equilateral-triangle" platform="geogebra" width="95%" aspect="4:3">
+                <slate xml:id="Equilateral-triangle" surface="geogebra" material="qfsbazjq" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+
+            <p>
+                Share your findings from the activity above with your fellow learneres.
+            </p>
+            </activity>
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-Square">
+            <title>Construction of a Square</title>
+            <activity>
+            <p>
+                Construct a square in the applet below using the following instructions.
+            </p>
+            <p>
+                <term>Instructions</term>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Select <term>point tool (Window 1),</term> create points <m>A</m> and <m>B</m> on the applet.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>segment tool (Window 6),</term> draw a segment by clicking on point <m>A</m> then <m>B.</m>                        
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>compass tool (Window 3)</term>. Click on point <m>A</m> and point <m>B</m> 
+                             (It represents how wide the compass is) and again on point <m>A.</m> Then click on point 
+                             <m>B</m> followed by <m>A</m> and  again on point <m>B.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>intersect tool (Window 5),</term> and  click on the two circles one at a time 
+                            to mark points of intersection of the two circles, <m>C</m> and <m>D</m> respectively.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>line tool (Window 4)</term> and click on point 
+                            <m>C</m> and then <m>D</m> to construct a line perpendicular to the segment <m>AB.</m> 
+                        </p>
+                    </li>
+                     <li>
+                        <p>
+                           Select <term>intersect tool (Window 5).</term> Click on segment <m>AB</m> and the perpendicular 
+                           line passing trough points <m>C</m>and <m>D</m> to mark a  their point of intersection <m>E.</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>compass tool (Window 3).</term> Click on point <m>E.</m> then <m>B</m>
+                            and again on point <m>E</m> to draw a circle with center <m>E</m> and its circumference touching points <m>A</m> and <m>B.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Select <term>intersect tool (Window 5),</term> and mark points <m>F</m> and <m>G</m> respectively,  
+                            at the point of intersection of the circle and perpendicular line  passing through points <m>C</m> and <m>D.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>segment tool (Window 6)</term> and draw the line segments <m>AF, FB, BG \text { and } GA</m>
+                            to constuct a square.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select the <term>show/hide object tool (Window 8)</term> and hide all objects, leaving only the square. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select the <term>move tool (Window 7)</term>  Move point <m>A</m> or <m>B.</m> What can you see? Is the quadrilateral a square?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <figure>
+                <caption>Square</caption>
+                <interactive xml:id="geogebra-square" platform="geogebra" width="95%" aspect="4:3">
+                <slate xml:id="square" surface="geogebra" material="m4pccfx9" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+            <p>
+                Discuss your findings with other learners.
+            </p>
+            </activity>
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-Hexagon">
+            <title>Construction of a Regular Hexagon</title>
+            <p>
+                A regular hexagon has six sides with equal lengths and equal interior angles.
+            </p>
+
+            <activity>
+            <p>
+                Here is a step by step activity to explore on construction of a regular hexagon created by <term>Simona Riva</term> in Geogebra.
+            </p>
+
+            <figure>
+                <caption>Regular Hexagon</caption>
+                <interactive xml:id="geogebra-regular-hexagon-illustration" platform="geogebra" width="110%" aspect="4:3">
+                <slate xml:id="hexagon-illustration" surface="geogebra" material="kdaqqu3q" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+
+            </activity>
+            <activity>
+            <p>
+               Using the illustrations from the activity above, construct your hexagon.
+            </p>
+            
+            <figure>
+                <caption>Regular Hexagon</caption>
+                <interactive xml:id="geogebra-regular-hexagon" platform="geogebra" width="95%" aspect="4:3">
+                <slate xml:id="hexagon" surface="geogebra" material="dztn26ya" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+
+            </activity>
+            
+        </subsubsection>
+           
+    </subsection>

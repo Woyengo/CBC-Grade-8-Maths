@@ -1,12 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<section xml:id="subsec-drawing-bar-graphs-of-data-from-real-life-situations">
-    <title>drawing bar graphs of data from real life situations</title>
-
+<subsection xml:id="subsec-drawing-bar-graphs-of-data-from-real-life-situations">
+    <title>Drawing Bar Graphs of Data </title>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        
+        <p>
+            <ol marker="(a)">
+               <li>Ask and record the number of members of your class, born in the months of January, February, March, April, May, and June.</li>
+               <li><p>Fill in the table shown.</p>
+                    <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
+                        <row>
+                            <cell>Month</cell>
+                            <cell>Jan</cell>
+                            <cell>Feb</cell>
+                            <cell>Mar</cell>
+                            <cell>Apr</cell>
+                            <cell>May</cell>
+                            <cell>Jun</cell>
+                        </row>
+                        <row>
+                            <cell>No. of members</cell>
+                            <cell> </cell>
+                            <cell> </cell>
+                            <cell> </cell>
+                            <cell> </cell>
+                            <cell> </cell>
+                            <cell> </cell>
+                        </row>
+                    </tabular>
+                </li>
+                <li>Choose a suitable scale and represent the data on a bar graph.</li>
+                <li>Compare and discuss your graphs with other groups.</li>
+            </ol>
+        </p>
+    </activity>
     <p>
-        A decimal is a number that is written in the base-10 place-value system. 
-        The decimal point separates the whole number part from the fractional part of the number. 
-        The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
+        <m>{\color{green} \textbf{Key Takeaway}}</m>
+    </p> 
+    <p>A bar graph is the display of information using rectangles of uniform width. The length of each rectangle represents the frequency.</p>
+    <p>
+        Bars can be displayed either vertically or horizontally and
+        are used to compare different categories or groups.
     </p>
+    <example>
+        <statement>
+          
+            <p>
+                The following table shows the number of learners who received different grades in an exam:
+            </p>
+            <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
+                <row>
+                    <cell>Grade</cell>
+                    <cell>Number of Learners</cell>
+                </row>
+                <row>
+                    <cell>5</cell>
+                    <cell>45</cell>
+                </row>
+                <row>
+                    <cell>6</cell>
+                    <cell>30</cell>
+                </row>
+                <row>
+                    <cell>7</cell>
+                    <cell>35</cell>
+                </row>
+                <row>
+                    <cell>8</cell>
+                    <cell>30</cell>
+                </row>
+                <row>
+                    <cell>9</cell>
+                    <cell>40</cell>
+                </row>
+            </tabular>
+            <p>
+                Choose a suitable scale and represent the data on a bar graph.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Choosing a suitable scale for the length of bars, for example 1cm representing 10 learner, the graph is drawn as shown.
+            </p>
+            <image>
+                <latex-image label="a">
+              
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            width=15cm, height=8cm,  % Increase size
+                            ybar,
+                            symbolic x coords={5, 6, 7, 8, 9},  % Use only numbers
+                            xtick=data,
+                            xlabel={Grade},
+                            ylabel={Number of Learners},
+                            ymin=0, ymax=50,  % Adjust based on your data
+                            bar width=1.5cm,  % Adjust bar width
+                            enlarge x limits=0.12,  % Space around bars
+                            nodes near coords,  % Show values on top of bars
+                            grid=both,  % Enable grid lines for both axes
+                            major grid style={line width=0.5pt, draw=gray!50},  % Style for major grid lines
+                            minor grid style={line width=0.2pt, draw=gray!25}  % Style for minor grid lines
+                        ]
+                            \addplot[
+                                ybar,
+                                fill=blue
+                            ] coordinates {
+                                (5, 45) (6, 30) (7, 35) (8, 30) (9, 40)
+                            };
+                        \end{axis}
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+        </solution>
+    </example>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Further Activity}}</m>
+        </p>
+        <p>
+            <ol marker="a.">
+                <li>
+                    <p>
+                        Collect data in your class about the ages of students and represent it using a bar graph
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss how the data you have collected is usefull.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        
+    </activity>
+
+
     
-</section>
+</subsection>

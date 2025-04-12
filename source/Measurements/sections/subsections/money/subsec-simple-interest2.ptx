@@ -1,0 +1,257 @@
+<subsection xml:id="subsec-simple-interest2">
+    <title>Simple interest(2)</title>
+    
+    <p>
+        In the previous section, You calculated simple interest.
+    </p>
+    <p>
+        In this section, you will calculate principal, rate, and time in relation to simple interest.
+    </p>
+
+    <activity>
+        <p>
+            <m>\textbf{Work in groups}</m>
+        </p>
+        <p>
+            <ol >
+                <li>
+                    <p>
+                        Make information cards like the ones shown below.
+                    </p>
+                    
+                    <tabular halign="left"  right="medium" top="medium" left="medium" bottom="medium">
+                        <col width="90%"></col>
+                        <row>
+                            <cell>
+                                <p>
+                                    Morara deposited <m>sh \,6\,000</m>
+                                    in a savings account. The bank paid him <m>sh \,600</m> as a simple iterest at the end
+                                    of one year. At what rate did the bank pay interest?
+                                </p>
+                            </cell>
+                            
+                        </row>
+                        
+                    </tabular>
+                    <tabular halign="left" right="medium" top="medium" left="medium" bottom="medium">
+                        <col width="90%"></col>
+                        <row>
+                            <cell>
+                                <p>
+                                    <term>Onyimbo deposited <m>sh \,70\, 000</m> in a bank that 
+                                    paid a simple interest at a rate of <m>8\%</m> per annum. He earned sh <m>22 \,400 </m>
+                                    as a simple interest. For how long did he deposited the money?</term>
+                                </p>
+                            </cell>
+                            
+                        </row>
+                        
+                    </tabular>
+                    <tabular halign="left"  right="medium" top="medium" left="medium" bottom="medium">
+                        <col width="90%"></col>
+                        <row>
+                            <cell>
+                                <p>
+                                    Cherotich deposited money in bank that paid a simple 
+                                    interest at a rate of <m>6\%</m>. He earned <m>sh \,4\, 800</m> as a simple interest after 
+                                    two years. What was the principal?
+                                </p>
+                            </cell>
+                            
+                        </row>
+                        
+                    </tabular>
+                    
+                </li>
+                <li>
+                    <p>
+                        In tarns, pick a card
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Guide the other learners in a discussion of the 
+                        questtion on the card you picked.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <ol marker="(a)">
+                            <li>
+                                <p>
+                                    How do you calculate the rate?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How do you calculate the time
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    How do you calculate the principal?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{black} \textbf{Key Takeaway:}}</m>
+    </p>
+    <p>
+        <m>\text{Simple interest}= \text{principal} \times \text{rate} \times \text{time} </m>...(i)
+    </p>
+    <p>
+        <ol marker="(a).">
+            <li>
+                <p>
+                    Divide both sides of the equation...(i) by <m>\textbf{rate} \times \textbf{time }</m> to get:
+                </p>
+                <p>
+                    <me>\text{Principal}= \frac{\text{Interest}}{ \text{rate} \times  \text{time}}</me>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Divide both sides of the equation...(i) by <m>\textbf{principal} \times \textbf{time }</m> to get:
+                </p>
+                <p>
+                    <me>\text{Rate}= \frac{\text{Interest}}{ \text{principal} \times  \text{time}}</me>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Divide both sides of the equation...(i) by <m>\textbf{principal} \times \textbf{rate }</m> to get:
+                </p>
+                <p>
+                    <me>\text{Time}= \frac{\text{Interest}}{ \text{principal} \times  \text{rate}}</me>.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <example>
+        <statement>
+            <p>
+                Murunga deposited money in a bank for two years. The bank paid a simple interest at a rate 
+                of <m>10\%</m> per annum. He earned simple interest of <m>sh \, 24\,000</m>. What was the pricipal amount?
+            </p>
+
+        </statement>
+        <solution>
+            <p>
+                Let the amount deposited be P
+            </p>
+            <p>
+                <m>I= sh\,24 \,0000</m>
+            </p>
+            <p>
+                <m>R= 10\%</m>
+            </p>
+            <p>
+                <m>T=2 \,\text{years}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Principal(P)}= \amp \frac{\text{Interest}}{\text{rate} \times \text{time}} </mrow>
+                    <mrow> =\amp \frac{sh\, 24\,000}{10\% \times 2}  \qquad \textbf{-------}&gt;\textbf{Divide both the numerator 
+                    and the denominator by 2.}</mrow>
+                    <mrow> =\amp \frac{sh\, 12\,000}{\frac{10}{100}} \qquad \textbf{-------}&gt; 10\% = \frac{\textbf{10}}{\textbf{100}} </mrow>
+                    <mrow>= \amp sh\, 12\,000 \times \frac{100}{10} </mrow>
+                    <mrow>= \amp \textbf{sh} \, 120 \,000</mrow>
+                </md>
+            </p>
+            <p>
+                The principal amount was <m>{\color{blue} \textbf{sh} \, 120 \,000}</m>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Talu sold her car for <m>sh\, 1\,000\,000</m>. She deposited the money in a bank. 
+                She earned a simple interest of <m>sh\, 240 \, 000</m> after three years. Calculate the rate 
+                at which the bank paid the simple interest.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Let the simple interest rate be represented by <m>R</m>
+            </p>
+            <p>
+                <m>P= sh\,1\,000 \,000</m>
+            </p>
+            <p>
+                <m>I= sh\,240\,0000</m>
+            </p>
+            <p>
+                <m>T= 3 \,\text{years}</m>
+            </p>
+            <p>
+                <m>R=</m>?
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Rate}(R)= \amp \frac{\text{Interest}}{\text{principal} \times \text{time}} </mrow>
+                    <mrow> =\amp  \frac{sh\, 240\,000}{sh\,1\,000\,000 \times 3}</mrow>
+                    <mrow> =\amp \frac{8}{100} \qquad \textbf{-------} &gt; \textbf{Because R is expressed as a percentage, 
+                    convert the fraction} \frac{8}{100}\,\textbf{to percentage by multiplying by 100%}</mrow>
+                    <mrow>= \amp 8\% </mrow>
+                </md>
+            </p>
+            <p>
+                The simple interest rate is <m>{\color{blue} 8\% }</m>.
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Munyao deposited <m>sh\, 25\,000</m> in a bank that paid simple interest at rate of <m>9\%</m> 
+                per annum. The deposit earned <m>sh\, 6\,750 </m> as simple interest. For how long did he deposit the money?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Let the duration the money will take in the bank be <m>T</m>
+            </p>
+            <p>
+                <m>P= sh\,25\,000</m>
+            </p>
+            <p>
+              <m>I= sh\,6\,750</m>
+                
+            </p>
+            <p>
+                <m>R= 9\%</m>
+            </p>
+            <p>
+                <m>T=</m>?
+            </p>
+            <p>
+                <md>
+                    <mrow>\text{Time}(T)= \amp \frac{\text{Interest}}{\text{principal} \times \text{rate}} </mrow>
+                    <mrow> = \amp  \frac{sh\, 6\,750}{sh\, 25\,000 \times 9\%}</mrow>
+                    <mrow>= \amp \frac{sh\, 6\,750}{sh\, 25\,000 \times \frac{9}{100}}\, \textbf{-------} &gt; 9\%= \frac{\textbf{9}}{\textbf{100}} </mrow>
+                    <mrow>= \amp  \frac{27}{9}</mrow>
+                    <mrow>= \amp \textbf{3 years} </mrow>
+                </md>
+            </p>
+            <p>
+                The duration it take is <m>{\color{blue} \text{3 years}}</m>
+            </p>
+            
+        </solution>
+    </example>
+
+
+
+
+ 
+
+
+
+    
+</subsection>

@@ -1,0 +1,295 @@
+<subsection xml:id="subsec-construction-of-irregular-polygons">
+        <title>Construction of Irregular Polygons</title>
+        <introduction>
+            <p>
+                An irregular polygon does not have equal sides and equal angles. 
+            </p>
+        </introduction>
+
+        <subsubsection xml:id="subsubsec-construction-of-irregular-triangle">
+            <title>Construction of Irregular Triangles</title>
+            <p>
+               There are different types of irregular triangles namely: isosceles, scalene and right triangle.
+            </p>
+            <p>
+                <term>Properties of isoscles triangle.</term>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                           Only two sides are equal in length. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Opposite angles of the triangle are equal. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The sum of the angles add up to <m>180^\circ.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                <term>Properties of scalene triangle.</term>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                           All the three sides have different length. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           All the angles have different sizes. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The sum of the angles add up to <m>180^\circ.</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                <term>Properties of right triangle.</term>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                           The sides are not equal in length. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           One of the angle measures  <m>90^\circ.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The sum of the angles add up to <m>180^\circ</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
+            <activity>
+                <p>
+                    Here is an activity on the construction of an isosceles triangle by created by <term>Simona Riva</term> in Geogebra.
+                </p>
+
+                <figure>
+                    <caption>Isoscles triangle</caption>
+                    <interactive xml:id="geogebra-isosceles-triangle" platform="geogebra" width="95%" aspect="4:3">
+                    <slate xml:id="isosceles" surface="geogebra" material="vr263f6y" aspect="4:3">
+                        enableShiftDragZoom(true);
+                        showResetIcon(true);
+                    </slate>
+                    </interactive>
+            </figure>
+
+            </activity>
+
+            <activity>
+                <p>
+                    Construct scalene triangle and right angle triangle using the applet provided below.
+                </p>
+                <p>
+                    Use the sliders to adjust the length <m>AB,\, \angle\, A \text{ and } \angle C</m>
+                     with respect to the type of triangle you are constructing.
+                </p>
+
+                <figure>
+                    <caption>Created by <term>Simona Riva</term> in Geogebra.</caption>
+                    <interactive xml:id="geogebra-triangle" platform="geogebra" width="95%" aspect="4:3">
+                    <slate xml:id="scalene-right-triangles" surface="geogebra" material="fcrvdheb" aspect="4:3">
+                        enableShiftDragZoom(true);
+                        showResetIcon(true);
+                    </slate>
+                    </interactive>
+                </figure>
+
+                <p>
+                    Discuss your results on the scalene and right triangle with other learners.
+                </p>
+
+            </activity>
+            
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-Construction-of-rhombus">
+            <title>Construction of a Rhombus</title>
+            <activity>
+            <p>
+                Follow the instruction below and construct a rhombus.
+            </p>
+            <p>
+                <term>Instructions</term>
+            </p>
+            <p>
+                <ol> 
+                    <li>
+                        <p>
+                            Select <term>point tool (Window 1),</term> create points <m>A</m> and <m>B</m> on the applet.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                             Select <term>compass tool (Window 3)</term>. Then click on point <m>A</m> and point <m>B</m> 
+                             and again on point <m>A</m> to construct a circle. 
+                             Then click on <m>B</m> and <m>A</m> again on <m>B</m> to construct another circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Select <term>intersect tool (Window 5),</term> click on the two circles to mark the point of intersection of the circles  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>segment tool (Window 6),</term> and draw  line segments <m>AD,\, DB,\,  BC \text{ and } CA</m> 
+                            to construct a rhombus.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Hide the circles by selecting the <term>show/hide object tool (Window 8)</term> and then click on the circles.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select the <term>angle tool (Window)</term> and measure  in the rhombus angles
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select <term>move tool (Window 7)</term> and move points <m>A</m> or <m>B</m> and observe what happens to your rhombus. 
+                        </p>
+                    </li>
+                    
+                </ol>
+            </p>
+
+            <figure>
+                <caption>Rhombus</caption>
+                <interactive xml:id="geogebra-rhombus" platform="geogebra" width="95%" aspect="4:3">
+                <slate xml:id="Rhombus" surface="geogebra" material="tfsuycqc" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+            </activity>
+        </subsubsection>
+
+        <subsubsection xml:id="subsubsec-Construction-of-irregular-pentagon">
+            <title>Construction of Irregular Pentagon</title>
+            <activity>
+            <p>
+                Construct an irregular hexagon using the following instructions.
+                 You have been provided with a segment <m>AB</m> measuring <m>8 cm.</m>
+            </p>
+            <p>
+                <term>Instructions</term>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                           Measure <m> \angle\, 120^\circ</m> at <m>B</m> by selecting on the <term>Angle with given size tool (Window 3),</term>
+                            then click on point <m>A</m> and <m>B.</m>  On the pop-up window, input angle size as <m>120^\circ</m> and 
+                            click on <term>clockwise</term> then <term>OK.</term> This will construct an angle <m>ABA'.</m> Select on the <term>
+                            line tool (Window 6)</term> to construct a line through <m>BA'.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Select on the <term>circle with given radius tool (Window 8).</term> Click on point <m>B</m> and on the pop-up window, 
+                            input the radius as <m>8</m> then click <term>OK.</term> This creates a circle with centre <m>B</m> and radis <m>8\, cm.</m>
+                             Select the <term>intersect tool (Window 7)</term> and click at the point of intersection <term>C</term> of the circle with the
+                              line <m>BA'.</m> The distance <m>BC</m> measures <m>8\, cm</m> which is the radius of the circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           Measure an angle <m>140^\circ</m> at <m>C</m> by selecting on the <term>Angle with given size tool (Window 3),</term>
+                            then click on point <m>B</m> and <m>C.</m>  On the pop-up window, input angle size as <m>140^\circ</m> and 
+                            click on <term>clockwise</term> then <term>OK.</term> This will construct an angle <m>BCB'.</m> Select on the <term>
+                            line tool (Window 6)</term> to construct a line through <m>CB'.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select on the <term>circle with given radius tool (Window 8).</term> Click on point <m>C</m> and on the pop-up window, 
+                            input the radius as <m>5</m> then click <term>OK.</term> This creates a circle with centre <m>C</m> and radis <m>5\, cm.</m>
+                             Select the <term>intersect tool (Window 7)</term> and click at the point of intersection <term>D</term> of the circle with the
+                              line <m>CB'.</m> The distance <m>CD</m> measures <m>5\, cm</m> which is the radius of the circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Measure <m>\angle\, 110^\circ</m> at <m>A</m> by selecting on the <term>Angle with given size tool (Window 3),</term>
+                            then click on point <m>B</m> and <m>A.</m>  On the pop-up window, input angle size as <m>110^\circ</m> and 
+                            click on <term>counterclockwise</term> then <term>OK.</term> This will construct an angle <m>BAB'_{1}.</m> Select on the <term>
+                            line tool (Window 6)</term> to construct a line through <m>AB'_{1}.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select on the <term>circle with given radius tool (Window 8).</term> Click on point <m>A</m> and on the pop-up window, 
+                            input the radius as <m>7</m> then click <term>OK.</term> This creates a circle with centre <m>A</m> and radius <m>7\, cm.</m>
+                             Select the <term>intersect tool (Window 7)</term> and click at the point of intersection <term>E</term> of the circle with the
+                              line <m>AB'_{1}.</m> The distance <m>AE</m> measures <m>7\, cm</m> which is the radius of the circle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           select the <term>hide/show label tool (Window 9)</term> and click on the lines <m>AB,\, BA',\, CB' \text{ and } AB'_{1}</m> to hide 
+                            the lines. Also click on the points <m>A',\, B' \text{ and }B'_{1}</m> to hide them.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select on the <term>segment tool (Window 2)</term> and draw segments <m>AB,\, BC,\,BD,\,DE \text{ and } EA</m> to form an irregular pentagon.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Select on <term>angle tool (Window 5)</term> and click on points <m>E,\, D,\, C</m> to measure the size of <m>\angle EDC.</m>
+                             Click on points <m>A,\, E,\, D</m> to measure the size of <m>\angle AED.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Right click on the segments and click on settings. Then click on  <term>Show label</term> and on the drop down arrow select <term>Value.</term>
+                             This will display the length of the segment. Repeat this to all the other segments in your pentagon.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                What is the measure of <m>DE,\, EA,\, \angle AED \text{ and } \angle EDC.</m> Share your findings with other learners.
+            </p>
+
+            <figure>
+                <caption>Pentagon</caption>
+                <interactive xml:id="geogebra-pentagon" platform="geogebra" width="95%" aspect="4:3">
+                <slate xml:id="pentagon" surface="geogebra" material="xyvjcqfh" aspect="4:3">
+                    enableShiftDragZoom(true);
+                    showResetIcon(true);
+                </slate>
+                </interactive>
+            </figure>
+            </activity>
+        </subsubsection>
+        
+    </subsection>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <subsection xml:id="subsec-perimeter-of-a-sector-of-a-circle-1">
+    <title>Perimeter of a sector of a circle 1</title>
+    <p>
+      A.
+    </p>
+    
+    <activity>
+     <p>
+      <ul>
+        <li>
+          <p>
+           Draw a circle of a radius <m>3.5 \text{ cm}</m> on a piece of paper.
+          </p>
+        </li>
+        <li>
+          <p>
+           Cut out the cicle around it's boundary. 
+          </p>
+        </li>
+        <li>
+          <p>
+           Fold the circular cut-out into four equal parts and cut out one of the four parts.
+          </p>
+        </li>
+        <li>
+          <p>
+           Calculate the arc length of the sector cut out.
+          </p>
+        </li>
+        <li>
+          <p>
+           Add the sum of the two radii in the arc length.
+          </p>
+        </li>
+        <li>
+          <p>
+           Discuss and compare the resukts with other groups.
+          </p>
+        </li>
+      </ul>
+     </p>
+                <p>The perimeter of a sector is the sum of it's arc length and the two radii.</p>
+    </activity>
+    <example>
+    <p>An arc of a sector of radius <m>28 \text { cm}</m></p> subtends an angle of <m>72 ^\circ</m> at the centre . Find the perimeter of the sector.
+    <statement>
+    </statement>
+    </example>
+  </subsection>

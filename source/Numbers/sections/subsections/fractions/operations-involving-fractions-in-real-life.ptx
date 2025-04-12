@@ -1,0 +1,278 @@
+<subsection xml:id="subsec-operations-involving-fractions-in-real-life">
+    <title>Operations involving fractions in real life</title>
+   <p>
+     Understanding how fractions work in real life is important because we use them in many everyday situations.
+   </p> 
+   <p>
+        Fractions help us solve problems like : 
+   </p>
+   <p>
+    <ol marker= "i)">
+        <li>
+            <p>
+                Measuring quantities during cooking, construction,...
+            </p>
+        </li>
+        <li>
+            <p>
+                Dividing resources while splitting bills, sharing items,...
+            </p>
+        </li>
+        <li>
+            <p>
+                Calculating proportions like discounts, interest rates,...
+            </p>
+        </li>
+        <li>
+            <p>
+                Managing time and tasks like scheduling lessons, fitness tracking,...
+            </p>
+        </li>
+        <li>
+            <p>
+                Sharing and comparing things
+            </p>
+        </li>
+    </ol>
+   </p>
+   <p>
+     Whether it's figuring out how much of a recipe to make, dividing a pizza, or working out discounts while shopping, knowing how to add, subtract, multiply, and divide things.
+     Fractions can make these tasks easier to handle.
+   </p>
+   <activity>
+    <statement>
+        <p>
+            
+        </p>
+        <p>
+         Aisha had the following conversation with her brother Malik and her sister Zara.
+        </p>
+        <p>
+            <m>\textbf{Aisha:}</m>   Good morning.    
+        </p>
+        <p>
+          <m>\textbf{Malik and Zara: }</m>Good morning Aisha.      
+        </p>
+        <p>
+            <m>\textbf{Aisha:}</m> Here is the orange juice and mango juice you requested me to buy.    
+        </p>
+        <p>
+            <m>\textbf{Zara:}</m>  Wow it will be enough for our friends   
+        </p>
+        <p>
+            <m>\textbf{Malik:}</m>   How much did you spend on each of them?  
+        </p>
+        <p>
+            <m>\textbf{Aisha: }</m> I spent <m>\frac{2}{5}</m> of the money I had to buy the orange juice and <m>\frac{1}{4}</m> of the money to buy the mango juice.
+             I was left with sh <m> 350</m>.    
+        </p>
+        <p>
+            <m>\textbf{Malik and Zara:}</m> Thank you for the juice sister.     
+        </p>
+        <p>
+         <ol>
+            <li>
+                <p>
+                    Role-play the conversation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <ol marker="(a)">
+                        <li>
+                            <p>
+                                Work out the fraction representing the amount of money Aisha spent to buy the two items.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Work out the fraction representing the remaining amount of money.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </li>
+            <li>
+                <p>
+                   <ol marker="(a)">
+                    <li>
+                        <p>
+                            Calculate the total amount of money Aisha had initially.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How much did Aisha spend on orange juice?
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How much did Aisha spend on mango juice?
+                        </p>
+                    </li>
+                   </ol> 
+                </p>
+            </li>
+         </ol>
+        </p>
+    </statement>
+   </activity>
+   <example>
+    <statement>
+        <p>
+          Cheptoo spends <m>\frac{1}{8}</m>  of her salary on food, <m>\frac{1}{2}</m> on rent, <m>\frac{1}{2}</m> of the remainder on school fees and saves the rest. 
+          If she save sh <m> 4,200</m>, calculate:
+        </p>
+        <p>
+            <ol marker="1">
+                <li>
+                    <p>
+                       The fraction of the salary Cheptoo saved. 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The amount of money she spent on food
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The amount of money she spent on rent.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The amount of money she spent on shool fees.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+       
+        <p>
+            <ol>
+                <li>
+                     <p>
+                      Let Cheptoo's salary be a whole number represented by <m>1</m> 
+                    </p>
+                    <p>
+                      Fraction of the remaining amount of money after spending on food and rent is:
+                    </p>
+                    <p>
+                        Fraction of food <m>= \frac{1}{8}</m>
+                    </p>
+                    <p>
+                        Fraction of rent <m>= \frac{1}{2}</m>
+                    </p>
+                    <p>
+                      <md>
+                        <mrow> 1-(\frac{1}{8} + \frac{1}{2}) \amp </mrow>
+                        <mrow> \frac{1}{8} + \frac{1}{2} =\amp \frac{1+4}{8}</mrow>
+                        <mrow> =\amp \frac{5}{8}</mrow>
+                        <mrow> 1- \frac{5}{8} =\amp \frac{1}{1} - \frac{5}{8}</mrow>
+                        <mrow>\frac{8-5}{8} =\amp \frac{3}{8} </mrow>
+                      </md>  
+                    </p>
+                   <p>
+                      Fraction of school fees:
+                                                <md>
+                                                    <mrow> \frac{1}{2} \times \frac{3}{8}=\amp \frac{1 \times 3}{2 \times 8}</mrow>
+                                                    <mrow> \amp </mrow>
+                                                    <mrow> =\amp \frac{3}{16} </mrow>
+                                      
+                                                </md>  
+                    </p>
+                    <p>
+                      Fraction of the money she spent on food,school fees and rent:
+                    </p>
+                    <p>
+                        Food <m>= \frac{1}{8}</m>
+                    </p>
+                    <p>
+                        Rent <m>= \frac{1}{2}</m>
+                    </p>
+                    <p>
+                        School fees <m>= \frac{3}{16}</m>
+                    </p>
+                    <p>
+                        <md>
+                            <mrow> \frac{1}{8} + \frac{1}{2} + \frac{3}{16} =\amp \frac{2+8+3}{16} </mrow>
+                            <mrow> \amp </mrow>
+                            <mrow> =\amp \frac{13}{16}</mrow>
+                        </md>
+                    </p>
+                    <p>
+                       Fraction of money she saved is:
+                    </p>
+                    <p>
+                        <md>
+                            <mrow> \frac{1}{1} - \frac{13}{16} =\amp \frac{16 - 13}{16}</mrow>
+                            <mrow> \amp </mrow>
+                            <mrow> =\amp \frac{3}{16}</mrow>
+                        </md>
+                    </p>
+                </li>    
+                <li>
+                    <p>
+                      The amount of money she spent on food, rent and school fees:
+                    </p>
+                    <p>
+                     Since she saved sh <m> 4 200</m> and the fraction she saved is <m>\frac{3}{16}</m>, it means that <m>\frac{3}{16}</m> represents sh <m>4 200</m>
+                    </p>
+                    <p>
+                      The total salary represented by <m>1</m> is given by:
+                    </p>
+                    <p>
+                        <md>
+                            <mrow>1 \times 4 200 \div \frac{3}{16} =\amp 1 \times 4 200 \times \frac{16}{3}</mrow>
+                            <mrow> \amp </mrow>
+                            <mrow> =\amp 4200 \times \frac{16}{3}</mrow>
+                        </md>
+                    </p>
+                    <p>
+                        <ol marker="i)">
+                            <li>
+                                <p>
+                                   Amount spent on food = <m>\frac{1}{8}</m> of the total salary
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> \frac{1}{8} \times 4200 \times \frac{16}{3} =\amp \frac{1}{\cancel{8}_1} \times \frac{\cancel{16}^2}{\cancel{3}_1} \times \cancel{4200}^{1400} </mrow>
+                                        <mrow> \amp </mrow>
+                                        <mrow>  =\amp \text{ sh} \quad 2800 </mrow>
+                                    </md>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Amount spent on rent = <m>\frac{1}{2}</m> of the total salary
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> \frac{1}{2} \times 4200 \times \frac{16}{3} =\amp \frac{1}{\cancel{2}_1} \times \frac{\cancel{16}^8}{\cancel{3}_1} \times \cancel{4200}^{1400}   </mrow>
+                                        <mrow> \amp </mrow>
+                                        <mrow> =\amp \text{ sh} \quad 11 200</mrow>
+                                    </md>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Amount spent on school fees = <m>\frac{3}{16}</m> of the total salary
+                                </p>
+                                <p>
+                                    But we already know that <m>\frac{3}{16}</m> represents sh <m>4 200</m>
+                                </p>
+                                <p>
+                                    Hence amount spent on school fees <m>= </m> sh <m> 4 200</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </solution>
+   </example>
+</subsection>

@@ -1,0 +1,225 @@
+<subsection xml:id="subsec-combined-operations-involving-multiplication-and-division">
+    <title>Combined operations involving multiplication and division.</title>
+    <p>
+       Following order of operations, we perform division first then multiplication .  
+    </p>
+    <p>
+        To perform division of Fractions: 
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                   Multiply the first fraction by the reciprocal of the second fraction (flip the numerator and denominator of the second fraction).  
+                </p>
+            </li>
+            <li>
+                <p>
+                   Example :Given <m>\frac{1}{9} \div \frac{1}{6}</m>, then
+                </p>
+            </li>
+            <li>
+                <p>
+                  <m>\frac{1}{9} \div \frac{1}{6} = \frac{1}{9}\times \frac{6}{1}</m>
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        To perform multiplication of Fractions:     
+    </p>
+    <p>
+      Multiply the numerators together and the denominators together. Simplify the result if possible.   
+    </p>
+    <p>  
+           Example: 
+        <md>
+            <mrow>\frac{2}{3} \times \frac{3}{5} =\amp\frac{2 \times3}{3 \times 5} </mrow>
+            <mrow>=\amp \frac{6}{15} </mrow>
+        </md>
+    </p>
+    <p>
+        Simplify <m>\frac{6}{15}</m> by dividing the denominator and the numerator by <m>3</m> we get: <m>\frac{2}{5}</m>.
+    </p>
+    <activity>
+        <statement>
+            <p>
+                
+            </p>
+            <p>
+              1. Working in groups of <m>5</m> , use numbers from <m>1</m> to <m> 9</m> to create <m>3</m> proper fractions each.
+            </p>
+            <p>
+              A proper fraction has a numerator smaller than the denominator e.g <m>\frac{2}{3}, \frac{4}{5}, \frac{1}{2}</m>.
+            </p>
+            <p>
+              2. Write down all the fractions formed by each member and discuss as a group if they are all proper fractions.
+            </p>
+            <p>
+              3. Write three expressions involving multiplication and division operations using the fractions you formed.
+            </p>
+            <p>
+               Example of an expression: <m>\frac{2}{3} \div \frac{4}{5} \times \frac{1}{2}</m> 
+            </p>
+            <p>
+              4. Solve each expression step by step and simplify your solution if possible.
+            </p>
+            <p>
+              5. Share your work with other learners in class.
+            </p>
+            <p>
+              6. Discuss what you learnt from solving expressions involving multiplication and division of fractions.
+            </p>   
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Work out the following:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                           <m>\frac{2}{3} \div \frac{4}{5} \times \frac{6}{7}</m> 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\frac{3}{4} \times \frac{2}{5} \div \frac{1}{2}</m>  
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+              a) Given <m>\frac{2}{3} \div \frac{4}{5} \times \frac{6}{7}</m> we perform division first.
+            </p>
+            <p>
+              Division of fractions is the same as multiplying by the reciprocal i.e.  
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{2}{3} \div \frac{4}{5} = \amp \frac{2}{3} \times \frac{5}{4}</mrow>
+                    <mrow> \frac{2}{3} \times \frac{5}{4} =\amp \frac{2 \times 5}{3 \times4}</mrow>
+                    <mrow> =\amp \frac{10}{12} </mrow>
+                </md>
+            </p>
+            <p>
+                Simplify <m>\frac{10}{12}</m> by dividing numerator and denominator by <m>2</m>:
+            </p>
+            <p>
+                <m>= \frac{5}{6}</m>
+            </p>
+            <p>
+              Now multiply the result by <m>\frac{6}{7}</m>​:
+            </p>
+            <p>
+               <md>
+                    <mrow>\frac{5}{6} \times \frac{6}{7} =\amp \frac{5 \times 6}{6 \times 7} </mrow>
+                    <mrow>=\amp \frac{30}{42} </mrow>
+                </md>
+            </p>
+            <p>
+              Simplify <m>\frac{30}{42}</m> by dividing numerator and denominator by <m>6</m>:
+            </p>
+            <p>
+                <md>
+                  <mrow>\frac{30}{42} \amp= \frac{5}{7}</mrow> 
+               </md>
+            </p>
+            <p> 
+                Therefore,
+                <md>
+                    <mrow> \frac{2}{3} \div \frac{4}{5} \times \frac{6}{7} =\amp \frac{5}{7}</mrow>
+                </md>
+            </p>
+            <p>
+                b) For <m>\frac{3}{4} \times \frac{2}{5} \div \frac{1}{2}</m>
+            </p>
+            <p>
+                Divide <m>\frac{2}{5}</m> by <m>\frac{1}{2}</m> first.
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{2}{5} \div \frac{1}{2} =\amp  \frac{2}{5} \times \frac{2}{1} = \frac{2 \times 2}{5 \times 1} </mrow>
+                    <mrow> =\amp \frac{4}{5}</mrow>
+                </md>
+            </p>
+            <p>
+              Rewriting the expression we have:  <m>\frac{3}{4} \times \frac{4}{5}</m>.
+            </p>
+            <p>
+              Performing multiplication:    <md>
+                                              <mrow> \frac{3}{4} \times \frac{4}{5} =\amp \frac{3 \times4}{4 \times 5}</mrow>
+                                            </md>
+            </p>
+            <p>
+                <md>
+                    <mrow> \frac{3 \times {\cancel{4}}}{\cance{4}\times 5}=\amp \frac{3}{5}</mrow>
+                </md>
+            </p>
+            <p>
+                Hence   <md>
+                           <mrow> \frac{3}{4} \times \frac{2}{5} \div \frac{1}{2} =\amp \frac{3}{5}</mrow>
+                        </md>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                A farmer has <m>4\frac{1}{2}</m> acres of land. He plans to plant corn on <m>2\frac{1}{4}</m> of the land, and then divide that portion into plots of <m>\frac{3}{4z}</m> acre each. 
+                How many plots of corn can the farmer plant?
+            </p>
+        </statement>
+        <solution>
+            <p>
+              First, convert mixed numbers to improper fractions.
+            </p>
+            <p>
+                <md>
+                    <mrow> 4\frac{1}{2} =\amp \frac{9}{2} </mrow>
+                    <mrow> 2\frac{1}{4} =\amp \frac{9}{4}</mrow>
+                </md>
+            </p>
+            <p>
+              To find the land for corn, multiply the total fraction of the land by the portion of the land for planting corn.
+            </p>
+            <p>
+              Land for corn <md>
+                                <mrow> = \frac{9}{2} \times \frac{9}{4} =\amp \frac{9 \times 9}{8} </mrow>
+                                <mrow> =\amp \frac{81}{8}</mrow>
+                            </md>   
+            </p>
+            <p>
+              Next, divide the land for corn by the size of each plot to find the number of plots he can plant.
+            </p>
+            <p>
+                Number of plots <m>= \frac{81}{8} \div \frac{3}{4}</m>
+            </p>
+            <p>
+                Since dividing by a fraction is the same as multiplying by its reciprocal, then:
+            </p>
+            <p>
+               <m>= \frac{81}{8} \div \frac{3}{4} = \frac{81}{8} \times \frac{4}{3}</m> 
+            </p>
+            <p>
+               Number of plots <m>\frac{81}{\cancel{8}} \times \frac{\cancel{4}}{3} = \frac{81 \times 1}{2 \times 3}</m>  
+            </p>
+            <p>
+                <m>\frac{81 \times 1}{2 \times 3} = \frac{81}{6} </m>
+            </p>
+            <p>
+                Simplify the fraction <m>\frac{81}{6} </m> by dividing through by <m>3</m> .
+            </p>
+            <p>
+                 <m>\frac{81}{6} = \frac{27}{3}</m>
+            </p>
+            <p>
+                Therefore, number of plots <m>= 13\frac{1}{2}</m>
+            </p>
+        </solution>
+    </example>
+</subsection>

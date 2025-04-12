@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-money" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Money</title>
+    <introduction>
+        <p>
+            We use money to buy items and pay for services. We can also invest 
+            money in banks to earn intrest. Knowledge of money helps us to know whether assets increase 
+            or decrease in value to inform our investment decisions. This knowledge also helps us to make 
+            decisions on the best offer when buying goods on credit. The figure below shows people seeking
+            services related to money from a bank.
+        </p>
+        <image source="/Bank.png" >
+            <shortdescription>Bank transaction</shortdescription>
+        </image>
+   
+        
+    </introduction>  
+
+    <xi:include href="subsections/money/subsec-interest-and-principal.ptx" />
+
+    <xi:include href="subsections/money/subsec-simple-interest.ptx" />
+
+    <xi:include href="subsections/money/subsec-simple-interest2.ptx" />
+
+    <xi:include href="subsections/money/subsec-compound-interest.ptx" />
+
+    <xi:include href="subsections/money/subsec-appreciation.ptx" />
+    
+    <xi:include href="subsections/money/subsec-depreciation.ptx" />
+
+    <xi:include href="subsections/money/subsec-hire-purchase.ptx" />
+    
+
+
+    
+ 
+
+
+
+
+</section>

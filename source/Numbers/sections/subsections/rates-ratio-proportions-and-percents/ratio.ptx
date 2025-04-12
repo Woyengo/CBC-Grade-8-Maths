@@ -1,0 +1,937 @@
+<subsection xml:id="subsec-ratio">
+    <title>Ratio</title>
+
+    <introduction>
+        <p>
+            A ratio is a comparison of two numbers. 
+            Ratios can be written in three ways: as a fraction, with a colon, or with the word "to."
+        </p>
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-Experessing-Fractions-as-Ratios-in-Real-Life-Situations">
+        <title>Experessing Fractions as Ratios in Real-Life Situations.</title>
+
+        <activity>
+            <p>
+                <em><term>Work in Groups.</term></em>
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Divide a strip of paper into <m>8</m> equal parts.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Color three parts red and five parts blue.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Cut out the eight parts.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the fraction of the strips represented by red cut-outs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the fraction of the strips represented by blue cut-outs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Express the number of the red cut-outs as fractions to the number of the blue cut-outs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the ratio of red cut-outs to blue cut-outs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share your results with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
+            <image>
+                <shortdescription>Paper strip.</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw[fill=red] (0,0) rectangle (1,1);
+                        \draw[fill=red] (1,0) rectangle (2,1);
+                        \draw[fill=red] (2,0) rectangle (3,1);
+                        \draw[fill=blue] (3,0) rectangle (4,1);
+                        \draw[fill=blue] (4,0) rectangle (5,1);
+                        \draw[fill=blue] (5,0) rectangle (6,1);
+                        \draw[fill=blue] (6,0) rectangle (7,1);
+                        \draw[fill=blue] (7,0) rectangle (8,1);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+
+            <image>
+                <shortdescription>Paper strip with 5.</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw[fill=blue] (0,0) rectangle (1,0.5);
+                        \draw[fill=blue] (1,0) rectangle (2,0.5);
+                        \draw[fill=blue] (2,0) rectangle (3,0.5);
+                        \draw[fill=blue] (3,0) rectangle (4,0.5);
+                        \draw[fill=blue] (4,0) rectangle (5,0.5);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp \textbf{Learning Point} </mrow>
+            </md>
+        </p>
+
+        <p>
+            <md>
+                <mrow> \amp \text{Fraction} \, (\frac{a}{b})\, \text{can be expressed as a ratio} \, (a:b), \, i.e </mrow>
+            </md>
+        </p>
+
+        <p>
+            <md>
+                <mrow> \amp \frac{3}{8} = 3:8 </mrow>
+            </md>
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    The number of boys in a class of <m>50</m> learners is <m>30</m>.
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Find the number of girls.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Express the number of boys as a fraction to the number of girls.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the ratio of the number of boys to the number of girls.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                The number of girls in the class is given as;
+                                <me>\text{Total number of learners of a class} - \text{Number of boys in the class} </me>                                 
+                            </p>
+                            <p>
+                                <me>50 - 30 = 20 </me> girls present in class.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                To express the of boys to girls as fraction, we have to divide the number of boys to that of girls in the class
+                            </p>
+                            <p>
+                                Previously, we had boys = <m>30</m> and girls = <m>20</m>.
+                            </p>
+                            <p>
+                                <me>\text{Boys as a fractions} = \frac{30}{20}</me>
+                            </p>
+                            <p>
+                                <me>= \frac{3}{2}</me>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Expressing fractions to ratios we introduce <em>colons</em> instead of the fraction bar.
+                            </p>   
+                            <p>
+                                <me>\text{Ratio of boys to girls} = 3:2</me>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    A solution contains <m>20</m> grams of salt and <m>100</m> millilitres of water. Find the ratio of salt to water.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the ratio of salt to water, we have to divide the amount of salt by the amount of water.
+                </p>
+                <p>
+                    Expressing fractions to ratios we introduce <em>colons</em>.
+                </p>
+                <p>
+                    <me>\text{Fraction of salt to water} = \frac{20}{100}</me>
+                </p>
+                <p>
+                    <me>= \frac{1}{5}</me>
+                </p>
+                <p>
+                    Therefore, the ratio of salt to water is <me>\text{Ratio of salt to water} = 1:5</me>.
+                </p>
+            </solution>
+        </example>
+        
+        <example>
+            <statement>
+                <p>
+                    A solution consists of <m>\frac{3}{5}</m> of liquid A and the rest is liquid B.
+                </p>
+
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Express the liquid A as a fraction to liquid B in the mixture.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the ratio A:B.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+
+            <solution>
+
+                <p>
+                    To find the amount in solution B we substrat the amount of liquid A from the total amount of the solution.
+                </p>
+
+                <p>
+                    The total solution adds up to <m>1</m>.
+                </p>
+
+                <p>
+                    Therefore, the amount of liquid B is <m>1 - \frac{3}{5} = \frac{2}{5}</m>.
+                </p>
+
+                <p>
+                    To express the liquid A as a fraction to liquid B, we have to divide the amount of liquid A by the amount of liquid B.
+                </p>
+
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Now lets divide the amount of liquid A by the amount of liquid B.
+                            </p>
+
+                            <p>
+                                <me>\frac{Liquid \, A}{Liquid \, B} = \frac{\frac{3}{5}}{\frac{2}{5}}</me>
+                            </p>
+
+                            <p>
+                                To solve for the fraction we invert the divisor and multiply.
+                            </p>
+
+                            <p>
+                                <me>= (\frac{3}{5} \times \frac{5}{2})</me>
+                            </p>
+
+                            <p>
+                                Therefore, the amount of <em>liquid A</em> as a fraction to <em>liquid B</em> is;
+                            </p>
+
+                            <p>
+                                <me>Liquid \, A \text{as a fraction} = \frac{3}{2}</me>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Expressing fractions to ratios we introduce <em>colons</em> to separate the numerator and the denominator of the fraction.
+                            </p>
+
+                            <p>
+                                <me>\text{Ratio A:B} = 3:2</me>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                
+            </solution>
+        </example>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-comparing-two-ratios-in-differnt-situations">
+        <title>Comparing Two Ratios in Differnt Situations</title>
+
+        <activity>
+            <p>
+                <em><term>Work in Groups.</term></em>
+            </p>
+            <p>
+                (Use two strips of paper of equal lenghts in this activity)
+            </p>
+
+            <p>
+                Consider the ratio <m>2:3</m> and <m>4:5.</m>
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            For <m>2:3</m> divide one strip into five equal parts and colour the first two parts with green.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            For <m>4:5</m> divide one strip of paper into nine equal parts and colour the first four part with blue colour.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Compare the lengths of the colored parts on each strip.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Discuss and share with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <image>
+                <shortdescription>Strip with 2:3</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw[fill=green] (0,0) rectangle (1,0.5);
+                        \draw[fill=green] (1,0) rectangle (2,0.5);
+                        \draw[fill=pink] (2,0) rectangle (3,0.5);
+                        \draw[fill=pink] (3,0) rectangle (4,0.5);
+                        \draw[fill=pink] (4,0) rectangle (5,0.5);
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+
+            <image>
+                <shortdescription>Strip with 4:9</shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw[fill=blue] (0,0) rectangle (1,1);
+                        \draw[fill=blue] (1,0) rectangle (2,1);
+                        \draw[fill=blue] (2,0) rectangle (3,1);
+                        \draw[fill=blue] (3,0) rectangle (4,1);
+                        \draw[fill=purple] (4,0) rectangle (5,1);
+                        \draw[fill=purple] (5,0) rectangle (6,1);
+                        \draw[fill=purple] (6,0) rectangle (7,1);
+                        \draw[fill=purple] (7,0) rectangle (8,1);
+                        \draw[fill=purple] (8,0) rectangle (9,1);
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp \textbf{Learning Point} </mrow>
+            </md>
+        </p>
+
+        <p>
+            <m> \text{To compare rates,}</m>
+            <ul>
+                <li>
+                    <p>
+                        Express each ratio as a fraction.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Write the equivalenta form for each fraction such that the fraction have the same denominator.
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <activity>
+            <p>
+                <em><term>Work in Groups</term></em>
+            </p>
+
+            <p>
+                Consider the ratios <m>3:4</m> and <m>5:7</m>
+                <ol>
+                    <li>
+                        <p>
+                            Write the two ratios as fractions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Express each fraction as equivalent fraction such that they have the same denominator.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Identify the greater and lesser fraction.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <example>
+            <statement>
+                <p>
+                    Compare the rates <m>3:5</m> and <m>7:8.</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    First we convert the ratios to fractions
+                </p>
+                <p>
+                    <md>
+                        <mrow>3:5 =  \amp \frac{3}{5} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>7:8 = \amp \frac{7}{8} </mrow>
+                    </md>
+                </p>
+                <p>
+                    Then we find the LCM of the fractions using the denominators.
+                </p>
+                <p>
+                    The LCM of <m>5</m> and <m>8</m> is <m>40.</m>
+                    Now to solve for the initial fraction, we multiply one fraction with the value of the denominator of the other fraction.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{3}{5} = \amp \frac{3 \times 8}{5 \times 8} </mrow>
+                    </md>,
+                </p>
+                <p>                     
+                    <md>
+                        <mrow>\frac{7}{8} = \amp \frac{7 \times 5}{8 \times 5} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> = \amp \frac{24}{40}, \frac{35}{40} </mrow>
+                    </md>
+                </p>
+                <p>
+                    Thus, 
+                    <md>
+                        <mrow> 3:5 = \amp 24:40</mrow>
+                    </md>
+                    and
+                    <md>
+                        <mrow>3:5 = \amp 35:40</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, <m>3:5</m> is less than <m>7:8</m>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-comparing-three-ratios-in-different-situations">
+        <title>Comparing Three Ratios in Different Situations.</title>
+
+        <activity>
+            <title>Work in Groups</title>
+            <p>
+                Consider three ratios 
+                <md>
+                    <mrow> 3:4, 5:8, 7:12 </mrow>
+                </md>
+                <ol>
+                    <li>
+                        <p>
+                            Write the three ratios as fractions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Express each fractions as an equivalent fraction such that they have a common denominator.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Compare the numerator of the equivalent fractions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Disucss and share with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            
+        </activity>
+
+        <example>
+            <statement>
+                <p>
+                    Compare and find the greatest ratio among the following:
+                    <me>
+                        2:3, 5:6, 4:9
+                    </me>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Convert the ratios to fractions first.
+                </p>
+                <p>
+                    <md>
+                        <mrow>2:3 = \amp \frac{2}{3} </mrow>
+                    </md>,
+                    <md>
+                        <mrow>5:6 = \amp \frac{5}{6} </mrow>
+                    </md>
+                    <md>
+                        <mrow>4:9 = \amp \frac{4}{9} </mrow>
+                    </md>
+                </p>
+                <p>
+                    Then, find the LCM of the fraction which we use the denominators
+                </p>
+                <p>
+                    The LCM of <m>3, 6, 9</m> is <m>18.</m>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{2}{3} = \amp \frac{2 \times 6}{3 \times 6} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{5}{6} = \amp \frac{5 \times 3}{6 \times 3} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>                        
+                        <mrow>\frac{4}{9} = \amp \frac{4 \times 2}{9 \times 2} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>= \amp \frac{12}{18}, \frac{15}{18}, \frac{8}{18} </mrow>
+                    </md>
+                </p>
+                <p>
+                    This means that;
+                </p>
+                <p>
+                    <md>
+                        <mrow>2:3 = \amp 12:18 </mrow>
+                        <mrow>5:6 = \amp 15:18 </mrow>
+                        <mrow>4:9 = \amp 8:18 </mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore, <m>5:6</m> is the greatest ratio.
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-dividing-quantities-in-given-ratios-in-real-life-situations">
+        <title>Dividing Quantities in Given Ratios in Real Rife Situations.</title>
+
+        <activity>
+            <title>Work in Groups</title>
+
+            <p>
+                Two learners some exercise books in the ratio <m>4:5.</m>
+
+                <ol>
+                    <li>
+                        <p>
+                            The ratio <m>4:5</m> has <m>4 + 5.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The total number of parts is <m>9.</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the number of exercise books for one part.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the number of books recieved by each learner.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share with other groups
+                        </p>
+                    </li>
+                </ol>
+            </p>        
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp {\textbf{Key Takeaway}} </mrow>
+            </md>
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>{\text{If a quantity is divided in the ratio} [a:b], \text{the resulting fractions of the quantity are:}}</m>
+                        <m>{\text{for}}</m> <m>{a;}</m>
+                        <md>
+                            <mrow>\amp {\frac{a}{(a+b)}} </mrow>
+                        </md>
+                        <m>{\text{and for}}</m> <m>{b;}</m>
+                        <md>
+                            <mrow> \amp {\frac{b}{(a+b)}}</mrow>
+                        </md>
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        <m>{\text{For the ratio} [a:b:c], \text{the resulting fractions of quantities are:}}</m>
+                    </p>
+                    <p>
+                        <m>{\text{for}}</m> <m>{a;}</m> 
+                        <md>
+                            <mrow> \amp{\frac{a}{(a+b+c)}}</mrow>
+                        </md>
+                    </p>
+                    <p>
+                        <m>{\text{for}}</m> <m>{b;}</m>
+                        <md>
+                            <mrow> \amp {\frac{b}{(a+b+c)}} </mrow>
+                        </md>
+                    </p>
+                    <p>
+                        <m>{\text{for}}</m> <m>{c;}</m>
+                        <md>
+                            <mrow> \amp {\frac{c}{(a+b+c)}} </mrow>
+                        </md>
+                    </p>
+                </li>
+            </ul>
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    Twenty apples were share between Cheptoo and Mwango in the ratio <m>2:3</m>.
+                    Find out how many apples each got?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Expressing each part of the ratio as a fraction of the total, 
+                    Cheptoo got <m>\frac{2}{5}</m> and Mwango got <m>\frac{3}{5}</m> of the apples.
+                </p>
+                <p>
+                    Mwango got <m>\frac{3}{5}</m> of the apples.
+                </p>
+                <p>
+                    Therefore, the number of apples Cheptoo got is;
+                    <me>
+                        Number\, of\, apples\, Cheptoo\, got\, = \frac{2}{5} \times 20
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        = \frac{40}{5}
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        = 8 \text{ apples}
+                    </me>
+                </p>
+                <p>
+                    The number of apples Mwango got is;
+                    <me>
+                        Number\, of\, apples\, Mwango\, got\, = \frac{3}{5} \times 20
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = \frac{60}{5}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = 12 \text{ apples}
+                    </me>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    A <m>63</m> hectare farm is to be shared among three sons in the ratio <m>2:33:4</m>.
+                    Find the size in hactares recieved by each of the sons.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The total number of parts in the ratio is;
+                    <me>
+                        2 + 3 + 4 = 9
+                    </me>
+                </p>
+                <p>
+                    The shares are;
+                    <md>
+                        <mrow>\frac{2}{9} \times 63 \amp = 14\, \text{hectares} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{3}{9} \times 63 \amp = 21\, \text{hectares} </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{4}{9} \times 63 \amp = 28\, \text{hectares} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-working-out-rates-in-different-situations">
+        <title>Working Out Ratios in Different Situations.</title>
+
+        <activity>
+            <title>Work in Groups</title>
+            
+            <p>
+                Kioko is given <em>Kshs.</em> <m>400</m> as pocket money while Murunga has <em>Kshs.</em> <m>600.</m>
+                <ol>
+                    <li>
+                        <p>
+                            Find the ratio of Kioko's pocket money to Mururnga's pocket money.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss, compare and share with your friends findings with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <example>
+            <statement>
+                <p>
+                    Six thousand litres of a chemical produsced in a factory contains susbstances <m>A</m> and <m>B.</m>
+                    If substance <m>A</m> in the chemical is <m>2400</m> litres,
+                    find the ratio of substance <m>A</m> to <m>B</m> in the chemical.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <me>
+                        Total\, number\, of\, litres\, of\, substance\, A\, and\, B\, = 6000
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        \text{Litres of substance} B = (\text{Total number of litres} - \text{Litres of substance} A) \text{litres}
+                    </me>                    
+                </p>
+                <p>
+                    <me>
+                        = (6000 - 2400)\, litres
+                    </me>                    
+                </p>
+                <p>
+                    Ratio of <m>A</m> and <m>B</m>
+                    <md>
+                        <mrow> \amp = 2400:3000 </mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \amp = 2:3 </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-working-out-increase-and-decrease-of-quantities-using-ratio-in-real-life-situations">
+        <title>Working Out Increase and Decrease of Quantities Using Ratio in Real Life Situations.</title>
+
+        <activity>
+            <title>Work in Groups.</title>
+            
+            <p>
+                The number of students in a class in the first term was 54.
+                The number increased in the ratio <m>2:1</m> the following term.
+
+                <ol>
+                    <li>
+                        <p>
+                            1 part of the ratio corresponds to <m>54</m>. Find the number of students for <m>2</m> parts..
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Find the number of students in the class the following term.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Had the number if students decreased in the ratio <m>1:2</m>, find what would be the number of students.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share your results with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \amp {\text{Key Takeaway}} </mrow>
+            </md>
+        </p>
+
+        <p>
+            To increase or decrease a quantity in a given ratio, 
+            the quantity is multiplied by the corresponding fraction to the ratio.
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    In a certain year the population in a town was <m>211400.</m>
+                    In the following year the population increased in the ratio <m>9:7.</m>
+                    Find the population in the following year.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <me>
+                        Population\, before\, was = 211400
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        Population\, increase\, ratio\, was\, = (9:7)
+                    </me>
+                </p>
+                <p>
+                    Population after increase is;
+                    <me>
+                        211400 \times \frac{9}{7} = \frac{9 \times 211400}{7}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = \frac{1902600}{7}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = 271800\, people
+                    </me>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    The milk production in a dairy farm was <m>360</m> litres in a day. After one month the production reduced in the ratio <m>5:9.</m> 
+                    Find the new dairy production per day.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Fraction representing the reduction of milk production is;
+                    <me>
+                        \frac{5}{9}
+                    </me>                    
+                </p>
+                <p>
+                  <me>
+                        \text{Initial production} = 360 \text{ litres}
+                  </me>
+                </p>
+                <p>
+                    <me>
+                        \text{New production} = 360 \times \frac{5}{9}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = \frac{1800}{9}
+                    </me>
+                </p>
+                <p>
+                    <me>
+                        = 200 \text{ litres}
+                    </me>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+
+    
+</subsection>

@@ -1,0 +1,222 @@
+<subsection xml:id="subsec-rounding-off-decimal-numbers-to-the-required-decimal-places">
+    <title>Rounding off decimal numbers </title>
+    <p>
+        To round a decimal number to a specified number of decimal places, 
+        we examine the digit immediately after the desired decimal place. 
+        If this digit is less than <m>5</m>, simply remove all subsequent digits. 
+        If the digit is <m>5</m> or greater, we add <m>1</m> to the digit in the desired decimal 
+        and eliminate the following digits. 
+    </p>
+    <activity>
+        <introduction>
+            <p>
+                <alert>Work in groups of 5 learners</alert>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Using digits <m>1,2,3,4,5,6,7,8,9,</m>
+                    create a <m>6</m> digit number and write it down on a piece of paper.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Divide the number created in <alert>step (b)</alert> by <m>10000</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Round off the resulting number to correct <m>3</m> decimal place.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Share and discuss your calculations with the rest of learners in the class.
+                </p>
+            </statement>
+        </task>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Round off each of the following to one decimal place:
+            </p>
+            <p>
+                <ol marker="a)" cols="2">
+                    <li>
+                        <p>
+                            <m>45.672</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1.712</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>45.672</m>
+                        </p>
+                        <p>
+                            We first place each digit in its correct place value position. 
+                        </p>
+                        <tabular bottom="medium" left="medium" right="medium" top="medium">
+                            <row header="yes" valign="middle">
+                                <cell>Number</cell>
+                                <cell>Tens</cell>
+                                <cell>Ones</cell>
+                                <cell>Decimal point</cell>
+                                <cell>Tenths</cell>
+                                <cell>Hundredths</cell>
+                                <cell>Thousandths</cell>
+                            </row>
+                            <row>
+                                <cell halign="center"><m>45.672</m></cell>
+                                <cell halign="center"><m>4</m></cell>
+                                <cell halign="center"><m>5</m></cell>
+                                <cell halign="center"><m>.</m></cell>
+                                <cell halign="center"><m>6</m></cell>
+                                <cell halign="center"><m>7</m></cell>
+                                <cell halign="center"><m>2</m></cell>
+                            </row>
+                        </tabular>
+                        <!-- <p>
+                            To round of  <m>45.672</m> to one decimal place,
+                            we look at the digit in the hundredths place value. 
+                        </p>
+                        <p>
+                            Since the digit the hundredths place value is greater than
+                            <m>5</m> we add <m>1</m> to the digit in the tenths place value.
+                        </p>
+                        <p>
+                            Therefore, <m>45.672</m> correct to one decimal place is <m>45.7</m>
+                        </p> -->
+                        <p> 
+                            To round <m>45.672</m> to one decimal place, we examine the digit in the hundredths place. 
+                        </p> 
+                        <p> 
+                            The hundredths digit is <m>7</m>, which is greater than <m>5</m>. Therefore, we add <m>1</m> to the tenths digit. 
+                        </p> 
+                        <p> 
+                            Thus, <m>45.672</m> rounded to one decimal place is <m>45.7</m>. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1.712</m>
+                        </p>
+                        <p>
+                            We first place each digit in its correct place value position. 
+                        </p>
+                        <tabular bottom="medium" left="medium" right="medium" top="medium">
+                            <row header="yes" valign="middle">
+                                <cell>Number</cell>
+                                <cell>Ones</cell>
+                                <cell>Decimal point</cell>
+                                <cell>Tenths</cell>
+                                <cell>Hundredths</cell>
+                                <cell>Thousandths</cell>
+                            </row>
+                            <row>
+                                <cell halign="center"><m>1.712</m></cell>
+                                <cell halign="center"><m>1</m></cell>
+                                <cell halign="center"><m>.</m></cell>
+                                <cell halign="center"><m>7</m></cell>
+                                <cell halign="center"><m>1</m></cell>
+                                <cell halign="center"><m>2</m></cell>
+                            </row>
+                        </tabular>
+                        <p> 
+                            To round <m>1.712</m> to one decimal place, we examine the digit in the hundredths place. 
+                        </p> 
+                        <p> 
+                            The hundredths digit is <m>1</m>, which is less than <m>5</m>. Therefore, we don't add <m>1</m> to the tenths digit. 
+                        </p> 
+                        <p> 
+                            Thus, <m>1.712</m> rounded to one decimal place is <m>1.7</m>. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <example>
+        <statement>
+            <p>
+                Round off the following mass in kilograms correct to three decimal places:
+            </p>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>4.7823</m> kg
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="a)">
+                    <li>
+                        <p>
+                            <m>4.7823</m> kg
+                        </p>
+                        <p>
+                            We first place each digit in its correct place value position. 
+                        </p>
+                        <tabular bottom="medium" left="medium" right="medium" top="medium">
+                            <row header="yes" valign="middle">
+                                <cell>Number</cell>
+                                <cell>Ones</cell>
+                                <cell>Decimal point</cell>
+                                <cell>Tenths</cell>
+                                <cell>Hundredths</cell>
+                                <cell>Thousandths</cell>
+                                <cell>Hundred thousandths</cell>
+                            </row>
+                            <row>
+                                <cell halign="center"><m>4.7823</m></cell>
+                                <cell halign="center"><m>4</m></cell>
+                                <cell halign="center"><m>.</m></cell>
+                                <cell halign="center"><m>7</m></cell>
+                                <cell halign="center"><m>8</m></cell>
+                                <cell halign="center"><m>2</m></cell>
+                                <cell halign="center"><m>3</m></cell>
+                            </row>
+                        </tabular>
+                        <p> 
+                            To round <m>4.7823</m> to three decimal place, we examine the digit in the hundred thousandths place. 
+                        </p> 
+                        <p> 
+                            The hundred thousandths digit is <m>3</m>, which is less than <m>5</m>. Therefore, we don't add <m>1</m> to the thousandths digit. 
+                        </p> 
+                        <p> 
+                            Thus, <m>4.7823</m> rounded to three decimal place is <m>4.782</m>. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    <exercise>
+        <statement>
+            <p>
+                TODO
+            </p>
+        </statement>
+    </exercise>
+</subsection>

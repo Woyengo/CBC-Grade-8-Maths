@@ -1,12 +1,256 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<subsection xml:id="subsec-interpreting-bar-graphs-of-data-from-real-life-situations">
+    <title>Interpreting Bar Graphs of Data</title>
+   <activity>
+       <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+       </p>
+       <p>
+            A teacher surveyed a class of students about their favorite colors. The results are shown in the bar graph below.
+       </p>
+       <image>
+        <latex-image label="z">
 
-<section xml:id="subsec-interpreting-bar-graphs-of-data-from-real-life-situations">
-    <title>interpreting bar graphs of data from real life situations</title>
-
+            \begin{tikzpicture}
+                \begin{axis}[
+                    width=15cm, height=8cm,  % Increase size
+                    ybar,
+                    symbolic x coords={Red, Blue, Green, Yellow, Purple},  % Colour categories
+                    xtick=data,
+                    xlabel={Colours},
+                    ylabel={Number of Learners},
+                    ymin=0, ymax=15,  % Adjust based on class size
+                    bar width=1.5cm,  % Adjust bar width
+                    enlarge x limits=0.12,  % Space around bars
+                    nodes near coords,  % Show values on top of bars
+                    grid=both,  % Enable grid lines for both axes
+                    major grid style={line width=0.5pt, draw=gray!50},  % Style for major grid lines
+                    minor grid style={line width=0.2pt, draw=gray!25}  % Style for minor grid lines
+                ]
+                    \addplot[
+                        ybar,
+                        fill=blue!50!red  % Mixed color effect
+                    ] coordinates {
+                        (Red, 10) (Blue, 12) (Green, 8) (Yellow, 5) (Purple, 5)
+                    };
+                \end{axis}
+            \end{tikzpicture}
+        </latex-image>   
+       </image>
+       <p>
+          <ol marker="(a)">
+            <li>
+                <p>
+                    Which color was chosen by the highest number of learners?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How many learners selected Green as their preferred color?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is the difference in the number of learners who chose Blue and those who chose Yellow?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What is the total number of learners represented in the graph?
+                </p>
+            </li>
+            <li>
+                <p>
+                    What percentage of the total learners preferred the color Red?
+                </p>
+            </li>
+          </ol>
+       </p>
+   </activity>
+   <p>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
+   </p>
     <p>
-        A decimal is a number that is written in the base-10 place-value system. 
-        The decimal point separates the whole number part from the fractional part of the number. 
-        The decimal point is read as "and" when reading a decimal number. For example, the decimal number 3.25 is read as "three and twenty-five hundredths."
+        The scale that is chosen, the width of the bars, and the length of the bars all provide information that is represented by a bar graph.
     </p>
-    
-</section>
+    <example>
+        <statement>
+            <p>
+                Mama Karisa went to Shinyalu market to buy fruits and placed them in a basket. 
+                The fruits were: Apples, Bananas, Oranges, Grapes, Mangoes, Pineapples, Passion and Avocado.
+                A bar graph representing the information is given below. 
+                Use the information from the bar graph to answer the questions.
+            </p>
+            <image>
+                <latex-image label="c">
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            width=16cm, height=8cm,  % Increase size
+                            ybar,
+                            symbolic x coords={Apples, Bananas, Oranges, Grapes, Mangoes, Pineapples, Passion, Avocado},  % Fruit categories
+                            xtick=data,
+                            xlabel={Types of Fruits},
+                            ylabel={Number of Fruits},
+                            ymin=0, ymax=70,  % Adjust scale to fit the highest value
+                            bar width=1.5cm,  % Adjust bar width
+                            enlarge x limits=0.05,  % Space around bars
+                            nodes near coords,  % Show values on top of bars
+                            grid=both,  % Enable grid lines for both axes
+                            major grid style={line width=0.5pt, draw=gray!50},  % Style for major grid lines
+                            minor grid style={line width=0.2pt, draw=gray!25}  % Style for minor grid lines
+                        ]
+                            \addplot[
+                                ybar,
+                                fill=red!70!yellow  % Mixed color effect
+                            ] coordinates {
+                                (Apples, 60) (Bananas, 45) (Oranges, 56) (Grapes, 38) (Mangoes, 42) (Pineapples, 50) (Passion, 35) (Avocado, 40)
+                            };
+                        \end{axis}
+                    \end{tikzpicture}
+                </latex-image>
+                
+            </image>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            Which fruit appears the most in the basket?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How many oranges are in the basket?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What is the difference between the number of apples and mangoes?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What is the total number of fruits in the basket?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Are there any fruits with the same quantity?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How many more bananas would be needed to match the number of apples?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If 10 apples and 5 oranges were removed, how many fruits would be left?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            How many more bananas and oranges are there than grapes and avocados?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            Compare all the given numbers in the fruits and see which is highest
+                        </p>
+                        <p>
+                            Apples = <m>60</m> are the most common fruit.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Check the number of oranges in the graph
+                        </p>
+                        <p>
+                             there are <m>56</m> oranges
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Apples = <m>60</m>
+                        </p>
+                        <p>
+                            Mangoes = <m>42</m>
+                        </p>
+                        <p>
+                            Find the difference = <m>60 - 42 = 18</m>
+                        </p>
+                        <p>
+                            There are <m>18</m> more apples than mangoes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Add all the quantities together:
+                        </p>
+                        <p>
+                            <m>60 + 45 + 56 + 38 + 42 + 50 + 35 + 40 = 366</m>
+                        </p>
+                        <p>
+                            The total number of fruits in the basket is <m>366</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Check for equal number of fruits 
+                        </p>
+                        <p>
+                            answer is NO
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Apples = <m>60</m>
+                        </p>
+                        <p>
+                            Bananas = <m>45</m>
+                        </p>
+                        <p>
+                            Difference = <m>60 - 45 = 15 </m>
+                        </p>
+                        <p>
+                            <m>15</m> more bananas are needed to match the apples.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Apples = <m>60 </m> so Apples left = <m>60 - 10 = 50 </m>
+                        </p>
+                        <p>
+                            Oranges = <m>56 </m> so Oranges left = <m>56 - 5 = 51 </m>
+                        </p>
+                        <p>
+                            New total: <m>50 + 45 + 51 + 38 + 42 + 50 + 35 + 40 = 351</m>
+                        </p>
+                        <p>
+                            After removing some fruits, <m>351</m> fruits remain.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Bananas + Oranges = <m>45 + 56 = 101 </m>
+                        </p>
+                        <p>
+                            Grapes + Avocados = <m>38 + 40 = 78 </m>
+                        </p>
+                        <p>
+                            Difference = <m>101 - 78 = 23 </m>
+                        </p>
+                        <p>
+                            There are <m>23</m> more bananas and oranges than grapes and avocados.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+        
+    </example>
+</subsection>

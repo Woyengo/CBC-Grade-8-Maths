@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-area" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Area</title>
+
+  <introduction>
+
+      
+    <p>
+      Area is the space covered or enclosed within the boundaries of a shape. 
+    </p>
+    <p>
+      We calculate the area of different shapes such 
+      as triangles, rectangles, squares, circles, and many others. 
+    </p>
+
+  </introduction>
+
+
+
+
+  <xi:include href="subsections/area/subsec-area-of-a-circle.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-a-sector.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-cubes.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-cuboids.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-a-closed-cylinder.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-open-cylinders.ptx" />
+
+  <xi:include href="subsections/area/subsec-surface-area-of-triangular-prisms.ptx" />
+
+  <xi:include href="subsections/area/subsec-area-of-irregular-shapes.ptx" />
+
+ 
+
+
+
+
+</section>

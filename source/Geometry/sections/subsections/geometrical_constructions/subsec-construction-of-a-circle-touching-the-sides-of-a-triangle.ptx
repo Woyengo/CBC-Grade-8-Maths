@@ -1,0 +1,45 @@
+<subsection xml:id="subsec-construction-of-a-circle-touching-the-sides-of-a-triangle">
+        <title>Construction of a Circle Touching the Sides of a Triangle</title>
+        <p>
+            A circle touching the sides (faces) of a triangle is called an <term>incircle.</term>
+        </p>
+        <activity>
+        <p>
+            Construct an incircle for the given triangle. Follow the instructions below. 
+        </p>
+        <p>
+           <term>Instructions</term> 
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Select the <term>angle bisector tool (Window 4)</term> and click on the points <m>B,\, A,\, C</m> to bisect the angle <m>BAC</m>
+                        Then click points <m>B,\, C,\, A\,</m> to bisect the angle <m>BCA.</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Select <term>intersect tool (Window 2)</term> and mark the point of intersection <m>D,</m> of the two angle bisectors lines.
+                         Then click on another point of intersection <m>E</m> of the angle bisector with either segment <m>BC</m> or <m>AB</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Select <term>circle with center tool (Window 3)</term> and click at points <m>D</m> and  <m>E</m> to construct the circle.
+                    </p>
+                </li>
+            </ol>
+        </p>
+
+        <figure>
+            <caption>Incircle</caption>
+            <interactive xml:id="geogebra-incircle" platform="geogebra" width="95%" aspect="4:3">
+            <slate xml:id="incircle" surface="geogebra" material="xbweuvvu" aspect="4:3">
+                enableShiftDragZoom(true);
+                showResetIcon(true);
+            </slate>
+            </interactive>
+        </figure>
+        </activity>
+    </subsection>

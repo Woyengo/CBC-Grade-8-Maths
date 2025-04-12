@@ -1,0 +1,202 @@
+<subsection xml:id="subsec-appropriate-scale-for-a-linear-equation">
+    <title>Appropriate Scale for a Linear Equation</title>
+    <activity>
+        <p>
+            <m>{\color{red} \textbf{Work in groups}}</m>
+        </p>
+        <p>
+            The table shows the table of values for <m>x</m> and <m>y</m> for the linear equation <m>\textbf{y = 2x + 3}</m>
+        </p>
+        <p>
+            <ol marker="(a).">
+                <li>
+                    
+                    <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium" width="auto" >
+                        <row>
+                            <cell>x</cell>                    
+                            <cell>-2</cell>                
+                            <cell>-1</cell>
+                            <cell>0</cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            
+                        </row>
+                        <row>
+                            <cell>y</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell>?</cell>
+                            <cell><m>7</m></cell>
+                        </row>
+                    </tabular>
+                
+                </li>
+                <li>
+                    <p>
+                        Complete the table above for the linear equation
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Plot the points on a Cartesian coordinate system
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Join the points on a straight line
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Discuss and compare your work with other groups
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </activity>
+    <p>
+        <m>{\color{black} \textbf{Key Takeaway}}</m>
+    </p>  
+    <p>
+        When plotting a linear equation on a Cartesian plane,        
+    </p>
+    <p>
+        choosing the right scale is important to ensure that all points fit on the graph and are evenly spaced for easy interpretation.
+    </p>
+    <p>
+        The scale refers to how numbers are represented on the x-axis and y-axis.
+    </p>
+    <example>
+        <statement>
+            <p>
+                consider the Linear equation <m>\textbf{y} = -\frac{\textbf{1}}{\textbf{2}}x + \textbf{4}</m>
+            </p>
+            <p>
+                <ol marker="(a).">
+                    <li>
+                        <p>
+                            From the Linear equation, fill the following table
+                        </p>
+                        <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium" width="auto" >
+                            <row>
+                                <cell><m>x</m></cell>                    
+                                <cell><m>-4</m></cell>                
+                                <cell><m>-2</m></cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>2</m></cell>
+                                <cell><m>4</m></cell>
+                                
+                            </row>
+                            <row>
+                                <cell><m>y</m></cell>
+                                <cell>?</cell>
+                                <cell>?</cell>
+                                <cell><m>4</m></cell>
+                                <cell>?</cell>
+                                <cell>?</cell>
+                            </row>
+                        </tabular>
+                    </li>
+                    <li>
+                        <p>
+                            From the table,plot the points for corresponding values of x and y on a Cartesian plane.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Using a straight line join the points
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <ol marker="(i).">
+                    <li>
+                        <p>
+                            The complete table is
+                        </p>
+                        <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium" width="auto">
+                            <row>
+                                <cell><m>x</m></cell>
+                                <cell><m>Calculation</m></cell>
+                                <cell><m>\textbf{y Value}</m></cell>
+                            </row>
+                            <row>
+                                <cell>-4</cell>
+                                <cell><m>\textbf{y} = -\frac{\textbf{1}}{\textbf{2}}(-4) + \textbf{4} = 2 + 4 =\textbf{6}</m></cell>
+                                <cell><m>6</m></cell>
+                            </row>
+                            <row>
+                                <cell>-2</cell>
+                                <cell><m>\textbf{y} = -\frac{\textbf{1}}{\textbf{2}}(-2) + \textbf{4} = 1 + 4 =\textbf{5}</m></cell>
+                                <cell><m>5</m></cell>
+                            </row>
+                            <row>
+                                <cell>0</cell>
+                                <cell><m>\textbf{y} = -\frac{\textbf{1}}{\textbf{2}}(0) + \textbf{4} = 0 + 4 =\textbf{4}</m></cell>
+                                <cell><m>4</m></cell>
+                            </row>
+                            <row>
+                                <cell>2</cell>
+                                <cell><m>\textbf{y} = -\frac{\textbf{1}}{\textbf{2}}(2) + \textbf{4} = -1 + 4 =\textbf{3}</m></cell>
+                                <cell><m>3</m></cell>
+                            </row>
+                            <row>
+                                <cell>4</cell>
+                                <cell><m>\textbf{y} = -\frac{\textbf{1}}{\textbf{2}}(4) + \textbf{4} = -2 + 4 =\textbf{2}</m></cell>
+                                <cell><m>2</m></cell>
+                            </row>
+                        </tabular>
+
+                    </li>
+                    <li>
+                        <image>
+                            <latex-image label="l">
+                                \begin{tikzpicture}
+                                                                % Draw grid
+                                \draw[very thin,gray!50] (-5,-2) grid (5,7);
+                                
+                                % Draw x and y axes
+                                \draw[thick,->] (-5.5,0) -- (5.5,0) node[anchor=north] {\textbf{x}};
+                                \draw[thick,->] (0,-2.5) -- (0,7.5) node[anchor=east] {\textbf{y}};
+                                
+                                % Tick marks and labels
+                                \foreach \x in {-4,-2,2,4} {  % Removed redundant 0 on x-axis
+                                    \draw[thick] (\x,-0.15) -- (\x,0.15);
+                                    \node[anchor=north] at (\x,-0.3) {\textbf{\x}};
+                                }
+
+                                \foreach \y in {-2,2,4,6} {  % Removed redundant 0 on y-axis
+                                    \draw[thick] (-0.15,\y) -- (0.15,\y);
+                                    \node[anchor=east] at (-0.3,\y) {\textbf{\y}};
+                                }
+
+                                % Single origin label
+                                \node[anchor=north east] at (-0.1,-0.1) {\textbf{0}};
+
+                                % Plot points (without labels)
+                                \fill[red] (-4,6) circle (3pt);
+                                \fill[blue] (-2,5) circle (3pt);
+                                \fill[green] (0,4) circle (3pt);
+                                \fill[orange] (2,3) circle (3pt);
+                                \fill[purple] (4,2) circle (3pt);
+
+                                % Draw the line connecting the points
+                                \draw[thick,blue] (-4,6) -- (4,2);
+                                
+                                % Equation of the line
+                                \node[blue] at (1.5,2.5) {$y = -\frac{1}{2}x + 4$};
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+                </ol>
+            </p>
+        </solution>
+    </example>
+    
+</subsection>

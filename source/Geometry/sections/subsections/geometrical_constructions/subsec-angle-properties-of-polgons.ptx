@@ -1,0 +1,342 @@
+<subsection xml:id="subsec-angle-properties-of-polgons">
+        <title>Angle Properties of Polgons</title>
+
+        <p>
+            In Grade 7 you learnt about properties of angles in a polygon; number of sides of polygons,
+             interior angles of the polygons and the relationship between sides of polygons and interior angles.
+        </p>
+        <p>
+            Here is a summary of what you learned from Grade 7
+        </p>
+
+        <p>
+        <term>In order to find Number of right angles and the sum of interior angles of any polygon:</term>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Identify the number of sides (<m>n</m>) of the regular polygon.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Work out how many triangles could be created within the polygon by drawing lines from a single vertex to all the other vertices
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        Multiply the number of triangles in the polygon by <m>180^\circ</m> to find the sum of the interior angles of the polygon.
+                    </p>
+                </li>
+            </ol>
+        </p> 
+
+    <activity>
+      <statement>
+        <p>
+            Copy and fill in the table below.
+        </p>
+
+        <table>
+            <title><term>Angle properties of regular polygons</term></title>
+            <tabular halign="center" top="medium" left="medium" bottom="medium" right="medium">
+                <row header="yes">
+                    <cell>Number of sides (n)</cell>
+                    <cell>Number of right triangles</cell>
+                    <cell>Sum of interior angles</cell>
+                </row>
+                <row>
+                    <cell>3</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>4</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>5</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>6</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>7</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>8</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>9</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>10</cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+
+            </tabular>
+        </table>
+        <p>
+            Discuss and share your results with other learners.
+        </p>
+      </statement>        
+    </activity>
+
+        <example>
+          <statement>
+            <p>
+                Find the value of uknown angles marked in letters in the figure below.
+            </p>
+          
+
+            <image width="50%">
+                <shortdescription></shortdescription>
+                <latex-image label="polygon">
+                    \begin{tikzpicture}
+                    \usetikzlibrary{quotes,angles}
+                    
+                    \draw[thick,blue] (-4,3)--(2,3);
+                    \draw[thick,blue] (1,3)--(4,0);
+                    \draw[thick,blue] (3,1)--(1,-3);
+                    \draw[thick,blue] (4,-3)--(-4,-3);
+                    \draw[thick,blue] (-3,3)--(-3,-3);
+
+                    \draw[thick,blue] (-3,3) coordinate(a)--(1,3) coordinate(b)--(3,1)coordinate(c)
+                    pic["$x$", draw=green, angle eccentricity=1.2, angle radius=0.5cm]
+                    {angle=a--b--c};
+
+                    \draw[thick,blue] (1,-3) coordinate(g)--(3,1) coordinate(f)--(4,0)coordinate(d)
+                    pic["$y$", draw=orange, angle eccentricity=1.2, angle radius=0.5cm]
+                    {angle=g--f--d};
+
+                    \draw[thick,blue] (4,-3) coordinate(h)--(1,-3) coordinate(g)--(3,1)coordinate(f)
+                    pic["$60^\circ$", draw=orange, angle eccentricity=1.2, angle radius=0.5cm]
+                    {angle=h--g--f};
+
+                    \draw[thick,blue] (3,1) coordinate(f)--(1,3) coordinate(c)--(2,3)coordinate(b)
+                    pic["$50^\circ$", draw=red, angle eccentricity=1.2, angle radius=0.8cm]
+                    {angle=f--c--b};
+
+                    \draw[thick,red] (-2.5,-3) coordinate(k)--(-2.5,-2.5) coordinate(j)--(-3,-2.5)coordinate(c);
+                    \draw[thick,red] (-2.5,3) coordinate(p)--(-2.5,2.5) coordinate(q)--(-3,2.5)coordinate(r);              
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </statement>
+        <solution>
+            <p>
+                <m>50^\circ, 60^\circ</m> and <m>y</m> are exterior angles. 
+                There sum of interior angle and its corresponding exterior angle is <m>180^\circ.</m> 
+            </p>
+            <p>
+              Therefore: <me>50^\circ + x = 180^\circ</me>
+            </p>
+            <p>
+                <me>x = 180^\circ - 50^\circ</me>
+            </p>
+            <p>
+                <me>
+                    x = 130^\circ
+                </me>
+                
+            </p>
+            <p>
+                The corresponding interior angle for angle <m>60^\circ</m> is:
+            </p>
+            <p>
+                <me>
+                    180^\circ - 60^\circ = 120^\circ
+                </me>    
+            </p>
+            <p>
+                To find the corresponding interior angle for <m>y,</m> in the pentagon, you know that interior angles in a pentagon add up to <m>540^\circ.</m> 
+            </p>
+            <p>
+                Therefore: 
+                <me>
+                    90^\circ + 90^\circ + 120^\circ + 130^\circ + (\text{ corresponding interior angle for }y) = 540^\circ.
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    430^\circ + \text{ corresponding interior angle for }y = 540^\circ
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    \text{ corresponding interior angle for } y = 540^\circ - 430^\circ
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    \text{ corresponding interior angle for } y = 110^\circ 
+                </me>
+                
+            </p>
+            <p>
+                Since we have found the corresponding interior angle for <m>y,</m> to find the exterior angle <m>y,</m> we take;
+            </p>
+            <p>
+                <me>
+                    y = 180^\circ - \text{ corresponding interior angle for } y 
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    y = 180^\circ - 110^\circ
+                </me>
+                
+            </p>
+            <p>
+                <me>
+                    y = 70^\circ
+                </me>
+                
+            </p>
+            
+        </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Find the number of sides(n) of a regular polygon when all the interior angles of the polygon are <m>135^\circ</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <term>Method 1</term>
+                </p>
+                <p>
+                    We can find the number if sides of a polygon from the given formula:
+                    <me>
+                        \text{Exterior angle of the polygon }= \frac{360^\circ}{n}
+                    </me>
+                    
+                </p>
+                <p> First find the exterior angle of the polygon as shown:
+                    <me>
+                        \text{Exterior angle of the polygon } = 180^\circ - \text{interior angle of the polygon}
+                    </me> 
+                </p>
+                <p> Therefore:
+                    <me>
+                        \text{Exterior angle of the polygon } = 180^\circ - 140^\circ 
+                    </me>
+                    
+                </p>
+                <p>
+                    <me>
+                        \text{Exterior angle of the polygon } = 40^\circ
+                    </me>
+                </p>
+                <p>
+                    Thus, using this formula:
+                    <me>
+                        \text{Exterior angle of the polygon }= \frac{360^\circ}{n}
+                    </me>
+                    
+                </p>
+                <p>
+                    <me>
+                        40^\circ = \frac{360^\circ}{n}
+                    </me>
+                    
+                </p>
+                <p>
+                    <me>
+                        n = \frac{360^\circ}{40^\circ}
+                    </me>
+                    
+                </p>
+                <p>
+                    Therefore; <m>n = 9 </m>
+                </p>
+                <p>
+                    <term>Method 2</term>
+                </p>
+                <p>
+                    Alternatively, we can find the number of sides of the polygon as shown below:
+                </p>
+                <p>
+                    <me>
+                        \text{ Sum of interior angles = Size of interior angle } \times \text{n}
+                    </me>
+                   
+                </p>
+                <p>
+                    <me>
+                        \text{ Sum of interior angles } = 140^\circ \times{n} = 140n
+                        
+                    </me>
+                    
+                </p>
+                <p>
+                    Also, sum of interior angles can be given by multiplying <m>180^\circ</m> by the number of trialgles <m>(n - 2)</m> in the polygon.
+                </p>
+                <p>
+                    <me>
+                        180^\circ(n-2)
+                    </me>
+                    
+                </p>
+                <p>
+                    Therefore:
+                    <me>
+                      180^\circ(n-2) = 140n
+                    </me>
+                    <me>
+                      180n - 360 = 140n
+                    </me>
+                    
+                </p>
+                <p>
+                    Collecting like terms, we get:
+                    <me>
+                        180n - 140n = 360
+                    </me>
+                    
+                </p>
+                <p>
+                    <me>
+                        40n = 360
+                    </me>
+                    
+                </p>
+                <p>
+                    <me>
+                        n = \frac{360}{40}
+                    </me>
+                    
+                </p>
+                <p>
+                    <me>
+                        n = 9
+                    </me>
+                    
+                </p>
+                
+            </solution>
+        </example>
+        
+        
+    </subsection>

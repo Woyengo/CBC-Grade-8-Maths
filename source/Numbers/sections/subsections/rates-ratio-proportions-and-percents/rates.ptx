@@ -1,0 +1,235 @@
+<subsection xml:id="subsec-rates" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rates</title>
+
+   <introduction>
+        <p>
+            A rate is a ratio that compares two quantities measured in different units. 
+            For example, if a car travels 100 miles in 2 hours, 
+            the rate is <m>\frac{100 \, \text{miles}}{2 \, \text{hours}}</m> <m>= 50</m> miles per hour.
+        </p>
+   </introduction>
+    
+
+    <subsubsection xml:id="subsubsec-Identifying-Rates-in-Different-Situations">
+        <title>Identifying Rates in Different Situations</title>
+
+        <activity>
+            <title>Work in Groups</title>           
+            
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Using a mobile phone, note the amount of data at the moment and the cost of the data plan.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Make an attempt of surfing the internet for a few minutes and note the amount of data used.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Check the balance of the data availabe and calculate the amount of data spent.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Repeat steps 2 and 3 for two different service providers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Copy your findings in a table and calculate the rate of data usage for each service provider.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and compare the different data rates with other groups
+                        </p>
+                    </li>
+                </ol>
+            </p>
+
+            <table>
+                <title>Calculating Rates</title>
+                <tabular left="medium" right="medium" top="medium" bottom="medium">
+                    <row halign="center" header="yes">
+                        <cell>Mobile Service Provider</cell> <cell>Data Rates Per Minute</cell>
+                    </row>
+
+                    <row>
+                        <cell halign="center">A</cell> <cell></cell>
+                    </row>
+
+                    <row>
+                        <cell halign="center">B</cell> <cell></cell>
+                    </row>
+
+                    <row>
+                        <cell halign="center">C</cell> <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+        </activity>
+        
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-Working-out-Rates-in-Real-Life-Situations">
+        <title>Working out Rates in Real Life Situations</title>
+
+        <activity>
+            <p>
+                <em><term>Work in Groups</term></em>
+            </p>
+
+            <p>
+                Consider a phone has a data plan of <m>1</m> GB for Kshs <m>10</m> for an hour.
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Find the cost of surfing the internet for <m>30</m> minutes.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Discusss and share with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </activity>
+
+        <p>
+            <md>
+                <mrow> \textbf{Key Takeway} </mrow>
+            </md>
+        </p>
+
+        <p>
+            <me>
+                \text{A rate is a ratio that compares two quantities measured in different units.}
+            </me>
+            
+        </p>
+
+        <example>
+            <statement>
+                <p>
+                    A car travels <m>100</m> miles in <m>2</m> hours. Find the rate of the car.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The rate of the car is <m>100</m> miles in <m>2</m> hours.
+                </p>
+
+                <p>
+                    To calculate the rate, divide the distance by the time taken.
+                </p>
+
+                <p>
+                    The rate of the car can be given by the formula:
+                </p>
+
+                <p>
+                    <me>Rate = \frac{Distance}{Time}</me>
+                </p>
+
+                <p>
+                    Substituting the values of distance and time, we get:
+                </p>
+
+                <p>
+                    <me>Rate = \frac{100 \, miles}{2 \, hours}</me>
+                </p>
+
+                <p>
+                    <me>Rate \, of \, speed = 50\, miles\, per\, hour </me> 
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    A labourer digs <m>10</m> holes in <m>5</m> hours. Find the rate of digging holes.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The rate of digging holes is <m>10</m> holes in <m>5</m> hours.
+                </p>
+
+                <p>
+                    To calculate the rate, divide the number of holes by the time taken.
+                </p>
+
+                <p>
+                    The rate of digging holes can be given by the formula:
+                </p>
+
+                <p>
+                    <me>Rate = \frac{Number\, of\, Holes}{Time}</me>
+                </p>
+
+                <p>
+                    Substituting the values of number of holes and time, we get:
+                </p>
+
+                <p>
+                    <me>Rate = \frac{10}{5}</me>
+                </p>
+
+                <p>
+                    <me>Rate = 2 \, holes\, per\, hour</me> 
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    A family of <m>4</m> consumes <m>20</m> litres of milk in <m>5</m> days. Find the rate of consumption of milk.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The rate of consumption of milk is <m>20</m> litres in <m>5</m> days.
+                </p>
+
+                <p>
+                    To calculate the rate, divide the amount of milk by the time taken.
+                </p>
+
+                <p>
+                    The rate of consumption of milk can be given by the formula:
+                </p>
+
+                <p>
+                    <me>Rate = \frac{Amount\, of\, Milk}{Time}</me>
+                </p>
+
+                <p>
+                    Substituting the values of amount of milk and time, we get:
+                </p>
+
+                <p>
+                    <me>Rate = \frac{20}{5}</me>
+                </p>
+
+                <p>
+                    <me>Rate = 4 \, litres\, per\, day</me>
+                </p>
+            </solution>
+        </example>
+        
+    </subsubsection>
+</subsection>

@@ -1,0 +1,152 @@
+<subsection xml:id="subsec-squares-of-numbers-from-a-calculator">
+    <title>Squares of numbers from a calculator</title>
+    <p>
+    A calculator is a portable device used to perform different mathematical calculations, such as addition, subtraction, multiplication, and division.    
+    </p>
+    <image source="/cal.jpg" width="50%">
+        <shortdescription>sample of a calculator</shortdescription>
+    </image>
+    <p>
+        <m>\textbf{How to use a calculator}</m>
+    </p>
+    <p>
+        To start the calculator press the <m>{\color{green}\text{on}}</m> button.
+    </p>
+    <p>
+         Given a number to work out its square, for example given <m>3</m>:
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Press the key <kbd>3</kbd>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Press the key <kbd>x²</kbd>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Press the key <kbd>=</kbd>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Read the number on the screen of the calculator.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <p>
+        To find the square of a decimal number e.g 4.7:
+    </p>
+    <p>
+        Press the keys <kbd>4</kbd> then <kbd>.</kbd> finally press <kbd>7</kbd>.
+    </p>
+    <p>
+        Press the key <kbd>x²</kbd> which means square.
+    </p>
+    <p>
+         Press the key <kbd>=</kbd>
+    </p>
+    <p>
+        Then read the number on the screen of the calculator.
+    </p>
+    <activity>
+        <statement>
+            <p>
+               Use a calculator to work out the squares of the following numbers: 
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            <m>18</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>179</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>1258</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2.9</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           <m> 0.5987</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           <m> 0.028</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Read the number on the screen of the calculator after squaring each number.
+            </p>
+            <p>
+                Discuss with other learners how you determine squares of numbers using a calculator.
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Use a calculator to work out the area of the flower garden which measures <m>0.256</m> m by <m>0.256</m> m.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To calculate the area of the flower garden, multiply the two given dimensions:
+            </p>
+            <p>
+               Area = <m>0.256 \times 0.256</m>
+            </p>
+            <p>
+                Using a calculator:
+            </p>
+            <p>
+                <ol marker="(a)">
+                    <li>
+                        <p>
+                            Press the key <kbd>0</kbd>,<kbd>.</kbd>,<kbd>2</kbd>,<kbd>5</kbd>,<kbd>6</kbd>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Press the key <kbd>x</kbd>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Press the key <kbd>0</kbd>,<kbd>.</kbd>,<kbd>2</kbd>,<kbd>5</kbd>,<kbd>6</kbd>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Press the key <kbd>=</kbd>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                Read the number on the screen of the calculator.
+            </p>
+            <p>
+                Therefore, the area of the flower garden is <m>0.065536 \text{m^2}</m>.
+            </p>
+        </solution>
+    </example>
+</subsection>

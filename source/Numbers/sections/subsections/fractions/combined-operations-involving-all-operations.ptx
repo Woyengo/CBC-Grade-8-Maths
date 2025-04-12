@@ -1,0 +1,134 @@
+<subsection xml:id="subsec-combined-operations-involving-all-operations">
+    <title>Combined operations involving all operations</title>
+    <p>
+        To perform combined operations involving addition, subtraction, multiplication and division, follow this order:
+    </p>
+    <p>
+        Division <m>\rightarrow</m> Multiplication <m>\rightarrow</m> Addition <m>\rightarrow</m> Subtraction
+    </p>
+    <activity>
+        <statement>
+            <p>
+                <ol marker= "1">
+                    <li>
+                        <p>
+                          In groups of <m>5</m>, write down numbers from <m>2</m> to <m>15</m> in ascendinding order <m>(2,...,15)</m>.Label this as the first list.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Rearrange the numbers from <m>15</m> to <m>2</m> in descending order <m>(15, 14, 13, ..., 2)</m>. Label this as the Second List.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           In turns, each group member to create a fraction by:
+
+                        </p>
+                        <p>
+                            <ol marker="i)">
+                                <li>
+                                    <p>
+                                       Using the first number from the First List as the numerator.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Using the first number from the Second List as the denominator.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Repeat the process until all numbers are used.
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Use the fractions you have formed to write <m>2</m> expressions involving multiplication, division, addition and subtraction e.g <m>\frac{2}{15} \times \frac{3}{14} + \frac{5}{12} \div \frac{10}{7} - \frac{7}{10}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Work out the value of each expression you have written.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss the order in which you have carried out the operations.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Work out: <m>\frac{7}{12} \div \frac{1}{9} - \frac{4}{7} + \frac{6}{7} \times \frac{1}{6}</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                To work out <m>\frac{7}{12} \div \frac{1}{9} - \frac{4}{7} + \frac{6}{7} \times \frac{1}{6}</m> follow this order:
+            </p>
+            <p>
+                Division <m>\rightarrow</m> Multiplication <m>\rightarrow</m> Addition <m>\rightarrow</m> Subtraction
+            </p>
+            <p>
+                Carry out division by multiplying <m>\frac{7}{12}</m> by the reciprocal of <m>\frac{1}{9}</m>, which is <m>\frac{9}{1}</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>=\amp \frac{7}{\cancel{12}_4} \times \frac{\cancel{9}^3}{1} - \frac{4}{7}+ \frac{6}{7} \times \frac{1}{6}  </mrow>
+                    <mrow> \amp </mrow>
+                    <mrow>=\amp \frac{7 \times 3}{4 \times 1} - \frac{4}{7}+ \frac{6}{7} \times \frac{1}{6}  </mrow>
+                    <mrow> \amp </mrow>
+                    <mrow>=\amp \frac{21}{4} - \frac{4}{7}+ \frac{6}{7} \times \frac{1}{6}  </mrow>
+                </md>
+            </p>
+            <p>
+                Carry out multiplication:
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{21}{4} - \frac{4}{7} + \frac{\cancel{6}^1}{7} \times \frac{1}{\cancel{6}_1} =\amp \frac{21}{4} - \frac{4}{7} + \frac{1 \times 1}{7 \times 1}</mrow>
+                    <mrow> \amp </mrow>
+                    <mrow> =\amp \frac{21}{4} - \frac{4}{7} + \frac{1}{7}</mrow>
+                </md>
+            </p>
+            <p>
+              Carry out addition. The LCM of <m>4</m> and <m>7</m> is <m>28</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{21}{4} - \frac{4}{7} + \frac{1}{7}=\amp \frac{21}{4} + \frac{1}{7} - \frac{4}{7}</mrow>
+                    <mrow> \amp </mrow>
+                    <mrow> \frac{21}{24} + \frac{1}{7} =\amp \frac{147 +4}{28}</mrow>
+                    <mrow> \amp </mrow>
+                    <mrow> =\amp \frac{151}{28} </mrow>
+                </md>
+            </p>
+            <p>
+              Carry out subtraction. The LCM of <m>28</m> and <m>7</m> is <m>28</m>
+            </p>
+            <p>
+                <md>
+                    <mrow>\frac{151}{28} - \frac{4}{7} =\amp \frac{151-16}{28}</mrow>
+                    <mrow> \amp </mrow>
+                    <mrow> =\amp \frac{135}{28}</mrow>
+                </md>
+            </p>
+            <p>
+                Convert <m>\frac{135}{28} </m>into a mixed fraction.
+            </p>
+            <p>
+               <md>
+                <mrow>=\amp 4\frac{23}{28}. </mrow>
+               </md>
+            </p>
+        </solution>
+    </example>
+</subsection>

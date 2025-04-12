@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Rates-Ratio-Proportions-and-Percents" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Rates Ratio Proportions and Percents</title>
+
+    <introduction>
+        <p>
+            Rates, ratios, proportions, and percents are all ways of comparing quantities. 
+            They are used in many different situations, from cooking to sports to finance. 
+            Understanding how to work with rates, ratios, proportions, and percents is an 
+            important part of being able to solve problems in many different areas.
+        </p>
+    </introduction>
+
+    <xi:include href="subsections/rates-ratio-proportions-and-percents/rates.ptx" />
+
+    <xi:include href="subsections/rates-ratio-proportions-and-percents/ratio.ptx" />
+
+    <xi:include href="subsections/rates-ratio-proportions-and-percents/proportions.ptx" />
+
+    <xi:include href="subsections/rates-ratio-proportions-and-percents/percents.ptx" />
+    
+</section>

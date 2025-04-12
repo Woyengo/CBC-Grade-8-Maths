@@ -1,0 +1,442 @@
+<subsection xml:id="subsec-surface-area-of-triangular-prisms">
+    <title>Surface area of of triangular prisms</title>
+
+    <introduction>
+        
+        <p>
+            In the previous classes, you calculated the area of a squares, rectangels and triangles. How did yo do it?
+        </p>
+        <p>
+            In this section, You will learn how to determine the surface area of a triangular prism.
+        </p>
+        
+       
+            
+    </introduction>
+    
+    <subsubsection xml:id="subsubsec-determining-the-surface-area-of-triangular-prism">
+        <title>Determining the surface area of triangular prism in different situations</title>
+
+        <activity>
+            <p>
+             <m>\textbf{Work in pairs}</m>
+            </p>
+            <p>
+                <m>\textbf{What you require:}</m> A ruler, pieces of paper and glue.
+            </p>
+            <sidebyside>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                In the model of the triangular prism provided, the identical triangular faces are the cross sections. 
+                                The other faces are lateral faces. They are always rectangular in shape.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <ol marker="(a)">
+                                    <li>
+                                        <p>
+                                            Look at the model on the right. Make a model of such model.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            What is the shape of each of the five faces of the prism?
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <ol marker="(a)">
+                                    <li>
+                                        <p>
+                                            Measure the perpendicular height and the base of one of the 
+                                            triangular cross-section.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Calculate the area of the triangular face.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Measure the length and the width of each rectangular face.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Calculate the area of each of the rectangular faces.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Add the two areas of the triangular faces to the total area of the lateral faces(<m>\textbf{rectanguar faces}</m>).
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Discuss and compare your results with other groups.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <image width="40%">
+                <latex-image label="Prism2">
+                    \begin{tikzpicture}
+                        % Define points
+                        \coordinate (A) at (0,0,0);  % Bottom-left-front
+                        \coordinate (B) at (3,0,0);  % Bottom-right-front
+                        \coordinate (C) at (0,7,0); % Bottom-left-back
+                        \coordinate (D) at (3,7,0); % Bottom-right-back
+                        \coordinate (E) at (0,0,6); % Top-left-front
+                        \coordinate (F) at (3,0,6); % Top-right-front
+                        \coordinate (G) at (0,7,6);% Top-left-back
+                        \coordinate (H) at (3,7,6);% Top-right-back
+
+                        % Draw base triangle
+                        \draw[thick] (A) -- (B) -- (C) -- cycle;
+                        
+                        % Draw top triangle
+                        \draw[thick] (E) -- (F) -- (G) -- cycle;
+                        
+                        % Connect corresponding vertices
+                        \draw[dashed] (A) -- (E);
+                        \draw (B) -- (F);
+                        \draw (C) -- (G);
+                        
+
+
+                        % Shade the triangular face
+                        \fill[yellow!30, opacity=0.7] (E) -- (F) -- (G) -- cycle;
+                        
+                        % Right angle markers
+                        \fill[orange] (A) rectangle ++(0.3,0.3);
+                        \fill[orange] (E) rectangle ++(0.3,0.3);
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </sidebyside>
+        </activity>
+
+        <p>
+            <m>\textbf{Extended Activity:}</m>
+        </p>
+        <p>
+            <m>\textbf{Onyango}</m> said,"If you double all the dimensions of a triangular 
+            prism, you will double its surface area". Using a triangular prism of your own choice, 
+            Check whether <m>\textbf{Onyango's}</m> statement is correct.
+        </p>
+
+
+
+
+        <p>
+            <m>{\color{black} \textbf{Key Takeaway:}}</m>
+        </p>
+         <p>
+            A <m>\textbf{triangular prism}</m> is a three-dimensional 
+            shape with two triangular faces and three rectangular faces.
+        </p>
+        <p>
+            It belongs to the family of prisms and has a 
+            total of <m>5</m> faces,  <m>9</m> edges, and <m>6 </m> vertices.
+        </p>
+        <p>
+            The figure below shows the triangular prism showing the rectangular faces and the rectangular faces.
+        </p>
+        <image width="50%">
+        <latex-image label="Prism1">
+            \begin{tikzpicture}[scale=1.5]
+                % Define points
+                \coordinate (A) at (0,0,0);
+                \coordinate (B) at (3,0,0);
+                \coordinate (C) at (1.5,2,0);
+                \coordinate (D) at (0,0,3);
+                \coordinate (E) at (3,0,3);
+                \coordinate (F) at (1.5,2,3);
+                
+                % Draw front triangular face
+                \draw[very thick] (A) -- (B) -- (C) -- cycle;
+                
+                % Draw back triangular face
+                \draw[very thick] (D) -- (E) -- (F) -- cycle;
+                
+                % Connect front and back faces (rectangular sides)
+                \draw[very thick] (A) -- (D);
+                \draw[very thick,red] (B) -- (E);
+                \draw[very thick,red] (C) -- (F);
+                \draw[very thick,blue] (D) -- (E) -- (F) -- cycle;
+                
+                
+                % Arrows and Labels
+                \draw[-&gt;, thick, blue] (0,-1,0) -- (-1,-3,0) node[left, black] {\huge{\textbf{Triangular face }}};
+                \draw[-&gt;, thick, red] (2,1,1.5) -- (1,3,1.5)node[left, black] {\huge{\textbf{Rectangular face}}};
+            \end{tikzpicture}
+        </latex-image>
+            
+        </image>
+        
+        <p>
+            The total surface area of a triangular prism is the sum of 
+            the areas of all the faces of the prism.
+        </p>
+        <p>
+            The rectangular faces are said to be the <m>\textbf{lateral faces}</m>, while the triangular faces are called <m>\textbf{bases}</m>. If the bases of a triangular prism are placed horizontally, 
+            they are referred to as the top and the bottom (faces) of the prism, respectively.
+        </p>
+        <p>
+            <m>\textbf{Formula for Surface Area of Triangular Prism}</m>
+
+        </p>
+        <p>
+            The triangular prism formula for surface area is formed by adding up the area of 
+            all the rectangular and triangular faces of a prism.
+        </p>
+        <p>
+            <m>\textbf{Note:}</m> The area of a triangle is, <m>A=\frac{1}{2}bh</m> and for the 
+            rectangle is, <m>A=l \times w</m>.
+        </p>
+        <p>
+            Where, <m>b=\textit{base of the triangle} \,,\,h=\textit{height of the triangle} \, ,\,l=\textit{length of the rectangle} 
+            \,\textbf{and}\, w=\textit{width of the rectangle}</m>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Find the surface area of the rectangular prism shown.
+                </p>
+                <image width="40%"> 
+                <latex-image label="Prism3">
+                    \begin{tikzpicture}[scale=2]
+                        % Define coordinates
+                        \coordinate (A) at (0,0);
+                        \coordinate (B) at (4,0);
+                        \coordinate (C) at (0,3);
+                        \coordinate (D) at (2,4); % Estimated position for D
+                        \coordinate (E) at (6,1); % Estimated position for E
+                        \coordinate (F) at (2,1.5);
+
+
+                        % Draw the base triangle ABC
+                        \draw [very thick,fill=green](A) -- (B) -- (C) -- cycle;
+                        \draw [very thick,fill=green](D) -- (E) -- (F) -- cycle;
+
+                        % Draw the dashed lines
+                        \draw[dashed,very thick] (D) -- (F);
+                        \draw[dashed,very thick] (E) -- (F);
+                        \draw[dashed ,very thick] (A) -- (F);
+
+                        % Draw the visible lines to complete the figure
+                        \draw [very thick](C) -- (D);
+                        \draw [very thick](D) -- (E);
+                        \draw [very thick](B) -- (E);
+
+                        % Add right angle symbol
+                        \draw [very thick] (0.3,0) -- (0.3,0.3) -- (0,0.3);
+
+                        % Add dimensions
+                        \node[below,blue] at (2,0) {\huge{\textbf{4 in}}};
+                        \node[left] at (0,1.5) {\huge{\textbf{3 in}}};
+                        \node[above right] at (1,2) {\huge{\textbf{5 in}}};
+                        \node[below left] at (5,1) {\huge{\textbf{6 in}}};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    <m>\textbf{Surface area}= \textbf{Area of the two triangles} +  \textbf{Area of three triangels}</m>
+                </p>
+                <p>
+                    The sides of the triangular base are: 
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                <m>b_1=3\,in</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>b_2=4\,in</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>b_3=5\,in</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    The triangular base is a right triangle, and so the height is one of our sides. We will use <m>h=3\,in.</m>
+                </p>
+                <p>
+                    The length of the prism is <m>l=6\,in</m>
+                </p>
+                <p>
+                    Calculate the area of a triangular base using the formula for the area of a triangle: <m>A=\frac{1}{2}bh</m>, where <m>b</m> is 
+                    base of the triangle. Multiply this result by 2, since there are two triangular bases with this area. 
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp \frac{1}{2}bh</mrow>
+                        <mrow> =\amp \frac{1}{2}\times 4 \times 3</mrow>
+                        <mrow> =\amp 6\,in^2</mrow>
+                        
+                    </md>
+                </p>
+                <p>
+                    Multiplying this by 2, since we have two triangular bases, we have that the area of the bases is: 
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp 2 \times 6\,in.^2</mrow>
+                        <mrow>= \amp {\color{green} 12\,in^2}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Find the area of the rectangular sides. then add the whole area
+                </p>
+                <p>
+                    <md>
+                        <mrow> A=\amp (4 \,in \times 6\,in)+(6\,in\times 5\,in)+(3\,in \times 6\,in) </mrow>
+                        <mrow> =\amp 24+30+18 </mrow>
+                        <mrow>= \amp 72\,in^2 </mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefore.
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Surface area }=\amp  {\color{green} 24\,in^2}+72\,in^2 </mrow>
+                        <mrow>= \amp 84 \, in^2</mrow>
+                        
+                    </md>
+                </p>
+                
+             </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Find the surface area of the triangular prism shown.
+                </p>
+                <image width="40%">
+                <latex-image label="Prism4">
+                    \begin{tikzpicture}[scale=0.8]
+                        
+                        % Define the coordinates of the vertices
+                        \coordinate (A) at (0,0);
+                        \coordinate (B) at (2,0);
+                        \coordinate (C) at (1,3);
+                        \coordinate (D) at (4,1);
+                        \coordinate (E) at (6,1);
+                        \coordinate (F) at (5,4);
+
+                        % Draw the front face (triangle ABC)
+                        \draw[thick] (A) -- (B) -- (C) -- cycle;
+
+                        % Draw the back face (triangle DEF)
+                        \draw[thick] (D) -- (E) -- (F) -- cycle;
+
+
+
+
+                        % Draw the connecting edges
+                        \draw[thick,dashed] (A) -- (D);
+                        \draw[thick] (B) -- (E);
+                        \draw[thick] (C) -- (F);
+
+                        % Draw the red line for height
+                        \draw[red, thick] (1,0) -- (1,3);
+
+
+
+                        % Add the dimensions
+                        \node[left,rotate=45] at (0.5,2.5) {29 cm};
+                        \node[below] at (1,0) {20 cm};
+                        \node[ red] at (1.2,1.5) {21 cm};
+                        \node[below left] at (5,0) {31 cm};
+                    \end{tikzpicture}
+                </latex-image>
+                    
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    <m>\textbf{Surface area}= \textbf{Area of the two triangles} +  \textbf{Area of three triangels}</m>
+                </p>
+                <p>
+                     The area of triangular faces.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\text{Area of a triangular face} =\amp \frac{1}{2}(bh)</mrow>
+                        <mrow> =\amp \frac{1}{2}\times 21 \,cm \times 20\,cm </mrow>
+                        <mrow> =\amp  210\, cm^2</mrow>
+                    </md>
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Area of two triangular faces}=\amp (2 \times 210)\,cm^2</mrow>
+                        <mrow> =\amp {\color{blue} 420\,cm^2}  </mrow>
+                        
+                    </md>
+                </p>
+                <p>
+                    The area of the Lateral faces.
+                </p>
+                <p>
+                    <md>
+                        <mrow> \text{Surface area}=\amp (20\,cm \times 31\, cm)+(31\,cm \times 21\, cm)+(29\,cm \times 31\, cm) </mrow>
+                        <mrow> =\amp 620\,cm^2 +651\,cm^2+899\,cm^2</mrow>
+                        <mrow> =\amp {\color{green} 2170\,cm^2 }</mrow>
+                    </md>
+                </p>
+                <p>
+                    Therefor, <md>
+                        <mrow>\text{surface area} = \amp  {\color{blue} 420\,cm^2}+{\color{green} 2170\,cm^2 }</mrow>
+                        <mrow> =\amp 2\,590 \,cm^2</mrow>
+                        
+                    </md>
+                </p>
+                <p>
+                    The total surface area is <m>{\color{black} 2\,590 \,cm^2}</m>.
+                </p>
+            </solution>
+        </example>
+
+        
+        
+        
+    </subsubsection>
+    
+
+   
+
+
+
+    
+
+
+
+
+ 
+
+
+
+    
+</subsection>
