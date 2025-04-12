@@ -1,32 +1,40 @@
 <subsection xml:id="subsec-combined-operations-of-integers-on-a-number-line">
     <title>Combined Operations of Integers on a Number Line</title>
     <activity>
-        <introduction>
             <p>
                 <alert>Work in groups of 5 learners</alert>
             </p>
-        </introduction>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
+            <p>
+                <ol marker="1. ">
+                    <li>
+                        <p>
+                            Draw a number line similar to the one shown below.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Starting at <m>(-2)</m> on the number line, move <m>7</m> steps to the right and 
+                            then move <m>3</m> steps to left and circle the number at the end of the last step.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Starting at <m>(+2)</m> on the number line, move <m>6</m> steps to the right and then move
+                             <m>2</m> steps to left and circle the number at the end of the last step.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Write down the expressions and the final answers of the movements in step <m>2</m> and step <m>3</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your results and compare them with other groups in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
     </activity>
     <example>
         <statement>

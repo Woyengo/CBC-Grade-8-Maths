@@ -10,12 +10,34 @@
         Finally, we subtract equation <m>1</m> from equation <m>2</m> to eliminate the recurring part and solve for <m>x</m>. 
     </p>
     <activity>
-        <introduction>
+        <!-- <introduction> -->
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
+        <!-- </introduction> -->
+         <ol marker="1. ">
+            <li>
+                <p>
+                    Convert <m>0.\dot{1}</m> into a fraction.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Describe the method or strategy you used to convert <m>0.\dot{1}</m> into a fraction.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Discuss any challenges you faced and how you overcame them.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Share and discuss with other learners about your findings.
+                </p>
+            </li>
+         </ol>
+        <!-- <task>
             <statement>
                 <p>
                     Convert <m>0.\dot{1}</m> into a fraction.
@@ -42,7 +64,7 @@
                     Share and discuss with other learners about your findings.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
     <example>
         <statement>
