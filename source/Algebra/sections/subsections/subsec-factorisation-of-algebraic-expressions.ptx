@@ -82,13 +82,13 @@
 
     <activity>
         <p>
-            <em><term> Group Activity:</term></em>
+            <term> Group Activity:</term> Work in groups
         </p>
         <p>
             <term>Instructions:</term>
         </p>
         <p>
-            Work in groups of 3-4 learners.
+            Make groups of 3-4 learners.
         </p>
         <p>
             Make number cards from papers (Manilla or foolscap) e.g [** A photo of paper number cards(different colours) with an expression like <m> xy </m> , <m> mn^2 </m> **]
@@ -103,9 +103,6 @@
             Discuss your findings with other group members
         </p>
     </activity>
-    <p>
-        <term>Reflection:</term>
-    </p>
     <p>
         <ul>
             <li>
@@ -183,120 +180,124 @@
         </solution>
     </example>
 
-    <exercise>
-        <statement>
-            <p>
-                <ol>
+    <exercises xml:id="exercises-factorisation-of-algebraic-expressions">
+        <exercise>
+            <statement>
+                <p>
+                    Identify whether the following pairs of terms are like or unlike:
+                </p>
+                <p>
+                    <ol marker = "a)">
+                        <li>
+                            <p>
+                                <m> 4x </m> and <m> 7x </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 5a² </m> and <m> 3a² </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 2y </m> and <m> - 9y </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> ab </m> and <m> ba </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 6mn </m> and <m> 6nm </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 10p²q </m> and <m> 3p²q </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 3x²y </m> and <m> - 8xy² </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Factorize each of the following expressions:
+                </p>
+                <p>
+                <ol marker= "a)">
                     <li>
                         <p>
-                            Identify whether the following pairs of terms are like or unlike:
-                        </p>
-                        <p>
-                            <ol marker = "a)">
-                                <li>
-                                    <p>
-                                        <m> 4x </m> and <m> 7x </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m> 5a² </m> and <m> 3a² </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m> 2y </m> and <m> - 9y </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m> ab </m> and <m> ba </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m> 6mn </m> and <m> 6nm </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m> 10p²q </m> and <m> 3p²q </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m> 3x²y </m> and <m> - 8xy² </m>
-                                    </p>
-                                </li>
-                            </ol>
+                            <m>3x + 6</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Factorize each of the following expressions:
-                        </p>
-                        <p>
-                        <ol marker= "a)">
-                            <li>
-                                <p>
-                                    <m>3x + 6</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>4y - 12</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>10a + 5</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>9m - 15n</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>2p² + 8p</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>6x² - 9x</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>14y + 21</m>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <m>100k - 25k²</m>
-                                </p>
-                            </li>
-                        </ol>
+                            <m>4y - 12</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            During a tree-planting day at Hope primary School, a grade <m> 8 </m> planted <m> (6p - 18) </m> tree seedlings. Factorize the expression representing the number of tree seedlings planted that day by the rade <m> 8 </m> learners.
+                            <m>10a + 5</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            Salamaa School purchased some books for different classes. If  there were <m> (7x² + 14x) </m> books all together, what is the factorized expression representing the number of books the school bought.
+                            <m>9m - 15n</m>
                         </p>
                     </li>
                     <li>
                         <p>
-                            An electrician has <m>(15a - 20b)</m> meters of wire. Factorize the expression to find how the wire can be divided.
+                            <m>2p² + 8p</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>6x² - 9x</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>14y + 21</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>100k - 25k²</m>
                         </p>
                     </li>
                 </ol>
-            </p>
-        </statement>
-    </exercise>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    During a tree-planting day at Hope primary School, a grade <m> 8 </m> planted <m> (6p - 18) </m> tree seedlings. Factorize the expression representing the number of tree seedlings planted that day by the rade <m> 8 </m> learners.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Salamaa School purchased some books for different classes. If  there were <m> (7x² + 14x) </m> books all together, what is the factorized expression representing the number of books the school bought.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    An electrician has <m>(15a - 20b)</m> meters of wire. Factorize the expression to find how the wire can be divided.
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
 </subsection>

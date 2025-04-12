@@ -12,7 +12,7 @@
     <activity>
         <statement>
             <p>
-                <term>Group Activity: </term>
+                <term>Group Activity: </term> Work in groups
             </p>
             <p>
                 <term>What you need:</term> A book or a paper and a pen
@@ -38,7 +38,7 @@
                 </ul>
             </p>
             <p>
-                <term>Guide:</term> 
+                <term>Key Takeaway</term> 
             </p>
             <p>
                 We can simplify algebraic fractions the same way we simplify numerical fractions
@@ -206,87 +206,96 @@
         </solution>
     </example>
 
-    <exercise>
-        <statement>
-            <p>
-                <ol>
-                    <li>
-                        <p>
-                            A farmer employed three workers and paid them <m>\frac {4}{5} p</m>, <m>\frac {2}{3} p</m> and <m>\frac {3}{4} p</m> shillings respectively. Calculate the total amount paid and simplify your answer.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Simplify each of the following expressions:
-                        </p>
-                        <p>
-                            <ol marker = "a)">
-                                <li>
-                                    <p>
-                                        <m>\frac {3}{7} y</m> + <m>\frac {5}{7} y</m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {a + 4}{6} </m> + <m>\frac {a}{4} </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {x - 3}{5} </m> + <m>\frac {x + 2}{4} </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {5}{6} p</m> + <m>\frac {2}{9} p</m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {2m + 6}{m + 3} </m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {5y - 10}{15y + 30} </m>
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Shillah is given <m>\frac {2}{5} g</m> litres of water in a container and <m>\frac {3}{8} g</m> litres in another. He pours all the water into a large tank. Find the total amount of water in the tank and simplify your answer.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The length of a football field is <m>\frac {5}{6} t</m> metres by <m>\frac {2}{3} t</m> metres. Find its perimeter and simplify your answer.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            For a tilling job Jeff, Ham and Steve were paid <m>\frac {7}{8} n</m> shillings, <m>\frac {2}{3} n</m> shillings and <m>\frac {5}{12} n</m> shillings respectively. Calculate the total amount of money they were paid for the tilling work and simplify the answer.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Munene's piece of land has an area of <m>\frac {9x - 12}{3x}</m> hectares. What is the simplified form of this expression?
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Sakina's farm produce <m>\frac {6m - 9}{3m + 3}</m> of maize in a particular year. Express the amount of maize in its simplest form.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Ministry of education receives <m>{5k + 10}</m> shillings from the budgetary board. It spends <m>\frac {5k + 10}{10}</m> shillings on digital learning for the classrooms resources. What fraction of its budget is it allocated for digital learning? Simplify your answer.
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </statement>
-    </exercise>
-
+    <exercises xml:id="exercises-simplifying-algebraic-fractions">
+        <exercise>
+            <statement>
+                <p>
+                    A farmer employed three workers and paid them <m>\frac {4}{5} p</m>, <m>\frac {2}{3} p</m> and <m>\frac {3}{4} p</m> shillings respectively. Calculate the total amount paid and simplify your answer.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Simplify each of the following expressions:
+                </p>
+                <p>
+                    <ol marker = "a)">
+                        <li>
+                            <p>
+                                <m>\frac {3}{7} y</m> + <m>\frac {5}{7} y</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\frac {a + 4}{6} </m> + <m>\frac {a}{4} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\frac {x - 3}{5} </m> + <m>\frac {x + 2}{4} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\frac {5}{6} p</m> + <m>\frac {2}{9} p</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\frac {2m + 6}{m + 3} </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\frac {5y - 10}{15y + 30} </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Shillah is given <m>\frac {2}{5} g</m> litres of water in a container and <m>\frac {3}{8} g</m> litres in another. He pours all the water into a large tank. Find the total amount of water in the tank and simplify your answer.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    The length of a football field is <m>\frac {5}{6} t</m> metres by <m>\frac {2}{3} t</m> metres. Find its perimeter and simplify your answer.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    For a tilling job Jeff, Ham and Steve were paid <m>\frac {7}{8} n</m> shillings, <m>\frac {2}{3} n</m> shillings and <m>\frac {5}{12} n</m> shillings respectively. Calculate the total amount of money they were paid for the tilling work and simplify the answer.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Munene's piece of land has an area of <m>\frac {9x - 12}{3x}</m> hectares. What is the simplified form of this expression?
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Sakina's farm produce <m>\frac {6m - 9}{3m + 3}</m> of maize in a particular year. Express the amount of maize in its simplest form.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Ministry of education receives <m>{5k + 10}</m> shillings from the budgetary board. It spends <m>\frac {5k + 10}{10}</m> shillings on digital learning for the classrooms resources. What fraction of its budget is it allocated for digital learning? Simplify your answer.
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
 </subsection>

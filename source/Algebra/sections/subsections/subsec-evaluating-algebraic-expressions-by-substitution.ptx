@@ -103,80 +103,8 @@
         </solution>
     </example>
 
-    <exercise>
-        <statement>
-            <p>
-                <ol>
-                    <li>
-                        <p>
-                            Evaluate the following expressions using the given values:
-                        </p>
-                        <p>
-                            <ol marker = "a)">
-                                <li>
-                                    <p>
-                                        <m>2a + 3b</m> where, <m>a</m> = <m>5</m> and <m>b</m> = 4
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {x^2 + 2y}{y + 3}</m> where, <m>x</m> = <m>3</m> and <m>y</m> = <m>2</m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {p + q}{2 r}</m> where, <m>p</m> = <m>10</m>, <m>q</m> = <m>6</m> and <m>r</m> = <m>2</m>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <m>\frac {2f + 3d}{\frac {2}{3}n}</m> where, <m>f</m> = <m>\frac {1}{2}</m>, <m>d</m> = <m>\frac {2}{5}</m> and <m>n</m> = <m>9</m>
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The area of a triangle is given by <m>A = \frac {1}{2} b h</m>. Find <m>A</m> when <m>b</m> = <m>8</m>cm and <m>h</m> = <m>5</m>cm
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            The speed, <m>(V)</m> of an object is given by <m>V = 3t^2 + 5t</m>. Find <m>V</m> when <m>t</m> = <m>4</m>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            A mobile data plan costs <m>25 p + 100</m> shillings per month. Calculate the cost of the plan when <m>p</m> = <m>100</m>.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <m>Njoki</m> harvests maize based on the area of land used and the number of workers. The total bags of maize harvested last year is given by <m>L = 2A + 2W</m>, where <m>A</m> is the land area in acres, and <m>W</m> is the number of workers who did the farm work.
-                        </p>
-                        <p>
-                            <ol marker = "(a)">
-                                <li>
-                                    <p>
-                                        Find the total harvest when <m>Njeri</m> uses <m>3</m> acres of land and employs <m>6</m> workers.
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        If <m>Njoki</m> needs <m>50</m> bags of maize, how many more acres should she cultivate, assuming she maintain the same number of workers?
-                                    </p>
-                                </li>
-                            </ol>
-                        </p>
-                    </li>
-                </ol>
-            </p>
-        </statement>
-    </exercise>
-
     <p>
-        <term>Discussion and Reflect:</term>
+        <term>Key Takeaway</term>
     </p>
     <p>
         <ul>
@@ -197,4 +125,78 @@
             </li>
         </ul>
     </p>
+
+    <exercises xml:id="exercises-evaluating-algebraic-expressions-by-substitution">
+        <exercise>
+            <statement>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Evaluate the following expressions using the given values:
+                            </p>
+                            <p>
+                                <ol marker = "a)">
+                                    <li>
+                                        <p>
+                                            <m>2a + 3b</m> where, <m>a</m> = <m>5</m> and <m>b</m> = 4
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>\frac {x^2 + 2y}{y + 3}</m> where, <m>x</m> = <m>3</m> and <m>y</m> = <m>2</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>\frac {p + q}{2 r}</m> where, <m>p</m> = <m>10</m>, <m>q</m> = <m>6</m> and <m>r</m> = <m>2</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <m>\frac {2f + 3d}{\frac {2}{3}n}</m> where, <m>f</m> = <m>\frac {1}{2}</m>, <m>d</m> = <m>\frac {2}{5}</m> and <m>n</m> = <m>9</m>
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The area of a triangle is given by <m>A = \frac {1}{2} b h</m>. Find <m>A</m> when <m>b</m> = <m>8</m>cm and <m>h</m> = <m>5</m>cm
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The speed, <m>(V)</m> of an object is given by <m>V = 3t^2 + 5t</m>. Find <m>V</m> when <m>t</m> = <m>4</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A mobile data plan costs <m>25 p + 100</m> shillings per month. Calculate the cost of the plan when <m>p</m> = <m>100</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>Njoki</m> harvests maize based on the area of land used and the number of workers. The total bags of maize harvested last year is given by <m>L = 2A + 2W</m>, where <m>A</m> is the land area in acres, and <m>W</m> is the number of workers who did the farm work.
+                            </p>
+                            <p>
+                                <ol marker = "(a)">
+                                    <li>
+                                        <p>
+                                            Find the total harvest when <m>Njeri</m> uses <m>3</m> acres of land and employs <m>6</m> workers.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            If <m>Njoki</m> needs <m>50</m> bags of maize, how many more acres should she cultivate, assuming she maintain the same number of workers?
+                                        </p>
+                                    </li>
+                                </ol>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
 </subsection>
