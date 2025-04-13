@@ -2,7 +2,7 @@
     <title>Combined Operations of Integers on a Number Line</title>
     <activity>
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
             <p>
                 <ol marker="1. ">
@@ -12,7 +12,7 @@
                         </p>
                         <image>
                             <shortdescription></shortdescription>
-                            <latex-image>
+                            <latex-image label="combined-operation-1">
                                 \begin{tikzpicture}
                                     \draw[thick,&lt; - &gt;](-6.5,0) -- (8.5,0);
                                     \foreach \x in {1,...,8} {
@@ -83,9 +83,82 @@
             </li>
             <li>
                 <p>
-                    Example: <m>(-2) + (+5) - (-3)</m>
-                    Start at <m>-2</m>, move <m>5</m> steps to the <alert>right</alert> (for <m>+5</m>), then move <m>3</m> steps to the <alert>right</alert> again (since subtracting a negative is like adding).
+                    Example: <m>(-2) + (+5) - (+3)</m>
+                    Start at <m>-2</m>, move <m>5</m> steps to the <alert>right</alert> (for <m>+5</m>), 
+                    then move <m>3</m> steps to the <alert>left</alert> again since we are subtracting a positive integer.
                 </p>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image label="combined-operation-2"> 
+                        \begin{tikzpicture}
+                            \draw[&lt;- &gt;](-4.5,0) -- (5.5,0);
+                            
+                            \foreach \x in {-4,...,-1} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {-\x}; 
+                            }
+                            
+                            \draw (0,0.1) -- (0,-0.1);
+                            \node[below] at (0,-0.1) {0}; 
+                            
+                            \foreach \x in {1,...,5} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {+\x}; 
+                            }
+                            % Draw curved arrows for jumps
+                            \draw[red,-&gt;] (-2,0.1) to[bend left=60] (-1,0.1);
+                            \draw[red,- &gt;] (-1,0.2) to[bend left=60] (0,0.1);
+                            \draw[red,- &gt;] (0,0.2) to[bend left=60] (1,0.1);
+                            \draw[red,- &gt;] (1,0.2) to[bend left=60] (2,0.1);
+                            \draw[red,- &gt;] (2,0.2) to[bend left=60] (3,0.1);
+
+                            % Start label
+                            \draw[] (-2,0) -- (-2,0.5);
+                            \node[above] at (-2,0.55) {\text{start}};
+                            
+                            % Stop label
+                            \draw[] (3,0) -- (3,0.5);
+                            \node[above] at (3,0.55) {\text{stop}};
+                            
+                            \draw[thick,fill=red,red] (-2,0) circle(0.1);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image label="combined-operation-3">
+                        \begin{tikzpicture}
+                            \draw[&lt; - &gt;](-4.5,0) -- (5.5,0);
+                            
+                            \foreach \x in {-4,...,-1} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {-\x}; 
+                            }
+                            
+                            \draw (0,0.1) -- (0,-0.1);
+                            \node[below] at (0,-0.1) {0}; 
+                            
+                            \foreach \x in {1,...,5} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {+\x}; 
+                            }
+                            % Draw curved arrows for jumps
+                            \draw[red,-&gt;] (3,0.1) to[bend right=60] (2,0.1);
+                            \draw[red,- &gt;] (2,0.2) to[bend right=60] (1,0.1);
+                            \draw[red,- &gt;] (1,0.2) to[bend right=60] (0,0.1);
+                            
+                            % Start label
+                            \draw[] (3,0) -- (3,0.5);
+                            \node[above] at (3,0.55) {\text{start}};
+                            
+                            % Stop label
+                            \draw[] (0,0) -- (0,0.5);
+                            \node[above] at (0,0.55) {\text{stop}};
+                            
+                            \draw[thick,fill=red,red] (3,0) circle(0.1);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
             </li>
         </ul>
     </p>

@@ -1,11 +1,8 @@
 <subsection xml:id="subsec-subtraction-of-integers">
-    <title>Subtraction of Integers on a Number line</title>
-    <p>
-        
-    </p>
+    <title>Subtraction of Integers on a Number Line</title>
     <activity>
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
             <p>
                 <ol marker="1. ">
@@ -15,7 +12,7 @@
                         </p>
                         <image>
                             <shortdescription></shortdescription>
-                            <latex-image>
+                            <latex-image label="subtracting-integers-activity-1">
                                 \begin{tikzpicture}
                                     \draw[thick,&lt; - &gt;](-6.5,0) -- (8.5,0);
                                     \foreach \x in {1,...,8} {
@@ -65,6 +62,45 @@
                     Consider <m>(-3) - (+7)</m>: when subtracting <m>(+7)</m>, a <alert>positive integer</alert>, from <m>(-3)</m>, 
                     we begin at <m>(-3)</m> on the number line and move <m>7</m> steps to the <alert>left</alert>.
                 </p>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image label="subtracting-integers-explanation-2">
+                        \begin{tikzpicture}
+                            \draw[&lt; - &gt;](-11.5,0) -- (2.5,0);
+                            
+                            \foreach \x in {-11,...,-1} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {-\x}; 
+                            }
+                            
+                            \draw (0,0.1) -- (0,-0.1);
+                            \node[below] at (0,-0.1) {0}; 
+                            
+                            \foreach \x in {1,...,2} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {+\x}; 
+                            }
+                            % Draw curved arrows for jumps
+                            \draw[red,-&gt;] (-3,0.1) to[bend right=60] (-4,0.1);
+                            \draw[red,- &gt;] (-4,0.2) to[bend right=60] (-5,0.1);
+                            \draw[red,- &gt;] (-5,0.2) to[bend right=60] (-6,0.1);
+                            \draw[red,- &gt;] (-6,0.2) to[bend right=60] (-7,0.1);
+                            \draw[red,- &gt;] (-7,0.2) to[bend right=60] (-8,0.1);
+                            \draw[red,- &gt;] (-8,0.2) to[bend right=60] (-9,0.1);
+                            \draw[red,- &gt;] (-9,0.2) to[bend right=60] (-10,0.1);
+                            
+                            % Start label
+                            \draw[] (-3,0) -- (-3,0.5);
+                            \node[above] at (-3,0.55) {\textbf{start}};
+                            
+                            % Stop label
+                            \draw[] (-10,0) -- (-10,0.5);
+                            \node[above] at (-10,0.55) {\textbf{stop}};
+                            
+                            \draw[thick,fill=red,red] (-3,0) circle(0.1);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
             </li>
         </ul>
     </p>

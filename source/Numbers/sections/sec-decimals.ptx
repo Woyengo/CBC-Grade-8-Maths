@@ -7,6 +7,40 @@
             
         </p>
     </introduction>
+    <objectives>
+        <introduction>
+            <p>
+                By the end of this substrand, you should be able to:
+            </p>
+        </introduction>
+        <ol>
+            <li>
+                <p>
+                    Convert <alert>fractions</alert> into <alert>decimals</alert>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Convert <alert>recurring decimals</alert> into <alert>fractions</alert>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Round off <alert>decimals</alert> to the required number of <alert>decimal places</alert>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Express numbers using the correct number of <alert>significant figures</alert>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Write numbers in <alert>standard form</alert>.
+                </p>
+            </li>
+        </ol>
+    </objectives>
     <xi:include href="subsections/decimals/conversion-of-fractions-to-decimals.ptx" />
     <xi:include href="subsections/decimals/recurring-decimals.ptx" />
     <xi:include href="subsections/decimals/converting-recurring-decimals-to-fractions.ptx" />

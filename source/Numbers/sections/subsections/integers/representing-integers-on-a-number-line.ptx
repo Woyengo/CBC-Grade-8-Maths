@@ -2,7 +2,7 @@
     <title>Representing Integers on a Number Line</title>
     <activity>
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
             <p>
                 <ol marker="1. ">
@@ -12,7 +12,7 @@
                         </p>
                         <image>
                             <shortdescription></shortdescription>
-                            <latex-image>
+                            <latex-image label="representing-integers-1">
                                 \begin{tikzpicture}
                                     \draw[thick,&lt; - &gt;](-5.5,0) -- (9.5,0);
                                     \foreach \x in {1,...,9} {
@@ -57,7 +57,7 @@
                     <caption></caption>
                     <image>
                         <shortdescription>Drawing a number line</shortdescription>
-                        <latex-image>
+                        <latex-image label="representing-integers-2">
                             \begin{tikzpicture}
                                 \draw[&lt; - &gt;](-5.5,0) -- (5.5,0);
                                 \draw[-&gt;](1,-1)--(5,-1) node[midway, below]{Positive integers};

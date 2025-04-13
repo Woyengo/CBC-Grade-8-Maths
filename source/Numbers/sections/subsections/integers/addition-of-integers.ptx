@@ -1,5 +1,5 @@
 <subsection xml:id="subsec-addition-of-integers">
-    <title>Addition of integers</title>
+    <title>Addition of integers on a Number Line</title>
     <activity>
             <p>
                 <alert>Work in groups</alert>
@@ -12,7 +12,7 @@
                         </p>
                         <image>
                             <shortdescription></shortdescription>
-                            <latex-image>
+                            <latex-image label="addition-of-integers-1">
                                 \begin{tikzpicture}
                                     \draw[thick,&lt; - &gt;](-6.5,0) -- (6.5,0);
                                     \foreach \x in {1,...,6} {
@@ -62,12 +62,84 @@
                     Consider <m>(+2) + (+3)</m>: when adding <m>(+3)</m>, a <alert>positive integer</alert>, to <m>(+2)</m>, 
                     we start at <m>(+2)</m> on the number line and move <m>3</m> steps to the <alert>right</alert>.
                 </p>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image label="addition-of-integers-2">
+                        \begin{tikzpicture}
+                            \draw[&lt; - &gt;](-3.5,0) -- (7.5,0);
+                        
+                            \foreach \x in {-3,...,-1} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {-\x}; 
+                            }
+                        
+                            \draw (0,0.1) -- (0,-0.1);
+                            \node[below] at (0,-0.1) {0}; 
+                        
+                            \foreach \x in {1,...,7} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {+\x}; 
+                            }
+                            % Draw curved arrows for jumps
+                            \draw[red,- &gt;] (2,0.1) to[bend left=60] (3,0.1);
+                            \draw[red,- &gt;] (3,0.2) to[bend left=60] (4,0.1);
+                            \draw[red,- &gt;] (4,0.2) to[bend left=60] (5,0.1);
+                            
+                            % Start label
+                            \draw[] (2,0) -- (2,0.5);
+                            \node[above] at (2,0.55) {\textbf{start}};
+                            
+                            % Stop label
+                            \draw[] (5,0) -- (5,0.5);
+                            \node[above] at (5,0.55) {\textbf{stop}};
+                            
+                            \draw[thick,fill=red,red] (2,0) circle(0.1);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
             </li>
             <li>
                 <p>
                     Consider <m>(+1) + (-5)</m>: when adding <m>(-5)</m>, a <alert>negative integer</alert>, to <m>(+1)</m>, 
                     we start at <m>(+1)</m> on the number line and move <m>5</m> steps to the <alert>left</alert>.
                 </p>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image label="addition-of-integers-3">
+                        \begin{tikzpicture}
+                            \draw[&lt; - &gt;](-5.5,0) -- (5.5,0);
+                            
+                            \foreach \x in {-5,...,-1} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {-\x}; 
+                            }
+                            
+                            \draw (0,0.1) -- (0,-0.1);
+                            \node[below] at (0,-0.1) {0}; 
+                            
+                            \foreach \x in {1,...,5} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {+\x}; 
+                            }
+                            % Draw curved arrows for jumps
+                            \draw[red,-&gt;] (1,0.1) to[bend right=60] (0,0.1);
+                            \draw[red,- &gt;] (0,0.2) to[bend right=60] (-1,0.1);
+                            \draw[red,- &gt;] (-1,0.2) to[bend right=60] (-2,0.1);
+                            \draw[red,- &gt;] (-2,0.2) to[bend right=60] (-3,0.1);
+                            \draw[red,- &gt;] (-3,0.2) to[bend right=60] (-4,0.1);
+                            
+                            % Start label
+                            \draw[] (1,0) -- (1,0.5);
+                            \node[above] at (1,0.55) {\textbf{start}};
+                            
+                            % Stop label
+                            \draw[] (-4,0) -- (-4,0.5);
+                            \node[above] at (-4,0.55) {\textbf{stop}};
+                            
+                            \draw[thick,fill=red,red] (1,0) circle(0.1);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
             </li>
         </ul>        
     </p>
