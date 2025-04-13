@@ -1,21 +1,46 @@
 <subsection xml:id="subsec-recurring-decimals">
     <title>Recurring decimals</title>
-    <p>
-        <term>A recurring number</term>, also known as a repeating decimal, is a decimal number 
-        in which a specific digit or group of digits after the decimal point repeats without ending.
-    </p>
-    <p>
-        In recurring decimals, <alert>dot notation</alert> is used to indicate repeating digits.
-        A dot placed above a specific digit or sequence of digits shows which part repeats. 
-        For instance, <m>0.5\dot{7}</m> represents <m>0.577777...</m>, and <m>0.\dot{2}\dot{7}</m> represents <m>0.272727...</m>
-    </p>
     <activity>
-        <introduction>
+        <!-- <introduction> -->
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
+        <!-- </introduction> -->
+         <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Using the long division method, convert the fraction <m>\frac{6}{7}</m> to a decimal number upto <m>12</m> decimal places.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What do you notice about the division process, does the division end or it continues infinitely?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Identify the sequence of digits that repeat themselves after the decimal point.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        What do we call a decimal number where some digits repeat infinitely without ending?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Provide another example of a recurring decimal.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your findings with the rest of learners in the class.
+                    </p>
+                </li>
+            </ol>
+         </p>
+        <!-- <task>
             <statement>
                 <p>
                     Using the long division method, convert the fraction <m>\frac{6}{7}</m> to a decimal number upto <m>12</m> decimal places.
@@ -56,8 +81,20 @@
                     Share your findings with the rest of learners in the class.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <term>A recurring number</term>, also known as a repeating decimal, is a decimal number 
+        in which a specific digit or group of digits after the decimal point repeats without ending.
+    </p>
+    <p>
+        In recurring decimals, <alert>dot notation</alert> is used to indicate repeating digits.
+        A dot placed above a specific digit or sequence of digits shows which part repeats. 
+        For instance, <m>0.5\dot{7}</m> represents <m>0.577777...</m>, and <m>0.\dot{2}\dot{7}</m> represents <m>0.272727...</m>
+    </p>
     <example>
         <statement>
             <p>
@@ -115,11 +152,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>

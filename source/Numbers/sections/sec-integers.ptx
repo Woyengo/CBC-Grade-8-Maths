@@ -10,6 +10,31 @@
             a step further to explore <term>integers</term>. 
          </p>
     </introduction>
+    <objectives>
+        <introduction>
+            <p>
+                By the end of this substrand, you should be able to:
+            </p>
+        </introduction>
+        <ol>
+            <li>
+                <p>
+                    Represent <alert>integers</alert> on a number line.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use a number line to perform <alert>addition</alert> and <alert>subtraction</alert> of integers.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve expressions involving <alert>combined operations</alert> of integers using a number line.
+                </p>
+            </li>
+        </ol>
+    </objectives>
+    
     <xi:include href="subsections/integers/identifying-integers.ptx" />
     <xi:include href="subsections/integers/representing-integers-on-a-number-line.ptx" />
     <xi:include href="subsections/integers/addition-of-integers.ptx" />

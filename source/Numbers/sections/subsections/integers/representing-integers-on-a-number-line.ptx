@@ -1,40 +1,109 @@
 <subsection xml:id="subsec-representing-integers-on-a-number-line">
     <title>Representing Integers on a Number Line</title>
     <activity>
-        <introduction>
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
+            <p>
+                <ol marker="1. ">
+                    <li>
+                        <p>
+                            Draw a number line similar to the one shown below.
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="representing-integers-1">
+                                \begin{tikzpicture}
+                                    \draw[thick,&lt; - &gt;](-5.5,0) -- (9.5,0);
+                                    \foreach \x in {1,...,9} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {-1,-2,-3,-4,-5} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </li>
+                    <li>
+                        <p>
+                            Mark the steps you moved in the previous activity, on the number line.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss and share your representation with the rest of the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
     </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Consider the number line below in <xref ref="number-line-representing-integers-1"/>.
+                </p>
+                <figure xml:id="number-line-representing-integers-1">
+                    <caption></caption>
+                    <image>
+                        <shortdescription>Drawing a number line</shortdescription>
+                        <latex-image label="representing-integers-2">
+                            \begin{tikzpicture}
+                                \draw[&lt; - &gt;](-5.5,0) -- (5.5,0);
+                                \draw[-&gt;](1,-1)--(5,-1) node[midway, below]{Positive integers};
+                                \draw[&lt;-](-5,-1)--(-1,-1) node[midway, below]{Negative integers};
+                                \foreach \x in {1,2,3,4,5} {
+                                    \draw (\x,0.1) -- (\x,-0.1); 
+                                    \node[red,below] at (\x,-0.1) {+\x}; 
+                                }
+                        
+                                \draw (0,0.1) -- (0,-0.1);
+                                \node[below] at (0,-0.1) {0}; 
+                        
+                                \foreach \x in {-1,-2,-3,-4,-5} {
+                                    \draw (\x,0.1) -- (\x,-0.1); 
+                                    \node[blue,below] at (\x,-0.1) {-\x}; 
+                                }
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+            </li>
+            <li>
+                <p>
+                    A number line is a pictorial representation of <alert>negative integers</alert>, <alert>zero</alert> and
+                    <alert>positive integers </alert> on a straight line as seen in <xref ref="number-line-representing-integers-1"/> above.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>0</m> is <alert>neither</alert> a negative <alert>nor</alert> a positive integer and 
+                    is usually at the center of the number line.
+                </p>
+            </li>
+            <li>
+                <p>
+                    A negative integer is located on the <alert>left hand side</alert> of <m>0</m> on the number line since it's less than <m>0.</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    A positive integer is located on the <alert>right hand side</alert> of <m>0</m> on the number line since it's 
+                    greater than all <alert>negative integers </alert> and <alert>zero</alert>
+                </p>
+            </li>
+        </ul>
+    </p>
     <example>
         <statement>
             <p>
@@ -87,11 +156,4 @@
             </image>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>
