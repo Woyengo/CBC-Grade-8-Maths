@@ -165,13 +165,94 @@
     <example>
         <statement>
             <p>
-                
+                Use a number line to perform the following expression.
+            </p>
+            <p>
+                <m> (+4) - (6) + (3) </m>
             </p>
         </statement>
         <solution>
             <p>
-                
+                Starting at <m>(+4)</m>, move <m>6</m> steps to the <alert>left</alert> since we are 
+                subtracting <alert>a positive integer</alert> as shown in the number line below.
             </p>
+            <image>
+                <shortdescription></shortdescription>
+                <latex-image label="combined-operation-example-1">
+                    \begin{tikzpicture}
+                        \draw[&lt; - &gt;](-4.5,0) -- (5.5,0);
+        
+                        \foreach \x in {-4,...,-1} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {-\x}; 
+                        }
+                        
+                        \draw (0,0.1) -- (0,-0.1);
+                        \node[below] at (0,-0.1) {0}; 
+                        
+                        \foreach \x in {1,...,5} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {+\x}; 
+                        }
+                        % Draw curved arrows for jumps
+                        \draw[red,-&gt;] (4,0.1) to[bend right=60] (3,0.1);
+                        \draw[red,- &gt;] (3,0.2) to[bend right=60] (2,0.1);
+                        \draw[red,- &gt;] (2,0.2) to[bend right=60] (1,0.1);
+                        \draw[red,-&gt;] (1,0.1) to[bend right=60] (0,0.1);
+                        \draw[red,- &gt;] (0,0.2) to[bend right=60] (-1,0.1);
+                        \draw[red,- &gt;] (-1,0.2) to[bend right=60] (-2,0.1);
+                        
+                        % Start label
+                        \draw[] (4,0) -- (4,0.5);
+                        \node[above] at (4,0.55) {\textbf{start}};
+                        
+                        % Stop label
+                        \draw[] (-2,0) -- (-2,0.5);
+                        \node[above] at (-2,0.55) {\textbf{stop}};
+                        
+                        \draw[thick,fill=red,red] (4,0) circle(0.1);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                Then, from <m>(-2)</m> on the number line, move <m>3</m> steps to the right since we are 
+                adding a <alert>a positive integer</alert>.
+            </p>
+            <image>
+                <shortdescription></shortdescription>
+                <latex-image label="combined-operation-example-2">
+                    \begin{tikzpicture}
+                        \draw[&lt; - &gt;](-4.5,0) -- (5.5,0);
+        
+                        \foreach \x in {-4,...,-1} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {-\x}; 
+                        }
+                        
+                        \draw (0,0.1) -- (0,-0.1);
+                        \node[below] at (0,-0.1) {0}; 
+                        
+                        \foreach \x in {1,...,5} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {+\x}; 
+                        }
+                        % Draw curved arrows for jumps
+                        \draw[red,-&gt;] (-2,0.1) to[bend left=60] (-1,0.1);
+                        \draw[red,- &gt;] (-1,0.2) to[bend left=60] (0,0.1);
+                        \draw[red,- &gt;] (0,0.2) to[bend left=60] (1,0.1);
+                    
+                        % Start label
+                        \draw[] (-2,0) -- (-2,0.5);
+                        \node[above] at (-2,0.55) {\textbf{start}};
+                        
+                        % Stop label
+                        \draw[] (1,0) -- (1,0.5);
+                        \node[above] at (1,0.55) {\textbf{stop}};
+                        
+                        \draw[thick,fill=red,red] (-2,0) circle(0.1);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
         </solution>
     </example>
 </subsection>
