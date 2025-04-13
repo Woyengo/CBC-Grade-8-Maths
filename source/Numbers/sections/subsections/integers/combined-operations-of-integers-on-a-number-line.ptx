@@ -10,6 +10,26 @@
                         <p>
                             Draw a number line similar to the one shown below.
                         </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \draw[thick,&lt; - &gt;](-6.5,0) -- (8.5,0);
+                                    \foreach \x in {1,...,8} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {-1,-2,-3,-4,-5,-6} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
                     </li>
                     <li>
                         <p>
@@ -36,6 +56,39 @@
                 </ol>
             </p>
     </activity>
+    <p><m>\textbf{Key Takeaway}</m></p>
+    <p>
+        When solving expressions that involve both addition and subtraction of integers, 
+        follow the operations from left to right.
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    <ul>
+                        <li>
+                            Adding a <alert>positive integer</alert> means moving to the <alert>right</alert>.
+                        </li>
+                        <li>
+                            Subtracting a <alert>positive integer</alert> means moving to the <alert>left</alert>.
+                        </li>
+                        <li>
+                            Adding a <alert>negative integer</alert> is the same as moving to the <alert>left</alert>.
+                        </li>
+                        <li>
+                            Subtracting a <alert>negative integer</alert> is the same as moving to the <alert>right</alert>.
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Example: <m>(-2) + (+5) - (-3)</m>
+                    Start at <m>-2</m>, move <m>5</m> steps to the <alert>right</alert> (for <m>+5</m>), then move <m>3</m> steps to the <alert>right</alert> again (since subtracting a negative is like adding).
+                </p>
+            </li>
+        </ul>
+    </p>
     <example>
         <statement>
             <p>
@@ -48,11 +101,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>

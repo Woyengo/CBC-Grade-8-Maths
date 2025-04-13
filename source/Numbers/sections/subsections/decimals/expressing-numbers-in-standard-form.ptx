@@ -1,10 +1,5 @@
 <subsection xml:id="subsec-expressing-numbers-in-standard-form">
     <title>Expressing Numbers in Standard Form</title>
-    <p>
-        <alert>Standard form</alert> is a way of representing numbers in a clear and consistent way. 
-        A number expressed in the form of <m>p \times 10^n</m>,
-        where <m>n</m> is an integer and <m>p</m> is greater than zero but less than <m>10 </m> is said to be in standard form.
-    </p>
     <activity>
         <!-- <introduction> -->
             <p>
@@ -70,6 +65,14 @@
             </statement>
         </task> -->
     </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        <alert>Standard form</alert> is a way of representing numbers in a clear and consistent way. 
+        A number expressed in the form of <m>p \times 10^n</m>,
+        where <m>n</m> is an integer and <m>p</m> is greater than zero but less than <m>10 </m> is said to be in standard form.
+    </p>
     <example>
         <statement>
             <p>
@@ -162,11 +165,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>

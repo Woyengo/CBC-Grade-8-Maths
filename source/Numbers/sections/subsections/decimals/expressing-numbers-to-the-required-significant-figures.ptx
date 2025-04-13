@@ -1,10 +1,5 @@
 <subsection xml:id="subsec-expressing-numbers-to-the-required-significant-figures">
     <title>Expressing Numbers to the Required Significant Figures</title>
-    <p>
-        <alert>Significant figures</alert> (or <alert>significant digits</alert>) are the digits in a number
-        that contribute to its precision. They include all non-zero digits, 
-        any zeros between non-zero digits, and trailing zeros in decimal numbers.
-    </p>
     <activity>
         <!-- <introduction> -->
             <p>
@@ -64,6 +59,14 @@
             </statement>
         </task> -->
     </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <alert>Significant figures</alert> (or <alert>significant digits</alert>) are the digits in a number
+        that contribute to its precision. They include all non-zero digits, 
+        any zeros between non-zero digits, and trailing zeros in decimal numbers.
+    </p>
     <p>
         <m>\textbf{Learning Point}</m>
     </p>
@@ -249,11 +252,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>

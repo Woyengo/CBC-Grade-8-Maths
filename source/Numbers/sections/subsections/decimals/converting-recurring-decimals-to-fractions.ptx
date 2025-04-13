@@ -1,14 +1,5 @@
 <subsection xml:id="subsec-converting-recurring-decimals-to-fractions">
     <title>Converting Recurring Decimals to Fractions</title>
-    <p>
-        In the previous lesson, <xref ref="subsec-recurring-decimals"/>, we explored <alert>recurring decimals</alert>. 
-        Now, we will learn how to convert recurring decimals into fractions. 
-    </p>
-    <p>
-        To do this, we start by defining the decimal as an unknown variable, say <m>x</m>, and label this as equation <m>1</m>. 
-        Next, we multiply both sides of equation <m>1</m> by <m>10^n</m>, where <m>n</m> represents the number of repeating digits, and label this as equation <m>2</m>. 
-        Finally, we subtract equation <m>1</m> from equation <m>2</m> to eliminate the recurring part and solve for <m>x</m>. 
-    </p>
     <activity>
         <!-- <introduction> -->
             <p>
@@ -66,6 +57,18 @@
             </statement>
         </task> -->
     </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        In the previous lesson, <xref ref="subsec-recurring-decimals"/>, we explored <alert>recurring decimals</alert>. 
+        Now, we will learn how to convert recurring decimals into fractions. 
+    </p>
+    <p>
+        To do this, we start by defining the decimal as an unknown variable, say <m>x</m>, and label this as equation <m>1</m>. 
+        Next, we multiply both sides of equation <m>1</m> by <m>10^n</m>, where <m>n</m> represents the number of repeating digits, and label this as equation <m>2</m>. 
+        Finally, we subtract equation <m>1</m> from equation <m>2</m> to eliminate the recurring part and solve for <m>x</m>. 
+    </p>
     <example>
         <statement>
             <p>
@@ -214,11 +217,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>
