@@ -1,0 +1,303 @@
+<subsection xml:id="subsec-factorisation-of-algebraic-expressions">
+    <title>Factorisation of algebraic expressions</title>
+    <p>
+        <term>What is Factorization?</term>
+    </p>
+    <p>
+        Factorization is the process of expressing an algebraic expression as a product of its simpler components, making it easier to simplify and solve mathematical problems.
+    </p>
+    <p>
+        It helps simplify expressions, solve equations efficiently, and understand relationships between quantities. By identifying common factors, we can rewrite algebraic terms in a more structured form, making problem-solving more efficient.
+    </p>
+
+    <p>
+        <term>a) Factorization by Finding Common Factors</term>
+    </p>
+    <p>
+        This method involves identifying the greatest common factor (GCF) in all terms of an expression and factoring it out.
+    </p>
+    <example>
+    <statement>
+        <p>
+            Factorize: <m>8 x + 12</m>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            The greatest common factor (GCF) of <m>8 x</m> and <m> 12 </m> is <m> 4 </m>.
+        </p>
+        <p>
+            <m> 4 </m> divides <m>8 x</m> and <m> 12 </m> to get;
+        </p>
+        <p>
+            <me>
+                4(2 x + 3)
+            </me>
+        </p>
+    </solution>
+    </example>
+
+    <p>
+        <term>b) Factorization of Algebraic Expressions by Grouping</term>
+    </p>
+    <p>
+        This technique is useful when an expression has four terms that can be grouped into pairs, each having a common factor.
+    </p>
+    <example>
+        <statement>
+            <p>
+                Factorize <m>ax + ay + bx + by</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                Group the terms (like terms) which look similar
+            </p>
+            <p>
+                <me>(ax + ay) + (bx + by)</me>
+            </p>
+            <p>
+                Factor out common terms in each group:
+            </p>
+            <p>
+                <me>a(x + y) + b(x + y)</me>
+            </p>
+            <p>
+                Factor out the common factor <m>(x + y)</m>
+            </p>
+            <p>
+                <me>
+                    (x + y)(a + b)
+                </me>
+            </p>
+        </solution>
+    </example>
+
+    <p>
+        <term>New word;</term> like terms
+    </p>
+    <p>
+        Like terms are terms that have the same variable and the same power. They can be added or subtracted because they belong to the same group.
+    </p>
+
+    <activity>
+        <p>
+            <term> Group Activity:</term> Work in groups
+        </p>
+        <p>
+            <term>Instructions:</term>
+        </p>
+        <p>
+            Make groups of 3-4 learners.
+        </p>
+        <p>
+            Make number cards from papers (Manilla or foolscap) e.g [** A photo of paper number cards(different colours) with an expression like <m> xy </m> , <m> mn^2 </m> **]
+        </p>
+        <p>
+             Use the number and variable cards to create algebraic expressions.
+        </p>
+        <p>
+            Identify the common factor in each expression and rewrite it in factored form.
+        </p>
+        <p>
+            Discuss your findings with other group members
+        </p>
+    </activity>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    What patterns did you notice when factorizing expressions?
+                </p>
+            </li>
+            <li>
+                <p>
+                    How does factorization help in solving algebraic problems?
+                </p>
+            </li>
+        </ul>
+    </p>
+
+    <example>
+        <statement>
+            <p>
+                Jose a fruit seller arranges mangoes and bananas in baskets.
+            </p>
+            <p>
+                Let:
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m> a </m> be the number of mangoes in each basket
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m> b </m> be the number of bananas in each basket
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                If there are <m> 5 </m> baskets, write an algebraic expression for the total number of mangoes and bananas.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                 Mangoes in <m> 5 </m> baskets
+            </p>
+            <p>
+                <me>
+                    5 \times a = 5 a
+                </me>
+            </p>
+            <p>
+                Bananas in <m> 5 </m> baskets
+            </p>
+            <p>
+                <me>
+                    5 \times b = 5 b
+                </me>
+            </p>
+            <p>
+                Total number of fruits:
+            </p>
+            <p>
+                <me>
+                    5 a + 5 b
+                </me>
+            </p>
+            <p>
+                Factorizing with <m> 5 </m> we get;
+            </p>
+            <p>
+                <me>
+                    5( a + b)
+                </me>
+            </p>
+        </solution>
+    </example>
+
+    <exercises xml:id="exercises-factorisation-of-algebraic-expressions">
+        <exercise>
+            <statement>
+                <p>
+                    Identify whether the following pairs of terms are like or unlike:
+                </p>
+                <p>
+                    <ol marker = "a)">
+                        <li>
+                            <p>
+                                <m> 4x </m> and <m> 7x </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 5a² </m> and <m> 3a² </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 2y </m> and <m> - 9y </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> ab </m> and <m> ba </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 6mn </m> and <m> 6nm </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 10p²q </m> and <m> 3p²q </m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m> 3x²y </m> and <m> - 8xy² </m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Factorize each of the following expressions:
+                </p>
+                <p>
+                <ol marker= "a)">
+                    <li>
+                        <p>
+                            <m>3x + 6</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>4y - 12</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>10a + 5</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>9m - 15n</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>2p² + 8p</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>6x² - 9x</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>14y + 21</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>100k - 25k²</m>
+                        </p>
+                    </li>
+                </ol>
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    During a tree-planting day at Hope primary School, a grade <m> 8 </m> planted <m> (6p - 18) </m> tree seedlings. Factorize the expression representing the number of tree seedlings planted that day by the rade <m> 8 </m> learners.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Salamaa School purchased some books for different classes. If  there were <m> (7x² + 14x) </m> books all together, what is the factorized expression representing the number of books the school bought.
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    An electrician has <m>(15a - 20b)</m> meters of wire. Factorize the expression to find how the wire can be divided.
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+</subsection>

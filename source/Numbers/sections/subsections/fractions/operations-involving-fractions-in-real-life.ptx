@@ -78,7 +78,7 @@
             </li>
             <li>
                 <p>
-                    <ol marker="a)">
+                    <ol marker="(a)">
                         <li>
                             <p>
                                 Work out the fraction representing the amount of money Aisha spent to buy the two items.
@@ -94,7 +94,7 @@
             </li>
             <li>
                 <p>
-                   <ol marker="a)">
+                   <ol marker="(a)">
                     <li>
                         <p>
                             Calculate the total amount of money Aisha had initially.
@@ -239,9 +239,9 @@
                                 </p>
                                 <p>
                                     <md>
-                                        <mrow> \frac{1}{8} \times 4200 \times \frac{16}{3} =\amp \frac{1}{\cancel{8}_1} \times \cancel{4200}^(1400) \times \frac{\cancel{16}^2}{\cancel{3}_1}</mrow>
+                                        <mrow> \frac{1}{8} \times 4200 \times \frac{16}{3} =\amp \frac{1}{\cancel{8}_1} \times \frac{\cancel{16}^2}{\cancel{3}_1} \times \cancel{4200}^{1400} </mrow>
                                         <mrow> \amp </mrow>
-                                        <mrow>  =\amp \text{sh} 2800 </mrow>
+                                        <mrow>  =\amp \text{ sh} \quad 2800 </mrow>
                                     </md>
                                 </p>
                             </li>
@@ -251,9 +251,9 @@
                                 </p>
                                 <p>
                                     <md>
-                                        <mrow> \frac{1}{2} \times 4200 \times \frac{16}{3} =\amp \frac{1}{\cancel{2}_1} \times ^(1400)\cancel{4200} \times \frac{\cancel{16}^8}{\cancel{3}_1}  </mrow>
+                                        <mrow> \frac{1}{2} \times 4200 \times \frac{16}{3} =\amp \frac{1}{\cancel{2}_1} \times \frac{\cancel{16}^8}{\cancel{3}_1} \times \cancel{4200}^{1400}   </mrow>
                                         <mrow> \amp </mrow>
-                                        <mrow> =\amp \text{sh} 11 200</mrow>
+                                        <mrow> =\amp \text{ sh} \quad 11 200</mrow>
                                     </md>
                                 </p>
                             </li>

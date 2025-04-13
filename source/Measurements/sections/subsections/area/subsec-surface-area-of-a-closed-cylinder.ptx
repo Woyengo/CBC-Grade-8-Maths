@@ -17,7 +17,7 @@
             <m>\textbf{What you require:}</m> A pair of scissor and a piece of paper.
         </p>
         <p>
-            <ol marker="(i).">
+            <ol>
                 <li>
                     <p>
                         Make a paper made of a cylinder.
@@ -316,8 +316,8 @@
                 <md>
                     <mrow> \text{Surface area}=\amp 2\pi r^2+2\pi r h</mrow>
                     <mrow> =\amp  2\pi r(r+h)</mrow>
-                    <mrow> =\amp 2 \times \pi \times 12\,cm\,(12\,cm+30\,cm ) </mrow>
-                    <mrow> =\amp 2 \times \pi \times 12\,cm\,\times 42\,cm </mrow>
+                    <mrow> =\amp 2 \times \frac{22}{7} \times 12\,cm\,(12\,cm+30\,cm ) </mrow>
+                    <mrow> =\amp 2 \times \frac{22}{7} \times 12\,cm\,\times 42\,cm </mrow>
                     <mrow> =\amp  2 \times 22 \times 12 \times 6</mrow>
                     <mrow> =\amp 3\,168 \,cm^2 </mrow>
                 </md>
@@ -381,8 +381,8 @@
             <p>
                 <md>
                     <mrow> \text{Surface area}=\amp 2\pi r(r+h)</mrow>
-                    <mrow> =\amp 2 \times \pi \times 10.5 \,cm(10.5\,cm+91\,cm)</mrow>
-                    <mrow>= \amp  2 \times \pi \times 10.5 \,cm \times 101.5 \,cm</mrow>
+                    <mrow> =\amp 2 \times \frac{22}{7} \times 10.5 \,cm(10.5\,cm+91\,cm)</mrow>
+                    <mrow>= \amp  2 \times \frac{22}{7}\times 10.5 \,cm \times 101.5 \,cm</mrow>
                     <mrow> =\amp 6\,699.00\,cm^2 </mrow>
                 </md>
             </p>

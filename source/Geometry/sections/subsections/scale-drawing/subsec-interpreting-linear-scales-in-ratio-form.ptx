@@ -64,123 +64,13 @@
         </p>
     </activity>
     <p>
-        <m>\textbf{Interpreting linear scales in ratio form}</m> means understanding and using scale representations where distances on a map, drawing, or model are expressed as a ratio compared to real-world measurements.
-    </p>
-    <p>
-        <m>\textbf{Key Concepts:}</m>
-    </p>
-    <p>
-        <ol>
-            <li>
-                <p>
-                    <m>\textbf{Definition of Scale in Ratio Form}</m>
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                A scale in ratio form is written as <m>1:x</m> or <m>1/x</m>, meaning <m>1</m> unit on the drawing or map represents <m>x</m> units in real life.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <m>\textbf{Using Scale to Find Real Distances}</m>
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                If the scale is <m>1:5000</m> and a road on a map measures <m>3 \textbf{ cm}</m>, the actual length is:
-                            </p>
-                            <p>
-                                <md>
-                                    <mrow> = \amp 3 \times 5000 \textbf{ cm}</mrow>
-                                    <mrow> =  \amp 15000 \textbf{ cm}</mrow>
-                                    <mrow> =  \amp 150 \textbf{ m}</mrow>
-                                </md>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    
-                    <m>\textbf{Converting Between Units}</m>
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                Ensure all measurements are in the same unit before calculation.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Common conversions:
-                            </p>
-                            <p>
-                                <ul>
-                                    <li>
-                                        <p>
-                                            <m>1 \textbf{ cm}</m> = <m>10 \textbf{ mm}</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>1 \textbf{ m}</m> = <m>100 \textbf{ cm}</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>1 \textbf{ km}</m> = <m>1000 \textbf{ m}</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>1 \textbf{ km}</m> = <m>100,000 \textbf{ cm}</m>
-                                        </p>
-                                    </li>
-                                </ul>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <m>\textbf{Finding Scale from Given Measurements}</m>
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                If the actual distance is <m>2 \textbf{ km}</m>, and it is represented as <m>4 \textbf{ cm}</m> on a map:
-                            </p>
-                            <p>
-                                <md>
-                                    <mrow>\textbf{Scale} = \amp \frac{\textbf{Map Distance}}{\textbf{Real Distance}}</mrow>
-                                    <mrow> =  \amp \frac{4 \textbf{ cm}}{200,000 \textbf{ cm}}</mrow>
-                                    <mrow> =  \amp 1 : 50,000</mrow>
-                                </md>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-        </ol>
-    </p>
-    <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
             <li>
                 <p>
-                    Interpreting linear scales in ratio form involves understanding the relationship between the map or diagram distance and the actual real-world distance as a simplified ratio.
+                    <m>\textbf{Interpreting linear scales in ratio form}</m> means understanding and using scale representations where distances on a map, drawing, or model are expressed as a ratio compared to real-world measurements.
                 </p>
             </li>
         </ul>

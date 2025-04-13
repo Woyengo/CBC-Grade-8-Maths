@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
  <subsection xml:id="subsec-circumference-of-a-circle">
     <title>circumference of a circle</title>
       <p>
-      <m>{\color{aquamarine}\text{Circumference}}</m> is the total distance distance around ta circle. 
+      <m>{\color{blue}\text{Circumference}}</m> is the total distance distance around ta circle. 
       </p>
       <p>It is like the perimeter of a circle.</p>
    <activity>
@@ -247,3 +246,4 @@
 
     
   </subsection>
+  

@@ -13,49 +13,49 @@
         <title>Working Out Percentage Change of Given Quantities in Real Life Situations</title>
 
         <activity>
-                <title>Work in Groups.</title>
-                
-                <p>
-                    Consider the following information
-                </p>
-                <p>
-                    Moraa takes five days to till a vegetable garden.
-                </p>
-                <p>
-                    Ruto takes ten days to till the garden.
-                </p>
-                <p>
-                    In your groups, discuss the following and record your findings.
-                </p>
-                <p>
-                    <ol>
-                        <li>
-                            <p>
-                                What fraction of the garden can Moraa till in a day?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                What fraction of the garden can Ruto till in a day?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                What fraction can they till in a day if they worked together?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Share your findings with other groups.
-                            </p>
-                        </li>
-                    </ol>
-                </p>
+            <title>Work in Groups.</title>
+            
+            <p>
+                Consider the following information
+            </p>
+            <p>
+                Moraa takes five days to till a vegetable garden.
+            </p>
+            <p>
+                Ruto takes ten days to till the garden.
+            </p>
+            <p>
+                In your groups, discuss the following and record your findings.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            What fraction of the garden can Moraa till in a day?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction of the garden can Ruto till in a day?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            What fraction can they till in a day if they worked together?
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your findings with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
         </activity>
 
         <p>
             <md>
-                <mrow> \amp {\color{blue} \text{Learning Point}} </mrow>
+                <mrow> \amp {\text{Key Takeaway}} </mrow>
             </md>
         </p>
 
@@ -63,26 +63,26 @@
             <ul>
                 <li>
                     <p>
-                        <m>{\color{green} \text{Increase or decrease in quantities can be expressed as percentages of the original quantities.}}</m>
+                        Increase or decrease in quantities can be expressed as percentages of the original quantities.
                     </p>
                 </li>
                 <li>
                     <p>
-                        <m>{\color{green} \text{Percentage increase can be represented as;}}</m>
+                        Percentage increase can be represented as;
                     </p>
                     <p>
                         <me>
-                            {\color{green} \text{Percentage increase} =  (\frac{increase}{original}) \times 100 \%}
+                            Percentage increase =  (\frac{increase}{original}) \times 100 \%
                         </me>                
                     </p>
                 </li>
                 <li>
                     <p>
-                        <m>{\color{green} \text{Percentage decrease can be represented as;}}</m>
+                        Percentage decrease can be represented as;
                     </p>
                     <p>
                         <me>
-                            {\color{green} \text{Percentage decrease} =} {\color{green} (\frac{decrease}{original}) \times 100 \%}
+                            Percentage decrease = (\frac{decrease}{original}) \times 100 \%
                         </me>
                     </p>
                 </li>

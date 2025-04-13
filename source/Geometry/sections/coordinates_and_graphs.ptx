@@ -27,4 +27,6 @@
     <xi:include href="subsections/coordinates_and_graphs/subsec-table-of-values-for-linear-equations.ptx" />
     <xi:include href="subsections/coordinates_and_graphs/subsec-appropriate-scale-for-a-linear-equation.ptx" />
     <xi:include href="subsections/coordinates_and_graphs/subsec-linear-graphs.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-solving-linear-simultaneous-equations-using-graphs.ptx" />
+    <xi:include href="subsections/coordinates_and_graphs/subsec-application-of-linear-simultaneous-equations-in-real-life.ptx" />
 </section>

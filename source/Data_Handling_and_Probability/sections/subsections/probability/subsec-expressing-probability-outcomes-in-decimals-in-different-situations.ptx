@@ -84,52 +84,7 @@
             </ol>
         </p>
     </activity>
-    <p>
-        <m>\textbf{Expressing probability outcomes in decimals}</m> means representing the likelihood of events using numbers between 0 and 1 (eg 0.25), where:
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    0 represents an impossible event (0% chance).
-                </p>
-            </li>
-            <li>
-                <p>
-                    1 represents a certain event (100% chance).
-                </p>
-            </li>
-            <li>
-                <p>
-                    Any number between 0 and 1 (like 0.25, 0.5, 0.75) shows how likely the event is:
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                0.5 = 50% chance (like flipping a fair coin and getting heads).
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                0.25 = 25% chance.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                0.75 = 75% chance.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Probabilities always add up to 1.0.
-                </p>
-            </li>
-        </ul>
-    </p>
+    
     <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
@@ -137,7 +92,50 @@
         <ul>
             <li>
                 <p>
-                    Expressing probability outcomes as decimals means dividing favorable outcomes by total outcomes and writing the result as a number between <m>0</m> and <m>1</m>.
+                    <m>\textbf{Expressing probability outcomes in decimals}</m> means representing the likelihood of events using numbers between 0 and 1 (eg 0.25), where:
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                0 represents an impossible event (0% chance).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                1 represents a certain event (100% chance).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Any number between 0 and 1 (like 0.25, 0.5, 0.75) shows how likely the event is:
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            0.5 = 50% chance (like flipping a fair coin and getting heads).
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            0.25 = 25% chance.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            0.75 = 75% chance.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Probabilities always add up to 1.0.
+                            </p>
+                        </li>
+                    </ul>
                 </p>
             </li>
         </ul>

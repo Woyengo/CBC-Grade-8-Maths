@@ -2,12 +2,14 @@
   <title>Algebra</title>
 
   <introduction>
-
-  <p>This is the introduction</p>
-   
+    <p>
+      
+    </p>
   </introduction>
-
-    <!-- include sections -->
-    <xi:include href="sections/sec-example-section.ptx" />
-
+  
+  <!-- include sections -->
+  <xi:include href="sections/sec-algebraic-expressions.ptx" />
+  
+  <!-- include sections -->
+  <xi:include href="sections/sec-linear-equations.ptx" />
 </chapter>

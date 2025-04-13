@@ -28,16 +28,18 @@
         </p>
     </activity>
     <p>
-        Linear scale shows, the relationship between drawing (scale) length and actual length. Linear scale of a diagram is given in statement. To write a linear scale in statement form, you express it as:
-    </p>
-    <p>
-        <m>1 \textbf{ cm}</m> cm on the map represents <m></m> km (or meters) in real life.
-    </p>
-    <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
+            <li>
+                <p>
+                    Linear scale shows, the relationship between drawing (scale) length and actual length. Linear scale of a diagram is given in statement. To write a linear scale in statement form, you express it as:
+                </p>
+                <p>
+                    <m>1 \textbf{ cm}</m> on the map represents <m>\textbf{ km}</m>  (or meters) in real life.
+                </p>
+            </li>
             <li>
                 <p>
                     A linear scale in statement form indicates what a single unit of measurement on the scale corresponds to in real-world length.

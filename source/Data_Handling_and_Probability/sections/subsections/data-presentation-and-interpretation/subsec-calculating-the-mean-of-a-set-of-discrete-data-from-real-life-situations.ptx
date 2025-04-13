@@ -9,10 +9,13 @@
             A teacher recorded the ages of 45 students in a school. The ages are:
         </p>
         <p>
-            <m>12, 13, 12, 14, 13, 12, 15, 14, 13, 12, 14, 13, 12, 13, 14, 12, 13, 15, 14, 12, 14, 12, 13</m>
+            <m>12, 13, 12, 14, 13, 12, 15, 14, 13, 12, 14, 13, 12, 13, 14,</m>
         </p>
         <p>
-            <m> 13, 12, 14, 13, 12, 15, 13, 14, 12, 13, 14, 12, 15, 14, 13, 12, 14, 13, 12, 14, 13, 15</m>
+            <m> 12, 14, 12, 13, 14, 13, 12, 14, 13, 15,  12, 13, 15, 14,12,</m>
+        </p>
+        <p>
+            <m> 13, 12, 14, 13, 12, 15, 13, 14, 12, 13, 14, 12, 15, 14, 13</m>
         </p>
         <p>
             <ol>
@@ -56,57 +59,46 @@
                 <m> 60, 52, 50, 55, 57, 59, 54, 53, 56, 50, 55, 58, 52, 57, 54</m>
             </p>
             <p>
-                <ol>
-                    <li>
-                        <p>
-                            Find the mean number of oranges picked per tree.
-                        </p>
-                    </li>
-                </ol>
+                Find the mean number of oranges picked per tree.
             </p>
         </statement>
         <solution>
+
             <p>
-                <ul>
-                    <li>
-                        <p>
-                            Add all the apple counts
-                        </p>
-                        <p>
-                            <m>50+55+60+52+48+54+58+60+</m>
-                        </p>
-                        <p>
-                            <m>55+57+53+50+52+56+54+</m>
-                        </p>
-                        <p>
-                            <m>55+58+60+52+50+55+57</m>
-                        </p>
-                        <p>
-                            <m>+59+54+53+56+50+55+58+52+57</m>
-                        </p>
-                        <p>
-                            <m>+54+60+55+52+50+53+56</m>
-                        </p>
-                        <p>
-                            <m>+55+58+60+57+54+53+55</m>
-                        </p>
-                        <p>
-                            <m>=2467</m>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Divide by the total number of trees <m>45</m>
-                        </p>
-                        <p>
-                            <m>\textbf{Mean} = \frac{2467}{45} = 54.82</m>
-                        </p>
-                        <p>
-                            The mean number of apples picked per tree is <m>54.82</m>. 
-                        </p>
-                    </li>
-                </ul>
+                Add all the apple counts
             </p>
+            <p>
+                <m>50+55+60+52+48+54+58+60+</m>
+            </p>
+            <p>
+                <m>55+57+53+50+52+56+54+</m>
+            </p>
+            <p>
+                <m>55+58+60+52+50+55+57</m>
+            </p>
+            <p>
+                <m>+59+54+53+56+50+55+58+52+57</m>
+            </p>
+            <p>
+                <m>+54+60+55+52+50+53+56</m>
+            </p>
+            <p>
+                <m>+55+58+60+57+54+53+55</m>
+            </p>
+            <p>
+                <m>=2467</m>
+            </p>
+
+            <p>
+                Divide by the total number of trees <m>45</m>
+            </p>
+            <p>
+                <m>\textbf{Mean} = \frac{2467}{45} = 54.82</m>
+            </p>
+            <p>
+                The mean number of apples picked per tree is <m>54.82</m>. 
+            </p>
+
         </solution>
     </example>
 </subsection>

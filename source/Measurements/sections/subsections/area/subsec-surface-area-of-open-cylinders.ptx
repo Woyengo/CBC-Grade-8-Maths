@@ -75,7 +75,7 @@
     </activity>
 
      <p>
-        <m>{\color{blue} \textbf{Extended Activity:}}</m>
+        <m>{\color{black} \textbf{Extended Activity:}}</m>
     </p>
     <sidebyside>
         <p>
@@ -139,7 +139,7 @@
         </statement>
         <solution>
             <p>
-                You are given the height and diameter of the container to be <m>h=12\,cm \, \textbf{and} \, d=2\,cm</m>
+                You are given the height and diameter of the container to be <m>h=12\,cm \, \text{and} \, d=2\,cm</m>
             </p>
             <p>
                 You first identify the radius of the container that is,

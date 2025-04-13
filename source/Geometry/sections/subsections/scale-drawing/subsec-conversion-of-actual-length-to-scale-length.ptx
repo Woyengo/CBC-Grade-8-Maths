@@ -94,51 +94,6 @@
             </ol>
         </p>
     </activity>
-    <p>
-        <m>\textbf{Converting actual length to scale length}</m> involves reducing or enlarging real-world measurements based on a given scale ratio to fit on a drawing or map.
-    </p>
-    <p>
-        <m>\textbf{Actual length}</m> is the real-world length of the same object. 
-    </p>
-    <p>
-        <m>\textbf{Scale length}</m> refers to the length of an object as represented in the drawing or model.
-    </p>
-    <p>
-        To convert an actual length to a scale length, you divide the actual length by the scale factor, which is typically expressed as a ratio (e.g., <m>1:100</m>).
-    </p>
-    <p>
-        For example, a scale like <m>1:100</m> means that <m>1 </m> unit on the drawing represents <m>100</m> units in real life.
-    </p>
-    <p>
-        <m>\textbf{Key points on conversion of actual to scale length.}</m>
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    Identify the scale: (e.g., <m>1:25, 1:100, 1:500</m>).
-                </p>
-            </li>
-            <li>
-                <p>
-                    Convert the actual length into the same units as the scale.
-                </p>
-                
-            </li>
-            <li>
-                <p>
-                    Divide the actual length by the scale factor to get the scale length.
-                </p>
-                <p>
-                    <md>
-                        <mrow>\textbf{Scale Length} = \amp \frac{\textbf{Actual length}}{\textbf{Scale Factor}}</mrow>
-                    </md>
-                </p>
-            </li>
-            
-            
-        </ul>
-    </p>
     
     <p>
         <m>\textbf{Key Takeaway}</m>
@@ -147,7 +102,27 @@
         <ul>
             <li>
                 <p>
+                    <m>\textbf{Converting actual length to scale length}</m> involves reducing or enlarging real-world measurements based on a given scale ratio to fit on a drawing or map.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Actual length}</m> is the real-world length of the same object. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Scale length}</m> refers to the length of an object as represented in the drawing or model.
+                </p>
+            </li>
+            <li>
+                <p>
                     To covert actual length to scale length, the actual measurement is divided by the specified scale factor.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\textbf{Scale Length} = \amp \frac{\textbf{Actual length}}{\textbf{Scale Factor}}</mrow>
+                    </md>
                 </p>
             </li>
         </ul>

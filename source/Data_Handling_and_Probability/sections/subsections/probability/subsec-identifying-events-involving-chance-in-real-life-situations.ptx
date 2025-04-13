@@ -55,52 +55,20 @@
         </p>
     </activity>
     <p>
-        <m>\textbf{Identifying events involving chance in real life situations}</m> means recognizing occurrences where the outcome is not guaranteed and depends on random factors,
-        like flipping a coin (heads or tails), rolling a dice (getting a specific number), weather forecasting (probability of rain), or drawing a specific card from a deck - essentially, situations where there are multiple possible outcomes with varying likelihoods. 
-    </p>
-    <p>
-        <m>\textbf{Examples of real-life situations involving chance:}</m>
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    Games and gambling: Rolling dice, flipping a coin, drawing cards from a deck, lottery drawings. 
-                </p>
-            </li>
-            <li>
-                <p>
-                    Weather prediction: Forecasting the likelihood of rain or snow. 
-                </p>
-            </li>
-            <li>
-                <p>
-                    Medical diagnosis: The probability of a positive test result for a disease. 
-                </p>
-            </li>
-            <li>
-                <p>
-                    Sports: The chance of a team winning a game, a player hitting a home run. 
-                </p>
-            </li>
-            <li>
-                <p>
-                    Market trends: Predicting stock market fluctuations. 
-                </p>
-            </li>
-            <li>
-                <p>
-                    Genetics: The probability of inheriting a specific trait from your parents. 
-                </p>
-            </li>
-        </ul>
-    </p>
-    
-    <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
+            <li>
+                <p>
+                    <m>\textbf{Probability}</m> refers to the likelihood of a specific event happening.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Identifying events involving chance in real life}</m> means recognizing situations with unpredictable outcomes influenced by random factors, such as flipping a coin, rolling dice, or forecasting weather.
+                </p>
+            </li>
             <li>
                 <p>
                     Events can be classified as likely, unlikely, certain (must happen), or impossible (cannot happen).
