@@ -234,4 +234,32 @@
             </p>
         </solution>
     </example>
+    <exploration>
+        <title>Use of IT</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Explore how to convert fractions to decimals by watching the video below.
+                        You can also <url href="https://youtu.be/Gn2pdkvdbGQ?t=401">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="Gn2pdkvdbGQ"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to convert recurring decimals to fractions by watching the video below.
+                        You can also <url href="https://youtu.be/FPNhCVZlbJs?t=33">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="FPNhCVZlbJs"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to express numbers to required number of significant figures by watching the video below.
+                        You can also <url href="https://youtu.be/eCJ76hz7jPM?t=113">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="eCJ76hz7jPM"/>
+                </li>
+            </ol>
+        </p>
+    </exploration>
 </subsection>

@@ -255,4 +255,32 @@
             </image>
         </solution>
     </example>
+    <exploration>
+        <title>Use of IT</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Explore how to represent integers on a number line by watching the video below.
+                        You can also <url href="https://youtu.be/TlZVPfvTLXA?t=144">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="TlZVPfvTLXA"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to represent negative integers on a number line by watching the video below.
+                        You can also <url href="https://youtu.be/Hlal9ME2Aig?t=482">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="Hlal9ME2Aig"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to perform addition and subtraction of integers on a number line by watching the video below.
+                        You can also <url href="https://youtu.be/NQSN00zL5gg?t=77">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="NQSN00zL5gg"/>
+                </li>
+            </ol>
+        </p>
+    </exploration>
 </subsection>
