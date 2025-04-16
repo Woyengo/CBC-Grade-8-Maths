@@ -2,7 +2,276 @@
 
 <section xml:id="sec-making-scale-drawings">
     <title>Making Scale Drawings</title>
-    <p>
+    <activity>
         
-    </p>    
+        <statement>
+            <p>Designing Your Dream BedRoom</p>
+            <sidebyside>
+                <p>
+                    <m>\textbf{Materials Needed:}</m>
+    
+                    Graph paper
+                
+                    Rulers
+                
+                    Pencils and erasers
+                
+                    Calculators
+                
+                    Optional: colored pencils for design elements
+                
+                    Sample furniture dimension sheet (optional)
+                
+                    Rubric or checklist (optional) 
+                </p>
+                <image source="/scale-drawing.png">
+                    <shortdescription>Scale Drawing</shortdescription>
+                </image>
+            </sidebyside>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            You're going to design your dream bedroom—but not full-size! You’ll draw it to scale, using a scale of 1 cm : 0.5 m. That means every 1 cm on your paper will represent 0.5 metres (50 cm) in real life.
+                        </p>
+                    </li>
+                    <li>
+                        <title>Measure or Estimate Your Real Room</title>
+                        <p>
+                            (a) If working at home: students can measure their actual bedroom.
+                        </p>
+                        <p>
+                            (b) If working in class: provide a standard room size (e.g., 4 m by 3 m).
+                        </p>
+                    </li>
+                    <li>
+                        <title>Choose a Scale</title>
+                        <p>
+                           (a) Use 1 cm : 0.5 m or let students choose (e.g., 1 cm : 0.25 m for more detail).
+                        </p>
+                        <p>
+                           (b) Convert Real Measurements to Scale
+                        </p>
+                    </li>
+                    <li>
+                        <title>Conversion Procedure</title>
+                        <p>
+                            If Real room = 4 m × 3 m, Scale will be? 
+                        </p>
+                        <p>
+                            Take the scale: 1 cm : 0.5 m
+                        </p>
+                        <p>
+                            <md>
+                                <mrow>1 \, \text{cm} = \amp 0.5 \, \text{m} </mrow>
+                                <mrow> ? = 4\, \text{m}\amp </mrow>
+                                <mrow> = \amp \frac{4} {0.5}</mrow>
+                                <mrow> =  \amp 8 \, \text{cm}</mrow>
+                            </md>
+                            <md>
+                                <mrow>1 \, \text{cm} = \amp 0.5 \, \text{m} </mrow>
+                                <mrow> ? = 3\, \text{m}\amp </mrow>
+                                <mrow> = \amp \frac{3} {0.5}</mrow>
+                                <mrow> =  \amp 6 \, \text{cm}</mrow>
+                            </md>
+                        </p>
+                        <p>
+                            So the room will be 8 cm × 6 cm on paper
+                        </p>
+                    </li>
+                    <li>
+                        <title>Draw the Room on Graph Paper</title>
+                        <p>
+                            Use a ruler to draw accurately.
+                        </p>
+                        <p>Include doors and windows with correct positions.
+
+                        </p>
+                    </li>
+                    <li>
+                        <title> Add Scaled Furniture</title>
+                        <p>
+                             (a) Provide furniture dimensions like:
+                            <ul>
+                                <li> <p>Bed: 2 m × 1.5 m</p></li>
+                                <li><p>Desk: 1.5 m × 0.75 m</p></li>
+                                <li><p>Chair: 0.5 m × 0.5 m</p></li>
+                            </ul>
+                        </p>
+                        <p>
+                           (b) Convert each to cm using the same scale:
+                        </p>
+                        <p>
+                            Bed
+                            <md>
+                                <mrow>1 \, \text{cm} = \amp 0.5 \, \text{m} </mrow>
+                                <mrow> ? = 2\, \text{m}\amp </mrow>
+                                <mrow> = \amp \frac{2} {0.5}</mrow>
+                                <mrow> =  \amp 4 \, \text{cm}</mrow>
+                            </md>
+                            Desk
+                            <md>
+                                <mrow>1 \, \text{cm} = \amp 0.5 \, \text{m} </mrow>
+                                <mrow> ? = 1.5\, \text{m}\amp </mrow>
+                                <mrow> = \amp \frac{1.5} {0.5}</mrow>
+                                <mrow> =  \amp 3 \, \text{cm}</mrow>
+                            </md>
+                            Chair
+                            <md>
+                                <mrow>1 \, \text{cm} = \amp 0.5 \, \text{m} </mrow>
+                                <mrow> ? = 0.5\, \text{m}\amp </mrow>
+                                <mrow> = \amp \frac{0.5} {0.5}</mrow>
+                                <mrow> =  \amp 1 \, \text{cm}</mrow>
+                            </md>
+                        </p>
+                    </li>
+                    <li>
+                        <title>Design and position the furniture in your room creatively!</title>
+                        <p>
+                            Use a ruler to draw each piece to scale.
+                        </p>
+                        <p>
+                            (a) Place furniture in the room, ensuring it fits and allows for movement.
+                        </p>
+                        <p>
+                            (b) Label each piece of furniture with its name and dimensions.
+                        </p>
+                    </li>
+                    <li>
+                        <title>Decorate Your Room</title>
+                        <p>
+                            (a) Add design elements like rugs, curtains, and wall colors.
+                        </p>
+                        <p>
+                            (b) Use colored pencils to enhance your drawing.
+                        </p>
+                    </li>
+                    <li>
+                        <title>Present Your Design</title>
+                        <p>
+                            (a) Share your design with the class.
+                        </p>
+                        <p>
+                            (b) Discuss the choices you made and why.
+                        </p>  
+                        <p>
+                            (c) Reflect on the process and what you learned about scale drawings. 
+                        </p> 
+                    </li>    
+                </ol>
+            </p>
+                    <p><m>\textbf{Assessment:}</m></p>
+                    <p>
+                        Use a rubric or checklist to assess the scale drawing based on accuracy, creativity, and presentation.
+                    </p>
+                    <p>
+                        Provide feedback on the design choices and the use of scale.
+                    </p>
+                    <table>
+                        <title> Assessment Criteria / Rubric (Sample)</title>
+                        <tabular>
+                            <row>
+                                <cell>Criteria</cell>
+                                <cell>Points (10)</cell>
+                                    <cell>Student Score</cell>
+                            </row>
+                            <row>
+                                <cell>Accurate use of scale</cell>
+                                <cell>10</cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Correct conversions</cell>
+                                <cell>10</cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Neat, labeled drawing</cell>
+                                <cell>10</cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Creativity </cell>
+                                <cell>10</cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell>Furniture placement</cell>
+                                <cell>10</cell>
+                                <cell></cell>
+                            </row>
+            
+                        </tabular>
+                    </table>
+                     <p>
+                <m>\textbf{Reflection:}</m> </p>
+                <p>
+                    (a) What did you enjoy most about this activity?
+                </p>
+                <p>
+                    (b) How did you feel about using scale in your design?
+                </p>
+                <p>
+                    (c) What was the most challenging part of the project?
+                </p>
+                <p>
+            <m>\textbf{Reflection Questions:}</m>
+            <ol>
+                <li><p>What challenges did you face while creating your scale drawing?</p></li>
+                <li><p>How did you ensure accuracy in your measurements and drawings?</p></li>
+                <li><p>What did you learn about the importance of scale in design?</p></li>
+            </ol>
+            </p>
+            <p>
+                (c) How did you feel about the final design of your room?
+            </p>
+            <p>
+                (d) What would you change if you could do it again?
+            </p>
+            <p>
+                (e) How did you feel about the final design of your room?
+            </p>
+        </statement>
+    </activity>   
+    <p>
+        <m>\textbf{Extended Activity:}</m>
+    </p>
+        <p>
+            (a) Create a 3D model of your room using cardboard or other materials.
+        </p>
+        <p>
+            (b) Research different bedroom designs and incorporate elements into your drawing.
+        </p>
+        <p>
+            (c) Explore the history of scale drawings in architecture and design.
+        </p>
+        <p>
+            (d) Use software to create a digital version of your scale drawing.
+        </p>
+        <p>
+            (e) Collaborate with a classmate to design a shared space, considering both of your needs.
+        </p>
+        <p>
+            Use a link below for online resources:
+            <ul>
+                <li>
+                    <p>
+                        <url href="https://www.mathsisfun.com/geometry/scale-drawing.html"/> Math is Fun: Scale Drawing 
+                    </p>
+                </li>
+                <li>
+                    <p> 
+                        <url href="https://www.khanacademy.org/math/geometry-home/geometry-geometry/scale-drawings/v/scale-drawings"/> Khan Academy: Scale Drawings 
+
+                    </p>
+                </li>
+                <li>
+                    <p> 
+                        <url href="https://www.teachervision.com/scale-drawings"/> Teacher Vision: Scale Drawings Resources 
+
+                    </p>
+                    
+                </li>
+            </ul>    
+        </p>
 </section>
