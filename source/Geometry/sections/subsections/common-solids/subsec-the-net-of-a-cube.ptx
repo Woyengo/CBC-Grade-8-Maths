@@ -7,17 +7,97 @@
         <p>
             In this section, you will sketch nets of a cube.
         </p>
+        
+        <activity>
+            <statement>
+                <p>
+                    <m>\textbf{Work in groups.}</m>
+                </p>
 
-        <p>
-            Net is a pattern formed when an object is opened up and laid out on a flat surface.
-        </p>
+                <p>
+                    <m>\textbf{What you need:}</m> model of a cube and a pair of scissors or cutting tool.
+                </p>
 
-        <p>
-            A cube has 6 faces. Each face is a square. A net of a cube is made up of 6 squares.
-        </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                (a). Examine a cube model like the one provided below.
+                            </p>
+                            
+                            <p>
+                                (b). Count and name the faces, edges, and vertices.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Carefully cut the cube along its edges.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Lay the cube flat after opening it up.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Observe the unfolded model and sketch its shape.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                What is the name of this <m>2D</m> layout?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Compare your drawing with those made by other groups. Do they look the same?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+
+                <p>
+                    <m>\textbf{Key Takeaway}</m>
+                </p>
+
+                <p>
+                    <ul>
+
+                        <li>
+                            <p>
+                                A cube can be either closed or open.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                A closed cube has six square faces.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                An open cube will only have five faces because one side is missing.
+                            </p>
+                        </li>
+                        <li> 
+                            <p>
+                            Net is a pattern formed when an object is opened up and laid out on a flat surface.
+                           </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </activity>
 
         <activity>
-            <title>Exploring Cube Nets Using a Slider</title>
+            <title>Exploring Net of a Cube Using a Slider</title>
            <statement>
             <p>
                 <ol>
@@ -48,21 +128,21 @@
            </statement> 
         </activity>
         
-          <figure>
+          <!-- <figure>
             <caption>Classic net of the cube</caption>
             <interactive xml:id="geogebra-Classic-net" geogebra="wkvg6qwa" width="100%" aspect="9:7" reset-icon="yes"/>
-         </figure>
+         </figure> -->
 
          <example>
             <statement>
                 <p>
-                    Draw a net of the cube shown.
+                    Draw a net of the cube shown below.
                 </p>
 
                 <image width="50%">
-                <latex-image>
+                <latex-image label="cub2">
                     \begin{tikzpicture}
-                          % Define cube vertices
+                        % Define cube vertices
                         \coordinate (A) at (0,0,0);
                         \coordinate (B) at (4,0,0);
                         \coordinate (C) at (4,4,0);
@@ -87,22 +167,22 @@
                         \draw[thick] (B) -- (F);
                         \draw[thick] (C) -- (G);
                         \draw[thick] (D) -- (H);
+                      \end{tikzpicture}
 
-                       
-
-                    \end{tikzpicture}
+                   
                 </latex-image>
-                    <shortdescription></shortdescription>
                     
                 </image>
+
+                
             </statement>
 
             <solution>
              
                     <image width="50%">
-                    <latex-image>
+                    <latex-image label="cub1">
                         \begin{tikzpicture}
-                                                    % Drawing the vertical part of the net with different colors
+                            % Drawing the vertical part of the net with different colors
                             \fill[yellow!50] (0,-8) -- (0,-4) -- (0,0) -- (0,4) -- (0,8) -- (4,8) -- (4,4) -- (4,0) -- (4,-4) -- (4,-8) -- (0,-8) -- cycle;
                             
                             % Missing line
@@ -123,12 +203,9 @@
                            
                         \end{tikzpicture}
                     </latex-image>
-                        <shortdescription></shortdescription>
-                        
                     </image>
             
             </solution>
          </example>
-
 
     </subsection>

@@ -1,13 +1,89 @@
 <subsection xml:id="subsec-surface-area-of-a-cube">
     <title>Surface area of a cube</title>
-    <p>
-        The surface area of a cube is the total area of all six faces of the cube. 
-        When learning about area, you calculated the surface area of a cube by adding up the areas of all six faces.
-    </p>
-
-    <p>
+     <p>
         In this section, you will calculate the surface area of a cube from the nets.
     </p>
+    <activity>
+        <title></title>
+        <statement>
+
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+            <p>
+                <m>\textbf{What you need: }</m> A piece of Paper,A pencil,A ruler and A pair scissors.
+            </p>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Draw a net of a cube on a piece of paper, ensuring it has <m>6</m> connected squares. Each square represents a face of the cube as shown below.
+                        </p>
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="cube-net1">
+                                \begin{tikzpicture}
+                                % Drawing the vertical part of the net with different colors
+                                \fill[yellow!50] (0,-8) -- (0,-4) -- (0,0) -- (0,4) -- (0,8) -- (4,8) -- (4,4) -- (4,0) -- (4,-4) -- (4,-8) -- (0,-8) -- cycle;
+                                
+                                % Missing line
+                                \draw (0,4) -- (4,4);
+                                
+                                % Drawing the horizontal part of the net with different colors
+                                \fill[green!50] (-4,0) -- (0,0) -- (4,0) -- (8,0) -- (8,-4) -- (4,-4) -- (0,-4) -- (-4,-4) -- (-4,0);
+                                
+                                \fill[blue!50] (0,0) -- (0,4) -- (4,4) -- (4,0) -- cycle;
+                                \fill[orange!50] (0,-4) -- (0,0) -- (4,0) -- (4,-4) -- cycle;
+                                \fill[cyan!50] (-4,-4) -- (0,-4) -- (0,0) -- (-4,0) -- cycle;
+                                \fill[purple!50] (4,-4) -- (8,-4) -- (8,0) -- (4,0) -- cycle;
+                                
+                                % Drawing the edges
+                                \draw (0,-8) -- (0,-4) -- (0,0) -- (0,4) -- (0,8) -- (4,8) -- (4,4) -- (4,0) -- (4,-4) -- (4,-8) -- (0,-8) -- cycle;
+                                \draw (-4,0) -- (0,0) -- (4,0) -- (8,0) -- (8,-4) -- (4,-4) -- (0,-4) -- (-4,-4) -- (-4,0);
+                                
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            (a). Use your ruler to measure the side length of one square and record it down.
+                        </p>
+                        <p>
+                            (b).  Work out the area of each face of the net.
+                        </p>
+
+                        <p>
+                            (c). Work out the total area of the faces
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Discuss your results with other groups.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                <m>\textbf{Key Takeaway}</m>
+            </p>
+
+
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            The surface area of a cube is the total area of all six faces of the cube. 
+                            When learning about area, you calculated the surface area of a cube by adding up the areas of all six faces.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </activity>
 
     <example>
         <statement>
@@ -16,7 +92,7 @@
                     </p>
 
                     <image width="50%"> 
-                    <latex-image>
+                    <latex-image label="cbe-1">
                         \begin{tikzpicture}
                        
                        % Define cube vertices
@@ -47,9 +123,7 @@
 
                         % Add dimensions without angle brackets
                         \draw (E) -- (F) node[midway, below] {8 cm};
-                        \draw (C) -- (G) node[midway, above] {8 cm};
-                        \draw (B) -- (F) node[midway, left] {8 cm};
-
+                        
                          \end{tikzpicture}
 
                     </latex-image>
@@ -70,7 +144,7 @@
         <solution>
 
             <p>
-                (a).   <m>{\color{blue} \text{The net of the cube is as shown.}}</m>
+                (a).   <m>\textbf{The net of the cube is as shown.}</m>
             </p>
                 <image>
                     <shortdescription></shortdescription>
@@ -117,7 +191,7 @@
                 </image>
 
              <p>
-                (b).   <m>{\color{blue} \text{The surface area of the cube.}}</m>
+                (b).   <m>\textbf{The surface area of the cube.}</m>
              </p>   
                    <p>
                     <m>{\color{green} \text{Method 1.}}</m> 
