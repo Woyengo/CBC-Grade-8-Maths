@@ -7,6 +7,14 @@
     <activity>
         <statement>
             <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <m>\textbf{What you need:}</m> Model of a pyramid made of paper, A pair of scissors or a cutting tool, a ruler and a pencil.
+            </p>
+
+            <p>
                 
             </p>
         </statement>
@@ -59,14 +67,12 @@
                     \node[above] at (P) {P};
                 \end{tikzpicture}
             </latex-image>
-                <shortdescription></shortdescription>
-                
             </image>
         </statement>
 
         <solution>
             <p>
-                 <m>{\color{orange} \text{First we form the net of the pyramid.}}</m>
+                 <m>\textbf{First we form the net of the pyramid.}</m>
             </p>
 
             <image>
@@ -99,7 +105,7 @@
                     \draw[thick] (A) -- (D) -- (V4) -- cycle;
 
                     % Add labels
-
+    
                     % Rectangle labels
                     \node[left] at (0,1.5) {3 cm}; % Height of rectangle
                     \node[below] at (2.5,-0.1) {5 cm}; % Width of rectangle
