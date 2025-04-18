@@ -24,6 +24,40 @@
                             <p>
                                 (a). Examine a cube model like the one provided below.
                             </p>
+
+                            <image width="50%">
+                                <shortdescription></shortdescription>
+                                <latex-image label="cubee1">
+                                    \begin{tikzpicture}
+                                    % Bottom face
+                                    \fill[cyan!50] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0) -- cycle; 
+                                
+                                    % Top face
+                                    \fill[cyan!50] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; 
+                                
+                                    % Left face
+                                    \fill[cyan!50] (0,0,0) -- (0,0,3) -- (0,2,3) -- (0,2,0) -- cycle; 
+                                
+                                    % Right face
+                                    \fill[cyan!50] (3,0,0) -- (3,0,3) -- (3,2,3) -- (3,2,0) -- cycle; 
+                                
+                                    % Front face
+                                    \fill[cyan!50] (0,2,0) -- (3,2,0) -- (3,2,3) -- (0,2,3) -- cycle; 
+                                
+                                    % Back face
+                                    \fill[cyan!50] (0,0,0) -- (3,0,0) -- (3,0,3) -- (0,0,3) -- cycle; 
+                                
+                                    % Draw edges
+                                    \draw[thick] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0) -- cycle; % Bottom face outline
+                                    \draw[thick] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face outline
+                                    \draw[thick] (0,0,0) -- (0,0,3);
+                                    \draw[thick] (3,0,0) -- (3,0,3);
+                                    \draw[thick] (3,2,0) -- (3,2,3);
+                                    \draw[thick] (0,2,0) -- (0,2,3);
+                                    \end{tikzpicture}
+                                </latex-image>
+                                
+                            </image>
                             
                             <p>
                                 (b). Count and name the faces, edges, and vertices.
@@ -62,39 +96,40 @@
                     </ol>
                 </p>
 
-                <p>
-                    <m>\textbf{Key Takeaway}</m>
-                </p>
-
-                <p>
-                    <ul>
-
-                        <li>
-                            <p>
-                                A cube can be either closed or open.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                A closed cube has six square faces.
-                            </p>
-                        </li>
-
-                        <li>
-                            <p>
-                                An open cube will only have five faces because one side is missing.
-                            </p>
-                        </li>
-                        <li> 
-                            <p>
-                            Net is a pattern formed when an object is opened up and laid out on a flat surface.
-                           </p>
-                        </li>
-                    </ul>
-                </p>
             </statement>
         </activity>
+
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+
+        <p>
+            <ul>
+
+                <li>
+                    <p>
+                        A cube can be either closed or open.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        A closed cube has six square faces.
+                    </p>
+                </li>
+
+                <li>
+                    <p>
+                        An open cube will only have five faces because one side is missing.
+                    </p>
+                </li>
+                <li> 
+                    <p>
+                    Net is a pattern formed when an object is opened up and laid out on a flat surface.
+                   </p>
+                </li>
+            </ul>
+        </p>
 
         <activity>
             <title>Exploring Net of a Cube Using a Slider</title>

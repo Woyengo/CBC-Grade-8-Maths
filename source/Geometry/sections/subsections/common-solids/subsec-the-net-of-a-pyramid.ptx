@@ -17,6 +17,38 @@
                         <p>
                             Examine a pyramid model like the one shown below.
                         </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="pyramid1">
+                                \begin{tikzpicture}
+                                % Define vertices of the square base
+                                \coordinate (A) at (-2,-1);
+                                \coordinate (B) at (0,-1);
+                                \coordinate (C) at (1,0);  
+                                \coordinate (D) at (-1,0);  
+                            
+                                % Define the apex of the pyramid
+                                \coordinate (E) at (0,3);  % Center above the square base
+                                
+                                % Draw the square base
+                                \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                                
+                                % Draw edges connecting the apex to the base
+                                \draw[thick] (E) -- (A);
+                                \draw[thick] (E) -- (B);
+                                \draw[thick] (E) -- (C);
+                                \draw[style=dashed,thick] (E) -- (D);
+                                
+                                % Optional: Add shading for clarity with different blue shades
+                                \fill[blue!20,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle;  % Base face
+                                \fill[blue!40,opacity=0.5] (B) -- (C) -- (E) -- cycle; % Front face
+                                \fill[blue!60,opacity=0.5] (D) -- (C) -- (E) -- cycle; % Right face
+                                \fill[blue!80,opacity=0.5] (A) -- (D) -- (E) -- cycle; % Left face
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
                     </li>
 
                     <li>
@@ -57,42 +89,43 @@
 
                 </ol>
             </p>
-            <p>
-                <m>\textbf{Key Takeaway}</m>
-            </p>
-
-            <p>
-                <ul>
-                    <li>
-                        <p>
-                            A square base pyramid has 5 faces. The base is a square and the other 4 faces are triangles.
-                            A net of a square base pyramid is made up of 1 square and 4 triangles.             
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            A rectangle base pyramid has 5 faces. The base is a rectangle and the other 4 faces are triangles.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            A triangle-base pyramid has a triangle as its base.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            The net of a pyramid is a two-dimensional representation of the three-dimensional shape of the pyramid. 
-                            It is made up of the faces of the pyramid laid out flat, so that you can see all of the sides at once. 
-                            The net of a pyramid is useful for visualizing the shape of the pyramid and for calculating its surface area and volume.
-                        </p>
-                    </li>
-                </ul>
-            </p>
         </statement>
     </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    A square base pyramid has 5 faces. The base is a square and the other 4 faces are triangles.
+                    A net of a square base pyramid is made up of 1 square and 4 triangles.             
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A rectangle base pyramid has 5 faces. The base is a rectangle and the other 4 faces are triangles.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    A triangle-base pyramid has a triangle as its base.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The net of a pyramid is a two-dimensional representation of the three-dimensional shape of the pyramid. 
+                    It is made up of the faces of the pyramid laid out flat, so that you can see all of the sides at once. 
+                    The net of a pyramid is useful for visualizing the shape of the pyramid and for calculating its surface area and volume.
+                </p>
+            </li>
+        </ul>
+    </p>
        
        <activity>
        <title>Net of a Square based Pyramid</title> 
@@ -153,8 +186,8 @@
                 Draw the net of the pyramid shown below.
             </p>
 
-            <image>
-            <latex-image>
+            <image width="50%">
+            <latex-image label="pyramid2">
                 \begin{tikzpicture}
                 % Define vertices of the square base
                 \coordinate (A) at (-2,-1);
@@ -179,9 +212,6 @@
                 \fill[red!20,opacity=0.5] (B) -- (C) -- (E) -- cycle; % Shade another face
                 \fill[orange!20,opacity=0.5] (D) -- (C) -- (E) -- cycle; % Shade another face
                 \fill[yellow!20,opacity=0.5] (A) -- (D) -- (E) -- cycle; % Shade another face
-
-                \node[below] at (A) {square-base pyramid};
-
                 \end{tikzpicture}
             </latex-image>
                 <shortdescription></shortdescription>

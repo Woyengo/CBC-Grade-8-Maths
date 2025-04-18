@@ -67,23 +67,23 @@
                     </li>
                 </ol>
             </p>
-            <p>
-                <m>\textbf{Key Takeaway}</m>
-            </p>
-
-
-            <p>
-                <ul>
-                    <li>
-                        <p>
-                            The surface area of a cube is the total area of all six faces of the cube. 
-                            When learning about area, you calculated the surface area of a cube by adding up the areas of all six faces.
-                        </p>
-                    </li>
-                </ul>
-            </p>
         </statement>
     </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The surface area of a cube is the total area of all six faces of the cube. 
+                    When learning about area, you calculated the surface area of a cube by adding up the areas of all six faces.
+                </p>
+            </li>
+        </ul>
+    </p>
 
     <example>
         <statement>
@@ -146,9 +146,9 @@
             <p>
                 (a).   <m>\textbf{The net of the cube is as shown.}</m>
             </p>
-                <image>
+                <image width="70%">
                     <shortdescription></shortdescription>
-                <latex-image>
+                <latex-image label="cube-net2">
                     \begin{tikzpicture}
                            % Drawing the vertical part of the net with different colors
                             \fill[yellow!50] (0,-8) -- (0,-4) -- (0,0) -- (0,4) -- (0,8) -- (4,8) -- (4,4) -- (4,0) -- (4,-4) -- (4,-8) -- (0,-8) -- cycle;

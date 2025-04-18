@@ -30,21 +30,33 @@
                                 <shortdescription></shortdescription>
                                 <latex-image label="cuboid1">
                                     \begin{tikzpicture}       
-                                    % Define the 3D coordinates and color the faces
-                                     \fill[yellow!50] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0)-- cycle; % Bottom face        
-                                     \fill[yellow!50] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face
-                                     \fill[yellow!50] (0,0,0) -- (0,0,3) -- (0,2,3) -- (0,2,0) -- cycle; % Left face
-                                     \fill[yellow!50] (3,0,0) -- (3,0,3) -- (3,2,3) -- (3,2,0) -- cycle; % Right face
-                                     \fill[orange!50] (0,2,0) -- (3,2,0) -- (3,2,3) -- (0,2,3) -- cycle; % Front face
-                                     \fill[orange!50] (0,0,0) -- (3,0,0) -- (3,0,3) -- (0,0,3) -- cycle; % Back face
-                                     
-                                     % Draw edges
-                                     \draw[thick] (0,0,0) -- (3,0,0) -- (3,2,0) -- (0,2,0) -- cycle; % Bottom face outline
-                                     \draw[thick] (0,0,3) -- (3,0,3) -- (3,2,3) -- (0,2,3) -- cycle; % Top face outline
-                                     \draw[thick] (0,0,0) -- (0,0,3);
-                                     \draw[thick] (3,0,0) -- (3,0,3);
-                                     \draw[thick] (3,2,0) -- (3,2,3);
-                                     \draw[thick] (0,2,0) -- (0,2,3);
+                                    % Define coordinates for cube
+                                    \def\side{6} % Side length in cm
+                                
+                                    \coordinate (A) at (0,0,0);
+                                    \coordinate (B) at (\side,0,0);
+                                    \coordinate (C) at (\side,\side,0);
+                                    \coordinate (D) at (0,\side,0);
+                                    \coordinate (E) at (0,0,\side);
+                                    \coordinate (F) at (\side,0,\side);
+                                    \coordinate (G) at (\side,\side,\side);
+                                    \coordinate (H) at (0,\side,\side);
+                                
+                                    % Draw the cube faces with transparency
+                                    \fill[orange!50,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle; % Bottom face
+                                    \fill[orange!30,opacity=0.5] (E) -- (F) -- (G) -- (H) -- cycle; % Top face
+                                    \fill[orange!40,opacity=0.5] (A) -- (B) -- (F) -- (E) -- cycle; % Front face
+                                    \fill[orange!60,opacity=0.5] (B) -- (C) -- (G) -- (F) -- cycle; % Right face
+                                    \fill[orange!70,opacity=0.5] (C) -- (D) -- (H) -- (G) -- cycle; % Back face
+                                    \fill[orange!80,opacity=0.5] (D) -- (A) -- (E) -- (H) -- cycle; % Left face
+                                
+                                    % Draw edges
+                                    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                                    \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+                                    \draw[thick] (A) -- (E);
+                                    \draw[thick] (B) -- (F);
+                                    \draw[thick] (C) -- (G);
+                                    \draw[thick] (D) -- (H);                    \draw[thick] (0,2,0) -- (0,2,3);
                                     \end{tikzpicture}
                                 </latex-image>
                                 
@@ -88,28 +100,29 @@
                         </li>
                     </ol>
                 </p>
-
-                <p>
-                    <m>\textbf{Key Takeaway}</m>
-                </p>
-
-                <p>
-                   <ul>
-                    <li>
-                        <p>
-                            A closed cuboid has <m>6</m> faces. Each face is a rectangle. A net of a closed cuboid is made up of <m>6</m> rectangles.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            An open cuboid has <m>5</m> faces. Each face is a rectangle. A net of an open cuboid is made up of <m>5</m> rectangles.
-                        </p>
-                    </li>
-                   </ul>
-                </p>
+ 
             </statement>
         </activity>
+
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+
+        <p>
+           <ul>
+            <li>
+                <p>
+                    A closed cuboid has <m>6</m> faces. Each face is a rectangle. A net of a closed cuboid is made up of <m>6</m> rectangles.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    An open cuboid has <m>5</m> faces. Each face is a rectangle. A net of an open cuboid is made up of <m>5</m> rectangles.
+                </p>
+            </li>
+           </ul>
+        </p>
 
         <activity>
         <title></title>

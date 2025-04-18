@@ -86,7 +86,10 @@
                     </ol>
                 </p>
 
-                <p>
+            </statement>
+        </activity>
+
+        <p>
                     <m>\textbf{Key Takeaway}</m>
                 </p>
 
@@ -110,36 +113,10 @@
                         </li>
                     </ul>
                 </p>
-            </statement>
-        </activity>
 
-        <activity>
-            <title>Create and Experiment with a Net of a cylinder</title>
-            <statement>
-                <p>
-                   <ul>
-                    <li>
-                        <p>
-                             Use the MOVE tool Toolbar Image to move the Unfold or Fold Net slider. This will show how the cylinder can be turned into a net. A net is created by imagining that you cut and unfold the 3-D shape into one, flat shape. 
-                        </p>
-                    </li>
-                              
-                    <li>
-                        <p>
-                             Using the same slider, the net can be folded back into the original 3-D shape. 
-                        </p>
-                    </li>
-                   </ul>
-                </p>
-
-                    <figure>
-                        <caption></caption>
-                        <interactive xml:id="geogebra-cylinder" geogebra="v9tjmspz" width="100%" aspect="9:5" reset-icon="yes" />
-                    </figure>
-            </statement>
-        </activity>
-
+        <p>
         <m>\textbf{To observe the net of a cylinder.}</m>
+        </p>
             <figure>
                 <caption></caption>
                 <interactive xml:id="geogebra-cylinde" geogebra="eevymk37" width="100%" aspect="9:5" reset-icon="yes" />
