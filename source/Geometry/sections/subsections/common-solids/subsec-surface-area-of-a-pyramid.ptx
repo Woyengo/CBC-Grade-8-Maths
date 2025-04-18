@@ -1,9 +1,5 @@
 <subsection xml:id="subsec-surface-area-of-a-pyramid">
     <title>Surface area of a pyramid</title>
-    <p>
-        The surface area of a pyramid is the total area of the lateral faces and the base of the pyramid.
-    </p>
-
     <activity>
         <statement>
             <p>
@@ -15,10 +11,84 @@
             </p>
 
             <p>
-                
+                <ol>
+                    <li>
+                        <p>
+                            Study the model of a pyramid below.
+                        </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="pyramid4">
+                                \begin{tikzpicture}
+                                % Define vertices of the square base
+                                \coordinate (A) at (-2,-1);
+                                \coordinate (B) at (0,-1);
+                                \coordinate (C) at (1,0);  
+                                \coordinate (D) at (-1,0);  
+                                
+                                % Define the apex of the pyramid
+                                \coordinate (V) at (0,3);  % Center above the square base
+                                
+                                % Draw the square base with orange color
+                                \draw[thick, orange] (A) -- (B) -- (C) -- (D) -- cycle;
+                                
+                                % Draw edges connecting the apex to the base with orange color
+                                \draw[thick, orange] (V) -- (A);
+                                \draw[thick, orange] (V) -- (B);
+                                \draw[thick, orange] (V) -- (C);
+                                \draw[style=dashed, thick, orange] (V) -- (D);
+                                
+                                % Fill faces with different shades of orange
+                                \fill[orange!20,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle;  % Base face
+                                \fill[orange!40,opacity=0.5] (B) -- (C) -- (V) -- cycle; % Front face
+                                \fill[orange!60,opacity=0.5] (D) -- (C) -- (V) -- cycle; % Right face
+                                \fill[orange!80,opacity=0.5] (A) -- (D) -- (V) -- cycle; % Left face
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
+
+                    <li>
+                        <p>
+                            Sketch the net of the pyramid and label its sides.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Calculate the area of each face of the net.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Work out the total area of the faces. What do you notice?
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Discuss your results with other groups.
+                        </p>
+                    </li>
+                </ol>
             </p>
         </statement>
     </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                The surface area of a pyramid is the sum of the area of the base and the area of the triangular faces.
+            </li>
+        </ul>
+    </p>
 
     <example>
         <statement>
@@ -27,44 +97,38 @@
             </p>
 
             <image width="50%">
-            <latex-image>
+            <latex-image label="pyamid2">
                 \begin{tikzpicture}
-                            
-                % Define the coordinates of the rectangular base (4 cm × 2 cm)
-                    \coordinate (A) at (0,0);
-                    \coordinate (B) at (4,0);
-                    \coordinate (C) at (4,2);
-                    \coordinate (D) at (0,2);
-                    
-                    % Define the peak (apex) of the pyramid
-                    \coordinate (P) at (2,4);  % Centered above the rectangle
-
-                    % Fill the shapes with different colors
-                    \fill[cyan!60] (A) -- (B) -- (C) -- (D) -- cycle; % Base rectangle
-                    \fill[orange!60] (A) -- (B) -- (P) -- cycle; % Front triangle
-                    \fill[green!60] (B) -- (C) -- (P) -- cycle; % Right triangle
-                    \fill[yellow!60] (C) -- (D) -- (P) -- cycle; % Back triangle
-                    \fill[blue!60] (D) -- (A) -- (P) -- cycle; % Left triangle
-
-                    % Draw the outlines of the pyramid
-                    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle; % Base rectangle
-                    \draw[thick] (A) -- (P) -- (B); % Front triangle
-                    \draw[thick] (B) -- (P) -- (C); % Right triangle
-                    \draw[thick] (C) -- (P) -- (D); % Back triangle
-                    \draw[thick] (D) -- (P) -- (A); % Left triangle
-
-                    % Add dashed fold lines
-                    \draw[dashed] (A) -- (P);
-                    \draw[dashed] (B) -- (P);
-                    \draw[dashed] (C) -- (P);
-                    \draw[dashed] (D) -- (P);
-
-                    % Label the points
-                    \node[below left] at (A) {A};
-                    \node[below right] at (B) {B};
-                    \node[above right] at (C) {C};
-                    \node[above left] at (D) {D};
-                    \node[above] at (P) {P};
+                % Define vertices of the square base
+                \coordinate (A) at (-2,-1);
+                \coordinate (B) at (0,-1);
+                \coordinate (C) at (1,0);  
+                \coordinate (D) at (-1,0);  
+                
+                % Define the apex of the pyramid
+                \coordinate (V) at (0,3);  % Center above the square base
+                
+                % Draw the square base
+                \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                
+                % Draw edges connecting the apex to the base
+                \draw[thick] (V) -- (A);
+                \draw[thick] (V) -- (B);
+                \draw[thick] (V) -- (C);
+                \draw[style=dashed,thick] (V) -- (D);
+                
+                % Optional: Add shading for clarity with different blue shades
+                \fill[blue!20,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle;  % Base face
+                \fill[blue!40,opacity=0.5] (B) -- (C) -- (V) -- cycle; % Front face
+                \fill[blue!60,opacity=0.5] (D) -- (C) -- (V) -- cycle; % Right face
+                \fill[blue!80,opacity=0.5] (A) -- (D) -- (V) -- cycle; % Left face
+                
+                % Label the vertices
+                \node at (A) [below left] {A};
+                \node at (B) [below right] {B};
+                \node at (C) [above right] {C};
+                \node at (D) [above left] {D};
+                \node at (V) [above] {V};
                 \end{tikzpicture}
             </latex-image>
             </image>
@@ -128,8 +192,6 @@
 
                 \end{tikzpicture}
             </latex-image>
-                <shortdescription></shortdescription>
-                
             </image>
           <p>            
             <md>

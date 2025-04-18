@@ -17,6 +17,26 @@
                         <p>
                             Examine a cone model like the one shown below.
                         </p>
+
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="cone1">
+                                \begin{tikzpicture}
+                                % Draw the entire cone with one uniform color (orange)
+                                \fill[orange!30] (-2,0) arc (180:360:2 and 0.7) -- (2,0) arc (0:180:2 and 0.7) -- cycle;
+                                \fill[orange!30] (-2,0) -- (0,4) -- (2,0) -- cycle;
+                                
+                                % Draw the base ellipse
+                                \draw[thick] (-2,0) arc (180:360:2 and 0.7);
+                                \draw[dashed] (2,0) arc (0:180:2 and 0.7);
+                                
+                                % Draw the cone's sides
+                                \draw[thick] (-2,0) -- (0,4);
+                                \draw[thick] (2,0) -- (0,4);
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
                     </li>
 
                     <li>
@@ -57,30 +77,31 @@
 
                 </ol>
             </p>
-
-            <p>
-                <m>\textbf{Key Takeaway}</m>
-            </p>
-
-            <p>
-                <ul>
-                    <li>
-                        <p>
-                            A cone has <m>2</m> faces. One face is a circle and the other face is a curved surface. A net of a cone is made up of <m>1</m> circle and <m>1</m> sector.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            The net of a cone is a two-dimensional representation of the three-dimensional shape of the cone. 
-                            It is made up of the curved surface of the cone laid out flat, so that you can see the shape of the cone. 
-                            The net of a cone is useful for visualizing the shape of the cone and for calculating its surface area and volume.
-                        </p>
-                    </li>
-                </ul>
-            </p>
+            
         </statement>
     </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    A cone has <m>2</m> faces. One face is a circle and the other face is a curved surface. A net of a cone is made up of <m>1</m> circle and <m>1</m> sector.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The net of a cone is a two-dimensional representation of the three-dimensional shape of the cone. 
+                    It is made up of the curved surface of the cone laid out flat, so that you can see the shape of the cone. 
+                    The net of a cone is useful for visualizing the shape of the cone and for calculating its surface area and volume.
+                </p>
+            </li>
+        </ul>
+    </p>
 
     <activity>
     <title>Net of a Cone</title>

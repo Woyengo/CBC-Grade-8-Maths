@@ -25,6 +25,51 @@
                             <p>
                                 Draw a net of the cuboid as shown below.
                             </p>
+
+                            <image width="50%">
+                                <shortdescription></shortdescription>
+                                <latex-image label="cuboid-net">    
+                                    \begin{tikzpicture}
+                                                                            
+                                        % Coloring rectangles with similar dimensions
+                                        \fill[red!50] (0,-4) -- (0,-2) -- (0,0) -- (0,2) -- (0,4) -- (2,4) -- (2,2) -- (2,0) -- (2,-2) -- (2,-4) -- (0,-4) -- cycle; % A, B, C, D (5 cm x 5 cm)
+                                        \fill[blue!50] (-2,0) -- (0,0) -- (0,-2) -- (-2,-2) -- (-2,0); % E (4 cm x 4 cm)
+                                        \fill[blue!50] (2,0) -- (4,0) -- (4,-2) -- (2,-2) -- (2,0); % F (4 cm x 4 cm)
+                                        
+                                        \fill[orange!50] (0,2) -- (2,2) -- (2,4) -- (0,4) -- cycle; % A (6 cm x 2 cm)
+                                        \fill[green!50] (0,0) -- (2,0) -- (2,2) -- (0,2) -- cycle; % B (6 cm x 2 cm)
+                                        \fill[purple!50] (0,-2) -- (2,-2) -- (2,0) -- (0,0) -- cycle; % C (6 cm x 2 cm)
+                                        \fill[yellow!50] (0,-4) -- (2,-4) -- (2,-2) -- (0,-2) -- cycle; % D (6 cm x 2 cm)
+
+                                        % Drawing the edges
+                                        \draw[thick] (0,-4) -- (0,4);
+                                        \draw[thick] (2,-4) -- (2,4);
+                                        \draw[thick] (0,4) -- (2,4);
+                                        \draw[thick] (0,2) -- (2,2);
+                                        \draw[thick] (0,0) -- (2,0);
+                                        \draw[thick] (0,-2) -- (2,-2);
+                                        \draw[thick] (-2,0) -- (0,0) -- (2,0) -- (4,0);
+                                        \draw[thick] (-2,-2) -- (0,-2) -- (2,-2) -- (4,-2);
+                                        \draw[thick] (-2,0) -- (-2,-2);
+                                        \draw[thick] (4,0) -- (4,-2);
+
+                                        <!-- % Adding dimension labels
+                                        \node[left] at (0,3) {5 cm};
+                                        \node[right] at (2,3) {5 cm};
+                                        \node[right] at (2,1) {4 cm};
+                                        \node[left] at (0,1) {4 cm};
+                                        \node[above] at (1,4) {6 cm};
+                                        \node[below] at (1,-4) {6 cm};
+                                        \node[below] at (3,0) {4 cm};
+                                        \node[below] at (-1,0) {4 cm};
+                                        \node[right] at (-3,-1) {5 cm};
+                                        \node[right] at (4,-1) {5 cm};
+                                        \node[right] at (2,-3) {4 cm};
+                                        \node[right] at (-1,-3) {4 cm}; -->
+                                    \end{tikzpicture}
+                                </latex-image>
+                                
+                            </image>
                         </li>
 
                         <li>
@@ -46,22 +91,22 @@
                         </li>
                     </ol>
                 </p>
-
-                <p>
-                    <m>\textbf{Key Takeaway}</m>
-                </p>
-
-                <p>
-                    <ul>
-                        <li>
-                            <p>
-                                The surface area of a cuboid is the sum of the areas of all six faces.
-                            </p>
-                        </li>
-                    </ul>
-                </p>
             </statement>
         </activity>
+
+        <p>
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        The surface area of a cuboid is the sum of the areas of all six faces.
+                    </p>
+                </li>
+            </ul>
+        </p>
 
         <activity>
         
@@ -102,30 +147,24 @@
                     \coordinate (G) at (9.5,5.5);
                     \coordinate (H) at (1.5,5.5);
 
-                    % Remove color fill (colorless version)
-                    % \fill[blue!30] (A) -- (B) -- (C) -- (D) -- cycle;
-                    % \fill[blue!30] (E) -- (F) -- (G) -- (H) -- cycle;
-                    % \fill[blue!30] (A) -- (E) -- (H) -- (D) -- cycle;
+                    % Draw visible edges with red color
+                    \draw[thick, red] (A) -- (B) -- (C) -- (D) -- cycle;
+                    \draw[thick, red] (A) -- (E);
+                    \draw[thick, red] (B) -- (F);
+                    \draw[thick, red] (C) -- (G);
+                    \draw[thick, red] (D) -- (H);
+                    \draw[thick, red] (E) -- (F) -- (G) -- (H) -- cycle;
 
-                    % Draw visible edges
-                    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
-                    \draw[thick] (A) -- (E);
-                    \draw[thick] (B) -- (F);
-                    \draw[thick] (C) -- (G);
-                    \draw[thick] (D) -- (H);
-                    \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
-
-                    % Draw hidden edges
+                    % Draw hidden edges as dashed lines
                     \draw[thick, dashed] (E) -- (H);
                     \draw[thick, dashed] (F) -- (G);
 
-                     \node at (4,0) [below, fill=white, rounded corners=2pt, inner sep=2pt] {\Large \textbf{6 cm}};
+                    % Add dimension labels
+                    \node at (4,0) [below, fill=white, rounded corners=2pt, inner sep=2pt] {\Large \textbf{6 cm}};
                     \node at (11,3) [left, fill=white, rounded corners=2pt, inner sep=2pt] {\Large \textbf{5 cm}};
                     \node at (9.8,0.5) [above, fill=white, rounded corners=2pt, inner sep=2pt] {\Large \textbf{4 cm}};
                     \end{tikzpicture}
                 </latex-image>
-                    <shortdescription></shortdescription>
-                   
                 </image>
 
                 <p>
