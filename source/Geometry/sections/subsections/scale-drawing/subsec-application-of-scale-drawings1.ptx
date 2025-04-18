@@ -14,7 +14,7 @@
             <m>\textbf{Work in groups}</m>
         </p>
         <p>
-            <m>\textbf{What you require:}</m> A piece of string and a ruler.
+            <term>What you need:</term> A piece of string and a ruler.
         </p>
         <p>
             <ol>
@@ -365,7 +365,7 @@
             </p>
             <image width="50%">
             <latex-image label="scale1">
-                \begin{tikzpicture}
+                \begin{tikzpicture}[blue]
                     % Define points
                     \coordinate (P) at (0,4);
                     \coordinate (S) at (-5,1.5);
