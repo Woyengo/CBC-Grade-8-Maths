@@ -169,7 +169,7 @@
     <example>
         <statement>
             <p>
-               Kemmy drew a blueprint of his living room using a scale of <m>1:50</m>. If the actual length of the living room is <m>6 \,meters</m>, 
+               Kemmy drew a blueprint of her living room using a scale of <m>1:50</m>. If the actual length of the living room is <m>6 \,\text{meters}</m>, 
                what is the length of the living room on the blueprint?
             </p>
         </statement>
@@ -186,7 +186,7 @@
                     </li>
                     <li>
                         <p>
-                            Actual length of the garage: <m>6 \,meters.</m>.
+                            Actual length of the garage: <m>6 \,\text{meters}.</m>.
                         </p>
                     </li>
                     <li>
@@ -197,7 +197,7 @@
                 </ul>
             </p>
             <p>
-                Since <m>1\, \text{ meter} = 100 \, \text{centimeters}</m>, we convert <m>6\, meters</m> to centimeters:
+                Since <m>1\, \text{ meter} = 100 \, \text{centimeters}</m>, we convert <m>6\, \text{ meter}</m> to centimeters:
             </p>
             <p>
                 <md>
