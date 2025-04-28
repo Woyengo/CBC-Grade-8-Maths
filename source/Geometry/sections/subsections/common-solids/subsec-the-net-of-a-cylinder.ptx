@@ -7,41 +7,119 @@
         <p>
             In this section, you will sketch nets of a cylinder.
         </p>
-
-        <p>
-            A cylinder has 3 faces. Two faces are circles and one face is a rectangle. A net of a cylinder is made up of 2 circles and 1 rectangle.
-        </p>
-
         <activity>
-            <title>Create and Experiment with a Net of a cylinder</title>
+            <title></title>
             <statement>
+
                 <p>
-                   <ul>
-                    <li>
-                        <p>
-                             Use the MOVE tool Toolbar Image to move the Unfold or Fold Net slider. This will show how the cylinder can be turned into a net. A net is created by imagining that you cut and unfold the 3-D shape into one, flat shape. 
-                        </p>
-                    </li>
-                              
-                    <li>
-                        <p>
-                             Using the same slider, the net can be folded back into the original 3-D shape. 
-                        </p>
-                    </li>
-                   </ul>
+                    <m>\textbf{Work in pairs}</m>
+                </p>
+                <p>
+                    <term>What you need:</term>  model of a cylinder and a pair of scissors (or a cutting tool).
                 </p>
 
-                    <figure>
-                        <caption></caption>
-                        <interactive xml:id="geogebra-cylinder" geogebra="v9tjmspz" width="100%" aspect="9:5" reset-icon="yes" material-width="1100px"/>
-                    </figure>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                (a).Take a close look at a cylinder model similar to the one shown below.
+                            </p>
+                            <image width="50%">
+                                <shortdescription></shortdescription>
+                                <latex-image label="cylindr1">
+                                    \begin{tikzpicture}
+                                    % Define colors
+                                    \definecolor{myblue1}{rgb}{0.2, 0.6, 1.0}   % Blue for top and bottom ellipses
+                                    \definecolor{myblue2}{rgb}{0.2, 0.3, 0.8}   % Darker blue for curved surface
+                                    
+                                    % Draw the bottom ellipse
+                                    \shade[bottom color=myblue1, top color=white, opacity=0.5] (0,0) ellipse (2 and 0.5);
+                                    \draw[thick, black] (0,0) ellipse (2 and 0.5);
+                                    
+                                    % Draw the curved surface in blue
+                                    \filldraw[bottom color=myblue2, top color=white, opacity=0.5] (-2,0) -- (-2,4) arc (180:360:2 and 0.5) -- (2,0) -- cycle;
+                                    \draw[thick, black] (-2,0) -- (-2,4);
+                                    \draw[thick, black] (2,0) -- (2,4);
+                                    
+                                    % Draw the top ellipse
+                                    \shade[bottom color=myblue1, top color=white, opacity=0.5] (0,4) ellipse (2 and 0.5);
+                                    \draw[thick, black] (0,4) ellipse (2 and 0.5);
+                                    \end{tikzpicture}
+                                </latex-image>
+                                
+                            </image>
+
+                            <p>
+                                (b). Can you find any flat surfaces, curved surfaces, edges, or vertices?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Carefully cut the cylinder along its side and base.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Gently unfold the shape and lay it flat on your desk.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Observe the flattened shape and draw what you see.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Identify and label the shapes that make up the cylinder when opened out.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Share and compare your diagrams with those from other groups. What similarities or differences can you see?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+
             </statement>
         </activity>
 
-        <m>{\color{blue} \text{To observe the net of a cylinder.}}</m>
+        <p>
+                    <m>\textbf{Key Takeaway}</m>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                    A cylinder has 3 faces. Two faces are circles and one face is a rectangle. A net of a cylinder is made up of 2 circles and 1 rectangle.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                A closed cylinder includes two circular ends and one curved side.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                An open cylinder has only one circular end and the curved surface.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+
+        <p>
+        <m>\textbf{To observe the net of a cylinder.}</m>
+        </p>
             <figure>
                 <caption></caption>
-                <interactive xml:id="geogebra-cylinde" geogebra="eevymk37" width="100%" aspect="9:5" reset-icon="yes" material-width="1100px"/>
+                <interactive xml:id="geogebra-cylinde" geogebra="eevymk37" width="100%" aspect="9:5" reset-icon="yes" />
             </figure>
 
             <example>

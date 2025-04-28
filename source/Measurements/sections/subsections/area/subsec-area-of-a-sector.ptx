@@ -9,7 +9,7 @@
                 <m>\textbf{Work in groups}</m>
             </p>
             <p>
-                <m>\textbf{What you need:}</m>
+                <term>What you need:</term>
             </p>
             <p>
                 A graph paper and a razorblade or a parir of scissor✂️
@@ -38,6 +38,9 @@
                                 \draw[thick] (0,0) -- (150:2);
                                 \draw[thick] (30:2) ;
                                 \node at (0,0.5) {$30^\circ$};
+
+                                % Draw a dot at the center (0,0)
+                                \filldraw [black] (0,0) circle (2pt); % 2pt size black dot
                                 
                                 
                                 % Arrow pointing to the second shape
@@ -50,6 +53,8 @@
                                     \draw[thick] (0,0) -- (150:1.5);
                                     \draw[thick] (30:1.5) arc (30:150:1.5);
                                     \node at (0,0.5) {$30^\circ$};
+                                    % Draw a dot at the center (0,0)
+                                    \filldraw [black] (0,0) circle (1pt); % 2pt size black dot
                                     
                                 \end{scope}
                             \end{tikzpicture}
@@ -102,6 +107,9 @@
                 \path (0,0) coordinate (O);
                 \path (\startAngle:2) coordinate (A);
                 \path (\endAngle:2) coordinate (B);
+
+                % Draw a dot at the center (0,0)
+                \filldraw [black] (0,0) circle (1pt); % 2pt size black dot
                 
                 % Shade the minor sector
                 \fill[cyan!50] (O) -- (A) arc (\startAngle:\endAngle:2) -- cycle;
@@ -273,7 +281,7 @@
             </statement>
             <solution>
                 <p>
-                   <m>\textbf{(a)}</m>  <m>Area=\frac{\theta^\circ}{360^\circ} \pi r^2</m>
+                   <m>\textbf{(a)}</m>  <m>Area=\frac{\theta}{360^\circ} \pi r^2</m>
                 </p>
                 <p>
                     <md>
@@ -287,7 +295,7 @@
                 </p>
 
                 <p>
-                   <m>\textbf{(b)}</m>  <m>Area=\frac{\theta^\circ}{360^\circ} \pi r^2</m>
+                   <m>\textbf{(b)}</m>  <m>Area=\frac{\theta}{360^\circ} \pi r^2</m>
                 </p>
                 <p>
                     <md>
@@ -324,7 +332,7 @@
             <m>\textbf{Work in groups}</m>
         </p>
             <p>
-                <m>\textbf{What you require:}</m> A pair of compusses, a ruler, pieces of paper, a cutting tool and a protactor.
+                <term>What you require:</term> A pair of compusses, a ruler, pieces of paper, a cutting tool and a protactor.
             </p>
             <p>
                 <ol >
@@ -369,7 +377,7 @@
                     </li>
                     <li>
                         <p>
-                            Multiply the fraction you got in step 3<m>\textbf{b}</m> by the area of the circle. What do you notice>
+                            Multiply the fraction you got in step 3 <m>\text{(b)}</m> by the area of the circle. What do you notice>
                         </p>
                     </li>
                     <li>
@@ -414,7 +422,7 @@
                 </p>
                 <image width="40%">
                 <latex-image label="semi">
-                    \begin{tikzpicture}
+                    \begin{tikzpicture}[blue]
                         % Draw the semicircle
                         \draw [very thick,fill=pink!20] (4,0) arc [start angle=0, end angle=180, radius=4cm] -- (0,0) -- cycle;
 
@@ -459,7 +467,7 @@
                         \draw[very thick,white, draw=black] (0,0) rectangle (1,1);
                         
                         % Label the radius
-                        \draw (3,-0.3) node[below] {6 cm};
+                        \draw (3,-0.3) node[below] {\Huge{6 cm}};
                     \end{tikzpicture}
                 </latex-image>
                     

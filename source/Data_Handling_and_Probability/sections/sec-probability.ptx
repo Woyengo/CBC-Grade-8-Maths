@@ -4,11 +4,7 @@
     <title>Probability</title>
     <introduction>
         <p>
-            <m>\textbf{Probability}</m> refers to the likelihood of a specific event happening. 
-            It is calculated by dividing the number of desired outcomes by the total number of possible outcomes, essentially expressing how likely something is to occur in a given situation, often using simple experiments like flipping coins or rolling dice to illustrate the concept. 
-        </p>
-        <p>
-            For example, we use probability to predict outcomes in a match, elections, and treatment.
+            
         </p>
     </introduction>
     

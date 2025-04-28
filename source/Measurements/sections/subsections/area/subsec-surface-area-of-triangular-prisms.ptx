@@ -22,7 +22,7 @@
              <m>\textbf{Work in pairs}</m>
             </p>
             <p>
-                <m>\textbf{What you require:}</m> A ruler, pieces of paper and glue.
+                <term>What you require:</term> A ruler, pieces of paper and glue.
             </p>
             <sidebyside>
                 <p>
@@ -90,7 +90,7 @@
                 </p>
                 <image width="40%">
                 <latex-image label="Prism2">
-                    \begin{tikzpicture}
+                    \begin{tikzpicture}[blue]
                         % Define points
                         \coordinate (A) at (0,0,0);  % Bottom-left-front
                         \coordinate (B) at (3,0,0);  % Bottom-right-front
@@ -127,14 +127,7 @@
             </sidebyside>
         </activity>
 
-        <p>
-            <m>\textbf{Extended Activity:}</m>
-        </p>
-        <p>
-            <m>\textbf{Onyango}</m> said,"If you double all the dimensions of a triangular 
-            prism, you will double its surface area". Using a triangular prism of your own choice, 
-            Check whether <m>\textbf{Onyango's}</m> statement is correct.
-        </p>
+       
 
 
 
@@ -332,11 +325,11 @@
         <example>
             <statement>
                 <p>
-                    Find the surface area of the triangular prism shown.
-                </p>
+                    Find the surface area of the triangular prism shown below.
+                </p> 
                 <image width="40%">
                 <latex-image label="Prism4">
-                    \begin{tikzpicture}[scale=0.8]
+                    \begin{tikzpicture}[scale=0.8,blue]
                         
                         % Define the coordinates of the vertices
                         \coordinate (A) at (0,0);
@@ -418,6 +411,14 @@
                 </p>
             </solution>
         </example>
+        <p>
+            <m>\textbf{Extended Activity:}</m>
+        </p>
+        <p>
+            <m>\textbf{Onyango}</m> said,"If you double all the dimensions of a triangular 
+            prism, you will double its surface area". Using a triangular prism of your own choice, 
+            Check whether <m>\textbf{Onyango's}</m> statement is correct.
+        </p>
 
         
         

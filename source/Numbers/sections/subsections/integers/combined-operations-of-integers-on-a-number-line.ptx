@@ -1,50 +1,286 @@
 <subsection xml:id="subsec-combined-operations-of-integers-on-a-number-line">
     <title>Combined Operations of Integers on a Number Line</title>
     <activity>
-        <introduction>
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
-        <task>
-            <statement>
-                <p>
-                    
-                </p>
-            </statement>
-        </task>
+            <p>
+                <ol marker="1. ">
+                    <li>
+                        <p>
+                            Draw a number line similar to the one shown below.
+                        </p>
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image label="combined-operation-1">
+                                \begin{tikzpicture}
+                                    \draw[thick,&lt; - &gt;](-6.5,0) -- (8.5,0);
+                                    \foreach \x in {1,...,8} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {+\x}; 
+                                    }
+
+                                    \draw (0,0.1) -- (0,-0.1);
+                                    \node[below] at (0,-0.1) {0}; 
+
+                                    \foreach \x in {-1,-2,-3,-4,-5,-6} {
+                                        \draw (\x,0.1) -- (\x,-0.1); 
+                                        \node[below] at (\x,-0.1) {-\x}; 
+                                    }
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                    </li>
+                    <li>
+                        <p>
+                            Starting at <m>(-2)</m> on the number line, move <m>7</m> steps to the right and 
+                            then move <m>3</m> steps to left and circle the number at the end of the last step.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Starting at <m>(+2)</m> on the number line, move <m>6</m> steps to the right and then move
+                             <m>2</m> steps to left and circle the number at the end of the last step.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Write down the expressions and the final answers of the movements in step <m>2</m> and step <m>3</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Share your results and compare them with other groups in the class.
+                        </p>
+                    </li>
+                </ol>
+            </p>
     </activity>
+    <p><m>\textbf{Key Takeaway}</m></p>
+    <p>
+        When solving expressions that involve both addition and subtraction of integers, 
+        follow the operations from left to right.
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    <ul>
+                        <li>
+                            Adding a <alert>positive integer</alert> means moving to the <alert>right</alert>.
+                        </li>
+                        <li>
+                            Subtracting a <alert>positive integer</alert> means moving to the <alert>left</alert>.
+                        </li>
+                        <li>
+                            Adding a <alert>negative integer</alert> is the same as moving to the <alert>left</alert>.
+                        </li>
+                        <li>
+                            Subtracting a <alert>negative integer</alert> is the same as moving to the <alert>right</alert>.
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Example: <m>(-2) + (+5) - (+3)</m>
+                    Start at <m>-2</m>, move <m>5</m> steps to the <alert>right</alert> (for <m>+5</m>), 
+                    then move <m>3</m> steps to the <alert>left</alert> again since we are subtracting a positive integer.
+                </p>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image label="combined-operation-2"> 
+                        \begin{tikzpicture}
+                            \draw[&lt;- &gt;](-4.5,0) -- (5.5,0);
+                            
+                            \foreach \x in {-4,...,-1} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {-\x}; 
+                            }
+                            
+                            \draw (0,0.1) -- (0,-0.1);
+                            \node[below] at (0,-0.1) {0}; 
+                            
+                            \foreach \x in {1,...,5} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {+\x}; 
+                            }
+                            % Draw curved arrows for jumps
+                            \draw[red,-&gt;] (-2,0.1) to[bend left=60] (-1,0.1);
+                            \draw[red,- &gt;] (-1,0.2) to[bend left=60] (0,0.1);
+                            \draw[red,- &gt;] (0,0.2) to[bend left=60] (1,0.1);
+                            \draw[red,- &gt;] (1,0.2) to[bend left=60] (2,0.1);
+                            \draw[red,- &gt;] (2,0.2) to[bend left=60] (3,0.1);
+
+                            % Start label
+                            \draw[] (-2,0) -- (-2,0.5);
+                            \node[above] at (-2,0.55) {\text{start}};
+                            
+                            % Stop label
+                            \draw[] (3,0) -- (3,0.5);
+                            \node[above] at (3,0.55) {\text{stop}};
+                            
+                            \draw[thick,fill=red,red] (-2,0) circle(0.1);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image label="combined-operation-3">
+                        \begin{tikzpicture}
+                            \draw[&lt; - &gt;](-4.5,0) -- (5.5,0);
+                            
+                            \foreach \x in {-4,...,-1} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {-\x}; 
+                            }
+                            
+                            \draw (0,0.1) -- (0,-0.1);
+                            \node[below] at (0,-0.1) {0}; 
+                            
+                            \foreach \x in {1,...,5} {
+                                \draw (\x,0.1) -- (\x,-0.1); 
+                                \node[below] at (\x,-0.1) {+\x}; 
+                            }
+                            % Draw curved arrows for jumps
+                            \draw[red,-&gt;] (3,0.1) to[bend right=60] (2,0.1);
+                            \draw[red,- &gt;] (2,0.2) to[bend right=60] (1,0.1);
+                            \draw[red,- &gt;] (1,0.2) to[bend right=60] (0,0.1);
+                            
+                            % Start label
+                            \draw[] (3,0) -- (3,0.5);
+                            \node[above] at (3,0.55) {\text{start}};
+                            
+                            % Stop label
+                            \draw[] (0,0) -- (0,0.5);
+                            \node[above] at (0,0.55) {\text{stop}};
+                            
+                            \draw[thick,fill=red,red] (3,0) circle(0.1);
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </li>
+        </ul>
+    </p>
     <example>
         <statement>
             <p>
-                
+                Use a number line to perform the following expression.
+            </p>
+            <p>
+                <m> (+4) - (6) + (3) </m>
             </p>
         </statement>
         <solution>
             <p>
-                
+                Starting at <m>(+4)</m>, move <m>6</m> steps to the <alert>left</alert> since we are 
+                subtracting <alert>a positive integer</alert> as shown in the number line below.
             </p>
+            <image>
+                <shortdescription></shortdescription>
+                <latex-image label="combined-operation-example-1">
+                    \begin{tikzpicture}
+                        \draw[&lt; - &gt;](-4.5,0) -- (5.5,0);
+        
+                        \foreach \x in {-4,...,-1} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {-\x}; 
+                        }
+                        
+                        \draw (0,0.1) -- (0,-0.1);
+                        \node[below] at (0,-0.1) {0}; 
+                        
+                        \foreach \x in {1,...,5} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {+\x}; 
+                        }
+                        % Draw curved arrows for jumps
+                        \draw[red,-&gt;] (4,0.1) to[bend right=60] (3,0.1);
+                        \draw[red,- &gt;] (3,0.2) to[bend right=60] (2,0.1);
+                        \draw[red,- &gt;] (2,0.2) to[bend right=60] (1,0.1);
+                        \draw[red,-&gt;] (1,0.1) to[bend right=60] (0,0.1);
+                        \draw[red,- &gt;] (0,0.2) to[bend right=60] (-1,0.1);
+                        \draw[red,- &gt;] (-1,0.2) to[bend right=60] (-2,0.1);
+                        
+                        % Start label
+                        \draw[] (4,0) -- (4,0.5);
+                        \node[above] at (4,0.55) {\textbf{start}};
+                        
+                        % Stop label
+                        \draw[] (-2,0) -- (-2,0.5);
+                        \node[above] at (-2,0.55) {\textbf{stop}};
+                        
+                        \draw[thick,fill=red,red] (4,0) circle(0.1);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+            <p>
+                Then, from <m>(-2)</m> on the number line, move <m>3</m> steps to the right since we are 
+                adding a <alert>a positive integer</alert>.
+            </p>
+            <image>
+                <shortdescription></shortdescription>
+                <latex-image label="combined-operation-example-2">
+                    \begin{tikzpicture}
+                        \draw[&lt; - &gt;](-4.5,0) -- (5.5,0);
+        
+                        \foreach \x in {-4,...,-1} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {-\x}; 
+                        }
+                        
+                        \draw (0,0.1) -- (0,-0.1);
+                        \node[below] at (0,-0.1) {0}; 
+                        
+                        \foreach \x in {1,...,5} {
+                            \draw (\x,0.1) -- (\x,-0.1); 
+                            \node[below] at (\x,-0.1) {+\x}; 
+                        }
+                        % Draw curved arrows for jumps
+                        \draw[red,-&gt;] (-2,0.1) to[bend left=60] (-1,0.1);
+                        \draw[red,- &gt;] (-1,0.2) to[bend left=60] (0,0.1);
+                        \draw[red,- &gt;] (0,0.2) to[bend left=60] (1,0.1);
+                    
+                        % Start label
+                        \draw[] (-2,0) -- (-2,0.5);
+                        \node[above] at (-2,0.55) {\textbf{start}};
+                        
+                        % Stop label
+                        \draw[] (1,0) -- (1,0.5);
+                        \node[above] at (1,0.55) {\textbf{stop}};
+                        
+                        \draw[thick,fill=red,red] (-2,0) circle(0.1);
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
+    <exploration>
+        <title>Use of IT</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Explore how to represent integers on a number line by watching the video below.
+                        You can also <url href="https://youtu.be/TlZVPfvTLXA?t=144">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="TlZVPfvTLXA"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to represent negative integers on a number line by watching the video below.
+                        You can also <url href="https://youtu.be/Hlal9ME2Aig?t=482">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="Hlal9ME2Aig"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to perform addition and subtraction of integers on a number line by watching the video below.
+                        You can also <url href="https://youtu.be/NQSN00zL5gg?t=77">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="NQSN00zL5gg"/>
+                </li>
+            </ol>
+        </p>
+    </exploration>
 </subsection>

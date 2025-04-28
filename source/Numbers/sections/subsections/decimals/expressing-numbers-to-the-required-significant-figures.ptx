@@ -1,17 +1,36 @@
 <subsection xml:id="subsec-expressing-numbers-to-the-required-significant-figures">
     <title>Expressing Numbers to the Required Significant Figures</title>
-    <p>
-        <alert>Significant figures</alert> (or <alert>significant digits</alert>) are the digits in a number
-        that contribute to its precision. They include all non-zero digits, 
-        any zeros between non-zero digits, and trailing zeros in decimal numbers.
-    </p>
     <activity>
-        <introduction>
+        <!-- <introduction> -->
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
+        <!-- </introduction> -->
+         <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Consider the following numbers: <m>0.00123,\,78.0089,\,12.3100,</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find and identify the <alert>significant digits</alert> in each of the numbers above.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Express each number in <alert>step (a)</alert> to <m>4</m> significant figures.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share and discuss your findings with the rest of learners in the class.
+                    </p>
+                </li>
+            </ol>
+         </p>
+        <!-- <task>
             <statement>
                 <p>
                     Consider the following numbers: <m>0.00123,\,78.0089,\,12.3100,</m>
@@ -38,8 +57,16 @@
                     Share and discuss your findings with the rest of learners in the class.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+    <p>
+        <alert>Significant figures</alert> (or <alert>significant digits</alert>) are the digits in a number
+        that contribute to its precision. They include all non-zero digits, 
+        any zeros between non-zero digits, and trailing zeros in decimal numbers.
+    </p>
     <p>
         <m>\textbf{Learning Point}</m>
     </p>
@@ -225,11 +252,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>
