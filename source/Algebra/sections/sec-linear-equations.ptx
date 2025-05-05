@@ -1,4 +1,4 @@
-<section xml:id="sec-Linear-equations">
+<section xml:id="sec-Linear-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Linear equations</title>
     <p>
         You are planning resume for the next terms session in your school. You need to buy exercise books and a mathematical set. The cost of one exercise book is Ksh <m>50</m>, and a mathematical set costs Ksh <m>200</m>. If you have a total of Ksh <m>450</m> to spend, how many exercise books can you buy for your school work?
@@ -20,6 +20,7 @@
     <p>
         Understanding how to form and solve linear equations allows us to make better decisions and solve practical challenges efficiently.
     </p>
+    <xi:include href="subsections/subsec-formation-of-linear-equations-with-two-unknowns.ptx" />
 
   <xi:include href="subsections/subsec-formation-of-linear-equations-with-two-unknowns.ptx" />
 </section>

@@ -1,4 +1,97 @@
-<subsection xml:id="subsec-">
-    <title></title>
+<subsection xml:id="forming-linear-equations-in-two-unknowns">
+    <title>Forming Linear Equations in Two Unknowns</title>
+  
+    <introduction>
+      <p>
+        In many real-life situations, we encounter problems involving two related unknown quantities. When we represent such problems using algebra, we form equations with two variables. These are known as linear equations in two unknowns, often written in the form <m>ax + by = c</m>.
+      </p>
+      <p>
+        To form such equations, we assign variables to the unknowns, then use the information given to write two related expressions and connect them with an equals sign.
+      </p>
+    </introduction>
+  
+    <subsubsection xml:id="forming-equations-examples">
+      <title>Examples of Forming Linear Equations</title>
+      
+      <example>
+        <title>Forming equations from money and quantity</title>
+        <statement>
+          <p>
+            A fruit vendor sells oranges at Ksh 10 each and mangoes at Ksh 20 each. On a certain day, she sold a total of 50 fruits worth Ksh 800. Form two linear equations to represent the situation.
+          </p>
+        </statement>
+        <solution>
+          <p>Let <m>x</m> be the number of oranges and <m>y</m> be the number of mangoes.</p>
+          <p>Equation for total fruits: <m>x + y = 50</m></p>
+          <p>Equation for total cost: <m>10x + 20y = 800</m></p>
+        </solution>
+      </example>
     
-</subsection>
+      <example>
+        <title>Forming equations from age relationships</title>
+        <statement>
+          <p>
+            The sum of Mary and her brother's ages is 30. Mary is 4 years older than her brother. Form linear equations in two unknowns.
+          </p>
+        </statement>
+        <solution>
+          <p>Let Mary's age be <m>x</m> and her brother's age be <m>y</m>.</p>
+          <p>Equation for total age: <m>x + y = 30</m></p>
+          <p>Mary is 4 years older: <m>x = y + 4</m></p>
+        </solution>
+      </example>
+    </subsubsection>
+  
+    <exercises>
+      <exercise>
+        <statement>
+          <p>
+            A carpenter makes stools and tables. A stool sells for Ksh 500 and a table for Ksh 1,000. On a market day, he sold 10 items and earned Ksh 7,000. Form two equations.
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            A farmer bought some cows and goats. Each cow costs Ksh 25,000 and each goat Ksh 5,000. He bought 12 animals and spent Ksh 180,000. Form two equations.
+          </p>
+        </statement>
+      </exercise>
+    </exercises>
+  
+    <exercises>
+      <exercise>
+        <statement>
+          <p>
+            A shopkeeper sells pens at Ksh 30 and pencils at Ksh 20. In one day, she sells 40 items and earns Ksh 1,100. Form two linear equations to represent this situation.
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            A boda boda rider transports passengers and parcels. A passenger trip earns Ksh 100 while a parcel delivery earns Ksh 150. In a day, the rider completes 20 trips and earns Ksh 2,500. Form two equations.
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            A man has some 100-shilling and 200-shilling notes adding up to Ksh 2,400. Form two equations to represent this.
+          </p>
+        </statement>
+      </exercise>
+    </exercises>
+  
+    <conclusion>
+      <p>
+        To form linear equations in two unknowns:
+        <ul>
+            <li>Assign variables to each unknown.</li>
+            <li>Use the relationships or totals given to form two separate equations.</li>
+            <li>The equations will typically be solved together using substitution or elimination methods.</li>
+          </ul>
+      </p>
+    </conclusion>
+  </subsection>
+  
