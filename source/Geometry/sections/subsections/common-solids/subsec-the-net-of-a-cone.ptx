@@ -1,310 +1,164 @@
-  cone
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Final Cone Diagram</title>
-  <style>
-    body {
-      background-color: #d0edf3;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-  </style>
-</head>
-<body>
+<subsection xml:id="subsec-net-of-a-cone">
+    <title>The net of a cone</title>
 
-  <svg width="350" height="400" viewBox="0 0 350 400">
-    <!-- Vertical center line -->
-    <line x1="175" y1="40" x2="175" y2="300" stroke="gray" stroke-width="1.5" />
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in groups.}</m>
+            </p>
 
-    <!-- Base ellipse -->
-    <ellipse cx="175" cy="300" rx="90" ry="24" fill="none" stroke="darkred" stroke-width="3" stroke-dasharray="6,4" />
+            <p>
+                <term>What you need:</term>  model of a cone and a pair of scissors or cutting tool.
+            </p>
 
-    <!-- Cone sides -->
-    <line x1="85" y1="300" x2="175" y2="40" stroke="darkred" stroke-width="4" />
-    <line x1="265" y1="300" x2="175" y2="40" stroke="darkred" stroke-width="4" />
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Examine a cone model like the one shown below.
+                        </p>
 
-    <!-- Height line -->
-    <line x1="175" y1="40" x2="175" y2="300" stroke="darkred" stroke-width="2" stroke-dasharray="6,4" />
+                        <image width="50%">
+                            <shortdescription></shortdescription>
+                            <latex-image label="cone1">
+                                \begin{tikzpicture}
+                                % Draw the entire cone with one uniform color (orange)
+                                \fill[orange!30] (-2,0) arc (180:360:2 and 0.7) -- (2,0) arc (0:180:2 and 0.7) -- cycle;
+                                \fill[orange!30] (-2,0) -- (0,4) -- (2,0) -- cycle;
+                                
+                                % Draw the base ellipse
+                                \draw[thick] (-2,0) arc (180:360:2 and 0.7);
+                                \draw[dashed] (2,0) arc (0:180:2 and 0.7);
+                                
+                                % Draw the cone's sides
+                                \draw[thick] (-2,0) -- (0,4);
+                                \draw[thick] (2,0) -- (0,4);
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+                    </li>
 
-    <!-- Height label (1 cm) at center of height, moved slightly down -->
-    <text x="155" y="195" font-size="16" fill="black">1 cm</text>
+                    <li>
+                        <p>
+                            Does the cone have faces, edges and vertices?
+                        </p>
+                    </li>
 
-    <!-- Radius line -->
-    <line x1="175" y1="300" x2="265" y2="300" stroke="darkred" stroke-width="2" stroke-dasharray="6,4" />
+                    <li>
+                        <p>
+                            Carefully cut the cone along its edges.
+                        </p>
+                    </li>
 
-    <!-- Radius label (3 cm) centered on the radius -->
-    <text x="215" y="295" font-size="16" fill="black" text-anchor="middle">3 cm</text>
+                    <li>
+                        <p>
+                            Lay the cone flat after opening it up.
+                        </p>
+                    </li>
 
-    <!-- Slant height label (2 cm) -->
-    <text x="220" y="150" font-size="16" fill="black">2 cm</text>
-  </svg>
+                    <li>
+                        <p>
+                            Observe the unfolded model and sketch its shape.
+                        </p>
+                    </li>
 
-</body>
-</html>
+                    <li>
+                        <p>
+                            What is the name of this 2D layout?
+                        </p>
+                    </li>
 
-CUBE
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Wireframe Cube</title>
-</head>
-<body>
-  <svg width="375" height="375" viewBox="0 0 375 375">
-    <!-- Front face -->
-    <polygon points="90,90 202.5,90 202.5,202.5 90,202.5" stroke="black" fill="none" />
-    <!-- Back face -->
-    <polygon points="135,45 247.5,45 247.5,157.5 135,157.5" stroke="black" fill="none" />
-    <!-- Connect corners -->
-    <line x1="90" y1="90" x2="135" y2="45" stroke="black" />
-    <line x1="202.5" y1="90" x2="247.5" y2="45" stroke="black" />
-    <line x1="202.5" y1="202.5" x2="247.5" y2="157.5" stroke="black" />
-    <line x1="90" y1="202.5" x2="135" y2="157.5" stroke="black" />
+                    <li>
+                        <p>
+                            Compare your drawing with those made by other groups. What do you notice?
+                        </p>
+                    </li>
 
-    <!-- Vertex labels (invisible) -->
-    <text x="90" y="90" font-family="Arial" font-size="18" fill="none">A</text>
-    <text x="202.5" y="90" font-family="Arial" font-size="18" fill="none">B</text>
-    <text x="202.5" y="202.5" font-family="Arial" font-size="18" fill="none">C</text>
-    <text x="90" y="202.5" font-family="Arial" font-size="18" fill="none">D</text>
-    <text x="135" y="45" font-family="Arial" font-size="18" fill="none">E</text>
-    <text x="247.5" y="45" font-family="Arial" font-size="18" fill="none">F</text>
-    <text x="247.5" y="157.5" font-family="Arial" font-size="18" fill="none">G</text>
-    <text x="135" y="157.5" font-family="Arial" font-size="18" fill="none">H</text>
+                </ol>
+            </p>
+            
+        </statement>
+    </activity>
 
-    <!-- Midpoints (circles hidden), labels visible -->
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
 
-    <!-- "3cm" for midpoint of DC -->
-    <circle cx="146.25" cy="202.5" r="4.5" fill="none" />
-    <text x="150" y="222" font-family="Arial" font-size="18" fill="black">3cm</text>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    A cone has <m>2</m> faces. One face is a circle and the other face is a curved surface. A net of a cone is made up of <m>1</m> circle and <m>1</m> sector.
+                </p>
+            </li>
 
-    <!-- "1cm" for midpoint of CG -->
-    <circle cx="225" cy="180" r="4.5" fill="none" />
-    <text x="229" y="198" font-family="Arial" font-size="18" fill="black">1cm</text>
+            <li>
+                <p>
+                    The net of a cone is a two-dimensional representation of the three-dimensional shape of the cone. 
+                    It is made up of the curved surface of the cone laid out flat, so that you can see the shape of the cone. 
+                    The net of a cone is useful for visualizing the shape of the cone and for calculating its surface area and volume.
+                </p>
+            </li>
+        </ul>
+    </p>
 
-    <!-- "2cm" for midpoint of GF -->
-    <circle cx="247.5" cy="101.25" r="4.5" fill="none" />
-    <text x="252" y="120" font-family="Arial" font-size="18" fill="black">2cm</text>
-  </svg>
-</body>
-</html>
+    <activity>
+    <title>Net of a Cone</title>
 
-CUBOID
+        <statement>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            Use slide <m>r</m> to change the radius of the base and slider <m>h</m> to change height of the cone.
+                        </p>
+                    </li>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Wireframe Cuboid</title>
-</head>
-<body>
-  <svg width="375" height="375" viewBox="0 0 250 250">
-    <!-- Front face (Length x Height = 90 x 60) -->
-    <polygon points="60,60 150,60 150,120 60,120" stroke="black" fill="none" />
+                    <li>
+                        <p>
+                            Use the Net slider or press the play button to show how the cone unraps into its net.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-cone_1" geogebra="r9bybxfp" width="100%" aspect="9:7" reset-icon="yes"/>
+                </figure>
+
+        </statement>
+    </activity> 
+
+    <activity>
+        <statement>
+            <p>
+                To Observe the net of cone.
+            </p>
+
+            <p>
+                Use of slider then observe the visualization of Net.
+            </p>
+
+            <figure>
+                <caption></caption>
+                <interactive xml:id="geogebra-cone_2" geogebra="y4pawxjr" width="100%" aspect="9:7" reset-icon="yes"/>
+            </figure>
+        </statement>
+    </activity>
+
+    <activity>
+        <statement>
+            <p>
+                Net of a Cone
+            </p>
+
+                <figure>
+                    <caption></caption>
+                    <interactive xml:id="geogebra-cone_3" geogebra="zesjmwwu" width="100%" aspect="9:7" reset-icon="yes"/>
+                </figure>
+        </statement>
+    </activity>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
     
-    <!-- Back face (offset by depth = 45 units left/up) -->
-    <polygon points="105,15 195,15 195,75 105,75" stroke="black" fill="none" />
-
-    <!-- Connect corners -->
-    <line x1="60" y1="60" x2="105" y2="15" stroke="black" />
-    <line x1="150" y1="60" x2="195" y2="15" stroke="black" />
-    <line x1="150" y1="120" x2="195" y2="75" stroke="black" />
-    <line x1="60" y1="120" x2="105" y2="75" stroke="black" />
-
-    <!-- Invisible vertex labels -->
-    <text x="60" y="60" font-family="Arial" font-size="12" fill="none">A</text>
-    <text x="150" y="60" font-family="Arial" font-size="12" fill="none">B</text>
-    <text x="150" y="120" font-family="Arial" font-size="12" fill="none">C</text>
-    <text x="60" y="120" font-family="Arial" font-size="12" fill="none">D</text>
-    <text x="105" y="15" font-family="Arial" font-size="12" fill="none">E</text>
-    <text x="195" y="15" font-family="Arial" font-size="12" fill="none">F</text>
-    <text x="195" y="75" font-family="Arial" font-size="12" fill="none">G</text>
-    <text x="105" y="75" font-family="Arial" font-size="12" fill="none">H</text>
-
-    <!-- Midpoints (invisible circles, visible labels) -->
-    
-    <!-- Midpoint of DC (now bottom front edge) -->
-    <circle cx="105" cy="120" r="3" fill="none" />
-    <text x="108" y="133" font-family="Arial" font-size="12" fill="black">3cm</text>
-
-    <!-- Midpoint of CG (connecting front to back vertically) -->
-    <circle cx="172.5" cy="97.5" r="3" fill="none" />
-    <text x="175" y="110" font-family="Arial" font-size="12" fill="black">1cm</text>
-
-    <!-- Midpoint of GF (top back edge) -->
-    <circle cx="195" cy="45" r="3" fill="none" />
-    <text x="198" y="58" font-family="Arial" font-size="12" fill="black">2cm</text>
-  </svg>
-</body>
-</html>
-
-pyramid
-
-
-square net pyramid
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Geometric Net</title>
-  <style>
-    svg {
-      background: #fff;
-      border: 1px solid #ccc;
-    }
-    .label {
-      font-size: 12px;
-      fill: #000;
-    }
-    .dimension {
-      font-size: 10px;
-      fill: #000;
-      text-anchor: middle;
-    }
-  </style>
-</head>
-<body>
-  <svg width="720" height="720" viewBox="-180 -180 360 360">
-    <!-- Square ABCD (scaled 1.8×) -->
-    <polygon points="-36,-36 43.2,-36 43.2,36 -36,36" fill="none" stroke="black" stroke-width="1"/>
-
-    <!-- Top Triangle XDC (yellow) -->
-    <polygon points="-36,-36 43.2,-36 0,-134.1" fill="yellow" stroke="black" stroke-width="1"/>
-
-    <!-- Bottom Triangle ABY (yellow) -->
-    <polygon points="-36,36 43.2,36 0,134.1" fill="yellow" stroke="black" stroke-width="1"/>
-
-    <!-- Left Triangle DZA (blue) -->
-    <polygon points="-36,-36 -134.1,0 -36,36" fill="blue" stroke="black" stroke-width="1"/>
-
-    <!-- Right Triangle CBV (blue) -->
-    <polygon points="43.2,-36 134.1,0 43.2,36" fill="blue" stroke="black" stroke-width="1"/>
-
-    <!-- Labels (scaled positions) -->
-    <text x="-41" y="-41" class="label">D</text>
-    <text x="48" y="-41" class="label">C</text>
-    <text x="-45" y="45" class="label">A</text>
-    <text x="48" y="45" class="label">B</text>
-    <text x="0" y="-140" class="label" text-anchor="middle">V</text>
-    <text x="0" y="148" class="label" text-anchor="middle">V</text>
-    <text x="-140" y="5" class="label" text-anchor="middle">V</text>
-    <text x="140" y="5" class="label" text-anchor="middle">V</text>
-
-    <!-- Text "2 cm" at midpoint of line DV -->
-    <text x="-85" y="-26" class="dimension">1 cm</text>
-<text x="-38" y="-80" class="dimension">8 cm</text>
-
-    
-    <!-- Text "2 cm" at midpoint of line AV -->
-    <text x="-85" y="30" class="dimension">2 cm</text>
-    <text x="-33" y="90" class="dimension">5 cm</text>
-    
-    <!-- Text "2 cm" at midpoint of line BV -->
-    <text x="90" y="30" class="dimension">3 cm</text>
-    <text x="35" y="90" class="dimension">6 cm</text>
-    
-    <!-- Text "2 cm" at midpoint of line CV -->
-    <text x="90" y="-26" class="dimension">4 cm</text>
-<text x="35" y="-80" class="dimension">7 cm</text>
-  </svg>
-</body>
-</html>
-
-net of a cube
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Cube Net with Selected Dimensions</title>
-  <style>
-    .net {
-      display: grid;
-      grid-template-columns: repeat(3, 80px);
-      grid-template-rows: repeat(5, 80px);
-      gap: 2px;
-      justify-content: center;
-      align-items: center;
-      margin-top: 40px;
-    }
-
-    .cell {
-      position: relative;
-      width: 80px;
-      height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      border: 1px solid #333;
-      box-sizing: border-box;
-    }
-
-    .A { background-color: yellow; grid-column: 2; grid-row: 1; }
-    .B { background-color: blue; grid-column: 2; grid-row: 2; }
-    .C { background-color: orange; grid-column: 2; grid-row: 3; }
-    .D { background-color: yellow; grid-column: 2; grid-row: 4; }
-    .E { background-color: cyan; grid-column: 1; grid-row: 3; }
-    .F { background-color: purple; grid-column: 3; grid-row: 3; }
-
-    .dimension {
-      position: absolute;
-      font-size: 10px;
-      background: white;
-      padding: 1px 4px;
-      border: 1px solid #999;
-      border-radius: 4px;
-    }
-
-    .top { top: -24px; left: 50%; transform: translateX(-50%); }
-    .bottom { bottom: -24px; left: 50%; transform: translateX(-50%); }
-    .left { left: -40px; top: 50%; transform: translateY(-50%); }
-    .right { right: -40px; top: 50%; transform: translateY(-50%); }
-  </style>
-</head>
-<body>
-
-  <div class="net">
-    <div class="cell A">
-      A
-      <span class="dimension top">8 cm</span>
-      <span class="dimension left">8 cm</span>
-      <span class="dimension right">8 cm</span>
-    </div>
-    <div class="cell B">
-      B
-      
-      <span class="dimension bottom">8 cm</span>
-      <span class="dimension left">8 cm</span>
-      <span class="dimension right">8 cm</span>
-    </div>
-    <div class="cell C">
-      C
-      <!-- Dimensions fully removed from square C -->
-    </div>
-    <div class="cell D">
-      D
-      <span class="dimension bottom">8 cm</span>
-      <span class="dimension right">8 cm</span>
-    </div>
-    <div class="cell E">
-      E
-    
-      <span class="dimension bottom">8 cm</span>
-      <span class="dimension left">8 cm</span>
-     
-    </div>
-    <div class="cell F">
-      F
-     
-      <span class="dimension bottom">8 cm</span>
-      
-      <span class="dimension right">8 cm</span>
-    </div>
-  </div>
-
-</body>
-</html>
+</subsection>
