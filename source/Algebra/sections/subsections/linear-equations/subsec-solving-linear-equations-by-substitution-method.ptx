@@ -1,10 +1,89 @@
-<subsection xml:id="subsec-solving-linear-equations-by-substitution-method">
-    <title>Solving linear equations by substitution method</title>
-    <example>
+<subsection xml:id="solving-linear-equations-substitution">
+    <title>Solving Linear Equations using Substitution Method</title>
+  
+    <introduction>
+      <p>
+        The substitution method is used to solve a pair of linear equations in two unknowns. It involves expressing one variable in terms of the other from one equation, and then substituting into the second equation to find the solution.
+      </p>
+      <p>
+        This method is especially useful when one of the equations is already simplified or one variable has a coefficient of 1.
+      </p>
+    </introduction>
+  
+    <subsubsection xml:id="examples-solving-linear-equations">
+      <title>Examples of Solving Linear Equations</title>
+      
+      <example>
+        <title>Solving equations using substitution</title>
         <statement>
-            <p>
-                
-            </p>
+          <p>
+            Solve the following equations using substitution:
+            <m>y = 2x + 1</m>  
+            <m>3x + 2y = 16</m>
+          </p>
         </statement>
-    </example>
-</subsection>
+        <solution>
+          <p>Step 1: The first equation is already in terms of <m>y</m>: <m>y = 2x + 1</m>.</p>
+          <p>Step 2: Substitute <m>y</m> into the second equation:</p>
+          <p><m>3x + 2(2x + 1) = 16</m></p>
+          <p><m>3x + 4x + 2 = 16</m></p>
+          <p><m>7x + 2 = 16</m></p>
+          <p><m>7x = 14</m> → <m>x = 2</m></p>
+          <p>Step 3: Substitute <m>x = 2</m> back into <m>y = 2x + 1</m>:</p>
+          <p><m>y = 2(2) + 1 = 5</m></p>
+          <p>Final Answer: <m>x = 2</m>, <m>y = 5</m></p>
+        </solution>
+      </example>
+    
+      <example>
+        <title>Substitution from a rearranged equation</title>
+        <statement>
+          <p>
+            Solve: <m>2x + y = 10</m> and <m>3x - y = 5</m> using substitution.
+          </p>
+        </statement>
+        <solution>
+          <p>Step 1: Rearrange the first equation to make <m>y</m> the subject:</p>
+          <p><m>y = 10 - 2x</m></p>
+          <p>Step 2: Substitute into the second equation:</p>
+          <p><m>3x - (10 - 2x) = 5</m></p>
+          <p><m>3x - 10 + 2x = 5</m></p>
+          <p><m>5x - 10 = 5</m></p>
+          <p><m>5x = 15</m> → <m>x = 3</m></p>
+          <p>Step 3: Substitute <m>x = 3</m> into <m>y = 10 - 2x</m>:</p>
+          <p><m>y = 10 - 6 = 4</m></p>
+          <p>Final Answer: <m>x = 3</m>, <m>y = 4</m></p>
+        </solution>
+      </example>
+    </subsubsection>
+  
+    <activity>
+      <title>Paired Practice</title>
+      <task>
+        <p>
+          Solve: <m>y = x + 2</m> and <m>2x + y = 10</m>
+        </p>
+      </task>
+      <task>
+        <p>
+          Solve: <m>4x + y = 11</m> and <m>x = 2y</m>
+        </p>
+      </task>
+    </activity>
+  
+    <note>
+      <p>
+        When choosing which equation to use for substitution, look for one that is already solved for a variable or can be easily rearranged. This saves time and avoids complex algebra.
+      </p>
+    </note>
+  
+    <summary>
+      <p>To solve equations using substitution:</p>
+      <ul>
+        <li>Make one variable the subject in one of the equations.</li>
+        <li>Substitute into the second equation.</li>
+        <li>Solve for one variable, then back-substitute to find the other.</li>
+        <li>Check your solution by substituting into both original equations.</li>
+      </ul>
+    </summary>
+  </subsection>  
