@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <section xml:id="sec-Linear-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Linear equations</title>
      <introduction>
@@ -22,7 +23,12 @@
         <p>
             Understanding how to form and solve linear equations allows us to make better decisions and solve practical challenges efficiently.
         </p>
-     </introduction>
+    </introduction>
 
-  <xi:include href="subsections/subsec-formation-of-linear-equations-with-two-unknowns.ptx" />
+
+    <xi:include href="./subsections/linear-equations/subsec-forming-linear-equations-in-one-unknown(1).ptx" />
+    <xi:include href="./subsections/linear-equations/subsec-forming-linear-equations-in-two-unknowns(2).ptx" />
+    <xi:include href="./subsections/linear-equations/subsec-solving-linear-equations-by-elimination-method.ptx" />
+    <xi:include href="./subsections/linear-equations/subsec-solving-linear-equations-by-substitution-method.ptx" />
+    <xi:include href="./subsections/linear-equations/subsec-solving-linear-equations-by-graphical-method.ptx" />
 </section>
