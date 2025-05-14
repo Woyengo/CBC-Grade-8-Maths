@@ -57,19 +57,20 @@
       </example>
     </subsubsection>
   
-    <activity>
-      <title>Paired Practice</title>
-      <task>
-        <p>
-          Solve: <m>y = x + 2</m> and <m>2x + y = 10</m>
-        </p>
-      </task>
-      <task>
-        <p>
-          Solve: <m>4x + y = 11</m> and <m>x = 2y</m>
-        </p>
-      </task>
-    </activity>
+    <subsubsection xml:id="activity-solving-linear-equations">
+      <title>Practice: Solve by Substitution</title>
+      <activity>
+        <statement>
+          <p>
+            Solve: <m>y = x + 2</m> and <m>2x + y = 10</m>
+          </p>
+
+          <p>
+            Solve: <m>4x + y = 11</m> and <m>x = 2y</m>
+          </p>
+        </statement>
+      </activity>
+    </subsubsection>
 
     <subsubsection xml:id="note-on-substitution-method">
       <title>Note on Choosing Equations for Substitution</title>
@@ -80,11 +81,29 @@
   
     <conclusion>
       <p>To solve equations using substitution:</p>
-      <ul>
-        <li>Make one variable the subject in one of the equations.</li>
-        <li>Substitute into the second equation.</li>
-        <li>Solve for one variable, then back-substitute to find the other.</li>
-        <li>Check your solution by substituting into both original equations.</li>
-      </ul>
+      <p>
+        <ul>
+          <li>
+            <p>
+              Make one variable the subject in one of the equations.
+            </p>
+          </li>
+          <li>
+            <p>
+              Substitute into the second equation.
+            </p>
+          </li>
+          <li>
+            <p>
+              Solve for one variable, then back-substitute to find the other.
+            </p>
+          </li>
+          <li>
+            <p>
+              Check your solution by substituting into both original equations.
+            </p>
+          </li>
+        </ul>
+      </p>
     </conclusion>
   </subsection>  
