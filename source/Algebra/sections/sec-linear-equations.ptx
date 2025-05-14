@@ -26,7 +26,7 @@
     </introduction>
 
 
-    <xi:include href="./subsections/linear-equations/subsec-forming-linear-equations-in-one-unknown.ptx" />
+    <xi:include href="./subsections/linear-equations/subsec-forming-linear-equations-in-one-unknown(1).ptx" />
     <xi:include href="./subsections/linear-equations/subsec-forming-linear-equations-in-two-unknowns(2).ptx" />
     <xi:include href="./subsections/linear-equations/subsec-solving-linear-equations-by-elimination-method.ptx" />
     <xi:include href="./subsections/linear-equations/subsec-solving-linear-equations-by-substitution-method.ptx" />
