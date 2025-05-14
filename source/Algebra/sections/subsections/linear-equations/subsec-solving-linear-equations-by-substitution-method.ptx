@@ -70,14 +70,15 @@
         </p>
       </task>
     </activity>
-  
-    <note>
+
+    <subsubsection xml:id="note-on-substitution-method">
+      <title>Note on Choosing Equations for Substitution</title>
       <p>
         When choosing which equation to use for substitution, look for one that is already solved for a variable or can be easily rearranged. This saves time and avoids complex algebra.
       </p>
-    </note>
+    </subsubsection>
   
-    <summary>
+    <conclusion>
       <p>To solve equations using substitution:</p>
       <ul>
         <li>Make one variable the subject in one of the equations.</li>
@@ -85,5 +86,5 @@
         <li>Solve for one variable, then back-substitute to find the other.</li>
         <li>Check your solution by substituting into both original equations.</li>
       </ul>
-    </summary>
+    </conclusion>
   </subsection>  
