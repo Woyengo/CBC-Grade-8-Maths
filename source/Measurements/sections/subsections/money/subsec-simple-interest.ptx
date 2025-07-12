@@ -2,9 +2,7 @@
     <title>simple intrest(1)</title>
 
     <introduction>
-        <p>
-          <m>\textbf{Recall:}</m>
-        </p>
+        
         <p>
             In the previous section, you identified types of interest and terms related to intrest such as the 
             <m>\textbf{principal,the amount,the rate }</m> and <m>\textbf{the time}</m>.
@@ -22,10 +20,10 @@
         <title>Calculating simple interest in real life situations</title>
         <activity>
             <p>
-                <m>{\color{green \textbf{ Work in groups}}}</m>
+               <m>\textbf{ Work in groups}</m>
             </p>
             <p>
-                <m>\textbf{What you require:} </m> Writing materials.
+                <term>What you need:</term> Writing materials.
             </p>
             <p>
                 Ekadeli deposited <m>sh \, 20\,000 </m> a bank account for one year. The bank paid interset ate a rate of <m>7\%</m> of the deposit per annum.

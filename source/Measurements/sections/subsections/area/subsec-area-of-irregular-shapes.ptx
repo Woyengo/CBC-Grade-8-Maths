@@ -1,8 +1,6 @@
 <subsection xml:id="subsec-area-of-irregular-shapes">
     <title>Area of irregular shapes</title>
-    <p>
-        <m>\textbf{Recall:}</m>
-    </p>
+    
     <p>
         In the previous grades, you learnt about irregular shapes. What are some of the irregular shapes 
         did you come across.
@@ -17,7 +15,7 @@
         <m>\textbf{Work in groups}</m>
         </p>
         <p>
-            <m>\textbf{Materials Needed:}</m>
+            <term>What you need:</term>
         </p>
         <p>
             <ul>
@@ -44,7 +42,7 @@
             <ol>
                 <li>
                     <p>
-                        Work out the area of one square grid in the one centimetre squre grid.
+                        Work out the area of one square in the one-centimetre square grid.
                     </p>
                 </li>
                 <li>
@@ -109,13 +107,7 @@
     </activity>
 
 
-    <p>
-        <m>\textbf{Extended Activity:}</m>
-    </p>
-    <p>
-        During your free time, trace your fingers on a square grid and calculate the area of 
-        your finger. What is the area?
-    </p>
+    
 
 
 
@@ -148,7 +140,7 @@
             </p>
             <image width="40%">
             <latex-image label="irregular1">
-                \begin{tikzpicture}
+                \begin{tikzpicture}[blue]
                     % Draw the grid
                     \draw[black, thick] (-2.5,-2.5) rectangle (2.5,2.5);
                     \draw[black, dashed] (-2,-2.5) -- (-2,2.5);
@@ -289,6 +281,13 @@
             </p>
         </solution>
     </example>
+    <p>
+        <m>\textbf{Extended Activity:}</m>
+    </p>
+    <p>
+        During your free time, trace your fingers on a square grid and calculate the area of 
+        your finger. What is the area?
+    </p>
     
     
     

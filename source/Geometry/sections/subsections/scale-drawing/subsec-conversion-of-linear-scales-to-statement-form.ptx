@@ -2,7 +2,128 @@
 
 <section xml:id="sec-conversion-of-linear-scales-to-statement-form">
     <title>Conversion of Linear Scales to Statement Form</title>
-    <p>
+    <activity>
+        <p>
+            <m>\textbf{Materials needed:} </m>   Rulers, Printed maps or handouts with linear scales (or drawn on the board), Worksheet (provided below) and Calculators (optional)
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Take a sample linear scale like the one shown below.
+                    </p>
+                    <p>
+                        (a) A line labeled: 0 ————|—————|—————|———— 100 km
+                    </p>
+                    <p>
+                         <em>(Each division is 1 cm apart)</em>
+                    </p>
+                    <p>
+                       (b) Measure the distance between 0 and 100 km using a ruler.
+                    </p>
+
+                </li>
+                <li>
+                    <p>
+                        Interpret the Scale
+                        <md>
+                            <mrow>\text{If } 4 \, \text{cm} = \amp 100\, \text{km}</mrow>
+                            <mrow> 1cm = \amp \frac{100}{4} </mrow>
+                            <mrow> 1cm = \amp 25\, \text{km}</mrow>
+                            
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Write the Statement Scale.
+                    </p>
+                    <p>
+                        So the statement scale is <m>\textbf{1 cm represents 25 km}</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
         
-    </p>    
+            </activity> 
+
+            <example>
+                <statement>
+                    <p>
+                       a) A map shows that 3 cm = 90 km. What is the scale in statement form
+                    </p>
+                    <p>
+                        b) A map shows that 5 cm = 200 km. What is the scale in statement form
+                    </p>
+                </statement>    
+                    <solution>
+                        <p>
+                            <md>
+                                <mrow> \amp </mrow>
+                                <mrow>\text{If } 3 \, \text{cm} = \amp 90\, \text{km}</mrow>
+                                <mrow> = \amp \frac{90}{3}</mrow>
+                                <mrow>1 \,\text{cm} = \amp 30 \,\text{km} </mrow>
+                            </md>    
+                            1 cm = 30 km → Statement scale: 1 cm represents 30 km
+                        </p>
+                        <p>
+                            <md>
+                                <mrow> \amp </mrow>
+                                <mrow>\text{If } 5 \, \text{cm} = \amp 200\, \text{km}</mrow>
+                            <mrow> 1cm = \amp \frac{200}{5} </mrow>
+                            <mrow> 1cm = \amp 40\, \text{km}</mrow>
+                            </md>
+                            1 cm = 40 km → Statement scale: 1 cm represents 40 km
+                        </p>
+                    </solution>
+            </example>
+            <example>
+                <statement>
+                    <p>
+                        John is planning a road trip using a printed map. On the map, the distance between City A and City B is 7.5 cm. The linear scale on the map shows that 2.5 cm represents 50 km.</p>
+                        <p>
+                        a. Convert the linear scale to a statement scale.
+                        </p>
+                        <p>
+                        b. How far is the actual distance between City A and City B?
+                        </p>
+                        <p>
+                        c. If John drives at an average speed of 75 km/h, how long will it take him to travel from City A to City B?
+                         </p>
+                </statement>
+                <solution>
+                    <p>
+                        a. Convert the ratio scale to a statement scale
+                        <md>
+                            <mrow> \amp </mrow>
+                            <mrow>\text{If } 2.5 \, \text{cm} = \amp 50\, \text{km}</mrow>
+                            <mrow> 1cm = \amp \frac{50}{2.5} </mrow>
+                            <mrow> 1cm = \amp 20\, \text{km}</mrow>
+                            </md>
+                             In ratio 1:20, the statement scale: 1 cm represents 20 km
+                    </p>
+                    <p>
+                        b. To find the actual distance between City A and City B, we can use the statement scale we just calculated.
+                        <md>
+                            <mrow> \amp </mrow>
+                            <mrow>\text{If } 1 \, \text{cm} = \amp 20\, \text{km}</mrow>
+                            <mrow> 7.5 \text{cm}= \amp 7.5 \times 20 </mrow>
+                            <mrow>  = \amp 150\, \text{km}</mrow>
+                            </md>
+                            The actual distance between City A and City B is 150 km.
+                    </p>
+                    <p>
+                        c. To find the time it will take John to travel from City A to City B, we can use the formula:
+                        <md>
+                            <mrow> \amp </mrow>
+                            <mrow>\text{Time} = \frac{\text{Distance}}{\text{Speed}}</mrow>
+                            <mrow> \amp </mrow>
+                            <mrow> = \frac{150\, \text{km}}{75\, \text{km/h}}</mrow>
+                            <mrow> \amp  </mrow>
+                            <mrow> = \amp 2\, \text{hours}</mrow>
+                            </md>
+                            It will take John 2 hours to travel from City A to City B.
+                    </p>
+                </solution>
+            </example>
 </section>

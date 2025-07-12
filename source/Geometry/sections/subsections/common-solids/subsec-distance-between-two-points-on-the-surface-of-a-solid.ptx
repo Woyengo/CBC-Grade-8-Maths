@@ -1,10 +1,6 @@
 <subsection xml:id="subsec-distance-between-two-points-on-the-surface-of-a-solid">
     <title>Distance between two points on the surface of a solid</title>
-    <p>
-        The distance between two points on the surface of a solid is the shortest distance between the two points along the surface of the solid. 
-        This distance can be calculated using the Pythagorean theorem, which states that the square of the hypotenuse of a right-angled triangle is equal to the sum of the squares of the other two sides.
-    </p>
-
+   
     <p>
         In the previous sections, you sketched the nets of different common solids.
         In this section, tou will determine the distance between any two points on the surface of solids.
@@ -13,27 +9,19 @@
     <activity>
         <statement>
             <p>
-                Work in groups.
-            </p>
-
-            <p>
-                Explore
+                <m>\textbf{Work in groups.}</m>
             </p>
 
             <p>
                 <ol>
                     <li>
                         <p>
-                            (a). Study the cuboid below
-                        </p>
-
-                        <p>
-                            (b). Individually, sketch the net of the cuboid.
+                            (a). Study the cuboid below.
                         </p>
 
                         <image width="50%">
                             <shortdescription></shortdescription>
-                            <latex-image>
+                            <latex-image label="cubei">
                                 \begin{tikzpicture}
                                     % Define coordinates for cube
                         \def\side{6} % Side length in cm
@@ -77,6 +65,12 @@
 
                     <li>
                         <p>
+                             Sketch the net of the cuboid.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
                             (a). On the net, draw lines <m>EG</m>, <m>GX</m> and <m>XE</m>
                         </p>
 
@@ -104,6 +98,21 @@
             </p>
         </statement>
     </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The distance between two points on the surface of a solid is the shortest distance between the two points along the surface of the solid. 
+                    This distance can be calculated using the Pythagorean theorem, which states that the square of the hypotenuse of a right-angled triangle is equal to the sum of the squares of the other two sides.
+                </p>
+            </li>
+        </ul>
+    </p>
 
     <example>
     <statement>

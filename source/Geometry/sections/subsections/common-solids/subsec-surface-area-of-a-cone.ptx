@@ -1,33 +1,9 @@
 <subsection xml:id="subsec-surface-area-of-a-cone">
     <title>Surface area of a cone</title>
-    <p>
-        The surface area of a cone is the total area of the curved surface and the base of the cone.
-    </p>
-
     <activity>
         <statement>
             <p>
-                <ul>
-                    <li>
-                        <p>
-                            Open up a cone and make observations about its surface area using its net.
-                        </p>
-                    </li>
-                </ul>
-            </p>
-
-
-                <figure>
-                    <caption></caption>
-                    <interactive xml:id="geogebra-cone" geogebra="mjy5pjdb" width="100%" aspect="9:7" reset-icon="yes" material-width="1000px"/>
-                </figure>
-        </statement>
-    </activity>
-
-    <activity>
-        <statement>
-            <p>
-                Work in groups.
+                <m>\textbf{Work in pairs.}</m>
             </p>
 
             <p>
@@ -44,11 +20,7 @@
                         </p>
 
                         <p>
-                            (b).Work out the total area of the faces.
-                        </p>
-
-                        <p>
-                            (c).What do you think the answer you got in step 2(b) represents
+                            (b).Work out the total area of the faces. What do you notice?
                         </p>
                     </li>
 
@@ -59,18 +31,27 @@
                     </li>
                 </ol>
             </p>
-
-            <p>
-                <m>{\color{blue} \text{Discover.}}</m>
-            </p>
-            <p>
-                <md>
-                    <mrow>\text{Surface area of a cone} =\amp \text{area of a sector +area of a circle } </mrow>
-                    <mrow>= \amp\frac{ \Theta }{360^\circ} \pi r^2+\pi r^2</mrow>
-                </md>
-            </p>
         </statement>
     </activity>
+
+    <p>
+        <m>\textbf{Key Takeaway.}</m>
+    </p>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The surface area of a cone is the total area of the curved surface and the base of the cone.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        <md>
+            <mrow>\text{Surface area of a cone} =\amp \text{area of a sector +area of a circle } </mrow>
+            <mrow>= \amp\frac{ \theta }{360^\circ} \pi r^2+\pi r^2</mrow>
+        </md>
+    </p>
 
     <example>
         <statement>
@@ -79,7 +60,7 @@
             </p>
 
             <image width="50%">
-            <latex-image>
+            <latex-image label="cone-net">
                 \begin{tikzpicture}
                 % Draw the entire cone with one uniform color
                     \fill[blue!30] (-2,0) arc (180:360:2 and 0.7) -- (2,0) arc (0:180:2 and 0.7) -- cycle;
@@ -95,8 +76,7 @@
                     
                     % Draw the height
                     \draw[dashed] (0,0) -- (0,4);
-                    \node[left] at (0,2) {15 cm};
-                    
+                
                     % Draw the radius
                     \draw[dashed] (0,0) -- (2,0);
                     \node[below] at (1,0) {14 cm};
@@ -111,7 +91,7 @@
         <solution>
 
             <image width ="50%">
-            <latex-image>
+            <latex-image label="cone-net-solution">
                 \begin{tikzpicture}
                 % Draw the sector (cone's lateral surface)
                 
@@ -144,12 +124,10 @@
 
                 \end{tikzpicture}
             </latex-image>
-                <shortdescription></shortdescription>
-                
             </image>
             <p>
                 <md>
-                    <mrow>\text{Area of sector A}= \amp \frac{ \Theta }{360^\circ} \pi r^2</mrow>
+                    <mrow>\text{Area of sector A}= \amp \frac{ \theta }{360^\circ} \pi r^2</mrow>
                     <mrow>= \amp \frac{60}{360^\circ} \times\frac{22}{7}\times14\times14 </mrow>
                     <mrow>= \amp102.67 cm^2 </mrow>
                     <mrow>\text{Area of circle B}= \amp\pi r^2 </mrow>

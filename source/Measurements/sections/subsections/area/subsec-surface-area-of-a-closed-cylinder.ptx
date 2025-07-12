@@ -14,7 +14,7 @@
             <m>\textbf{Work in groups}</m>
         </p>
         <p>
-            <m>\textbf{What you require:}</m> A pair of scissor and a piece of paper.
+           <term>What you require:</term> A pair of scissor and a piece of paper.
         </p>
         <p>
             <ol>
@@ -29,7 +29,7 @@
                     </p>
                     <image width="40%">
                     <latex-image label="cylinder2">
-                        \begin{tikzpicture}[scale=0.5]
+                        \begin{tikzpicture}[scale=0.5,blue]
                             % Draw the main cylinder body
                             \draw [very thick] (-3,0) -- (3,0);
                             \draw [very thick](-3,2) -- (3,2);
@@ -57,7 +57,7 @@
                     </p>
                     <image width="50%">
                     <latex-image label="cylinder3">
-                        \begin{tikzpicture}[scale=0.5]
+                        \begin{tikzpicture}[scale=0.5,blue]
                             % Define rectangle width and height
                             \def\rectWidth{6}
                             \def\rectHeight{2}
@@ -80,7 +80,7 @@
                     </p>
                     <image width="40%">
                     <latex-image label="cylinder4">
-                        \begin{tikzpicture}
+                        \begin{tikzpicture}[blue]
                             % Define radius
                             \def\radius{0.5}
 
@@ -184,13 +184,13 @@
         <m>\textbf{Area of a Cylinder Formula}</m>
     </p>
     <p>
-        <ol>
+        <ol >
             <li>
                 <p>
                     The total area of a cylinder is based on:
                 </p>
                 <p>
-                    <ul>
+                    <ol marker="(a)">
                         <li>
                             <p>
                                 Curved Surface Area (CSA)
@@ -201,7 +201,7 @@
                                 Base Area
                             </p>
                         </li>
-                    </ul>
+                    </ol>
                 </p>
             </li>
         </ol>
@@ -284,7 +284,7 @@
 
                     % Label Diameter (Vertical since cylinder is lying down)
                     \draw[&lt;-&gt;, red, thick] (-\radius, 4) -- (\radius, 4)
-                    node[midway, above, font=\bfseries, red, rotate=-90] {24 cm};
+                    node[midway, below, font=\bfseries, red, rotate=-90] {24 cm};
 
                     % Label Length (formerly height, now horizontal)
                     \draw[&lt;-&gt;, blue, thick] (\radius + 2, 0) -- (\radius + 2, -\height)

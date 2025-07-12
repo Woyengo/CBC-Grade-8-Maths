@@ -15,7 +15,10 @@
         <title>Calculating the area of a circle in different situations.</title>
         <activity>
             <p>
-                <m> \textbf{What you require:}</m>
+                <m>\textbf{Work in groups}</m>
+            </p>
+            <p>
+                <term>What you need:</term>
             </p>
             <p>
                 A ruler, pieces of strings and pieces of sticks or chalks.
@@ -24,7 +27,7 @@
                 <ol>
                     <li>
                         <p>
-                            On the ground, Mark a point using a piece of stick and lable it O.
+                            On the ground, mark a point using a piece of stick and lable it O.
                         </p>
                     </li>
                     <li>
@@ -83,7 +86,7 @@
             <m>\textbf{Key Takeaway:}</m>
         </p>
         <p>
-            Area of a circle of radius <m>(r)</m> is given by: <me>A=\pi r^2</me>.
+            Area of a circle of radius <m>(r)</m> is given by: <me>A=\pi r^2</me>
         </p>
         <example>
             <statement>
@@ -133,7 +136,7 @@
                     </image>
                     <image width="40%">
                     <latex-image label="Circle2">
-                        \begin{tikzpicture}
+                        \begin{tikzpicture}[blue]
                             % Draw the circle
                             \filldraw[fill=white, draw=purple, thick] (0,0) circle (3);
                             
