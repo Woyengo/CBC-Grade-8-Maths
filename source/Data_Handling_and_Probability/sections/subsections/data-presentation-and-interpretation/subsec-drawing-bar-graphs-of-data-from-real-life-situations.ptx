@@ -2,11 +2,11 @@
     <title>Drawing Bar Graphs of Data </title>
     <activity>
         <p>
-            <m>{\color{red} \textbf{Work in groups}}</m>
+            <m>{\color{black} \textbf{Work in groups}}</m>
         </p>
         
         <p>
-            <ol marker="(i).">
+            <ol marker="(a)">
                <li>Ask and record the number of members of your class, born in the months of January, February, March, April, May, and June.</li>
                <li><p>Fill in the table shown.</p>
                     <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
@@ -117,7 +117,7 @@
     </example>
     <activity>
         <p>
-            <m>{\color{red} \textbf{Further Activity}}</m>
+            <m>{\color{black} \textbf{Further Activity}}</m>
         </p>
         <p>
             <ol marker="a.">

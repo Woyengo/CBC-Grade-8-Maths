@@ -69,50 +69,48 @@
         </p>
     </activity>
     <p>
-        <m>\textbf{Experimental probability outcome}</m> refers to the result or observation of an event that occurs during an experiment or trial when calculating experimental probability.
-    </p>
-    <p>
-        <m>\textbf{Experimental probability}</m> refers to the probability of an event happening based on the results of an actual experiment or trial.
-    </p>
-    <p>
-        Formula for Experimental Probability:
-    </p>
-    <p>
-        <md>
-            <mrow>\textbf{P(E)} = \amp \frac{\textbf{Number of outcomes}}{\textbf{Total number of trials}}</mrow>
-        </md>
-    </p>
-    <p>
-        Where;
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    P(E) = Experimental probability of event
-                </p>
-            </li>
-            <li>
-                <p>
-                    Number of outcomes = How many times the event you are interested in occurs
-                </p>
-            </li>
-            <li>
-                <p>
-                    Total number of trials = The number of times the experiment is repeated
-                </p>
-            </li>
-        </ul> 
-    </p>
-    
-    <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
             <li>
                 <p>
-                    Experimental probability outcomes are the observed results of trials that allow us to estimate the likelihood of events based on actual occurrences.
+                    <m>\textbf{Experimental probability outcome}</m> refers to the result or observation of an event that occurs during an experiment or trial when calculating experimental probability.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Experimental probability}</m> refers to the probability of an event happening based on the results of an actual experiment or trial.
+                </p>
+                <p>
+                    Formula for Experimental Probability:
+                </p>
+                <p>
+                    <md>
+                        <mrow>\textbf{P(E)} = \amp \frac{\textbf{Number of outcomes}}{\textbf{Total number of trials}}</mrow>
+                    </md>
+                </p>
+                <p>
+                    Where;
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                P(E) = Experimental probability of event
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Number of outcomes = How many times the event you are interested in occurs
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Total number of trials = The number of times the experiment is repeated
+                            </p>
+                        </li>
+                    </ul> 
                 </p>
             </li>
         </ul>

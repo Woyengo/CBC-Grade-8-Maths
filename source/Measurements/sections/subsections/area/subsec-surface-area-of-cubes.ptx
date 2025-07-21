@@ -18,7 +18,7 @@
             <task>
                 <statement>
                     <p>
-                        <m>\textbf{What you require:}</m> Use a model of a cube in this activity.
+                        <term>What you require:</term> Use a model of a cube in this activity.
                     </p>
                     <p>
                         Identify the number of faces in the figure below.
@@ -26,7 +26,7 @@
 
                     <image width="40%" >
                     <latex-image label="cube3"> 
-                        \begin{tikzpicture}
+                        \begin{tikzpicture}[blue]
                             
                             % Define cube vertices
                             \coordinate (A) at (0,0);
@@ -59,7 +59,7 @@
             <task>
                 <statement>
                     <p>
-                       Measure the length of each edge of the faces 
+                       Measure the length of each edge of the faces.
                     </p>
                 </statement>
             </task>
@@ -245,7 +245,7 @@
                     </p>
                     <image width="40%">
                     <latex-image  label="question2">
-                        \begin{tikzpicture}
+                        \begin{tikzpicture}[blue]
                             % Define colors
                             \definecolor{lightblue}{RGB}{173, 216, 230}
 
@@ -304,7 +304,7 @@
                     Area of the voting box.
                 </p>
                 <p>
-                    <m>\text{Area}= 6 l^2</m>
+                    <m>\text{Area}= 6 \,l^2</m>
                 </p>
                 <p>
                     <md>
@@ -341,12 +341,12 @@
                     Being that the cube is oppened at the top, it implies that the faces for the cube is five.
                 </p>
                 <p>
-                    Therefore, the area <m>= 5 l^2</m>.
+                    Therefore, the area <m>= 5 \,l^2</m>.
                 </p>
             </hint>
             <solution>
                 <p>
-                    <m>\textbf{Area}= 5 l^2</m>
+                    <m>\textbf{Area}= 5 \,l^2</m>
                 </p>
                 <p>
                     <md>

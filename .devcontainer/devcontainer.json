@@ -1,4 +1,5 @@
 // This file was automatically generated with PreTeXt 2.23.0.
+// This file was automatically generated with PreTeXt 2.17.1.
 // If you modify this file, PreTeXt will no longer automatically update it.
 //
 //////////////////////////////////////////////////////////////
@@ -22,6 +23,15 @@
   "postCreateCommand": {
     // "install sagemath": "bash ./.devcontainer/installSage.sh",
     "install pandoc": "bash ./.devcontainer/installPandoc.sh",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+
+  // Comment or uncomment lines below if you don't or do need that feature.
+  "postCreateCommand": {
+    // "install sagemath": "bash ./.devcontainer/installSage.sh",
+    "install pandoc": "bash ./.devcontainer/installPandoc.sh",
+    "install latex": "bash ./.devcontainer/installLatex.sh",
+    "install pretext": "bash ./.devcontainer/installPretext.sh",
     "mark repo as safe": "git config --global --add safe.directory $(pwd)"
     },
 
@@ -72,6 +82,8 @@
         "editor.snippetSuggestions": "bottom",
         "xml.validation.enabled": true,
         "redhat.telemetry.enabled": false,
+        "editor.snippetSuggestions": "top",
+        "xml.validation.enabled": false,
         "CodeChat.CodeChatServer.Command": "CodeChat_Server"
       },
       "extensions": [
@@ -79,6 +91,7 @@
         "CodeChat.codechat",
         "streetsidesoftware.code-spell-checker",
         "alpinebuster.vscode-latex-table-editor"
+        "CodeChat.codechat"
       ]
     }
   }

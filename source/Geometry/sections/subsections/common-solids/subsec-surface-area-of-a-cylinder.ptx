@@ -1,8 +1,83 @@
 <subsection xml:id="subsec-surface-area-of-a-cylinder">
     <title>Surface area of a cylinder</title>
+
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Work in pairs}</m>
+            </p>
+
+            <p>
+                <term>What you need:</term>  Model of a cylinder made of paper, A pair of scissors or a cutting tool, a ruler and a pencil.
+            </p>
+
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Using a ruler, Measure the height and diameter of the cylinder.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Sketch the net of the cylinder
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Work out the circumference of the circular part.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Calculate the area of each face of the net
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Work out the total area of the faces.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            Discuss your results the with other groups
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </activity>
+
     <p>
-        The surface area of a cylinder is the total area of the curved surface and the two circular bases of the cylinder. 
-       </p>
+        <m>\textbf{Key Takeaway}</m>
+    </p>
+
+    <p>
+        <ul>
+            <li>
+                <p>
+                    The surface area of a cylinder is the total area of the curved surface and the two circular bases of the cylinder. 
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The length of the rectangle is equal to the circumference of the circular base of the cylinder, which is given by the formula <m>2\pi r</m>, where <m>r</m> is the radius of the base.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    The width of the rectangle is equal to the height of the cylinder, which is given by the formula <m>h</m>.
+                </p>
+            </li>
+        </ul>
+    </p>
 
        <activity>
         <statement>
@@ -28,36 +103,14 @@
         </statement>
        </activity>
 
-       <activity>
-        <statement>
-            <p>
-                Work in groups
-            </p>
-
-            <p>
-                Use the applet to review the formula for total surface area of a cylinder.
-            </p>
-
-            <p>
-                
-              Use the slider  Close = Net =open or click on the play  button to see an animation of the net of the cylinder!
-            </p>
-
-                <figure>
-                    <caption></caption>
-                    <interactive xml:id="geogebra-cylinder2" geogebra="uxwtsjbw" width="100%" aspect="9:5" reset-icon="yes" material-width="1200px"/>
-                </figure>
-        </statement>
-       </activity>
-
-       <example>
+         <example>
         <statement>
             <p>
                 The figure below shows a cylinder whose radius and height are <m>14</m><m>cm</m>.and <m>15</m><m>cm</m> respectively.
             </p>
 
             <image width="50%">
-            <latex-image>
+            <latex-image label="cylinder">
                 \begin{tikzpicture}
                    % Define colors
                     \definecolor{myorange}{rgb}{1.0, 0.6, 0.2}  % Orange color for top and bottom
@@ -105,7 +158,7 @@
 
             <image width="50%">
               <shortdescription></shortdescription>
-            <latex-image>
+            <latex-image label="cylinder-net">
                 \begin{tikzpicture}
                      % Define colors
                     \definecolor{myorange}{rgb}{1.0, 0.6, 0.2}  % Orange for circular bases

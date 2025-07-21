@@ -1,17 +1,39 @@
 <subsection xml:id="subsec-expressing-numbers-in-standard-form">
     <title>Expressing Numbers in Standard Form</title>
-    <p>
-        <alert>Standard form</alert> is a way of representing numbers in a clear and consistent way. 
-        A number expressed in the form of <m>p \times 10^n</m>,
-        where <m>n</m> is an integer and <m>p</m> is greater than zero but less than <m>10 </m> is said to be in standard form.
-    </p>
     <activity>
-        <introduction>
+        <!-- <introduction> -->
             <p>
-                <alert>Work in groups of 5 learners.</alert>
+                <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
+        <!-- </introduction> -->
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Using digits <m>1,2,3,4,5,6,7,8,9,</m>
+                        create a <m>4</m> digit number and write it down on a piece of paper.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Starting from the digit in the ones place, 
+                        move <m>3</m> steps to the left and insert a decimal point to form a decimal number.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Multiply the decimal number obtained in the previous step by <m>10</m> 
+                        raised to the power of the number of steps moved.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share your final number in standard form with the rest of learners in your class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <!-- <task>
             <statement>
                 <p>
                     Using digits <m>1,2,3,4,5,6,7,8,9,</m>
@@ -41,8 +63,16 @@
                     Share your final number in standard form with the rest of learners in your class.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        <alert>Standard form</alert> is a way of representing numbers in a clear and consistent way. 
+        A number expressed in the form of <m>p \times 10^n</m>,
+        where <m>n</m> is an integer and <m>p</m> is greater than zero but less than <m>10 </m> is said to be in standard form.
+    </p>
     <example>
         <statement>
             <p>
@@ -135,11 +165,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>

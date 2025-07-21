@@ -22,7 +22,7 @@
              <m>\textbf{Work in pairs}</m>
             </p>
             <p>
-                <m>\textbf{What you require:}</m> A ruler, pieces of paper and glue.
+                <term>What you require:</term> A ruler, pieces of paper and glue.
             </p>
             <sidebyside>
                 <p>
@@ -90,7 +90,7 @@
                 </p>
                 <image width="40%">
                 <latex-image label="Prism2">
-                    \begin{tikzpicture}
+                    \begin{tikzpicture}[blue]
                         % Define points
                         \coordinate (A) at (0,0,0);  % Bottom-left-front
                         \coordinate (B) at (3,0,0);  % Bottom-right-front
@@ -127,14 +127,7 @@
             </sidebyside>
         </activity>
 
-        <p>
-            <m>\textbf{Extended Activity:}</m>
-        </p>
-        <p>
-            <m>\textbf{Onyango}</m> said,"If you double all the dimensions of a triangular 
-            prism, you will double its surface area". Using a triangular prism of your own choice, 
-            Check whether <m>\textbf{Onyango's}</m> statement is correct.
-        </p>
+       
 
 
 
@@ -244,10 +237,10 @@
                         \draw [very thick] (0.3,0) -- (0.3,0.3) -- (0,0.3);
 
                         % Add dimensions
-                        \node[below,blue] at (2,0) {\huge{4 in.}};
-                        \node[left] at (0,1.5) {\huge{3 in.}};
-                        \node[above right] at (1,2) {\huge{5 in.}};
-                        \node[below left] at (5,1) {\huge{6 in.}};
+                        \node[below,blue] at (2,0) {\huge{\textbf{4 in}}};
+                        \node[left] at (0,1.5) {\huge{\textbf{3 in}}};
+                        \node[above right] at (1,2) {\huge{\textbf{5 in}}};
+                        \node[below left] at (5,1) {\huge{\textbf{6 in}}};
                     \end{tikzpicture}
                 </latex-image>
                     
@@ -264,17 +257,17 @@
                     <ul>
                         <li>
                             <p>
-                                <m>b_1=3\,in.</m>
+                                <m>b_1=3\,in</m>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <m>b_2=4\,in.</m>
+                                <m>b_2=4\,in</m>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <m>b_3=5\,in.</m>
+                                <m>b_3=5\,in</m>
                             </p>
                         </li>
                     </ul>
@@ -283,7 +276,7 @@
                     The triangular base is a right triangle, and so the height is one of our sides. We will use <m>h=3\,in.</m>
                 </p>
                 <p>
-                    The length of the prism is <m>l=6\,in.</m>
+                    The length of the prism is <m>l=6\,in</m>
                 </p>
                 <p>
                     Calculate the area of a triangular base using the formula for the area of a triangle: <m>A=\frac{1}{2}bh</m>, where <m>b</m> is 
@@ -293,7 +286,7 @@
                     <md>
                         <mrow> A=\amp \frac{1}{2}bh</mrow>
                         <mrow> =\amp \frac{1}{2}\times 4 \times 3</mrow>
-                        <mrow> =\amp 6\,in.^2</mrow>
+                        <mrow> =\amp 6\,in^2</mrow>
                         
                     </md>
                 </p>
@@ -303,7 +296,7 @@
                 <p>
                     <md>
                         <mrow> A=\amp 2 \times 6\,in.^2</mrow>
-                        <mrow>= \amp {\color{green} 12\,in.^2}</mrow>
+                        <mrow>= \amp {\color{green} 12\,in^2}</mrow>
                     </md>
                 </p>
                 <p>
@@ -311,9 +304,9 @@
                 </p>
                 <p>
                     <md>
-                        <mrow> A=\amp (4 \,in. \times 6\,in.)+(6\,in. \times 5\,in.)+(3\,in. \times 6\,in.) </mrow>
-                        <mrow> =\amp 24\,in.^2+30\,in.^2+18\,in.^2 </mrow>
-                        <mrow>= \amp 72\,in.^2 </mrow>
+                        <mrow> A=\amp (4 \,in \times 6\,in)+(6\,in\times 5\,in)+(3\,in \times 6\,in) </mrow>
+                        <mrow> =\amp 24+30+18 </mrow>
+                        <mrow>= \amp 72\,in^2 </mrow>
                     </md>
                 </p>
                 <p>
@@ -321,8 +314,8 @@
                 </p>
                 <p>
                     <md>
-                        <mrow> \text{Surface area }=\amp  {\color{green} 24\,in.^2}+72\,in.^2 </mrow>
-                        <mrow>= \amp 84 \, in.^2</mrow>
+                        <mrow> \text{Surface area }=\amp  {\color{green} 24\,in^2}+72\,in^2 </mrow>
+                        <mrow>= \amp 84 \, in^2</mrow>
                         
                     </md>
                 </p>
@@ -332,11 +325,11 @@
         <example>
             <statement>
                 <p>
-                    Find the surface area of the triangular prism shown.
-                </p>
+                    Find the surface area of the triangular prism shown below.
+                </p> 
                 <image width="40%">
                 <latex-image label="Prism4">
-                    \begin{tikzpicture}[scale=0.8]
+                    \begin{tikzpicture}[scale=0.8,blue]
                         
                         % Define the coordinates of the vertices
                         \coordinate (A) at (0,0);
@@ -418,6 +411,14 @@
                 </p>
             </solution>
         </example>
+        <p>
+            <m>\textbf{Extended Activity:}</m>
+        </p>
+        <p>
+            <m>\textbf{Onyango}</m> said,"If you double all the dimensions of a triangular 
+            prism, you will double its surface area". Using a triangular prism of your own choice, 
+            Check whether <m>\textbf{Onyango's}</m> statement is correct.
+        </p>
 
         
         

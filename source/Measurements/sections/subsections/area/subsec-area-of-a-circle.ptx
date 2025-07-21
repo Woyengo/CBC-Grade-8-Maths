@@ -15,7 +15,10 @@
         <title>Calculating the area of a circle in different situations.</title>
         <activity>
             <p>
-                <m> \textbf{What you require:}</m>
+                <m>\textbf{Work in groups}</m>
+            </p>
+            <p>
+                <term>What you need:</term>
             </p>
             <p>
                 A ruler, pieces of strings and pieces of sticks or chalks.
@@ -24,7 +27,7 @@
                 <ol>
                     <li>
                         <p>
-                            On the ground, Mark a point using a piece of stick and lable it O.
+                            On the ground, mark a point using a piece of stick and lable it O.
                         </p>
                     </li>
                     <li>
@@ -34,19 +37,37 @@
                     </li>
                     <li>
                         <p>
-                            <m>\textbf{(a)}</m> Stretch the string and draw a circle as shown on the right.
+                            <ol marker="(a) ">
+                                <li>
+                                    <p>
+                                        Stretch the string and draw a circle as shown on the right.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Draw several other circles using different lengths of strings.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{(b)}</m> Draw several other circles using different lengths of strings.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
-                          <m>\textbf{(a)}</m> Measure the radius of each circle that you have drawn.  
+                            <ol marker="(a)">
+                                <li>
+                                    <p>
+                                        Measure the radius of each circle that you have drawn.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Using formula, <m>\textbf{area}= \pi r^2</m>, calculate the area of each circle.
+                                    </p>
+                                </li>
+                            </ol>
                         </p>
-                        <p>
-                            <m>\textbf{(b)}</m> Using formula, <m>\textbf{area}= \pi r^2</m>, calculate the area of each circle.
-                        </p>
+                        
                     </li>
                     <li>
                         <p>
@@ -65,7 +86,7 @@
             <m>\textbf{Key Takeaway:}</m>
         </p>
         <p>
-            Area of a circle of radius <m>(r)</m> is given by: <me>A=\pi r^2</me>.
+            Area of a circle of radius <m>(r)</m> is given by: <me>A=\pi r^2</me>
         </p>
         <example>
             <statement>
@@ -90,7 +111,7 @@
             <statement>
                 <p>
                    Find the area of each of the following circles with 
-                   O as the centre use <m>\pi = \frac{22}{7}</m>: 
+                   <m>O</m> as the centre use <m>\pi = \frac{22}{7}</m>: 
                 </p>
                 <sidebyside>
                     <image width="40%">
@@ -115,7 +136,7 @@
                     </image>
                     <image width="40%">
                     <latex-image label="Circle2">
-                        \begin{tikzpicture}
+                        \begin{tikzpicture}[blue]
                             % Draw the circle
                             \filldraw[fill=white, draw=purple, thick] (0,0) circle (3);
                             

@@ -14,10 +14,10 @@
             <m>\textbf{Work in groups}</m>
         </p>
         <p>
-            <m>\textbf{What you require:}</m> A piece of string and a ruler.
+            <term>What you need:</term> A piece of string and a ruler.
         </p>
         <p>
-            <ol marker="(i).">
+            <ol>
                 <li>
                     <p>
                         The figure below shows the Map of Kenya showing <m>47</m> counties. Study it.
@@ -34,7 +34,7 @@
                         Use the scale and the string to deteemine:
                     </p>
                     <p>
-                        <ol marker="a.">
+                        <ol marker="(a) ">
                             <li>
                                 <p>
                                     The distance from Mombasa to Malindi.
@@ -365,7 +365,7 @@
             </p>
             <image width="50%">
             <latex-image label="scale1">
-                \begin{tikzpicture}
+                \begin{tikzpicture}[blue]
                     % Define points
                     \coordinate (P) at (0,4);
                     \coordinate (S) at (-5,1.5);

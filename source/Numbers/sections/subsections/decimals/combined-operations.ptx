@@ -1,21 +1,54 @@
 <subsection xml:id="subsec-combined-operations">
     <title>Combined Operations</title>
-    <p>
-        Combined operations on decimals involve performing multiple arithmetic 
-        operations such as addition, subtraction, multiplication, and division within a single expression. 
-        We follow the order of brackets, division, multiplication, addition, and 
-        finally Subtraction (BODMAS) when working out multiple operations.
-    </p>
     <activity>
-        <introduction>
-            <p>
-                <alert>Work in groups of 5 learners</alert>
-            </p>
-            <p>
-                <alert>Materials Needed:</alert>  A <m>30</m> cm ruler.
-            </p>
-        </introduction>
-        <task>
+        <p>
+            <alert>Work in groups</alert>
+        </p>
+        <p>
+            <alert>Materials Needed:</alert>  A <m>30</m> cm ruler.
+        </p>
+        <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Measure the length of an A<m>4</m> exercise book in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the width of the A<m>4</m> exercise book in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the length of a pen in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Measure the length of the teacher's board in centimeters.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Convert all the measurements from centimeters to meters by dividing each by <m>100</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Divide the board’s length in meters by the length of the A<m>4</m> exercise book.
+                        Multiply the result by the width of the A<m>4</m> exercise book.
+                        Finally, add the length of the pen to the result.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share and discuss your findings with the rest of learners in class.
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <!-- <task>
             <statement>
                 <p>
                     Measure the length of an A<m>4</m> exercise book in centimeters.
@@ -56,7 +89,6 @@
                     Divide the board’s length in meters by the length of the A<m>4</m> exercise book.
                     Multiply the result by the width of the A<m>4</m> exercise book.
                     Finally, add the length of the pen to the result.
-                    <!-- and multiply by width of the A<m>4</m> exercise book then add the of the pen. -->
                 </p>
             </statement>
         </task>
@@ -66,8 +98,17 @@
                     Share and discuss your findings with the rest of learners in class.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
+    <p>
+        <m>\textbf{Key Takeaway }</m>
+    </p>
+    <p>
+        Combined operations on decimals involve performing multiple arithmetic 
+        operations such as addition, subtraction, multiplication, and division within a single expression. 
+        We follow the order of brackets, division, multiplication, addition, and 
+        finally Subtraction (BODMAS) when working out multiple operations.
+    </p>
     <example>
         <statement>
             <p>
@@ -193,11 +234,32 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
+    <exploration>
+        <title>Use of IT</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Explore how to convert fractions to decimals by watching the video below.
+                        You can also <url href="https://youtu.be/Gn2pdkvdbGQ?t=401">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="Gn2pdkvdbGQ"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to convert recurring decimals to fractions by watching the video below.
+                        You can also <url href="https://youtu.be/FPNhCVZlbJs?t=33">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="FPNhCVZlbJs"/>
+                </li>
+                <li>
+                    <p>
+                        Explore how to express numbers to required number of significant figures by watching the video below.
+                        You can also <url href="https://youtu.be/eCJ76hz7jPM?t=113">click here to watch it</url> 
+                        directly on YouTube.                 </p>
+                    <video youtube="eCJ76hz7jPM"/>
+                </li>
+            </ol>
+        </p>
+    </exploration>
 </subsection>

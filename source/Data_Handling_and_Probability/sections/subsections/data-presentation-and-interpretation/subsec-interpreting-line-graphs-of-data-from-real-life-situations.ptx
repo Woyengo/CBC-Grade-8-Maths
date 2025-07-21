@@ -3,7 +3,7 @@
     <title>Interpreting Line Graphs of  Data</title>
     <activity>
         <p>
-            <m>{\color{red} \textbf{Work in groups}}</m>
+            <m>{\color{black} \textbf{Work in groups}}</m>
         </p>
         <p>
             Consider the graph below that shows the journey Wakavinye took from home to school
@@ -263,7 +263,7 @@
                 
             </image>
             <p>
-                <ol marker="(a).">
+                <ol marker="(a)">
                     <li>
                         <p>
                             At what time did the bus start its journey?
@@ -319,7 +319,7 @@
         </statement>
         <solution>
             <p>
-                <ol marker="(a).">
+                <ol marker="(a)">
                     <li>
                         <p>
                             The bus started its journey at <m>11:00</m>.

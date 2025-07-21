@@ -1,0 +1,57 @@
+<subsection xml:id="subsec-formation-of-linear-equations-with-two-unknowns">
+    <title>Formation of linear equations with two unknowns</title>
+    <activity>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+    </activity>
+    
+    <example>
+        <statement>
+            <p>
+                Mama Uther sells bananas at Ksh <m>10</m> per banana. A Zach buys <m>r</m> bananas and pays a total of Ksh <m>150</m>. Write a linear equation to represent this situation?
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <m>1</m> banana costs Ksh <m>10</m>
+            </p>
+            <p>
+                Number of bananas Zach bought = <m>r</m>
+            </p>
+            <p>
+                Total amount paid = Ksh. <m>150</m>
+            </p>
+            <p>
+                Therefore;
+            </p>
+            <p>
+                <me>
+                    10 \times r = 150
+                </me>
+            </p>
+            <p>
+                <me>
+                    10r = 150
+                </me>
+            </p>
+        </solution>
+    </example>
+
+    <activity>
+        <p>
+            
+        </p>
+    </activity>
+    <exercises xml:id="exercises-formation-of-linear-equations-with-two-unknowns">
+        <exercise>
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+        </exercise>
+    </exercises>
+</subsection>

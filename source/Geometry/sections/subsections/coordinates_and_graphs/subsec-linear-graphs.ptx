@@ -2,7 +2,7 @@
     <title>Linear Graphs</title>
     <activity>
         <p>
-            <m>{\color{red} \textbf{Work in groups}}</m>
+            <m>{\color{black} \textbf{Work in groups}}</m>
         </p>
         <p>
             Materials Needed <ul>
@@ -100,7 +100,7 @@
                 Consider the equation:
             </p>
             <p>
-                <m> \textbf{y} = \frac{-1}{2}\textbf{x} + \textbf{3}</m>
+                <m> \textbf{y} = -\frac{1}{2}\textbf{x} + \textbf{3}</m>
             </p>
             <p>
                 <ol>
@@ -132,32 +132,32 @@
                         <tabular halign="left" top="medium" left="medium" right="medium" bottom="medium">
                             <row>
                                 <cell><m>x</m></cell>
-                                <cell><m>\textbf{y} = \frac{-1}{2}\textbf{x} + \textbf{3}</m></cell>
+                                <cell><m>y \, = \, -\frac{1}{2}\textbf{x} + \textbf{3}</m></cell>
                                 <cell></cell>
                             </row>
                             <row>
                                 <cell><m>-4</m></cell>
-                                <cell><m>\textbf{y} = \frac{-1}{2}\textbf{-4} + \textbf{3} = \textbf{2+3 =5}</m></cell>
+                                <cell><m>y \, = \, -\frac{1}{2} \, \times \, -4 + \textbf{3} \, = \, 2+3 =5</m></cell>
                                 <cell><m>5</m></cell>
                             </row>
                             <row>
                                 <cell><m>-2</m></cell>
-                                <cell><m>\textbf{y} = \frac{-1}{2}\textbf{-2} + \textbf{3} = \textbf{1+3 =4}</m></cell>
+                                <cell><m>y \, = \, -\frac{1}{2}\, \times \,-2 + 3 \, = \, 1+3 =4</m></cell>
                                 <cell><m>4</m></cell>
                             </row>
                             <row>
                                 <cell><m>0</m></cell>
-                                <cell><m>\textbf{y} = \frac{-1}{2}\textbf{0} + \textbf{3} = \textbf{0+3 =3}</m></cell>
+                                <cell><m>y = -\frac{1}{2}\, \times \,0 + 3 \, = \,0+3 =3</m></cell>
                                 <cell><m>3</m></cell>
                             </row>
                             <row>
                                 <cell><m>2</m></cell>
-                                <cell><m>\textbf{y} = \frac{-1}{2}\textbf{2} + \textbf{3} = \textbf{-1+3 =2}</m></cell>
+                                <cell><m>y = -\frac{1}{2}\, \times \,2 + 3 \, = \, -1 + 3 = 2</m></cell>
                                 <cell><m>2</m></cell>
                             </row>
                             <row>
                                 <cell><m>4</m></cell>
-                                <cell><m>\textbf{y} = \frac{-1}{2}\textbf{4} + \textbf{3} = \textbf{-2+3 =1}</m></cell>
+                                <cell><m>y = -\frac{1}{2}\, \times \,4 + 3 \, = \, -2 + 3 = 1</m></cell>
                                 <cell><m>1</m></cell>
                             </row>
                         </tabular>

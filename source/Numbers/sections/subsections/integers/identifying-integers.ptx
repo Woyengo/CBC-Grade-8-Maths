@@ -1,5 +1,5 @@
 <subsection xml:id="subsec-identifying-integers">
-    <title>Identifying integers</title> 
+    <title>Identifying Integers in Different Situations</title> 
     <!-- <p>
         <term>Integers</term> are a fundamental concept in mathematics with wide applications
         in real-life situations. In sports and games, points, scores, and 
@@ -8,12 +8,47 @@
         a step further to explore <term>integers</term>. 
     </p> -->
     <activity>
-        <introduction>
+        <!-- <introduction> -->
             <p>
                 <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
+        <!-- </introduction> -->
+         <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Choose a starting point on a level ground.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        From the starting point, take three steps to the right, marking each step.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Return to the starting point and take six steps forward to the right, marking each step.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        From the starting point take four steps to the left, marking each step.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Consider the starting point as <m>0</m> , assign a positive sign <m>(+)</m> to steps taken to
+                         the right direction and assign a negative sign <m>(-)</m>  to the steps taken to the left direction.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Compare your results with other groups' results and discuss what you observed.
+                    </p>
+                </li>
+            </ol>
+         </p>
+        <!-- <task>
             <statement>
                 <p>
                     Choose a starting point on a flat surface.
@@ -47,7 +82,7 @@
                     Compare your results with your classmates and discuss your findings.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
     <definition xml:id="def-integer-term">
         <statement>
@@ -61,6 +96,9 @@
         <term>Integers</term> are set of positive numbers, 
         negatives numbers and zero.
     </p> -->
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
     <p>
         <ul>
             <li>

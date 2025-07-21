@@ -8,8 +8,120 @@
             In this section, you will sketch nets of a cuboid.
         </p>
 
+        <activity>
+            <title></title>
+            <statement>
+
+                <p>
+                    <m>\textbf{Work in pairs}</m>
+                </p>
+
+                <p>
+                    <term>What you need:</term>  model of a cubouid and a pair of scissors.
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Examine a cuboid similar to the one shown below.
+                            </p>
+
+                            <image width="50%">
+                                <shortdescription></shortdescription>
+                                <latex-image label="cuboid1">
+                                    \begin{tikzpicture}       
+                                    % Define coordinates for cube
+                                    \def\side{6} % Side length in cm
+                                
+                                    \coordinate (A) at (0,0,0);
+                                    \coordinate (B) at (\side,0,0);
+                                    \coordinate (C) at (\side,\side,0);
+                                    \coordinate (D) at (0,\side,0);
+                                    \coordinate (E) at (0,0,\side);
+                                    \coordinate (F) at (\side,0,\side);
+                                    \coordinate (G) at (\side,\side,\side);
+                                    \coordinate (H) at (0,\side,\side);
+                                
+                                    % Draw the cube faces with transparency
+                                    \fill[orange!50,opacity=0.5] (A) -- (B) -- (C) -- (D) -- cycle; % Bottom face
+                                    \fill[orange!30,opacity=0.5] (E) -- (F) -- (G) -- (H) -- cycle; % Top face
+                                    \fill[orange!40,opacity=0.5] (A) -- (B) -- (F) -- (E) -- cycle; % Front face
+                                    \fill[orange!60,opacity=0.5] (B) -- (C) -- (G) -- (F) -- cycle; % Right face
+                                    \fill[orange!70,opacity=0.5] (C) -- (D) -- (H) -- (G) -- cycle; % Back face
+                                    \fill[orange!80,opacity=0.5] (D) -- (A) -- (E) -- (H) -- cycle; % Left face
+                                
+                                    % Draw edges
+                                    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+                                    \draw[thick] (E) -- (F) -- (G) -- (H) -- cycle;
+                                    \draw[thick] (A) -- (E);
+                                    \draw[thick] (B) -- (F);
+                                    \draw[thick] (C) -- (G);
+                                    \draw[thick] (D) -- (H);                    \draw[thick] (0,2,0) -- (0,2,3);
+                                    \end{tikzpicture}
+                                </latex-image>
+                                
+                            </image>
+                        </li>
+
+                        <li>
+                            <p>
+                                Identify and observe its faces, edges, and vertices.
+                             </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Cut along the edges of the cuboid to unfold it.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Lay the opened cuboid flat on a surface.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Draw the shape of the unfolded cuboid.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                What do you notice about the shape?
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Compare your drawing with those of other groups.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+ 
+            </statement>
+        </activity>
+
         <p>
-            A cuboid has 6 faces. Each face is a rectangle. A net of a cuboid is made up of 6 rectangles.
+            <m>\textbf{Key Takeaway}</m>
+        </p>
+
+        <p>
+           <ul>
+            <li>
+                <p>
+                    A closed cuboid has <m>6</m> faces. Each face is a rectangle. A net of a closed cuboid is made up of <m>6</m> rectangles.
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    An open cuboid has <m>5</m> faces. Each face is a rectangle. A net of an open cuboid is made up of <m>5</m> rectangles.
+                </p>
+            </li>
+           </ul>
         </p>
 
         <activity>
@@ -22,13 +134,13 @@
 
                     <figure>
                         <caption></caption>
-                        <interactive xml:id="geogebra-cuboid" geogebra="s55e7j5v" width="100%" aspect="9:7" reset-icon="yes" material-width="1000px"/>
+                        <interactive xml:id="geogebra-cuboid" geogebra="s55e7j5v" width="100%" aspect="9:7" reset-icon="yes" />
                     </figure>
 
-                    <figure>
+                    <!-- <figure>
                         <caption></caption>
                         <interactive xml:id="geogebra-cuboi" geogebra="zc46agnf" width="100%" aspect="9:7" reset-icon="yes" material-width="1000px"/>
-                    </figure>
+                    </figure> -->
             </statement>
         </activity>
         

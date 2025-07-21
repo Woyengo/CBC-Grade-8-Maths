@@ -1,19 +1,37 @@
 <subsection xml:id="subsec-rounding-off-decimal-numbers-to-the-required-decimal-places">
     <title>Rounding off decimal numbers </title>
-    <p>
-        To round a decimal number to a specified number of decimal places, 
-        we examine the digit immediately after the desired decimal place. 
-        If this digit is less than <m>5</m>, simply remove all subsequent digits. 
-        If the digit is <m>5</m> or greater, we add <m>1</m> to the digit in the desired decimal 
-        and eliminate the following digits. 
-    </p>
     <activity>
-        <introduction>
+        <!-- <introduction> -->
             <p>
-                <alert>Work in groups of 5 learners</alert>
+                <alert>Work in groups</alert>
             </p>
-        </introduction>
-        <task>
+        <!-- </introduction> -->
+         <p>
+            <ol marker="1. ">
+                <li>
+                    <p>
+                        Using digits <m>1,2,3,4,5,6,7,8,9,</m>
+                        create a <m>6</m> digit number and write it down on a piece of paper.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Divide the number created in <alert>step (b)</alert> by <m>10000</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Round off the resulting number to correct <m>3</m> decimal place.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Share and discuss your calculations with the rest of learners in the class.
+                    </p>
+                </li>
+            </ol>
+         </p>
+        <!-- <task>
             <statement>
                 <p>
                     Using digits <m>1,2,3,4,5,6,7,8,9,</m>
@@ -41,8 +59,18 @@
                     Share and discuss your calculations with the rest of learners in the class.
                 </p>
             </statement>
-        </task>
+        </task> -->
     </activity>
+    <p>
+        <m>\textbf{ Key Takeaway }</m>
+    </p>
+    <p>
+        To round a decimal number to a specified number of decimal places, 
+        we examine the digit immediately after the desired decimal place. 
+        If this digit is less than <m>5</m>, simply remove all subsequent digits. 
+        If the digit is <m>5</m> or greater, we add <m>1</m> to the digit in the desired decimal 
+        and eliminate the following digits. 
+    </p>
     <example>
         <statement>
             <p>
@@ -212,11 +240,4 @@
             </p>
         </solution>
     </example>
-    <exercise>
-        <statement>
-            <p>
-                TODO
-            </p>
-        </statement>
-    </exercise>
 </subsection>

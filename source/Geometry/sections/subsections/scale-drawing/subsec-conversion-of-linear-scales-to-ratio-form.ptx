@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-conversion-of-linear-scales-to-ratio-form">
+    <title>Conversion of Linear Scales to Ratio Form</title>
+    <activity>
+        <statement>
+            <p>
+                <m>\textbf{Materials needed:} </m>   
+
+                Chart paper/whiteboards for group work, Rulers, Printed maps or handouts with linear scales (or drawn on the board), Worksheet (provided below) and Calculators (optional)
+            </p>
+            <ol>
+                <li>
+                    <p>
+                        Think-Pair-Share, Discuss in pairs.
+                    </p>
+                    <p>
+                        (a) If 1 cm on a map represents 4 km in real life, how far is 3 cm? How can we write this relationship in a simpler, universal form?
+                    </p>
+                    <p>
+                        (b) We can write this using a ratio scale—it’s a way to show the map-to-real-life relationship without using units. But we must first make sure both sides use the same unit.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Statement: If 1 cm represents 2.5 km
+                    </p>
+                    <p>
+                        Convert 2.5 km to cm
+                    </p>
+                    <p>
+                        2.5 km = 2.5 × 1000 × 100 = 250,000 cm
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Write the ratio → since 1 cm = 250,000 cm, then our ratio will be:
+                    </p>
+                    <p>
+                        1 : 250,000
+                    </p>
+                </li>
+            </ol>
+            <p>
+                <m>\textbf{NOTE:} </m> km to cm = × 100,000, m to cm = ×100
+            </p>
+        </statement>
+    </activity>  
+    <example>
+        <statement>
+            <p>
+                Your group is city planners designing the layout for a new map of Greenfield. The map says:
+                1 cm represents 3.2 km. Convert this into a ratio scale and explain what it means.
+            </p>
+        </statement>
+        <solution>
+            <p>
+                <md>
+                    <mrow> 3.2 \text{km} =\amp  ? \text{cm} </mrow>
+                    <mrow> \text{If} 1 \text{km} = \amp 100,000\, \text{cm}</mrow>
+                    <mrow> = \amp  {3.2 \cancel{\text{km}} 100,000\, \text{cm}}{1 \cancel{\text{km}}} </mrow>
+                    <mrow> 3.2 \text{km} = \amp {320,000\, \text{cm} \times }  </mrow>
+                    <mrow> = \amp </mrow>
+                </md>
+                Ratio = 1:320,000
+            </p>
+            <p>
+                 This means that for every 1 cm on the map, the real-world distance is 3.2 km. So a short distance on paper can represent a long trip in real life.
+            </p>
+        </solution>
+    </example> 
+</section>

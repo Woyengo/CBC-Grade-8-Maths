@@ -24,7 +24,7 @@
                 Consider a trader who deposited <m>Ksh. \, 50 \,000</m> in a bank in a certain year.
             </p>
             <p>
-                <ol marker="(i).">
+                <ol>
                     <li>
                         <p>
                             If interest of <m>5\%</m> was earned that year, calculate the interest.
@@ -118,7 +118,7 @@
                 </p>
                 <p>
                    <md>
-                    <mrow> \textbf{Principle}(P_2)=\amp \textbf{Initial principal}(p_1)+ \textbf{interest} </mrow>
+                    <mrow> \textbf{Principle}(P_2)=\amp \textbf{Initial principal}(P_1)+ \textbf{interest} </mrow>
                     <mrow>= \amp Ksh. \, 400\,000 + Ksh\, 48 \, 000 </mrow>
                     <mrow> =\amp Ksh. \, 448\,000 </mrow>
                    </md>
@@ -132,14 +132,14 @@
                 </p>
                 <p>
                     <md>
-                        <mrow> \textbf{Principle}(P_3)=\amp \textbf{Initial principal}(p_2)+ \textbf{interest} </mrow>
+                        <mrow> \textbf{Principle}(P_3)=\amp \textbf{Initial principal}(P_2)+ \textbf{interest} </mrow>
                         <mrow> =\amp Ksh. \, 448\,000 + Ksh. \, 53\,760  </mrow>
                         <mrow> =\amp Ksh. \, 501\,760</mrow>
                     </md>
                 </p>
                 <p>
                    <md>
-                     <mrow>\text{Interest at the end of the second year}(p_3)=\amp \frac{P_3 RT}{100} </mrow>
+                     <mrow>\text{Interest at the end of the third year}(P_3)=\amp \frac{P_3 RT}{100} </mrow>
                      <mrow> =\amp Ksh. 501\,760 \times \frac{12}{100} \times 1 </mrow>
                      <mrow> =\amp Ksh. 60\,211.20 </mrow>
                    </md> 

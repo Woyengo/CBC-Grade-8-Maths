@@ -73,60 +73,23 @@
         </p>
     </activity>
     <p>
-        <m>\textbf{The conversion of scale length to actual length}</m> is the process of determining the real-world size from a scaled representation (e.g., maps, blueprints, models).
-    </p>
-    <p>
-        To convert a scale length to an actual length, multiply the scale length by the scale factor, which represents the real-world distance corresponding to one unit of measurement on the drawing or map.
-    </p>
-    <p>
-        <m>\textbf{Scale length}</m> refers to the length of an object as represented in the drawing or model.
-    </p>
-    <p>
-        <m>\textbf{Actual length}</m> is the real-world length of the same object. 
-    </p>
-    <p>
-        This is the formula of coverting scale length to actual length:
-    </p>
-    <p>
-        <md>
-            <mrow>\textbf{Actual length} =  \amp \textbf{Scale length} \times \textbf{Scale factor}</mrow>
-        </md>
-    </p>
-    <p>
-        <m>\textbf{Key points on conversion of scale to actual length.}</m>
-    </p>
-    <p>
-        <ul>
-            <li>
-                <p>
-                    Find the Scale: Determine the scale used in the drawing or map.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Express as a Ratio: If the scale is not already in a ratio form (like 1:n), convert it. For example, if the scale is "1 cm = 5 m", you'd express it as 1:500 (since 5 m = 500 cm).
-                </p>
-            </li>
-            <li>
-                <p>
-                    Calculate the Real Size: Multiply the scale length by the scale factor (the number in the ratio). 
-                </p>
-            </li>
-            <li>
-                <p>
-                    Keep Units Consistent: Make sure all your measurements are in the same units. If they're not, convert them so they are (e.g., all in centimeters or all in inches).
-                </p>
-            </li>
-        </ul>
-    </p>
-    <p>
         <m>\textbf{Key Takeaway}</m>
     </p>
     <p>
         <ul>
             <li>
                 <p>
+                    <m>\textbf{The conversion of scale length to actual length}</m> is the process of determining the real-world size from a scaled representation (e.g., maps, blueprints, models).
+                </p>
+            </li>
+            <li>
+                <p>
                     To convert scale length to actual length, multiply the scale length by the specified scale factor.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\textbf{Actual length} =  \amp \textbf{Scale length} \times \textbf{Scale factor}</mrow>
+                    </md>
                 </p>
             </li>
         </ul>

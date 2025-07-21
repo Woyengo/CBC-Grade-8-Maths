@@ -1,14 +1,14 @@
 <subsection xml:id="subsec-dividing-lines-proportionally">
             <title>Dividing lines proportionally</title>
             <p>
-                A line can be divided into a given number of equal parts/proportions.
+                A line can be divided into a given number of equal parts / proportions.
             </p>
             <activity>
                 <p>
-                    Here is an activity on how to divide a line proportionally into 5 equal parts.
+                  Here is an activity on how to divide a line proportionally into 5 equal parts.
                 </p>
                 <p>
-                  Draw a line <m>AB</m> and <m>AC</m> as shown below   
+                  1. Draw a line <m>AB</m> and <m>AC</m> as shown below   
                 </p>
 
                 <image width="50%">
@@ -22,7 +22,7 @@
                 </image>
 
                 <p>
-                    Using a pair of compasses, draw 5 arcs of equal lengths on line <m>AC.</m>
+                   2.  Using a pair of compasses, draw 5 arcs of equal lengths on line <m>AC.</m>
                 </p>
                 <image width="50%">
                 <shortdescription>Proportional division of lines</shortdescription>
@@ -38,7 +38,7 @@
                 </image>
 
                 <p>
-                    Using a set square and a ruler, draw parallel lines from arcs marked on line <m>AC</m> to line <m>AB.</m>
+                   3. Using a set square and a ruler, draw parallel lines from arcs marked on line <m>AC</m> to line <m>AB.</m>
                 </p>
 
                 <image width="50%">
@@ -61,7 +61,7 @@
                 </image>
 
                 <p>
-                    Measure the distance between lines: <m>AP, PQ, QR, RS, SB.</m> Cpompare and discuss your findings with other learners.
+                   4. Measure the distance between lines: <m>AP,\, PQ,\, QR,\, RS,\, SB.</m> Compare and discuss your findings with other learners.
                 </p>
             </activity>
                 
